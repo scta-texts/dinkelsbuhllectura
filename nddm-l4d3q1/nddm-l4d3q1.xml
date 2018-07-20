@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 3, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d3q1">
+        <head>Librum IV, Distinctio 3, Quaestio 1</head>
+        <p xml:id="nddml4d3q1-d1e3477">Post hoc videndum est quid sit baptismus. 
+          Praeuius <name ref="#Lombard">Magister</name> determinat de quodam praeambulo ad baptismum Christi ; 
+          nunc determinant de sacramento baptismi et in praesenti distinctione determinant de partibus 
+          intransitive  ad baptismum pertinentibus, et diuiditur in tres partes. 
+          In prima agitur de quantitate  baptismi, siue quid sit baptismus. 
+          2° de forma eius ibi - <mentioned>scilicet  quidem istud verbum</mentioned> - . 
+          In 3a parte agit de institucione baptismi quando incepit.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3486">Circa hanc distinctionem quaeritur primo vtrum diffinitio baptismi in littera per 
+          <name ref="#Lombard">Magistrum</name> posita sit bene assignata, 
+          scilicet baptismus est tinctio, etcetera.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3492">Arguitur quod non, quia pars non est suum totum, 
+          sed tinctio est pars baptismi, igitur baptismus non est tinctio uel ablucio. 
+          Maior probatur, quia baptismus est aggregatum ex forma verborum 
+          <cb ed="#T" n="36vb"/> 
+          et ex tinctione, dicente <name ref="#Augustine">Augustino</name> : 
+          <cit>
+            <quote xml:id="nddml4d3q1-Qd1e3501">Verbum accedit ad elementum et fit sacramentum.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit> 
+          Igitur sicut baptismus non est solum verba, 
+          ita non est sola tinccio sed aggregatum ex ambabus.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3509">2° baptismus est aqua, igitur non est ablucio sew  tinctio.</p> 
+        <!-- need double check here; is there really a third argument or is "Tertia" something else. 
+          No explict mention of third argument in response -->
+        <p xml:id="nddml4d3q1-d1e3515">Tertia quia ablucio non est aqua, sed est vsus eius et quidam motus eius transiens, 
+          aqua autem est res permanens. Antecedens probatur auctoritate  <name ref="#HughOfStVictor">Hugonis</name> 
+          baptismum sic diffinientis : est aqua diluendis criminibus sanctificata per verbum Dei.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3521">In oppositum <ref><name ref="#Lombard">Magister</name> in littera</ref> :</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3529">notandum quod <mentioned>baptizare</mentioned>  graece est idem quod 
+          <mentioned>lauare</mentioned> latine, et sic secundum <name ref="#Lombard">Magistrum</name> 
+          baptismus est ablucio uel locio. Sic enim apud Iudeos <mentioned>baptismata</mentioned> 
+          dicebantur abluciones corporum et vasorum. Sic etiam <name ref="#Augustine">Augustinus</name> 
+          accipit baptismum pro locione, natura diffiniendo : 
+          baptismum - dicit - est tinctio in aqua verbo vite sanctificata.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3547">2° notandum quod tinctio siue lotio uel ablucio non accipitur hic restricte 
+          scilicet prout includit admonicionem  sordium a corpore per contactum aque, 
+          ut solum illud dicatur lauari siue ablui, quo ynundatur  
+          et a quo sordes per aque contactum remoueretur, sed causatur generaliter pro 
+          omni contactu corporis ab aqua fluida alio illud contactum agente et 
+          causante siue ille contactus fiat per aspersionem, siue per immersionem , 
+          siue etiam per superfusionem.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3550">3° notandum quod adhuc plura requiruntur ad baptismum prout est sacramentum Noue Legis, 
+          sed <name ref="#Lombard">Magister</name> in sua diffinicione non exprimit. 
+          <cb ed="#T" n="37ra"/> 
+          Sed plura eorum possunt suppleri ex diffinicione sacramenti Noue Legis 
+          que superius distinctione prima fuerat  declarata. 
+          Potest ergo poni talis baptismi diffinitio : est ablucio hominis nec actualiter 
+          nec virtualiter dissencientis, que fit in aqua elementari ab alio simul debita 
+          verba ad hoc ordinata proferente cum debita intencione, 
+          significans efficaciter ex institucione diuina ablucionem animae a peccato.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3558">In hac diffinicione ponitur hic  ablutio pro genere quia omnis baptismus 
+          est ablucio et non econuerso, et dicitur hominis quia solum homini conuenit baptizari , 
+          et dicitur que fit in aqua elementari quia in illa sola potest fieri baptismus. 
+          Et dicitur ab alio quia homo seipsum baptizare  non potest, 
+          et dicitur simul proferente verba ad hoc ordinata sew  verba praescripta (<ref><title ref="#mt">Mathei</title> vltimo</ref>) : 
+          oportet enim quod baptizans  simul cum ablucione proferat verba ad hoc ordinata, 
+          modo posterius declarando et oportet etiam quod habeat debitam intencionem. 
+          Illa etiam exterior ablutio ex diuina institucione significat interiorem mundacionem animae a peccato. 
+          Et significat hoc efficaciter quia sic Deus instituit et inviolabiliter obseruabit 
+          quod quando fit rite talis ablucio et baptisacio , tunc anima  mundabit animam a peccato. 
+          Hys  praemissis respondetur ad questionem 
+          <cb ed="#T" n="37rb"/> 
+          quod diffinicio sic exposita est bona diffinicio baptismi. 
+          Prout est sacramentum Noue Legis conuenit etiam omnium baptismo et solum tali, 
+          et exprimit sufficienter omnia que sunt necessaria ad racionem baptismi, 
+          ut patebit in sequentibus quaestionibus in quibus agetur de materia, 
+          de forma, de intentione, de consensu, et ceteris ad baptismum requisitis.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3569">Ex dictis patet quod baptismus non est nisi intinctio, siue ablucio, 
+          uel contactus corporis ab aqua licet ad hoc, quod ille contactus siue 
+          illa ablutio dicatur baptismus et sic requiruntur multa alia, 
+          scilicet quod fiat in aqua elementari fiat cum debita intencione, 
+          fiat cum certa forma verborum. Ille enim terminus - baptismus - supponit solum pro ablucione, 
+          sed connotat omnia alia que in diffinicione sunt posita, sicut album supponit 
+          pro pariete solum et connotat albedinem sibi inherere. 
+          Et ita album est ipse paries ad hoc, cum quod paries dicatur albus 
+          requiruntur alia, scilicet albedo et certi gradus albedinis et requiritur 
+          quod illa inhereat parieti. Similiter ille vestitus est solum <name ref="#Peter">Petrus</name> 
+          ad hoc tamen, quod sit et dicatur vestitus. Requiruntur alia, scilicet vestis connotata per illum terminum,  
+          et requiritur quod illa certo modo adiaceat, scilicet sic in proposito intelligendum est de baptismo.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3575">Ad primum argumentum dicitur negando maiorem, et ad probacionem 
+          dicitur quod baptismus non est aggregatum ex forma verborum et intinctione, 
+          sed est solum intinctio uel ablucio. Et hoc 
+          <cb ed="#T" n="37va"/> 
+          significant ipsa verba <name ref="#Augustine">Augustini</name> dicentis: 
+          <mentioned>Accedit verbum ad elementum,</mentioned>
+          id est ad ablucionem in aqua elementari, 
+          cum qua locione verba simul proferuntur. 
+          Et subdit <name ref="#Augustine">Augustinus</name> : <mentioned>Et fit sacramentum.</mentioned> 
+          Non dicit : <mentioned>Fuit sacramentum,</mentioned> scilicet verba et ablutio, 
+          sed dicit : <mentioned>Et fit,</mentioned> 
+          scilicet ipsa ablucio propter formam verborum et alia que ad baptismum 
+          requiruntur, sicut ergo albedo accedit ad parietem et fit paries, 
+          albus et vestis accedit ad <name ref="#Peter">Petrum</name> praeuius nudum et fit ipse vestitus. 
+          Sic ad elementum, id est ad ablucionem in aqua elementari accedit forma verborum et cetera 
+          requisita et ipsa locio fit sacramentum.</p> 
+        
+        <p xml:id="nddml4d3q1-d1e3602">Ad 2m respondetur quod sicut praeuius dixi <mentioned>baptizare</mentioned> grece 
+          idem est quod <mentioned>lauare</mentioned> latine et ab eo quod est lauare dicitur <mentioned>lauacrum,</mentioned> 
+          quod est aqua ad abluendum apta. 
+          Et ab eodem etiam dicitur <mentioned>locio</mentioned> 
+          que est vsus et effectus aque, et sic baptismus potest dici <mentioned>lauacrum</mentioned> 
+          et potest dici <mentioned>locio.</mentioned> <name ref="#Lombard">Magister</name> 
+          ergo accepit baptismum pro locione sew  tinctione, ut dictum fuit. <name ref="#HughOfStVictor">Hugo</name> 
+          vero accepit baptismum pro ipso lauacro, id est pro aqua actualiter abluende corpus dicens: 
+          <cit>
+            <quote xml:id="nddml4d3q1-Qd1e3631">Baptismus est aqua abluendis criminibus verbo Dei sanctificata, que diuisio complectitur materiam baptismi.</quote>
+            <bibl>Hugo de Sancto Victore, XXX</bibl>
+          </cit> 
+          Cum dicit <mentioned>aqua</mentioned> 
+          et finem, cum dicit <mentioned>abluendis criminibus</mentioned> et <mentioned>formam baptismi,</mentioned> 
+          cum dicit <mentioned>verbo Dei sanctificata</mentioned> 
+          et sic accipiendo baptismum pro lauacro, id est pro aqua 
+          <cb ed="#T" n="37vb"/> 
+          non quacumque, sed actualiter abluende, potest diuisio sibi sic applicari: 
+          est aqua elementaris in qua homo nec habitu, nec actu dissenciens abluitur 
+          ab alio simul debita verba ad hoc ordinata proferente cum debita intencione, 
+          significans efficaciter ex institutione diuina gratiam interius animam mundantem. 
+          Et licet locio sic posset dici <mentioned>baptismus</mentioned> et similiter ipsum 
+          lauacrum posset dici <mentioned>baptismus,</mentioned> adhuc tamen, 
+          ut dicit <name ref="#Bonaventure">Bonauentura</name>, pro vno sacramento computantur, 
+          quia aqua non est sacramentum nec in quantum abluens, 
+          nec ablutio est sacramentum nisi fiat in aqua.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

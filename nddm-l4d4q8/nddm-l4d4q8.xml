@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 8</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 8</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q8">
+        <head>Librum IV, Distinctio 4, Quaestio 8</head>
+        <p>Octauo queritur vtrum baptismus sangwinis  sit pocior baptismo fluminis.</p> 
+        
+        <p>Arguitur quod non, quia baptismus sangwinis  efficaciam habet solum ex opere operanti istius qui patitur, 
+          baptismus autem aque habet efficaciam ex passione Christi, cum ergo passio Christi sit incomparabiliter efficacior quam opus operans, 
+          cuiuscumque puri hominis erit baptismus fluminis, ut videtur multo efficacior baptismo sangwinis .</p> 
+        
+        <p>2°, baptismus fluminis siue aque tribuit graciam per quam acquiritur aurea, sed per baptismum sangwinis  
+          acquiritur aureola que est accidentale praemium multo minus quam aurea. 
+          Igitur baptismus aque qui ordinatus est ad auream - que est praemium substanciale - potior est baptismo sangwinis  
+          qui ordinatur ad aureolam obtinendam.</p>
+          
+        <p><cb ed="#T" n="64ra"/>In oppositum arguitur per illud 
+          <ref><title ref="#iudic">Iudicum</title> 6°</ref> : 
+          <quote>TOLLE TAURUM  PATRIS TUI SEPTEM ANNORUM,</quote> 
+          super quo dicit Gloza : Baptismus in sangwine  puriores facit quam baptismus in aqua. 
+          Item <name ref="#JohnDamascenus">Damascenus</name> dicit quod baptismus sangwinis  
+          est valde bonus et venerandus, quia secundis sordibus non inquinatur.</p> 
+          
+          <p>Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+            quod vterque baptismus, scilicet sangwinis  et fluminis, efficaciam habet a passione Christi : 
+            2m quod hominem ipsi passioni conformat, et quia baptismus aque conformat hominem Christi 
+            passioni solum sacramentali significacione. Baptismus autem sangwinis  conformat realiter, 
+            ideo quantum ad sacramentalia - ut est impraessio  caracteris - excedit baptismus aque, 
+            sed quantum ad ea que sunt vltima res sacramenti, 
+            ut quo ad gratiam conferendam et quo ad dimissionem penarum excedit baptismus sangwinis . 
+            Quia gratia in baptismo sangwinis  magis augetur habenti eam et maior datur non habenti si non assuit , 
+            impedimentum et remissio peccatorum quamuis non sit plenior, 
+            quia vterque baptismus omnem culpam et penam tollit et tamen in baptismo sangwinis  
+            efficacior et fructuosior, quia secundis maculis non coinquinatur, 
+            ut allegatum fuit a Damasceno. Qui autem quidem dicunt quod in bap-
+            <cb ed="#T" n="64rb"/>
+            -tismo sangwinis  gratia non confertur apparet falsum : 
+            in puris qui pro Christo occiduntur et etiam in adultis quibus potest 
+            in ipso actu passionis gratia dari sicut et in ipso baptismo aque, 
+            si se ad ipsam disposuerint et obicem non posuerint Spiritui sancto. 
+            Et hoc patet ad <name ref="#Augustine">Augustinum</name>, qui ad <name>Fortunatum</name> 
+            loquens de comparacione horum baptismatum dicit : 
+            <quote>Baptizatus  confitetur fidem suam coram sacerdote, martir coram persecutore. Ille post conuersionem aspergitur aqua, hic sangwine. 
+              Ille per imposicionem manus pontificis recipit Spiritum sanctum.</quote> 
+            Hic templum efficitur Spiritus sancti, nullus autem efficitur templum Spiritus sancti nisi accipiendo gratiam.</p>
+        
+            <p>Item <name ref="#Scotus">Scotus</name> 
+              quaestione prima de penitentia dat casum in quo posset peccatum mortale dimitti 
+              in martirio sine contricione praeuia, ut si quis vsque ad instans a perduraret in mortali 
+              peccato et ab instanti a necessitaretur ad insistendum toto corde circa actus distrahentes 
+              a consideratione de peccato commisso utpute, quia stante exponeret - si necessario - altissimo martirio, 
+              tunc putat quod dimitteretur sibi illud mortale per martirium. Et hoc numquam fit sine gratia.</p> 
+        
+        <p>Ad primum argumentum  respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod etiam baptismus sangwinis  efficaciam habet a passione cui expressius  hominem conformat, 
+          per quam baptismus aque.</p> 
+          <p><cb ed="#T" n="64va"/> 
+          Primum scilicet quod baptismus sangwinis  etiam habuit efficaciam a passione Christi. 
+          Patet quod nullum martirium efficax est nisi per passionem Christi, 
+          vnde <ref><title ref="#ap">Apocalipsis</title> 5°</ref> dicitur de martiribus : 
+          <quote>HY  SUNT QUI VENERUNT EX MAGNA TRIBULACIONE ET LAVERUNT STOLAS SUAS ET DEALBAVERUNT EAS IN SANGWINE  AGNI.</quote> 
+          Non tantum in sangwine  suo proprio, sed eciam in sangwine  agni, id est Christi Domini, 
+          2m scilicet quod expressius  baptismus sangwinis  conformat hominem Christi passioni quam baptismus aque sew fluminis. 
+            Patet, secundum Bonauenturam, quoniam in baptismo sangwinis  amplior et plenior esset imitacio  
+            et professio passionis Christi quam in baptismo aque. Namque ibi, scilicet in baptismo aque, 
+            est professio verbo et signo sine actu, hic autem, scilicet in baptismo sangwinis  
+            amplior et plenior est ymitacio  et professio passionis Christi et mortis quam 
+            in baptismo aque. Nam ibi, scilicet in baptismo aque, est professio verbo et signo sine actu, 
+            hic autem, scilicet in baptismo sangwinis , est  professio passionis 
+            Christi et mortis eius non solum signo et actione, sed etiam passione, 
+            vnde in baptismo aque mors Christi solum significatur. 
+            Hic autem suscipitur expressior  est ita quam ibi fidei  professio ; igitur efficacior est ille baptismus.</p> 
+        
+        <p>Ad 2m dicitur quod baptismum sangwinis  homo non solum aureolam meretur, sed eciam auream per graciam tunc sibi collatam aut auctam ; 
+          quid autem vtrumque sit, scilicet aurea et aureola, patebit proprie finem libri, etcetera.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 7</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 7</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q7">
+        <head>Librum IV, Distinctio 4, Quaestio 7</head>
+        <p>Septimo queritur vtrum baptismus sangwinis  suppleat vicem baptismi fluminis siue aque.</p> 
+        
+        <p>Arguitur quod non, quia baptismus habet efficaciam ex opere operato, sic autem non baptismus sangwinis , 
+        sed solum ex opere operante, id est ex propria hominis dispositione. 
+        Vnde sine caritate non prodest, dicente <ref><name ref="#Paul">apostolo</name> <title ref="#Icor">Prime Ad Corinthios</title> 13° :</ref> 
+          <quote>SI TRADIDERO CORPUS MEUM ITA UT ARDEAM, CARITATEM AUTEM NON HABEAM, NICHIL MICHI PRODEST.</quote> 
+          Sed pueris nichil habet efficaciam ex opere operato, 
+          cum nullam propriam habeant disposicionem praeuiam eo, quod non habet vsum liberi arbitry .
+          <cb ed="#T" n="61vb"/>
+          Igitur saltem in pueris non supplet vicem baptismi flaminis.</p> 
+        
+        <p>2°, in baptismo sangwinis  non est nisi pena et causa, 
+          sed pena aliquando non est tanta quod sufficiat tollere omnem penam cuius est debitor ille pro suis peccatis. 
+          Nec etiam deuocio quam quis habet ad causam passionis quam patitur pro Christo sufficit semper ad totam penam tollendam, 
+          igitur baptismo in b. non semper sufficit tollere totam penam pro peccatis illius debitam. 
+          Baptismus autem fluminis rite susceptus semper sufficit ad penam et culpam tollere, igitur baptismus sangwinis   
+          non in omnibus supplet  vicem baptismi fluminis.</p> 
+        
+        <p>3°, multa sunt alia genera super rogacionum, sicut virginitas cui etiam debetur 
+          aureola et doctrina et voluntaria paupertas et alia huiusmodi. 
+          Et hec non supplent vicem baptismi tollendo, scilicet penam et culpam sicut baptismus fluminis tollit, 
+          igitur nec martirium isto modo supplet.</p> 
+        
+        <p>In oppositum est <name ref="#Augustine">beatus Augustinus</name> qui loquens de 
+          <name>sancto Cypriano</name> martire dicit quod, si quod in eo purgandum erat passionis falce ablatum est, 
+          igitur baptismus sangwinis  purgat uniuersaliter et ab omnibus et sic supplet vice baptismi.</p> 
+        
+        <p>2°, baptismus flaminis efficaciam habet a passione Christi cui nos conformat, sed simpliciter, 
+          ymo  magis baptismo flaminis nos ei conformat. Idem patet per <ref><name ref="#Lombard">Magistrum</name> in littera</ref> 
+          dicentem : <quote>Qui fundunt sangwinem  pro nomine
+          <cb ed="#T" n="62ra"/>
+          Ihesu, et si non sacramentum, rem tamen suscipiunt sacramenti.</quote> 
+          Et hoc probat <name ref="#Lombard">Magister</name> auctoritate <name ref="#Augustine">Augustini</name> dicentis : 
+          <quote>Quicumque non percepto regeneracionis lauacro pro confessione Christi moriuntur, 
+          tamen eis valet ad dimittenda peccata quantum si abluerentur sacro fonte baptismi,</quote> 
+          ex quo consequenter infert <name ref="#Lombard">Magistrum</name> 
+          quod passio pro nomine Ihesu suscepta supplet vicem baptismi.</p> 
+        
+        <p>Notandum quod, sicut in priori questione tactum fuit quod baptimus sangwinis    
+          dicitur omne martirium, siue in eo fundatur sangwis ut in vulneracione, siue fiat sine sangwinis  
+          effusione ut in igne, aut aqua, aut per suspensionem, aut alio modo martirium, 
+          aut proprie dicitur mors voluntarie pro Christo suscepta. 
+          Diceret aliquis : “Cum ergo multa sint genera martiriorum, quare martirium pocius sit baptismus sangwinis  
+          quam ignis aut aque aut alterius elementi, cum in singulis aliqui sancti leguntur passi ?</p> 
+        
+        <p>Respondet <name ref="#Bonaventure">Bonauentura</name> quod in martirio deponitur vita carnis, 
+          et illa vita est sangwine  2m quod dicitur sepe in lege Moysi.</p> 
+        
+        <p>2° respondet uel dicendum quod hoc dicitur, quia omne genus martiry  
+          ibi habet finem : nam ab omnibus alys  legimus sanctos aliquos liberatos, 
+          praeter quam a pena glady  qua sangwis  funditur, ut patet de <name>beata Agnese</name> , 
+          que cum incopiosum ignem iactata 
+          <cb ed="#T" n="62rb"/>
+          fuisset et eam ignis diuina protectione non lederet nec tangeret gladius gutturi eius immersus  est. 
+          Idem patet de <name>beata Ratherma</name> et pluribus sanctis, 
+          sed quaeritur quare hoc sit.</p> 
+        
+        <p>Respondet <name ref="#Bonaventure">Bonauentura</name> quod hoc genus martiry  
+          est a mala voluntate hominis immediate , sed alia genera penarum sunt a creaturis operibus naturaliter. 
+          Et quia martir Deo obtemperat  et obedit, congruum est ut ei ad manifestacionem diuinae bonitatis et in testimonium 
+          sue virtutis obtemperat  cetera operancia per naturam, mala autem voluntas contra Deum nititur et Domino resistere 
+          vvlt ac iusto Dei iudicio sinitur male agere cum vvlt. Et ideo nec est congruum ut martirio  
+          subiciatur nec ut a malo prohibeatur, et ideo Deus martires huic pene subiacere disposuit ut nullus euadet : 
+          magis enim de hoc congruebat quam de alio, uel dicitur quod ideo quia Deus vnigenituum suum ab hac pena effusionis sangwinis  
+          non eripuit . Quid ergo mirum si alios ab ea eripit ne forte seruus videatur maior domino suo ? 
+          Hys  sic praemissis, cum queritur vtrum, etcetera ?</p> 
+        
+        <p>Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> quod sangwis  
+          non supplet baptismum fluminis quo ad sacramentalia, ut est impressio  caracteris. 
+          Istud enim imprimit  baptismus aque sed non baptismus sangwinis , cum ipse non sit sacramentum.</p> 
+        
+        <p><cb ed="#T" n="62va"/> 
+          2° dicit quod baptismus sangwinis  quo ad illud, quod est res tantum, supplet totaliter vicem baptismi 
+          fluminis quando saltem articulus necessitatis sacramentum baptismi excludit. 
+          Sicut enim in baptismo aque liberatur homo ab omni pena et culpa eterna et ab omni pena satisfactoria pro culpa et sic de alys , 
+          ut late prius fuit declaratum, ita, si homo vellet baptizari  
+          et non posset quia forte esset in carcere clausus aut inter infideles aut propter aliam causam et pateretur martirium, 
+          pro Christo voluntarie ipse baptizaretur  baptismo sangwinis , qui eum liberaret ab omnibus peccatis, 
+          a debito dampnacionis eterne et ab omnibus penis, etcetera. Illud satis patet per auctoritates  
+          et raciones in oppositum quaestionis adductas.</p>
+        
+        <p>Ad primum argumentum ante oppositum respondet <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> 
+          quod baptismus sangwinis  non habet hoc tantum ex opere operante neque quantum ad penam qua aliquis martirium explet, 
+          quam contigit non esse tantam quam alias sufficeret ad satisfaciendum pro tot et talibus peccatis quod et 
+          qualia talis habet neque eciam quantum ad deuocionem iuste voluntatis. 
+          Quia staret quod quis ex voluntate deuocioni et maiori caritate informata non posset sine martirio 
+          pro omni tanta pena debita pro peccatis suis facere et totaliter liberari. 
+          Quod ergo baptismus 
+          <cb ed="#T" n="62vb"/> 
+          sangwinis  supplet sacramenti baptismatis vicem - et sic totaliter liberat a culpa et a pena - 
+          non habet ex magnitudine pene que est in martirio nec etiam in deuocione voluntatis iuste, 
+          sed habet hoc ex ymitatione  passionis Christi cui non conformatur eo, quod pro Christo patitur 
+          et moritur, propter quod de martiribus scribitur <ref><name ref="#ap">Apocalipsis</name>  5° :</ref> 
+          <quote>LAVERUNT STOLAS SUAS IN SANGWINE AGNI.</quote> 
+          Et ideo pueri, quamuis vsum liberi arbitrij non habeant, si occidentur pro Christo in suo sangwine  
+          baptizati , id est per martirium, saluantur.</p> 
+        
+        <p>Ad 2m dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod, quamuis illa pena in se considerata non esset sufficiens ad liberandum ab omni pena peccati, ut dictum est, 
+          tamen relata ad causam passionis accipit efficaciam a passione Christi cui aliquis per talem penam conformatur. 
+          Et ex hoc potest ab omni absoluere pena.</p> 
+        
+        <p>Ad 3m dicit S<supplied>anctus</supplied>  T<supplied>homas</supplied> quod in alys  
+          superrogacionis et perfectionis operibus aut statibus et etiam in baptismo penitentiae non est ita expressa  
+          conformitas ad Christi passionem, sicut est in baptismo sangwinis . 
+          Et ideo non oportet quod in eis omnis pena dimittatur, sicut in baptismo sangwinis fit. 
+          Subdit S<supplied>anctus</supplied> T<supplied>homas</supplied> 
+          dicens : tamen invitis Patrum dicitur quod quidam Patrum vidit eandem gratiam descendentem 
+          super Eum qui habitum religionis 
+          <cb ed="#T" n="63ra"/> 
+          adsumpsit  et super Eum qui baptizatur . 
+          Sed hoc non est, ut dicit <name ref="#Augustine">S<supplied>anctus</supplied> Thomas</name>, 
+          quia talis a satisfaccione absoluatur, sed est ideo quia eo ipso, 
+          quod eciam suam voluntatem in seruitutem redigit, 
+          propter Deum plenarie iam per se pro omni suo peccato satisfecit, 
+          quam scilicet voluntatem cariorem habet omnibus rebus mundi, de quibus tamen tantum posset 
+          dare quod elemosinis omnia peccata redimeret. 
+          Et 2a 2e quaestione  centesima octuagesima nona dicit : 
+          rationabiliter dici potest quod per ingressum religionis homo consequatur remissionem omnium peccatorum. 
+          Si enim, aliquibus elemosinis factis, homo potest statim satisfacere pro peccatis suis, secundum illud 
+          <ref><title ref="#dan">Danihelis</title>  4° :</ref> 
+          <quote>PECCATA TUA ELEMOSINIS REDIME,</quote> 
+          multo magis in satisfaccionem pro omnibus peccatis sufficit, quod aliquis totaliter se diuinis obsequys  
+          mancipet per religionis ingressum et professionem que excedit omne genus satisfactionis etiam punire. 
+          Dicitur publice - ut dicitur 33a questione 5ta  capitulo <mentioned>admonere</mentioned> - 
+          sicut et holocaustum excedit sacrificium, ut dicit <name ref="#GregoryGreat">Gregorius</name> 
+          <title>super Ezechielem</title>. Et super praedicto canone Stephani propriae dicentis professionem 
+          religionis ab Ecclesia approbate excedere satisfaccionem que fit per publicam penitentiam. 
+          Dicit Glozator  quod ingressus religionis per pro-
+          <cb ed="#T" n="63rb"/> 
+          -fessionem soluit omnem penam, 
+          et <name>beatus Benedictus</name> in De dispensacione et praecepto dicit professionem esse 2m baptisma. 
+          Et ideo - ut praeuius allegatum fuit in vitis Patrum - legitur quod eandem gratiam consecuntur religionem 
+          incidentes quam consecuntur baptizati , saltem quo ad dimissionem omnis pene pro peccatis. 
+          Audiuists autem praeuius quod adulti nouiter conuersi, cum volunt baptizari, 
+          dicunt prius atteri de peccatis suis saltem mortalibus et habere propositum emendandi vitam suam. 
+          Et tunc baptismum digne suscipiunt et cum multo spirituali profectu, ut dixi superius. 
+          Sic volens profiteri religionem approbatam debet praeuius conteri de peccatis prioribus et integre confiteri, 
+          ut per contricionem et per confessionem eius peccata dimittantur quo ad culpam peccata. 
+          Namque sunt causa penarum pro eis debitarum et manente causa manet effectus ; 
+          manentibus igitur peccatis manet homo eciam debitor penarum. 
+          Sed cum dimissa sunt peccata et homo profitetur religionem omnis pena satisfactoria pro peccatis quam in 
+          Purgatorio oporteret grauissime soluere, aut oporteret hominem hic satisfacere, 
+          per multa opera bona et penalia sibi dimittuntur propter hoc, quod tunc plene pro suis peccatis satisfacit in hoc. 
+          Et per hoc, quod homo seipsum totum 
+          <cb ed="#T" n="63va"/> 
+          et omne quod habet aut habere potest offert Deo non solum ad primum  
+          tempus, sed per totam uitam habet. Namque homo triplex bonum 2m <unclear>Phisicam <!-- philosopher --></unclear> Primo <title ref="#Ethics">Ethicorum</title> :</p>
+        
+          <p>prima sunt temporalia et ipse exteriores res quas ipse homo per votum voluntarie paupertatis totaliter 
+          Deo offert et in perpetuum. Quia tunc non solum que actualiter possidet, sed eciam que vmquam possidere posset, 
+          ymo  totum mundum sic ex affectu dimittit, quod nec ea habet nec habere vellet si eciam habere posset.</p>
+        
+          <p>2m bonum hominis est bonum sui corporis, quod homo in professione offert Domino praecipue per votum 
+          continencie quo abrenuncciat corporalibus delectacionibus, etiam maximis. Vouet enim continere a delicys  
+          et a corporalibus  delectationibus non solum illicitis - sicut omnes Christiani tenentur - 
+          sed etiam a multis alias licitis vouet abstinere secundum regulam et statuta religionis quam profitetur.</p> 
+        
+        <p>3m bonum hominis est bonum anime, quod homo eciam totaliter 
+          Deo offert per votum obediencie quo Deo offert propriam voluntatem per quam homo vtitur omnibus potencys  
+          et habitibus animae. Cum ergo homo per largicionem vnius partis bonorum suorum in elemosinis propter 
+          Deum et per aliqua alia opera ad bona penalia quibus sibi subtrahit aliquod delec-
+          <cb ed="#T" n="63vb"/> 
+          -tacionibus propter Deum possit se liberare a penis et totaliter satisfacere pro peccatis suis - 
+          quanto magis se totaliter liberat cum totum simul dat et a se alienat actualiter 
+          et ex affectu dimittit et possessa et que possidere posset - 
+          et eciam delectacione alias licitas et insuper voluntatem que omnes alias potencias animae mouet - 
+          subdit propter Deum voluntati praelati sui ut in omnibus posset plenius et liberius sequitur Christum Dominum.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

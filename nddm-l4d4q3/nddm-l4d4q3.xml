@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 3</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q3">
+        <head>Librum IV, Distinctio 4, Quaestio 3</head>
+        <p>Vtrum adultus vtens ratione non tamen consenciens in baptismo adhuc recipiat baptismum et eius effectum :</p> 
+        
+        <p>arguitur quod non, quia nullus dissenciens contrahit matrimonium carnale, igitur nec spirituale, quia in illo non est minus sed magis requiritur consensus, in baptismo autem contrahitur quoddam matrimonium
+          
+          <cb ed="#T" n="52va"/>
+          spirituale, quia tunc anima coniungitur et dispensatur  Deo.</p> 
+        
+        <p>In oppositum arguitur per hoc quod dicitur extra de baptismo et eius effectu, capitulo  ‘Maiores’ : qui cum terroribus atque supplicys  violenter attrahitur - et ne detrimentum incurrat - baptismi suscipit sacramentum talis sicut qui ficte ad baptismum accedit, caracterem suscipit Christianitatis impressum .</p> 
+        
+        <p>Notandum quod dupliciter dicitur quis non consenciens vno modo negatiue, 
+          ut ille qui non consentit actualiter nec etiam dissentit actualiter. Alio modo contrarie, et sic ponit actualem dissensum : 
+          illo modo enim dicitur quis non consenciens qui positiue dissentit, et est inter illa distinccio sicut inter non velle et nolle. 
+          Illo modo praemisso dicitur primo quod - si quis non consenciat actualiter primo modo, scilicet negatiue tantum - consenciat tamen virtualiter si baptizatur : 
+          ipse recipit sacramentum et effectum sacramenti. Patet quia noluit Deus obligare hominem ad impossibile uel 2m statum huius vite nimis difficilem, 
+          sed non distrahi videtur nimis difficile pro statu huius vite, quia 2m <name ref="#Augustine">Augustinum</name> - 3° De libero arbitrio - non est in nostra potestate quibus visis tangimur. 
+          Et ergo noluit Deus salutem hominis ponere in illa condicione, quod si non distrahatur nec voluit eum obligare, 
+          quod in suscipiendo baptismum non distraheretur. Et subdit <name ref="#Scotus">Scotus</name> quod sic est in omnibus alys  sacramentis : 
+          sacerdos enim in conficiendo Ewcaristiam 
+          <cb ed="#T" n="52vb"/>
+          non obligatur necessario ad hoc, ut non sit distractus cum dicit verba consecrationis. 
+          Vere enim conficit distractus, dum tamen praeuius induendo se ad missam intenderit consacrare  
+          aut celebrare missam 2m morem Ecclesiae. Sic intelligendum est etiam de isto qui baptizatur et est tunc cum baptizatur  
+          sit distractus, quod nec dissentit. Actualiter cogitat de baptismo de aliquo impertinenti . 
+          Et dixi in conclusione nominanter : si consentit virtualiter, hoc est si antea cogitauit de baptismo 
+          et consenciebat actualiter et voluit ut baptizaretur , 
+          et si non tunc interuenit post hoc dissensus, tunc talis cum baptizatur vere suscipit sacramentum 
+          licet actu non cogitet de hoc, cum baptizatur  propter distraccionem ad alia quia talis 
+          videtur non numerus capax baptismi. Si nunc in baptismo vtitur racione, quam si 
+          praeuius vsus fuisset et nunc non vteretur, sed si in tali, nunc non vtente, sed tamen 
+          praeuius vsu sufficeret habitualis uel virtualis consensus, ut fuit dictum in priori quaestione, 
+          igitur et iste debet sufficere a forciori ; indicatur autem habitualiter, ymo  virtualiter consentire 
+          2m vltimum motum voluntatis. Si autem quis est virtualiter dissentiens , ut scilicet quod praeuius cogitat de baptismo et 
+          dissentit tunc actualiter, et non intervenit post hoc consensus, si talis tunc baptizatur et propter
+          <cb ed="#T" n="53ra"/>
+          distraccionem est actualiter non consenciens negatiue, ipse non recepit baptismum sic  
+          amens habitualiter dissenciens, de quo dictum est in priori questione. 
+          Si vero tertio quis numquam cogitauit de baptismo, uel si cogitauit, tamen non tunc consensit baptizari  
+          nec dissensit, quia neque placuit baptizari , nec displicuit sibi et eciam nunc nec consentit nec dissentit. 
+          Cum baptizatur talis, non recipit sacramentum baptismi nec eius effectum cum nec actualiter, nec habitualiter, 
+          nec virtualiter indicere consentiens. Quod tamen requiritur ad baptismum eciam videtur tale  sacramentum contempnere eo, 
+          quod vtitur ratione et nullum tamen bonum motum habet actualiter, nec praeuius habuit in sacramentum.</p> 
+        
+        <p>2° dicitur 2m <name ref="#Scotus">Scotum</name>  et <name ref="#Bonaventure">Bonauenturam</name> : 
+          si quis vtitur racione et propter aliquod commodum  vtile aut delectabile consequendum aut propter euadere aliquod malum pene vtputa tormenti , 
+          uel dampni temporalis sui uel suorum uel consimilem consentit corde in baptismo alias non facturus, 
+          scilicet si sine baptismo posset consequi suum intentum aut euadere penam uel dampnum. 
+          Et consentit in baptismum non solum ut est quoddam  balneum, sed consentit in eum sic, 
+          quod baptizando  circa eum fiat quod Ecclesia circa suos intendit facere. 
+          Si talis baptizatur, ipse verus recipit sacramentum baptismi
+          <cb ed="#T" n="53rb"/>
+          nec est posterius rebaptizandus . De hoc enim loquitur concilium tholitanum quod 
+          allegatur extra de baptismo et eius effectu capitulo  'Maiores' : dicitur enim ibi 
+          quod illi qui pridem ad Christianitatem coacti sunt, quia iam diuinis sacramentis constat associatos, 
+          oportet vt fidem quam necessitate  susceperunt tenere cogantur ne nomen Domini blasphemetur et fides 
+          quam susceperunt contemptibilis habeatur. Item ille qui involuntarie baptizatur  rite non est rebaptizandus  
+          et talis voluntarie baptizatur, et si in alys , rite erit vere baptizatus  et nullo modo rebaptizandus . 
+          Minor patet, quia <ref><name>Aristoteles</name> 3° <title ref="#Ethics">Ethicorum</title></ref> talem vocat similiter voluntarium et solum 2m quid involuntarium. Nam de eo qui proicit merces in mare propter hoc solum, ut salvet vitam, dicit <name ref="#Aristotle">Aristoteles</name> eum simpliciter 
+          voluntarie proicere eo, quod mouet manus ad proieccionem et potenciam suam motiuam. 
+          Sua voluntas mouet imperando ei et hoc voluntas facit libere, quia cogi non potest simpliciter. 
+          Igitur simpliciter volens proicit merces, sed solum 2m quid nolens, 
+          id est solum sub condicione quia nollet facere si aliquo alio modo vitam posset saluare. 
+          Sic in proposito qui propter incommodum  consequendum aut propter penam fugiendam consentit in baptismum,
+          <cb ed="#T" n="53va"/>
+          ille simpliciter vult baptizari , et solum secundum quid, id est sub condicione uult, 
+          scilicet si alias et sine baptismo posset consequi intentum, tunc nollet baptizari .</p> 
+        
+        <p>3° dicitur quod, si adultus vtens racione non consentit 2° modo, scilicet contrarie hoc est, 
+          quod actualiter dissentit si tunc baptizatur. Ipse nec sacramentum recipit nec eius effectum, 
+          et si postea consentit debet rebaptizari . Probat <name ref="#Scotus">Scotus</name> quia Deus, qui per sapientem dicit <ref><title ref="#prov">Prouerbiorum</title> 3° :</ref> 
+          <quote>FILII , PRAEBE COR TUUM MICHI,</quote> non vult aliquem omnino invitum adscribere  familie sue ; 
+          suscipiens autem baptismum adscribitur  familie Christi per hoc. Et nota quod  ad Deum qui noscit 
+          corda nulla est differentia inter reclamantem, siue etiam signo exteriori contrarium 
+          protestantem et inter non reclamantem aut non protestantem quia in rei veritate, 
+          si est dissensus in corde, idem est apud Deum : nullus enim eorum in veritate baptizatus est, 
+          verum quod quo ad iudicium Ecclesiae que iudicat de manifestis est distingwendum  
+          inter eum qui reclamat baptizari  aut ostendit hoc aliquo exteriori signo et inter eum qui non  reclamat, 
+          nec aliquo sufficienti exteriori signo suum ostendit dissensum. 
+          Primus enim noscit dissentire, secundus vero praesumitur consentire. 
+          Et ideo primus non cogitur ad obseruantiam religionis
+          <cb ed="#T" n="53vb"/>
+          christianae, tertius vero, scilicet non reclamans, 
+          cogitur ad talia obseruandum, nec in hoc potest argui 
+          Ecclesia quod isti nolenti et tamen non reclamanti faciet iniuriam. 
+          Nullius enim malum est quod in vitiis seruet christianam legem quam 
+          quod impune permittatur agere contra eam, quia nullius malum est 
+          inuitum aliqua bona facere et mala fugere quam libere et impune male agere 
+          et bona obmittere.</p> 
+        
+        <p>Ad argumentum ante oppositum dicit <name ref="#Scotus">Scotus</name> quod in baptismo magis proprie est adopcio in 
+          filium quam quod ibi sit spirituale matrimonium, quia paruulus non potest proprie dici contrahere 
+          matrimonium cum non vtatur ratione, cuius tamen vsus requiritur in omni contractu. 
+          In adopcione autem sufficit actus adoptantis, etiam si nullum habeat adoptatus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

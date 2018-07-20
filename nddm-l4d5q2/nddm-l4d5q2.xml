@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 5, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 5, Quaestio 2</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d5q2">
+        <head>Librum IV, Distinctio 5, Quaestio 2</head> 
+        <p>Secundo queritur vtrum malus minister baptizando  peccet et similiter ille, quia a tali sacramentum recipit scienter.</p> 
+        
+        <p>Arguitur primo quod malus minister baptizando  semper peccet, quia dicit <name ref="#Augustine">Augustinus</name> in littera : 
+          - Iustos oportet esse per quos baptizatur . Si ergo non sunt iusti cum baptizant, tunc faciunt quod non debent et sic peccant.</p> 
+        
+        <p>2° arguitur quod vterque peccet et dans baptismum et ab eo recipiens, quia 2m <name ref="#Ambrose">Ambrosium</name> 
+          de informandis rudibus qui faciunt et quibus faciunt nichil prodest, sed ad iudicium est.</p> 
+        
+        <p>3°, cooperans alicui ad mortaliter peccandum peccat mortaliter : hoc enim est agere contra fraternam caritatem, 
+          sed ille recipiens baptismum scienter a malo cooperatur sibi in actu baptizandi, in quo peccat mortaliter.</p> 
+        
+        <p>Quarto esto quod minister velit committere vicium symonie ut, quia uult baptizare nisi pro pecunia, 
+          tunc qui sic ab eo reciperet committeret symoniam; igitur in hoc saltem casu accipiens baptismum a sic malo peccaret mortaliter.</p> 
+        
+        <p>In oppositum arguitur quia de consecracione - distinctio quarta capitulo ‘Romanos’ dicitur et allegat <name ref="#Lombard">Magister</name> in littera Romanus pontifex : 
+          <cb ed="#T" n="70va"/> 
+          non attendit hominem qui baptizat, sed Deum, etiam  si paganus sit qui baptizat.</p> 
+        
+        <p>Item <name ref="#Augustine">Augustinus</name> <title>Super Iohannem</title> omne 5ta : 
+          non exhorreat columba ministerium malorum.</p> 
+        
+        <p>De prima parte questionis, scilicet vtrum malus minister peccet baptizando , 
+          dicitur quod sacerdos in peccato mortali existens et baptismum cum solempnitate et ex officio ministrans peccat mortaliter, 
+          quia sacramento facit irreuerenciam cum ipsum exhibet scienter in mortali constitutus. 
+          Item dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> : quicumque in peccato mortali existens exhibet 
+          se ministrum Ecclesiae in quocumque spirituali peccat secundum quorundam opinionem satis probabilem. 
+          Et subdit : ideo sacerdos baptizans cum solempnitate, quasi ministrum Ecclesiae se exhibens, peccat mortaliter. 
+          Concordat <name ref="#Dionysius">beatus Dyonisius</name> in 
+          <title>De ecclesiastica ierarchia</title> dicens quod nephas est immundos  
+          ecclesiastica tangere sacramenta. 
+          Et confirmatur : non maius malum fuit - ut videtur - accedere ad sacramenta Veteris Legis cum immundicia  
+          prohibita in Lege quam accedere ad sacramenta Noue Legis cum immundicia  
+          conscientiae prohibita, sed primum fuit peccatum mortale. 
+          Igitur et secundum est mortale. 
+          Minor patet per illud quod dicitur <ref><title ref="#lev">Leuitici</title> 12°:</ref> 
+          <quote>OMNIS HOMO QUI ACCESSERIT DE STIRPE VESTRA AD EA QUE CONSECRATA SUNT IN QUO EST IMMUNDICIA  PROHIBITA CORAM  
+          <cb ed="#T" n="70vb"/>
+          DOMINO.</quote> 
+          Item <name ref="#Bonaventure">Bonauentura</name> dicit hic quod si baptizans est in peccato mortali siue occulto , 
+          siue  notorio est distingwendum , quia aut est necessitas baptizandi , 
+          uel timetur scandalum si non baptizaret. 
+          Tunc non peccat baptizando , sed peccat in hoc quod negligit se praeparare et cum timore et reuerencia accedere. 
+          Si autem non imminet necessitas baptizandi , nec timetur scandalum si non baptizaret, 
+          tunc non debet baptizare  nisi praeuius se praeparet ad iustificationem, 
+          quod si non facit, non tamen peccat negligendo iustificationem, 
+          sed etiam quantum est in se sacramento contumeliam faciendo et vsurpando sibi id ad quod non est ydoneus . 
+          Si autem talis est notorius peccator et baptizat , tunc vltra hoc peccat scandalizando . 
+          Et ideo dicit <name ref="#Augustine">Augustinus</name> quod mundos oportet esse ministros, 
+          scilicet ut digne conferant, et ad edificationem aliorum et non ad scandalum. 
+          Diceret aliquis : malus si est sacerdos parochialis et baptizat, ipse facit quod debet et tenetur, igitur non peccat faciendo.</p> 
+        
+        <p>Respondetur quod, licet faciat quod debet, non tamen facit illud eo modo quo debet, 
+          quia diceret sacramenta mundus et iustus contingere et exhibere et illud non facit, 
+          igitur peccat. Dicitur enim <title ref="#deut">Dewteronomy</title>  iuste quod iustum est exequeris : 
+          hec de prima parte quaestionis.</p> 
+        
+        <p>De secunda vero parte, scilicet an peccet qui suscipit baptismum 
+          <cb ed="#T" n="71ra"/>
+          a malo ministro, est distingwendum  de malo ministro : aut enim est praecisus aut ab Ecclesia totaliter uel ad tempus ut hereticus, 
+          aut excommunicatus, uel est ab Ecclesia permissus, ut aliis malus in moribus. 
+          De primo modo dicto - malo scilicet ab Ecclesia reciso  - dicitur quod qui extra casum necessitatis a tali reciperet baptismum pro se aut pro alio scienter, 
+          ille grauiter peccaret. Extra casum necessitatis communicaret illi contra praeceptum Ecclesiae, ymo  communicaret ei in actibus, maxime prohibitis, 
+          ut in sacramentalibus actis.</p> 
+        
+        <p>De 2° vero dicitur quod in casu necessitatis non peccat homo recipiendo baptismum a tali malo si alter minister haberi non potest. 
+          Patet per <title ref="#Aquinas">beatum Thomam</title> hic dicentem: 
+          si minister est recisus  ab Ecclesia, tunc non peccat recipiens sacramentum nisi in causa necessitatis in quo posset eis a pagano recipere, uel Iudeo. 
+          Idem videtur haberi a <name ref="#Augustine">beato Augustino</name> contra Donatistas, vbi dicit : 
+          potest tradere separatus  sicut potest habere separatus , sed perniciose tradere, 
+          ille autem cui tradit potest salubriter accipere. 
+          Si ipse non separatus accipiat, plerumque accidit ut catholico animo aliqua necessitate mortis ingruentis ad aliquem hereticum venerit, 
+          et ab eo Christi baptismus sine qua uis peruersitate perceperat et siue defuncti, 
+          siue liberati nequaquam apud eos remanerent ad quos numquam transierunt.
+          <cb ed="#T" n="71rb"/>
+          Diceret aliquis an tamen adultus in tali causa teneatur recipere sacramentum ab huiusmodi praecioso.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod forte adultus posset a tali praecioso non recipere eo, 
+          quod baptismus flaminis forte scilicet sufficeret si propter reuerenciam Ecclesiae talem vitet. 
+          Et subdit : tamen, pensatis omnibus, melius videtur quod a tali recipiat quam quod de vita hac sine baptismo decedat. 
+          De paruulo dicit vero <name ref="#Scotus">Scotus</name> : 
+          si nullus potest haberi non precisus  qui paruulum baptizet  
+          et immineat periculum mortis ita quod non posset expectare minister ydoneus , 
+          debet homo ymo  tenere paruulum suum, offerre illi praeciso ad baptizandum  : 
+          nimis enim durum esset enim dicere quod tenetur paruulum suum permittere perpetue dampnari, 
+          cum possit habere aliquem qui eum baptizet  cum quocumque eum baptizante. 
+          Saluetur etiam si paganus eum baptizaret  in forma tamen et modo Ecclesiae, ut supra dictum fuit. 
+          Huius conclusionis contrarium posuerunt aliqui dicentes quod quilibet etiam in necessitate tenetur 
+          non recipere sacramentum scienter a tali praeciso, quod probare voluerunt sic, 
+          quia baptizandus  aut est adultus aut paruulus : si adultus tunc sufficit, scilicet ad salutem, 
+          baptismus flaminis quando non potest habere baptismus fluminis, sicut est in proposito, 
+          quia non habet ministrum ydoneum  cum sit sibi prohibitum communicare illi
+          <cb ed="#T" n="71va"/>
+          praeciso et maxime in sacramentalibus actibus. 
+          Si autem baptizandus  est paruulus, tunc offerens eum baptizet , 
+          ipsi imminet periculum mortis et non potest haberi minister magis ydoneus , 
+          scilicet non praecisus, quia ut praeuius non licet tibi communicare paruulo suo cum tali praeciso. 
+          Sed contra illud et pro conclusione arguit <name ref="#Scotus">Scotus</name> : sic praeceptum superioris plus obligat quam praeceptum inferioris, 
+          Deus autem praecepit baptismum  suscipere et Ecclesia praecepit non communicare cum isto praeciso. 
+          Igitur magis obediendum est praecepto diuino quam Ecclesiae praecepto in tali casu. 
+          Item non plus tenetur quis vitare praecisum quam ipsemet precisus  teneatur vitare ministracionem sacramenti, 
+          sed in causa ipse praecisus tenetur ministrare sacramentum. 
+          Igitur in simili causa potest aliquis ab eo recipere maior nota et minor probatur, 
+          quia si aliquis praecisus videret paruulum non baptizatum moriturum tenetur eum baptizare  : 
+          ipse enim in necessitate tenetur eum sustentare cibo corporali ne corporaliter moreretur. 
+          Igitur multo fortius teneretur eum sanare spiritualiter, ne dampnaretur.</p> 
+        
+        <p>Ad argumentum aliorum dicit <name ref="#Scotus">Scotus</name> quod prohibicio Ecclesiae intelligitur 
+          quando praeceptum maius non obligat ad contrarium praeceptum aut legis naturae, 
+          et praeceptum diuinum maius est praeceptum Ecclesiae. 
+          Tamen, vbi ergo praeceptum
+          <cb ed="#T" n="71vb"/>
+          legis naturae obligat sicut ad saluandum vitam proximi corporalem et multo magis veritam spiritualem et 
+          praeceptum diuinum de conferendo et suscipiendo baptismum, 
+          magis obediendum est praecepto superioris quam vitandus sit talis propter praeceptum Ecclesiae ipsum vitare mandantis. 
+          Nullus enim iudex in Ecclesia uel legislator interpretaretur praeceptuum suum seruandum in eo casu in quo vergetur 
+          contra praeceptum legis naturae et diuinum.</p> 
+        
+        <p>Quantum ad 2m membrum distinctionis praemisse, scilicet de malo non praeciso, 
+          dicit primo <name ref="#Scotus">Scotus</name> quod, si esset occulte malus ita quod vita eius non est communiter scandalosa populo, 
+          satis conceditur communiter, quod potest homo a tali baptismum recipere. 
+          Ymo  quod debeat se est suus ordinarius, quia propter peccatum quod non est notorium 
+          non debet quis alium vitare in actibus notorys , ut est ministracio sacramentorum.</p> 
+        
+        <p>Secundo dicit quod, si huius minister malus - licet non praecisus - sit notorie et publice malus ut - quia est notorius fornicarius, 
+          etcetera - tunc est distingwendum  : quia aut tali incumbit de necessitate ex officio suo dispensare sacramentum baptismi uel - quia est sacerdos, 
+          curatus istius baptizandi  – autem  non incumbit 
+          <cb ed="#T" n="72ra"/>
+          sibi ex necessitate. Licet congruere , scilicet racione officy  utpote, 
+          quia est sacerdos vocatus in adiutorium curati. 
+          Si primo modo, scilicet quod minister est, notorie malys  
+          et est curatus cui incumbit necessario provideri de sacramentis suis subditis, 
+          tunc non peccat qui recipit baptismum ab eo pro se, uel pro suo paruulo. 
+          Non enim peccat qui a malo debitum petit ac accipit, ille autem curatus debitor est parochie sue in sacramentis ministrandis. 
+          Si autem 2° modo, scilicet quod minister est notorie malus et non incumbit, 
+          scilicet de necessitate ministrare sacramenta tali baptizando licet de congruo eo, 
+          quod est vocatus in adiutorium curati. 
+          Tunc si potest haberi melior ille peccat qui ab illo notorio malo recipit cui non incumbit 
+          necessitas ministrare sacramenta tali baptizando. 
+          Si autem nullus alter melior ad quem pertineat haberi posset, 
+          tunc non peccat recipiendo de legato a quo petere potest illud quod, scilicet debitum, est sicut posset a paruulis . 
+          Sed ponitur casus quod nullus sacerdos nisi notorie malus possit haberi, sed possit haberi laicus bonus.</p> 
+          
+          <p>Dubium est quis cui in hoc sit praeferendus, id est a quo illorum sit baptismus suscipiendus. 
+            Et videtur <name ref="#Scotus">Scotus</name> quod a sacerdote sit suscipiendus quia officium ministrandi in Ecclesia Dei 
+            sacramenta conuenit sacerdotibus et non laicis ; 
+            melius ergo videtur deferendo officio administrandum sacramenta instituta .</p> 
+        
+        <p>Ad primum 
+          <cb ed="#T" n="72rb"/>
+          argumentum concedatur quod minister existens in peccato mortali 
+          et baptizans ex officio publice et cum solempnitate consweta  peccat mortaliter, 
+          et hoc vult <name ref="#Augustine">Augustinus</name> : loquitur enim principaliter de ministris 
+          Ecclesiae et ergo subdit iustos oportet esse tanti iudicis ministros.</p> 
+        
+        <p>Ad secundum quod <name ref="#Ambrose">Ambrosius</name> loquitur de malis ex officio ministrantibus : 
+          isti peccant, ut iam dictum fuit. Et loquitur de suscipientibus a praecisis scienter et ex casu necessitatis, 
+          aut vt fiat discipulus talis praecisi heretici uel fauendo per hoc ex rationi suo : talis enim grauiter peccaret, 
+          ut praeuius dictum fuit, non autem sic de omnibus.</p> 
+        
+        <p>Ad 3m respondet <name ref="#Aquinas">Sanctus Thomas</name> quod - si malus sacerdos peccat baptizando  - 
+          non tamen oportet propter hoc quod ille peccet, 
+          qui ab eo baptismum eciam extra necessitatis articulum exigit et recipit, 
+          et hoc propter duas causas. Primo quia isti subdito non potest esse certum quod ille sacerdos sit in peccato mortali, 
+          ignorat cor eius : habuit enim forte contricionem et in vno instanti Spiritus sanctus operatur iustificationem.</p> 
+        
+        <p>2°, quia ille petit quod iustum est : debet enim a suo sacerdote sacramenta petere et recipere nec per hoc 
+          cogit eum uel inducit ad peccandum, quia ille potest reddere quod debet non peccando ut si disponit se 
+          ad iustificacionem per penitentiam dignam. Si autem non peniteat praeuius, 
+          nichil imputandum est illi subdito petenti actum ministracionis sacramenti, quia
+          <cb ed="#T" n="72va"/>
+          non petit eum in quantum peccatum, sed in quantum peccatum debitum. 
+          Idem vult <name ref="#Scotus">Scotus</name> : dicit enim quod ille qui petit baptismum a suo malo sacerdote non cooperatur 
+          illi directe ad peccatum mortale. 
+          Petit enim ab eo actum debitum, scilicet et in hoc non delinquit quia nullius malicia excusat a soluendo debitum quod tenetur. 
+          Ille autem actus posset solui sine peccato si baptizaturus  praeuius contereretur. 
+          Ymo  quantum est ex actu illius petentis baptismo, tunc ille petens magis necessit 
+          ad sacerdotem ad penitentiam quam ad peccandum, quia illa ministracio sacramenti 
+          diceret scilicet esse causa et occasio praeuius penitendi, ut digne ministraretur. 
+          Et <name ref="#Bonaventure">Bonauentura</name> dicit quod non peccat qui ad proprium sacerdotem 
+          eciam malum malicia morum accedit pro ministracione sacramenti. 
+          Ymo  non accedens ad eum, sed ipsum vitans et recusans, magis peccat in hoc saltem casu cum ideo eum recuset, 
+          quia credit sacramentum per ipsum dispensatum esse viciorum. 
+          Ymo  facit in hoc iniuriam sacramento quod non potest pollui per maliciam cuiuscumque minister.</p> 
+        
+        <p>Ad 4m respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod ille baptizandus  aut est adultus, aut paruulus. Si est adultus tunc sufficit, scilicet ad salutem credere, 
+          et baptismum petere et baptizari baptismo fluminis et nullo modo debet committere vicium symonie. 
+          Si autem est paruulus pro quo quis
+            <cb ed="#T" n="72vb"/>
+            baptismum petit, tunc ipse offerens pocius paruulum per se baptizare quam praecium sacramenti pro baptismo symoniace dare. 
+            Subdit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> : 
+          est tamen ei licitum emere aquam a sacerdote si alius  aquam habere non posset pro suo aut pro sui paruuli baptismo, 
+          quia aqua non est quid de se sacramentum eciam si est sanctificata eo modo quo solet in Ecclesia benedici in vigilia Pasce. 
+          Adhuc posset eam emere, quia non operatur ad baptismum de necessitate eius existens quasi sanctificata, 
+          sed quasi aqua. Et ideo emit aquam non vt sanctificatam, sed ut aquam quia ut sic, 
+          scilicet ut aqua est de necessitate baptismi. 
+          Eandem sententiam tradit <name ref="#Scotus">Scotus</name> : dicit enim quod si sacerdos nullo modo vellet baptizare nisi 
+          acciperet praecium pro actu baptizandi, prout est actus sacramentalis, 
+          tunc esset perfecte symoniacus quia vendens sacramentum. 
+          Et ideo nullo modo esset baptismus isto modo ab eo recipiendus, 
+          nec pro adulto nec pro paruulo; pro adulto non, quia peccaret mortaliter, 
+          sic recipiendo symoniace. Non autem obligatur ad recipiendum sacramentum quando non potest recipere sine mortali peccato, 
+          sed si imminet  casus necessitatis potest saluari in baptismo flaminis, 
+          nec debet eciam in tali casu recipi baptismus pro paruulo. 
+          Peccaret enim mortaliter qui sic pro paruulo symoniace    
+          <cb ed="#T" n="73ra"/> 
+          reciperet. Dicens forte nullus alius adesset qui vellet baptizare  
+          paruulum et sic non baptizando  exponeret paruulum periculo, 
+          quia posset mori et sic dampnari. 
+          Respondet <name ref="#Scotus">Scotus</name> : baptizet  ipse offerens - si potest - utpute si non est mutus uel mancus. 
+          Et si ipsemet non possit, nec possit habere aliquem alium baptizantem  paruulum nisi qui velit vendere baptismum nec symoniam committere, 
+          tunc dimittat paruulum suum modi eciam sine baptismo, quia ipse emendo baptismum committeret symoniam et sic peccaret mortaliter. 
+          <quote>NON autem SUNT FACIENDA MALA UT EVENIANT BONA</quote> - 
+          <ref><title ref="#rom">Ad Romanos</title> 3°</ref> - et quilibet magis debet diligere seipsum quam proximum et perconstans 
+          in seipso magis vitare peccatum mortale quam in alio dampnacionem. 
+          Addit <name ref="#Scotus">Scotus</name> quod talis casus de difficili  uel numquam contingit quando sine symonia ex parte adulti baptizandi , 
+          uel ex parte offerentis paruulum ad baptismum potest haberi baptismus. 
+          Si enim sacerdos ille vellet vendere aquam suam suam et nullo modo vellet alias concedere eam, 
+          tunc potest ipsa aqua emi esto eciam quod sit consecrata. 
+          Nullo modo tamen in illa empcione habendo respectum ad ipsius aque consecracionem nec plus dando propterea : 
+          propter consecracionem non enim plus valet ad baptismum 
+          <cb ed="#T" n="73rb"/> 
+          consecrata quam non consecrata quo ad efficaciam sacramenti. 
+          Sed consecracio est solum pro honestate et solempnitate sacrament<supplied>i</supplied>. 
+          Huius datur exemplum, quia licet emere et vendere calicem consecratum nullo modo oculum habendo ad emendum uel vendendum ad consecracionem. 
+          Item si sacerdos nitatur actum baptizationis  vendere, potest ille qui offert paruulum emere non intendens  actum illum in quantum est sacramentale, 
+          sed intendens solum laborem sacerdotis in tali actu. 
+          Sicut conducuntur hodie sacerdotes ad celebrandum missas, 
+          ut sepe conducuntur capellani pro certa summa ad legendum missas per annum, etcetera, 
+          non sic quod ipsi sacerdotes vendant et aly  emant actum celebracionis in quantum est quoddam sacramentale, 
+          quod absit longe ab omnibus. Sed ipsi vendunt laborem et aly  emunt eum, quia oportet vnumquemque de suo labore taliter qualiter victitare. 
+          <name ref="#Scotus">Scotus</name> et  <name ref="#Bonaventure">Bonauentura</name> dicunt quod in causa argumenti talis 
+          debet dare praecium illi baptizanti  non ad emendum aquam uel sacrum, sed ad redimendam iniquam vexacionem : 
+          habet enim ius ad baptismum et inique ille impedit enim in iure suo et ideo potest hoc tollere. 
+          Tamen <name ref="#Aquinas">beato Thome</name> plus placet solucio praecedens. 
+          Diceret aliquis sic, quod mulier aliqua offerat paruulum ad baptismum 
+          <cb ed="#T" n="73va"/> 
+          et sic ipsa muta aut manca quod non posset baptizare, 
+          nec assit alius volens baptizare , et sic vehemens timor de morte pueri, 
+          et non uelit sacerdos baptizare  puerum nisi ipsa praeuius fornicet secum, aut blasphemet Deum, 
+          aut periuret, aut in aliud peccatum consenciat quid erit faciendum in tali causa de tali puero.</p> 
+        
+        <p>Respondetur quod nullo modo debet consentire in peccatum ex causis superius dictis, 
+          sed dimittat paruulum sine baptismo vsque possit alium rite baptizantem habere et ponat se ad 
+          deuocionem ut pro paruulo impetret prolungacionem vite usque ad susceptionem ritam baptismi, 
+          aut ut praecibus suis impetret paruulo baptismum flaminis. 
+          Et si moritur paruulus sine baptismo speret quod fides sua, scilicet offerentis et bona voluntas qua propter Deum 
+          et amorem iustitiae noluit consentire in peccato, pro quo institit sacerdos uel aliter baptismi minister ex 
+          Dei speciali misericordia sufficiat paruulo suo ad salutem, ita ut diuina pietas in tali necessitate cuncta 
+          deficiencia suppleat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

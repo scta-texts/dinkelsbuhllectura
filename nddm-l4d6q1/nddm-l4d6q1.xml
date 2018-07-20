@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 1</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q1">
+        <head>Librum IV, Distinctio 6, Quaestio 1</head> 
+        <p>Tunc cuilibet liceat baptizare addamus postquam Magister distinccione 5ta determinauit : 
+          de potestate ministri baptismi hic determinauit de eius statu et gradu.</p> 
+        
+        <p>et primo de gradu de quo queritur primo vtrum soli sacerdotes possint baptizare.</p> 
+        
+        <p>Arguitur quod sic auctoritate  <name ref="#IsidoreOfSeville">Ysidori</name> dicentis : <quote>Constat baptismus solis sacerdotibus traditum.</quote></p> 
+        
+        <p>In oppositum arguitur auctoritate  eiusdem <name ref="#IsidoreOfSeville">Ysidori</name> dicentis : <quote>Cum vltima necessitas cogit etiam laicis, fidelibus permittitur baptizare.</quote> 
+          Et <ref><title>de consecracione</title> distinctione 4ta :</ref> 
+          <quote>« Romanus pontifex hunc hominem non indicat qui baptizat, 
+          sed Spiritus Dei subministrat gratiam baptismi licet paganus sit qui baptizat ».</quote> 
+          Ex quibus patet quod etiam aly  a praesbiteris possunt baptizare .</p> 
+        
+        <p>Conclusio prima : oportet de necessitate quod baptizans  
+          sit suppositum intellectum, uel intellectuale potens actiue in 
+          aqua abluere et debitam formam verborum proferre. 
+          Declarat hoc <name ref="#Scotus">Scotus</name>, quia oportet baptizantem  
+          abluere baptizatum, quod 2m praeuius dicta est facere actiue corpus baptizandi 
+          <cb ed="#T" n="75va"/> 
+          contingi ab aqua, et hoc uel per mocionem corpus ad aquam, ut fit immergendo , 
+          uel per mocionem aque ad eius corpus, ut fit superfundendo uel aspergendo. 
+          Et igitur in baptizante necessario requiritur virtus motiua qua posset aliquo illorum modorum actiue abluere, 
+          alium etiam oportet ministrum proferre verba forme baptismi. 
+          Igitur necesse est ut loqui possit, et insuper ad baptismum requiritur intencio in ministro, ut dicetur. 
+          Et ideo necesse est ipsum habere vsum rationis quare oportet de necessitate quod baptizans  
+          sit suppositum intellectuale, ut dicit conclusio : potens actiue abluere, 
+          et potens debitam formam verborum proferre uel saltem sit aliquod intellectuum separatum, 
+          ut anima intellectiua.</p> 
+        
+        <p>Et est notandum quod non dixi in conclusione quod oportet baptizantem  
+          esse hominem vtentem racione. Sed dixi generaliter quod oportet eum esse suppositum intellectuale, 
+          quia - ut dicit <name ref="#Scotus">Scotus</name> - si bonus angelus assumpto corpore baptizaret, 
+          cum omnibus aliis ad baptismum requisitis supponendum esset eius baptismum esse verum, 
+          quia non fieret nisi de praecepto Dei, nec ille ab angelo bono baptizatus esse rebaptizandus. 
+          Sicut legitur quod <name>Michael</name> prohibuit Episcopum dedicare ecclesiam suam in morte <name>Gargano</name> asserens eam a se dedicatam fuisse : 
+          licet enim, ut dicit 
+          <cb ed="#T" n="75vb"/> 
+          <name ref="#Aquinas">S<supplied>anctus</supplied> <supplied>homas</supplied></name>, 
+          angelis bonis non fit actu collata potestas baptizandi, tamen, 
+          sicut Deus potenciam suam sacramentis non obligauit quando sine eis posset effectum eorum conferre hominibus, 
+          sic nec potestatem conferendi sacramenta alligauit aliquibus ministris. 
+          Et ideo qui dedit hanc potestatem hominibus posset et angelis dare, 
+          nec bonus angelus baptizaret si potestatem scilicet diuinitus concessa, 
+          vnde si baptizaret non esset ille rebaptizandus  dummodo constaret, quod esset bonus angelus. 
+          Sic enim indicatum est templum per angelos consecratum ; non oportere per homines consecrari, 
+          ut legitur in hystoriam  dedicacionis <name>sancti Michaelis.</name> 
+          Similiter uidetur intelligendum de baptismo collato per animam beatam corpore exutam, ut <name ref="#Peter">beati Petri</name>, 
+          et quia posset Deus illam potestatem ei conferre, nec faceret animam <name ref="#Peter">Petri</name> beatam nisi potestate a Deo recepta. 
+          Subdit <name ref="#Scotus">Scotus</name> dicens: 
+          <quote>Si etiam malus angelus in corpore assumpto baptizaret  et constaret, quod esset de praecepto Dei, talis habendus esset pro baptizato :</quote> 
+          licet enim scilicet non sit nunc data potestas baptizandi, 
+          posset tamen a Deo scilicet dari et praecipi ut baptizaret, 
+          et apparet malum invitum obedire Deo. Sed non esset sine certa reuelatione
+          <cb ed="#T" n="76ra"/>
+          super hoc habita credendum quod malus angelus vere baptisaret. 
+          Tum, quia Deus non ministrat sacramenta per exclusos finaliter a salute et eternaliter dampnatos tamen, 
+          quia si non esset artatus praecepto diuino ad oppositum praesumere, dum esset semper ipsum fraudulenter agere, 
+          nec complete facere ea que essent necessaria ad salutem baptizati propter iniusticiam  
+          quam habet ad salutem hominum ex invidia praecedente.</p> 
+        
+        <p>Secunda conclusio : non solum praesbiteri, sed et aly  clerici, ymo  laici possunt veraciter baptizare . 
+          Patet secundum <name ref="#Scotus">Scotum</name> ex priori conclusione : 
+          nullum enim suppositum intellectuale excluditur a posse baptizare nisi propter defunctum 
+          illorum trium praedictorum uel alicuius eorum. Et quia multi laici et inferiores clerici habent 
+          illa tria in se, igitur possunt baptizare et realiter baptismi sacramentum conferre. 
+          Item declarat conclusionem illam <name ref="#Aquinas">Sanctus Thomas</name>,  
+          dicens : <quote>“Sacramentum baptismi est maxime necessitatis, nec potest puerum aliter subuenire”.</quote> 
+          Et ideo ea, quia necessario ad substanciam sacramenti huius requiruntur, 
+          debuerunt esse communissima et ex parte materie, scilicet aque. 
+          Communem vbique haberi potest et ex parte ministri, 
+          ut scilicet quilibet possit et sicut sanctificacio aque baptismi et 
+          benedicciones quae praecedunt baptismum non sunt de necessitate baptismi,
+          <cb ed="#T" n="76rb"/>
+          sed de eius solempnitate quam propter Ecclesiae institutionem non licet 
+          extra casum necessitatis praetermittere. 
+          Sic sacerdocium ministri non est de necessitate baptismi, 
+          sed de eius solempnitate et peccat si non sacerdos baptizat non imminente necessitate. 
+          Vere tamen baptizat , sed imminente  articulo necessitatis 
+          et vbi non potest haberi sacerdos cuilibet licitum est baptizare etiam layco , 
+          et si obseruat ad necessitatem sacramenti requisita vere baptizat. 
+          Item de consecratione distinctione 4ta capitolo primo mulier dicitur : 
+          mulier, quamuis docta aut sancta, in conuentu docere aut aliquos baptizare non praesumat, 
+          nisi necessitate magna vrgente. 
+          Item <name>Nicolaus Papa</name> determinat non esse rebaptizandi , 
+          qui a Iudeis aut paganis in nomine sanctae Trinitatis sunt baptizati. 
+          Igitur Iudei et pagani vere baptizarent forma Ecclesiae obseruata, 
+          igitur a forciori fideles laici. Item aqua absque omni sanctificacione est materia baptismi, 
+          et ita homo sine omni ordine - ut sunt laici - ymo  sine sacramentali sanctificacione, 
+          vt sunt infideles non baptizati est baptismi minister quantum ad necessitatem sacramenti.</p> 
+        
+        <p>3a conclusio, congruum est baptismum conferri ab homine viatori et inter congruum extra articulum 
+          necessitatis solo sacerdotes baptizare. Prima pars patet 
+          <cb ed="#T" n="76va"/>
+          primo, quia Christus, qui instituit baptismum , homo fuit. 
+          Secundo quia in sacramento est aliquod sensibile et aliquod spirituale  
+          et percommunis magis congruit ministro vtenti sensu et intellectu quam pure intellectuali. 
+          3°, quod per baptismum adscribitur  homo ut membrum Ecclesiae militanti, igitur congruum est hoc 
+          per aliquod fieri qui est misericordia, Ecclesia adhuc militante. 
+          Secunda pars patet <ref>ex canone distinctio 23 : <!-- incipit -->Dyacones</ref> et 
+          <ref><title>de consecracione</title> distinctio 4ta</ref> constat vbi dicitur : 
+          <quote>Constat baptismum  solis sacerdotibus esse traditum eisque ministerium explere, 
+            nec ipsis dyaconis est licitum absque Episcopo et praesbitero.</quote> 
+          Ex quo patet quod solum praesbyteris congruit baptizare ex officio et quod aly  
+          peccant contra Ecclesiae praeceptum si baptizant extra necessitatis articulum. 
+          Item per baptismum recipitur baptizatus in collegium Ecclesiae militantis. 
+          Recepcio autem alicuius in collegium pertinet ad praesidentem et habentem auctoritatem  
+          in collegio et ideo, quanto aliquis haberet maiorem auctoritatem  in Ecclesia, 
+          tanto magis pertinet ad eum recipere ad Ecclesiam et per constans baptizare. 
+          Vnde magis competent Episcopo quam simplici sacerdoti, si sufficere possunt Episcopi ; 
+          sed propter paucitatem Episcoporum et pluralitatem baptizandorum  
+          regulariter conceditur omnibus sacedotibus respectu subditorum suorum.</p>
+          <p>
+            <cb ed="#T" n="76vb"/>
+            4ta conclusio : sacerdos imminente necessitatis articulo licite potest baptizare parrochianum  
+            non suum, ymo  tempore necessitatis quilibet tenetur ad baptisandum ipsum necessitatum. 
+            Patet quia in necessitate quilibet viator potest baptizare, 
+            igitur a forciori potest et tenetur in necessitate quilibet sacerdos baptizare eciam non parrochianum. 
+            Confirmatur : quilibet tenetur proximo in articulo necessitatis que, quo ad periculum corporis succurrere, 
+            igitur multo magis quilibet tenetur succurrere proximo suo quo ad periculum animae, 
+            cum est in extrema necessitate et percommunis etiam alienum parrochianum , 
+            tenetur sacerdos in necessitate baptizare ne sine baptismo decedat et dampnetur.</p> 
+        
+        <p>Ad auctoritatem    <name ref="#IsidoreOfSeville">Ysidori</name> , 
+          qui  vvlt quod officium baptizandi solis sacerdotibus est commissum et quod solis 
+          sacerdotibus extra casum necessitatibus licitum est baptizare, nichilominus tamen, 
+          si attemptant non sacerdotes et obseruant debitam formam et materiam et intentionem, vere baptizant. 
+          Licet peccent contra Ecclesiae prohibicionem, in causa tamen necessitatis et cum ad proprium sacerdotem perveniri 
+          non potest cuilibet licitum est baptizare.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

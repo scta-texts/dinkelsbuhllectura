@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 3, Quaestio 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d3q2">
+        <head>Librum IV, Distinctio 3, Quaestio 2</head>
+        <p>Secundo queritur vtrum integritas forme baptismalis necessario  consistat in hys  verbis : 
+          EGO TE BAPTIZO IN NOMINE PATRIS ET FILY  ET SPIRITUS SANCTI.</p> 
+        
+        <p>Arguitur quod non, quia actio debet magis attribui principali agenti quam secundario, 
+          sed Christus est principalis baptizans.  
+          2m illud <ref><title ref="#io">Iohannis</title> primo</ref>: 
+          <cit>
+            <quote> HIC, scilicet Christus, EST QUI BAPTIZAT.</quote>
+          </cit> 
+          Igitur magis debet dici : 
+          <quote>Christus te baptizat</quote> 
+          quam quod dicitur de ministro : <quote>Ego te baptizo.</quote></p> 
+        
+        <p>Secundo sic : 2m grammaticos in verbis prime persone intelligitur certus, 
+          n<supplied>e</supplied>cessarius et determinatus, sed : 
+          <quote>Hic baptizo</quote> est  verbum prime persone. 
+          Igitur in ipso intelligitur <mentioned>ego</mentioned> 
+          et  consequens non fuit necessarium exprimere, 
+          igitur non omni in praedicta forma sunt necessaria.</p> 
+        
+        <p>3° - Verba non debent 
+          <cb ed="#T" n="38ra"/> 
+          dirigi ad eum, qui non est sensus verborum perceptiuus, 
+          sed puer qui baptizatur  non potest percipere sensum illorum verborum, 
+          igitur non debet dicere  : <quote>Baptizo  te,</quote> 
+          sed sufficit dicere : <quote>Ego baptizo  Iohannem.</quote></p> 
+        
+        <p>4° Christus dans formam baptisandi <ref><title ref="#mt">Mathei</title> vltimo</ref> 
+          non expressit  istam formam de qua queritur, sed dixit : 
+          <cit>
+            <quote>EUNTES, DOCETE OMNES  GENTES, BAPTIZANTES 
+              EOS IN NOMINE PATRIS ET FILY  ET SPIRITUS SANCTI.</quote>
+            <bibl></bibl>
+          </cit> 
+          Cum ergo sacramenta habeant ab eo efficaciam et ab ipsius institucione 
+          habeant materiam et formam sequitur quod praedicta forma non sit praecisa forma baptismi.</p> 
+        
+        <p>5to Graeci vero baptizant  et non seruant istam formam, sed dicunt : 
+          <cit>
+            <quote>Baptizetur  seruus Christi in nomine Patris et Filij et Spiritus sancti.</quote>
+          </cit> 
+          Igitur praedicta forma de qua quaeritur non est praecisa forma et necessaria.</p> 
+        
+        <p>Sexto omne in quo persone diuinae non conueniunt sed distingwuntur  
+          debet de eis pluraliter dici, sed persone distingwuntur  quantum ad nomen, 
+          quia Filio , non Patri non conuenit nec econuerso igitur non debet dici: 
+          <quote>IN NOMINE PATRIS,</quote> 
+          etcetera, sed in nominibus Patris et Fily etcetera.</p> 
+        
+        <p>Septimo Ecclesiam interest eiusdem potestatis cuius fuit primitiua 
+          Ecclesia quantum ad sacramentorum dispensacionem ; 
+          sed primitiua Ecclesia mutabit formam baptismi. 
+          Baptizant  enim in nomine Christi, sicut legitur in  <title ref="#act">Actis</title>, 
+          igitur eciam posset mutare formam : igitur non est 
+          <cb ed="#T" n="38rb"/>
+          illa omnino necessaria. Suo modo videtur quod posset dici: 
+          <quote>Ego te baptizo in nomine Trinitatis.</quote> 
+          Illud enim implicite significat totam Trinitatem, 
+          et ita non requiretur explicatio trium nominum personalium, 
+          scilicet Patris et Fily  et Spiritus sancti.</p> 
+        
+        <p>Octauo 2m <ref><name ref="#Augustine">Augustinum</name> 5° <title ref="#deTrinitate">De Trinitate</title> capitulo 7° :</ref> 
+          idem est esse patrem et esse genitorem, 
+          et ergo equivaleret si diceretur in nomine genitoris 
+          et geniti et spirati sicut in nomine Patris et Fily  et Spiritus sancti. 
+          Et ita videtur quod dicta forma non sit praecisa forma baptismi nec necessaria, 
+          cum posset multis modis uel argumenta praeferendum  variari.</p> 
+        
+        <p>Nono dicit <name ref="#Ambrose">Ambrosius</name> - et habetur in littera - 
+          quod si vnum in sermone apprehendas, 
+          scilicet Patrem, uel Filium, uel Spiritum sanctum fide, 
+          autem non Patrem nec Filium nec Spiritum sanctum abneges 
+          plenum est fidei sacramentum, plenum est baptisma ; 
+          igitur licet de consweta  forma aliquid mutare, ymo  subtrahere.</p> 
+        
+        <p>In oppositum est quod dicitur extra de baptismo et eius effectum causando : 
+          si quis puerum ter in aquam merserit <quote>in nomine Patris et Fily  et Spiritus sancti. Amen,</quote> 
+          et non dixerit : <quote>Ego baptizo  te in nomine Patris et Fily  et Spiritus sancti,</quote> 
+          non est puer baptizatus.</p> 
+        
+        <p>Notandum primo quod materia et forma in sacramentis non accipitur proprie, 
+          sicut in naturalibus vbi unum est subiectum alterius, 
+          et aliud est ipsi subiecto inherens et aliquando cum eo per se vnum constituens,
+          <cb ed="#T" n="38va"/>
+          sed accipiuntur metaphorice  et per quandam similitudinem. 
+          Vnde secundum <name ref="#Scotus">Scotum</name> quando sunt duo quasi 
+          fundamenta ad aliquod sacramentum requisita et vnum eorum est principalius 
+          et actualius, aliud vero potencionalius, aut vnum eorum est spiritualius 
+          et aliud minus spirituale, tunc illud actualius et spiritualius solet metaphorice  
+          dici forma respectu alterius, et aliud scilicet minus principale. 
+          Et minus spirituale dicitur materia respectu prioris, 
+          et quia ad sacramentum baptismi requiruntur ablucio et aqua et requiruntur cetera verba, 
+          et illa verba sunt principaliora in significando quam ablucio aut quam aqua, 
+          ut docet <ref><name ref="#Augustine">Augustinus</name> in primo <title ref="#deDoctrinaChristiana">De doctrina christiana</title>.</ref> 
+          Igitur propter ipsam principalitatem verba dicuntur <mentioned>forma sacramenti</mentioned> 
+          et ablucio uel aqua dicuntur <mentioned>eius materia.</mentioned> 
+          Similiter verba sunt spiritualia quam ablucio aut aqua, 
+          igitur ratione illius item verba habent se ut forma, etcetera, 
+          cetera sensibilia ut materia. Ita intelligatur in alys  sacramentis : 
+          vbicumque enim aliquod sacramentum concurrunt verba et quedam alia sensibilia. 
+          Tunc propter praedictas duas metaphoras  verba dicuntur forma et cetera sensibilia dicuntur materia.</p> 
+        
+        <p>2° notandum quod - ut dicit <name ref="#Scotus">Scotus</name> - in sacramentis est 
+          aliquod necessarium similiter, scilicet ex parte sacramenti, 
+          ut est illud quod , non existente, omnino non est sacramentum et aliquod 
+          <cb ed="#T" n="38vb"/>
+          est necessarium aliqualiter, scilicet ex parte ministri, 
+          ut est illud sine quo minister dispensando sacramentum non potest vitare 
+          peccatum aut quo obmisso ipse peccat.</p> 
+        
+        <p>Conclusio prima : forma de qua queritur est necessaria secundo modo : 
+          cuilibet ministro cui competit ex officio baptizare  
+          et qui subiectus est Ecclesiae romane tenetur necessario illam formam 
+          seruare quam ipsa romana imposuit ministris eis. 
+          Et talis est ista forma in quaestione posita, 
+          ut patet in argumento in oppositum questionis arguto. 
+          Nec aliquis huius minister cui conuenit ex officio baptizare  
+          et qui est subiectus Ecclesiae romane potest se in hoc per ignoranciam excusare, 
+          quia quilibet tenetur scire illud quod est sui officij, 
+          ad quod ipse est deputatus secus. Forte est de eo qui baptizat  
+          et non ex officio, sicut muliercule aliquando in vasu necessitatis baptizant , 
+          et illas posset aliquando ignorancia excusare si obmitterent 
+          aliquid non necessario ad integritatem forme requisitum ; 
+          dummodo hoc facerent ex sola simplicitate et ignorantia et non ex malivolencia  
+          aut ex imputabili negligentia. Non autem sic de ministris uel curatis ad hoc deputatis quibus  
+          non licet ignorare que ad eorum officium pertinent. 
+          Et dico notanter minister subiectus Ecclesiae romane, 
+          quia Greci qui modo non obediunt Ecclesiae 
+          <cb ed="#T" n="39ra"/>
+          romane non seruant illam formam de qua quaeritur questio, 
+          scilicet: <quote>Ego baptizo  te in nomine Patris et Fily,</quote> 
+          etcetera, sed significat istam : 
+          <cit>
+            <quote>Baptizetur  seruus Christi in nomine Patris et Fily,</quote>
+          </cit> 
+          etcetera. Et illa forma fuit eis instituta ex certa causa - 
+          ut dicetur posterius - et quamdiu illa causa durauit poterant ea 
+          licite vti, et si eandem formam Ecclesia romana quantum ad eos 
+          non prohibuit uel - si quo ad eos permisit - eam et eis concessit. 
+          Tunc licitum videtur eis istam formam continuare. 
+          Et patet quomodo forma de qua quaeritur est 
+          2° modo necessaria, scilicet ex parte ministri subiecti Ecclesiae romane.</p>
+        
+          <p>Sed de forma necessaria primo modo, scilicet ex parte sacramenti, 
+            est conclusio 2a, quod forma de qua queritur questio non est quo 
+            ad omnia illa verba primo modo, scilicet quo ad veritatem et efficaciam 
+            sacramenti probatur, quia aliquibus verbis illius forme obmissis 
+            aut mutatis esset verum adhuc et efficax sacramentum. 
+            Igitur non sunt omnia praecisa ut in forma illa ponuntur. 
+            Primo modo necessaria tenet consequentia ex notabili 
+            2° et antecedens probatur quia Greci vere baptizant  
+            et non seruant praecise praedictam formam de qua questio quaerit, 
+            ut dictum fuit praeuius. Quia autem Graeci sub sua forma vere baptizant  
+            patet extra de baptismo capitulo. 
+            Licet ibi dicatur quod nec Graeci apud Latinos nec Latini apud 
+            <cb ed="#T" n="39rb"/> 
+            Graecos sunt rebaptizandi , diceret aliquis que ergo verba sunt 
+            absolute necessaria ad hoc, quod sacramentum baptismi sit verum et efficax sacramentum. 
+            
+            Pro isto est notandum quod 2m doctores in forma baptismi 
+            sunt aliqua verba pertinentia ad eam principaliter, 
+            alia autem pertinent ad eam non principaliter : 
+            sunt illa que exprimunt ministrum et actum baptizandi  et personam  suscipientem baptismum. 
+            Dicitur ergo primo quod vnum illorum, scilicet ministrum non est simpliciter necessarium 
+            aliquo verbo exprimi neque per pronomen cuiuscumque persone, 
+            quia expressio  ministri baptizantis  non est in verbis Christi <ref><title ref="#mt">Mathei</title> vltimo</ref> 
+            dicentis: 
+            <cit>
+              <quote>BAP<supplied>TI</supplied>ZANTES  EOS IN NOMINE PATRIS ET FILY  ET SPIRITUS SANCTI.</quote>
+              <bibl></bibl>
+            </cit> 
+            Secundo dicitur quod alia duo, scilicet actum baptizandi  
+            et suscipientem baptisma necessarium est exprimi ita quod 
+            si non exprimerentur non esset baptismus et ratio huius necessitatis, 
+            quia talia exprimuntur in verbis Christi 
+            <ref><title ref="#mt">Mathei</title> vltimo</ref> dicentis: BAPTIZANTES . Ecce actus baptizandi  eos, ecce suscipiens baptismum in nomine Patris et Fily  et Spiritus sancti. 
+            
+            3° dicitur quod - licet ad sacramentum necessario requiratur quod exprimatur actus ut suscipiens - 
+            tamen non oportet quod determinate exprimantur istis verbis quibus nos exprimimus, 
+            scilicet quod actus exprimatur per verbum indicativum modum et suscipiens 
+            per pronomen secunde persone. Sed potest actus exprimi per verbum 
+            <cb ed="#T" n="39va"/> 
+            alterius modi et persone et suscipiens per nomen alterius persone, 
+            quia Graeci vere baptizant , ut dictum est, et tamen actum non exprimunt 
+            verbo indicatiuo sed optatiuo, et in 3a persona et suscipientem non 
+            exprimunt per pronomen 2e persone, sed per nomen 3e persone, ut patet in eorum forma. 
+            Verba autem pertinencia ad baptismum principaliter sunt illa: 
+            In nomine Patris et Fily  et Spiritus sancti, per que fit invocacio benedicte Trinitatis. 
+            
+            Et circa ista dicitur quod invocacio sancte Trinitatis 
+            necessario requiritur ad veritatem et efficaciam baptismi : 
+            siue enim illa non esset vnquam baptismus. 
+            Et patet per <name ref="#Lombard">Magistrum</name> in littera qui 
+            eciam probat auctoritate <name>Zachariae</name> proprie dicentis: 
+            <cit>
+              <quote source="http://scta.info/resource/gd-p3d4-d1e1331">Firmissime praeceptum est in synodo angelorum ut quicumque sine 
+              invocatione Trinitatis immersus  fuerit sacramentum 
+              regenerationis non haberet.</quote>
+            </cit> 
+            Et subdit Papa quod omnino verum est, 
+            licet autem ad baptismum necessario requiratur invocatio Trinitatis ; 
+            est tamen dubium de verbis per que invocanda est, an scilicet illa verba, 
+            in nomine Patris et Fily et Spiritus sancti sint huiusmodi et sint sic de 
+            necessitate pertinentia ad formam baptismi, quod non liceat ea aliquo modo variare. 
+            
+            De alys  enim verbis ministrum actum et suscipientem ex pertinencia satis dictum est praeuius, 
+            sed de istis nominibus diuinarum personarum, de quibus dubium est motum, 
+            est notandum prout colligitur ex <name ref="#Aquinas">sancto Thoma</name>, 
+            <cb ed="#T" n="39vb"/> 
+            <name ref="#Scotus">Scoto</name> et <name ref="#Bonaventure">Bonauentura</name>, 
+            <name ref="#ThomasStrasbourg">Thoma de Argentina</name> et ceteris doctoribus. 
+            Quod, sicut in rebus corporalibus 4or modis contingunt mutaciones, 
+            scilicet in substancia, in quantitate, in qualitate et vbi, 
+            sic etiam circa verba baptismi potest 4or modis fieri mutacio. 
+            
+            Primo secundum substanciam verborum, ut quod illa verba dimittentur 
+            et pro eis alia ponantur aut saltem aliquod eorum imitatur  et aliud pro eo ponatur. 
+            
+            Et hoc contingit dupliciter : vno modo sic, quod mutentur verba et tamen manet omnino eadem significacio 
+            - sicut fit quando illa verba de Latino trasferuntur in Dewtonicum  uel in aliud quodcumque ydioma  
+            - et tunc nulla fit per hoc mutacio circa baptismum nec aliquod est impedimentum quo ad sacramentum, 
+            quia in quacumque lingwa  proferatur forma a Christo tradita et ab Ecclesia determinata vere confertur baptismus. 
+            Quia tunc non mutatur forma nisi vocaliter, 
+            et nullo modo 2m significatum aut modum significandi peccaret tamen qui 
+            - ex leuitate aut sine rationabili causa -  ydioma  in quo in tali Ecclesia conswetum  
+            est baptizare  mutaret in aliud ydioma  - et dicit <name ref="#Scotus">Scotus</name> quod forte non licet baptizanti  
+            ex officio et solempniter vti verbis cuiuscumque alterius lingwe  
+            sicut nec in confectione Ewcaristiae, quia ordinauit Ecclesia romana 
+            quod ecclesiastica officia dicantur et sacramenta ministrantur in latino grammatico 
+            <cb ed="#T" n="40ra"/> 
+            et hoc racionabiliter, quia illud distinctius potest scribi et proferri. 
+            
+            Alio modo potest in forma verborum fieri mutatio 2m substantiam  
+            ita quod non solum verba mutentur, sed etiam significacio, 
+            et hoc iterum diupliciter. 
+            
+            Primo quod loco verborum aut alicuius eorum ponatur aliud omnino disparatum  
+            quod ad vocem et quod ad significatum, aliud existens a voce pro qua ponitur, 
+            ut si loco illius tocius in nomine Patris et Fily et Spiritus sancti poneretur 
+            hoc complexum: in nomine <name ref="#Mary">sanctae Marie</name> et <name>beati Nicolay</name>  
+            uel loco Patris poneretur hic  lapis, aut loco Fily poneretur <name ref="#Mary">Mariae virginis</name> 
+            et aliud simile. Vt si diceretur: 
+            Ego te baptizo  in nomine <name>Mariae virginis</name> et <name>beati Nicolay</name>, 
+            aut diceretur Ego te baptizo in nomine Patris et <name ref="#Mary">Mariae virginis</name>, 
+            tunc mutatur forma in substantia quia ponuntur ibi alia verba non solum voce, 
+            sed etiam quo ad significatum, ut notum est, 
+            et quando sic fit, tunc non est baptismus, quia forma omnino non seruatur. 
+            
+            Secundo fit mutatio secundum substantiam quo ad vocem et quo ad significatum sic, 
+            quod loco alicuius nominis personalium ponatur aliquid non idem significans, 
+            sed alio modo ut quod loco ipsorum nominum personalium ponantur nomina nocionalia, 
+            vt dicatur : 
+            <quote>Ego baptizo  te in nomine genitoris et geniti et spiritati.</quote> 
+            Et tunc non est baptismus, 
+            quia non significatur forma in hys  que necessario requiruntur ad eam.  
+            Illa 
+            <cb ed="#T" n="40rb"/>
+            enim nomina : genitoris, genitus, spiritatus  
+            non significant personas diuinas per modo subsistentiarum, 
+            qualiter tamen Christus voluit personas in forma baptismi significari, 
+            et taliter eas expressit  <ref><title ref="#mt">Mathei</title> vltimo.</ref> 
+            Diceret aliquis : illa nomina - genitoris et genitus, etcetera - 
+            idem significant cum istis Pater, Filius, etcetera ; 
+            igitur per illa potest fieri baptismus sicut per alia videtur quod, 
+            licet idem significent, non tamen eodem modo, 
+            quia ut dixi illa nomina genitoris, etcetera significant actus nocionales. 
+            Alia autem, scilicet Pater , Filius, significant personas diuinas expressim  
+            et eis virtutem dedit <ref><title ref="#mt">Mathei</title> vltimo,</ref> 
+            cum Ihesus  apostolos ad baptizandum misit : ad Eius officium solemniter 
+            baptizandi  contulit. Sic dicunt <name ref="#Aquinas">Sanctus Thomas</name>, 
+            <name ref="#Bonaventure">Bonauentura</name>, <name ref="#Scotus">Scotus</name>, 
+            <name ref="#Aureoli">Petrus Aureoli</name> et doctores theologi, 
+            sed <name>Hostiensis</name> dicit oppositum. 
+            Dicit enim : qui baptizat  in nomine genitoris et geniti et sacri flaminis, 
+            licet peccet mutando formam Ecclesiae, vere tamen baptizat . 
+            Probat hoc, quia non refert vtrum ex equipollentibus  aliquod dicatur, 
+            modo certum est quod pater et genitor equipollerent  filius et genitus. 
+            Sed ad hoc respondet quidam doctor, scilicet <name ref="#RogerBacon">Bacon</name>, 
+            dicens quod illud dictum non refert vtrum ex equipollentibus  idem dicatur. 
+            Verum est et tenet in statutis, sed non tenet in sacramentis. 
+            Si vero loco huius tocius in nomine Patris et Fily et Spiritum sancti 
+            poneretur nomine Trinitatis, ut diceretur : <quote>Ego te baptizo in nomine Trinitatis</quote> 
+            <cb ed="#T" n="40va"/>
+            aut poneretur loco eius nomen Christi, dicendo : 
+            <quote>Ego te baptizo in nomine Christi,</quote> 
+            an tunc esset verus baptismus, de hoc diceretur  
+            posterius in solucione racionum et hoc sit dictum de mutatione forme quo ad substantiam. 
+            
+            2° modo contingit mutacionem formae fieri in quantitate, 
+            et hoc fit dupliciter. Vno modo ad formam addendo et nichil ei subtrahendo, 
+            et hoc tripliciter contingit fieri : primo sic, 
+            quod illud additum fit vna condicio non constans siue non existens, 
+            ut si sacerdos simpliciter dicat : 
+            <quote>Ego baptizo te si sum episcopus in nomine Patris et Fily  et Spiritus sancti.</quote>
+            
+            2° sic, quod illud additum sit aliquid distrahens aut diminuens diuinae naturae 
+            dignitatem uel personarum equalitatem, ut dicat : 
+            <quote>Ego te baptizo  in nomine Patris maioris et Fily  minoris,</quote> 
+            etcetera, vel si additum esset repugnans persone cui additur, 
+            ut dicendo in nomine Patris geniti et Fily  genitoris. 
+            
+            3° sic, quod illud additum non sit diminuens, nec distrahens, 
+            nec repugnans persone cuius nomini additur. 
+            Tamen ille qui addit intendit per hanc nouam formam inducere, 
+            credens  formam hucvsque ad Ecclesiam obseruatam non sufficere. 
+            Illis tribus modis semper tollitur baptismi virtus quia, quandocumque 
+            illo modo aliquid additur ad formam aut tali intencione, 
+            tunc non est baptismus nec ille est baptizatus. 
+            Si autem tale additum non distrahit, nec diminuit nec etiam baptizans, 
+            <cb ed="#T" n="40vb"/>
+            per hoc intendit nouam formam inducere : apponit illud ex simplicitate sola aut deuocione, 
+            ut sepe faciunt muliercule cum in casu necessitatis paruulos baptizant . 
+            Tunc per hoc non tollitur virtus et veritas baptismi, 
+            ut si diceretur: 
+            <quote>Ego te baptizo in nomine Patris omnipotentis et Fily  infinite sapientis et Spiritus sancti infinite boni,</quote> 
+            aut diceretur: 
+            <quote>Ego te baptizo in nomine Patris et Fily  et Spiritus sancti et beatae Mariae virginis,</quote> 
+            aut alio simili modo. Tunc esset vere baptismus ex quo illud additum non est distrahens, 
+            nec diminuens, nec persone cui additur repugnans, et ex quo baptizans non intendit per hoc nouam formam inducere, 
+            sed facit ex simplicitate aut deuocione. 
+            
+            2° modo fit mutacio forme in quantitate et hoc ipsi forme aliquid subtrahendo et nichil loco eius reponendo, 
+            et tunc uel subtrahitur diccio integra necessario requisita ad formam baptismi 
+            - et tunc non est baptismus - uel subtrahitur aliqua dictio non necessario requisita 
+            ad formam baptismi - et tunc manet verus baptismus, licet peccet qui subtrahit -. 
+            Et dicit <name ref="#Scotus">Scotus</name> quod si subtrahitur non integra dictio, sed per sincopam  
+            subtrahitur tantum sillaba aut littera etiam a dictione  
+            necessario requisita et non fit hoc maliciose, scilicet ad introducendam nouam formam, 
+            tunc non destruitur per hoc forma baptismi. 
+            <cb ed="#T" n="41ra"/>
+            Non enim voluit Deus omnino determinare hominem ad verba 
+            in sacramentis vltra istum modum  quo verba sufficiunt ad exprimendum 
+            mentis contemptum, sed cum syncopa  bene intelligit, audiens loquentis conceptum. 
+            Et subdit <name ref="#Scotus">Scotus</name> quod tamen hoc est magis hic cauendum in alys  
+            verbis propter reuerentiam sacramenti. Et item subiungit : 
+            <cit>
+              <quote>Non auderem dicere quod non vitans illam sincopacionem peccet mortaliter, 
+              cum non sincopat ex contemptu et maliciose, sed ex quadam infirmitate lingwe  
+              uel etiam ex inconsideracione humana que non cauet in omnibus et quantum posset.</quote>
+            </cit> 
+            
+            3° contingit fieri mutacionem forme quo ad qualitatem puta verba incorrecte proferendo, 
+            vel ea frangendo, uel corrumpendo, ut etiam iam dictum fuit. 
+            Potest autem hoc dupliciter contingere. 
+            
+            Primo voluntarie et maliciose, 
+            et tunc taliter faciens non tenet formam baptismi nec videtur intendere, 
+            quod intendit Ecclesia : per consequens non baptizat. 
+            
+            2° modo contingit hoc ex ignorancia ydiomatis  aut ex inpotencia  
+            loquendi aut etiam ex inconsideratione, et hoc adhuc dupliciter contingit. 
+            
+            Primo modo sic, quod huiusmodi corruptio et imitacio verborum 
+            non est tanta quando maneat adhuc significacio verborum ; 
+            tunc est adhuc verum sacramentum et - ut dixi praeuius ex verbis <name ref="#Scotus">Scoti</name> 
+            - tales 
+            <cb ed="#T" n="41rb"/>
+            qui propter lingwe  impedimentum balbuciendo verba corrumpunt 
+            cauere dicunt quantum possunt et conari ad perfecte et integre proferendum, 
+            ne contingat eos circa  sacramentum negligenter agere et grauiter peccare, 
+            cum tam dignam rem et salutarem tractant tam inaduertenter. 
+            
+            2° modo contingit illa mutatio formae in qualitate ex ignorancia, 
+            aut in potencia loquendi, aut ex inaduertencia, 
+            et illo modo quod fit talis et tanta mutacio et corruptio quod etiam mutatur significacio, 
+            ut verbi gratia debet dicere pater et dicit patria. 
+            Tunc uel est tanta corruptio quod non solum mutatur significatio quantum 
+            ad propriam nominis impositionem, sed etiam quantum ad vsus adcomodationem , 
+            ita quod communiter non potest intelligi quid intendat ille qui loquitur - 
+            tunc non est verus baptismus - vel, si mutetur significatio quantum ad nominis imposicionem, 
+            manet tamen vsus adcomodacio . Putatur quod adhuc communiter bene intelligitur quid intendat 
+            iste qui loquitur sicut multociens audimus illitteratos  incongrue et incorrupte loqui, 
+            et tamen bene concipimus quod volunt eciam quantum ad singula verba. 
+            Et in illo casu est verus baptismus, quod patet per canonem. 
+            Retulerunt <ref>de consecratione distinctione 4a,</ref> 
+            vbi dicitur de quodam sacerdote qui, cum esset graecus et in latina Ecclesia baptizaret , 
+            voluit se eidem Ecclesie conformare quomodo ad ydioma
+            
+            <cb ed="#T" n="41va"/> 
+            <lb ed="#T"/>et baptizauit  dicens : <quote>In nomine 
+            <lb ed="#T"/>Patria  et Filia  et Spiritu sancta 
+              <lb ed="#T"/>et Pape.</quote> Super hoc requisitus 
+            <lb ed="#T"/>respondit quod, si fecit hoc ex 
+            <lb ed="#T"/>impericia lingwe  latine, non 
+            <lb ed="#T"/>intendens errorem inducere, 
+            <lb ed="#T"/>non sunt baptizandi  denuo 
+            <lb ed="#T"/>quos baptizauit.</p> 
+        
+        <p>4° modo contin<lb ed="#T"/>git 
+          in verbis forme fieri muta<lb ed="#T"/>cionem 
+          quo ad vbi siue ad in<lb ed="#T"/>star 
+          mutacionis localis, et 
+          <lb ed="#T"/>hoc potest fieri dupliciter. Vno modo 
+          <lb ed="#T"/>per transposicionem, alio modo per interposicionem. 
+          <lb ed="#T"/>Per transposicionem contingit dupliciter : primo 
+          <lb ed="#T"/>ex certa <corr><del rend="strikethrough">causa</del></corr> malicia, ut cum 
+          <lb ed="#T"/>baptizans  transponit aliquid 
+          <lb ed="#T"/>in forma intendens illud sic 
+          <lb ed="#T"/>transpositum esse veram formam et 
+          <lb ed="#T"/>praecisam et volens per hoc in<lb ed="#T"/>ducere 
+          nouum ritum. Et tunc non 
+          <lb ed="#T"/>intendit vti forma qua Ecclesia 
+          <lb ed="#T"/>vtitur, et ideo non <choice><orig>baptisat</orig><reg>baptizat</reg></choice>.</p> 
+        
+        <p>2° modo 
+          <lb ed="#T"/>contingit huius trasposicio ex sim<lb ed="#T"/>plicitate 
+          aut lapsu lingwe , et hoc fit dupliciter.</p> 
+        
+        <p>Vno modo sic, quod huiusmodi trans<lb ed="#T"/>posicio 
+          totaliter mutat sensum 
+          <lb ed="#T"/>orationis, puta si dicat : <quote>Ego Patris 
+            <lb ed="#T"/>te baptizo , Fily , in nomine Spiritus 
+            <lb ed="#T"/>sancti</quote> uel aliquo tali modo. Et 
+          <lb ed="#T"/>tunc non est baptismus eo, quod talis 
+          <lb ed="#T"/>transposicio aufert  conceptum 
+          <lb ed="#T"/>orationis secundum quem est instituta.</p>
+        
+          <p><lb ed="#T"/>2° modo fit sic, quod ex transposicione non 
+          <lb ed="#T"/>mutatur suam orationis. Tunc est ve<lb ed="#T"/>rus 
+          baptismus, vt si dicat 
+          <lb ed="#T"/>quis : <quote>Ego baptizo  te in Patris 
+            <lb ed="#T"/>et Fily  et Spiritus sancti nomine,</quote> uel 
+          <lb ed="#T"/>dicat <quote>Ego te baptizo in Fily  
+          <lb ed="#T"/>et Patris et Spiritus sancti nomine.</quote> 
+          <lb ed="#T"/>Cum enim illud fit sine <choice><orig>dogma<lb ed="#T"/>tisatione</orig><reg>dogma<lb ed="#T"/>tizatione</reg></choice> 
+          erroris non impedit
+          
+          <cb ed="#T" n="41vb"/>
+            
+          <lb ed="#T"/>sacramentum et racio est, quia 
+          <lb ed="#T"/>in ipsis verbis intelligitur ordo Per<lb ed="#T"/>sonarum, 
+          sic scilicet quod Filius a Patre 
+          <lb ed="#T"/>procedit. Et dicit <name rend="#Scotus">Scotus</name> 
+          <lb ed="#T"/>quod, licet esset congruum in proferendo 
+          <lb ed="#T"/>nomina Personarum seruare ordinem 
+          <lb ed="#T"/>qui est in origine earum et 
+          <lb ed="#T"/>licet hoc sit eciam necessarium quo 
+          <lb ed="#T"/>ad ministrum, tamen non videtur omnino 
+          <lb ed="#T"/>necessarium quo ad sacramentum, quia 
+          <lb ed="#T"/>Persone, quocumque ordine nominantur, 
+          <lb ed="#T"/>sunt vnum efficiens principale in baptismo.</p> 
+        
+        <p>2° modo contingit 
+          <lb ed="#T"/>fieri mutationem forme per interpo<lb ed="#T"/>sicionem 
+          ut, si sacerdos immer<lb ed="#T"/>gendo  
+          diceret : Ego te baptizo , 
+          <lb ed="#T"/>ista aqua est nimis frigida. 
+          <lb ed="#T"/>In nomine Patris et Fily  et Spiritus 
+          <lb ed="#T"/>sancti hoc potest fieri dupliciter, quia 
+          <lb ed="#T"/>aut fit ita longa interposicio 
+          <lb ed="#T"/>quia 2m communem intelligen<lb ed="#T"/>tiam 
+          esset omnino disconcinnata 
+          <lb ed="#T"/>locucio - et quod humano modo 
+          <lb ed="#T"/>indicatur, quod accio baptismalis 
+          <lb ed="#T"/>sit penitus disconcinnata - vel, 
+          <lb ed="#T"/>cum mora et interposicio tanta 
+          <lb ed="#T"/>est quod disconcinnat intencionem, 
+          <lb ed="#T"/>tunc forma verborum debet reincipi, 
+          <lb ed="#T"/>alias non <corr><del rend="strikethrough">esse ve</del><add place="inLine">esset</add></corr> verus 
+          <lb ed="#T"/>baptismus.</p> 
+        
+        <p>Si autem interueniat par<lb ed="#T"/>uula 
+          morula per interposicionem 
+          <lb ed="#T"/>alicuius breuis sermonis uel <choice><orig>per sternu<lb ed="#T"/>tationem</orig><reg>prosterna<lb ed="#T"/>cionem</reg></choice>, 
+          tunc erit verus baptismus 
+          <lb ed="#T"/>et non oportet formam reincipere dummodo 
+          <lb ed="#T"/>talis imposicio non fiat in 
+          <lb ed="#T"/>fraudem et ex malicia cum 
+          <lb ed="#T"/>intencione, introducendo 
+          <lb ed="#T"/>nouam formam.</p> 
+        
+        <p>Et hoc vvlt etiam 
+          <lb ed="#T"/><name>Hostiensis</name>, dicens quod si interponatur 
+          <lb ed="#T"/>mora compendiosa ut spuen<lb ed="#T"/>do, 
+          uel <choice><orig>thiussiendo</orig><reg>tussiendo</reg></choice>,  uel oscitando
+          <cb ed="#T" n="42ra"/>
+            non impeditur baptismus, nec oportet reincipere verba.</p> 
+        
+        <p>Ad raciones, ad primam dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> quod agens principale in baptismate significatur in invocacione Trinitatis que invisibiliter  agit effectum gratuitum in anima, et ideo circa actum exteriorem materialem ponitur agens secundarium, scilicet minister sacramenti.</p> 
+        
+        <p>Ad 2m respondet <name ref="#Scotus">Scotus</name> quod, ut ex dictis patet, non est simpliciter de necessitate formae ille n<supplied>e</supplied>cessarius, ergo  siue quod ponatur implicite, siue quod intelligatur implicite in verbo primae persone. Si enim in forma nec implicite, nec explicite poneretur adhuc esset verus baptismus. Tamen quantum ad Ecclesiam latinam ad minus post tempus <name>Alexandri</name>  necesse est ministro exprimere hic  ergo : si enim obmitteret, grauiter peccaret.</p> 
+        
+        <p>Ad 3um dicitur quod maior est vera de illis verbis que proferuntur solum causa significacionis : talia enim frustra proferentur ad res non perceptiuas ad sensus eorum, non est autem maior verba de illis que proferuntur causa efficiendi ut sit in sacramentis, vbi verba proferuntur propter efficere effectum gratuitum in anima. Et talia oportet proferri ad res eis non intelligentes, ymo  ad res non sencientes. Et ideo dicimus ad <title ref="#ps">Psal<supplied>mos</supplied></title> : <quote>EXORCIZO TE CREATURA SALIS.</quote></p> 
+        
+        <p>Ad 4m dicitur 2m <name ref="#Aquinas">Sanctum Thomam</name> et <name ref="#Bonaventure">Bonauenturam</name> quod Dominus in verbis illis non intendit principaliter tradere formam baptismi, quia praeuius eam tradidit
+              
+          <cb ed="#T" n="42rb"/>
+              apostolis quando etiam ante passionem Domini baptizabant , ut dicitur <ref><title ref="#io">Johannis</title> 3°.</ref> Sed per illa verba intendebat eis percipere actum baptizandi  et committere offitium publice baptizandi  2m formam hanc praeuius eis traditam. Et ideo, licet illa forma communis non ponatur in verbis illis expresse  quomodo  ad omnia Ecclesiae, tamen eam ex illis verbis elicuit et ab apostolis eam recepit. Vel, secundum <name ref="#Scotus">Scotum</name>, Christus Dominus expressit  verba que sunt principaliora in forma illa ut sunt illa per que fit invocacio sanctae Trinitatis; expressit  etiam minus principalia uel que significant actum et eis suscipientem. Prima  semper seruanda sunt in forma qua Dominus ea expressit , sed quo ad secundam dimisit in potestatem Ecclesiae determinare, quibus verbis, scilicet principale uel 3e persone indicatiui uel optatiui  modi exprimeretur actus et persona suscipiens. Et Ecclesia latina elegit exprimere suscipientem in secunda persona et actum indicatum , ut per hoc notaret ministrum vere conferre sacramentum, Ecclesia vero graeca elegit aliter, scilicet exprimere suscipientem in 3a persona et actum optatum, et hoc ex causa racionali quam tunc habuerunt, ut dicetur in sequenti solucione.</p> 
+        
+        <p>Ad 5m dicitur quod ipsi seruant omnia que sunt de essencia forme, ut fuit in quaestione declaratum, sed variant accidentalia quia obmittunt personam
+              
+          <cb ed="#T" n="42va"/>
+              baptizantem  et exprimunt actum verbo optatiuo. Vbi nos exprimimus indicatiue, et suscipientem exprimunt in 3a persona et nos in secunda, et huius causam scribit apostolus Prime ad Corinthios 3° : HEC DICO, QUOD VNUSQUISQUE VESTRUM DICIT : EGO QUIDEM SUM PAULI ET EGO APOLLO . Gloriabatur enim de ministris baptismi qui eos baptizauerunt  quasi istis ministris baptismus adscribendus  esset est super hoc. Redarguit eos apostolus dicens : DIVISUS EST CHRISTUS. Propter hoc ordinatum fuit inter eos ad hoc scisma tollendum ne minister exprimeretur nec actus in indicatiuo, sed in optatiuo modo, quia sic minister non significabatur ut actor baptismi, sed tantum ut minister orans et desiderans effectum baptismi conferri a Deo. Ordinatum eciam fuit inter eos ut, persona suscipiens, non exprimeretur in secunda persona sed in 3a , quasi, illud quod recipit non praecise reciperet ab aliquo sermone sibi dirigente. Addit Scotus quod melius potuisset suscipiens expressus  fuisse nomine proprio quod sub hoc complexo  seruus Christi, quia non baptizatur seruus Christi, sed baptizatur quis ut fiat seruus Christi loquendo de seruicio spirituali, quod Christianus est seruus Christi.</p> 
+        
+        <p>Ad 6m dicitur secundum <name ref="#Aquinas">Sanctum Thomam</name> quod vox non dicitur nomen nisi 2m quod faciat  noticiam rei ; non enim dicitur quasi notamen, habemus autem noticiam de Trinitate per fidem et quia est vna fides
+              
+          <cb ed="#T" n="42vb"/>
+              et vna professio fidei, quamuis sint diuerse voces significantes tres personas. Et ideo non dicitur in nominibus, sed in nomine quasi in invocacione Trinitatis que fit per confessionem exteriorem interioris fidei. Nam - ut dicit Magister in littera - ibi invocatur Trinitas ut invisibiliter operetur in illius anima per se, sicut exterius operatur  visibiliter per ministrum.</p> 
+        
+        <p>Ad 7m dicitur quod apostoli in primitiua Ecclesia baptizabant  in nomine Christi, ut habetur <ref><title ref="#act">Actuum</title> 2° et 10°,</ref> et hoc fuit non ex propria apostolorum auctoritate, sed fuit ex diuina dispensacione que tunc isti verbo dedit virtutem et illius fuit vna racio, quia hoc nomen – Christus - implicite importat personas diuinas per quandam correspondenciam effectus ad causam. Hoc enim nomen - Christus - significat Filium qui 2m naturam humanam vnctus est, et dat intelligere Patrem a quo vnctus est et Spiritum sanctum quo vnctus est, et sic implicite concordabat cum forma praesenti. Alia ratio fuit quia non Christi fuit ignotum et contumeliosum utpute crucifixi, igitur uel notum fieret et publicaretur ac in reuencia haberetur apostoli tunc temporis eo vsi sunt ex dispensacione diuina. 2° dicunt doctores : qui nunc sic baptizaret, grauiter peccaret. Patet quia legem superioris nullus inferior potest reuocare neque simpliciter, nec ad tempus. Sed lex de baptizando  in illa nostra forma, In nomine Patris et
+              
+          <cb ed="#T" n="43ra"/>
+              Fily  et Spiritus sancti, promulgata fuit a Christo <ref><title ref="#mt">Mathei</title> vltimo.</ref> Igitur pro tempore pro quo Christus eam non reuocat nullus alius potest eam reuocare, sed licet in illa lege dispensauerit pro tempore primitiue Ecclesie eo, quod tunc fuit ratio dispensandi  ut diuulgaretur nomen Christi et fiat hominibus amabile cum eis in illo nomine esset, salus tamen, illa racione cessante, non dispensauit. Igitur nullus inferior pro tempore illo posteriori potest aliquo modo ab illa lege absoluere. Sed diceret aliquis : licet sic sit, quod iam baptizans  in nomine Christi peccaret grauiter, est tamen adhuc dubium an talis esset baptizatus  aut debet rebaptizari . Respondet Bonauentura et idem vult Sanctus Thomas quod sic faciens non baptizaret  nec talis esset baptizatus , sed rebaptizandus  quia, cum sit vnica fides in Ecclesia cuius ibi fit professio vnica debet esse forma baptizandi  quo ad illa principaliora nomina in forma posita, propter hoc tota Ecclesia latina et graeca baptizat  explicite in nomine trium Personarum diuinarum. Forma enim communiter tradita semper manet nisi per forme institutorem fiat pro aliquo tempore dispensacio, forma autem dispensatiue tradita non fuit tradita nisi pro tempore pro quo fuit racio dispensandi, ut scilicet diuulgaretur nomine Christi. Ideo cessante illo tempore dispensacionis manet solum illa forma que
+              
+          <cb ed="#T" n="43rb"/>
+              fuit forma ex institucione. <name ref="#Scotus">Scotus</name> vero dicit quod non audeat dicere quod baptizatus  hoc nostro tempore in nomine esset vere baptizatus , sed nec audet dicere quod non esset baptizatus quia, ut dicit, non legi, vbi illa dispensacio facta tempore apostolorum fuerit, posterius reuocata. Et subdit dicens quod in hoc casu reputet dubium an talis baptizatus  sit, an non. Et dat in hoc bonum et cautum consilium, scilicet quod circa illum tale habeatur remedium sicut in alys  dubys , de quo remedio scribitur extra de baptismo et eius effectu, vbi dicitur de quibus : dubium est an sint  baptizati  an non baptizentur  ex verbis istis. Si baptizatus  es, non te baptizo , sed si non est baptizatus , ego te baptizo  in nomine Patris et Fily  et Spiritus sancti. Et subdit Scotus quod in omnibus dubys  circa sacramenta siue quantum ad materiam, siue quantum ad formam, sunt tres et maxime generales regule quasi ex se note. Prima quod si possibilitas adest via tutissima est eligenda. 2a , si non adest possibilitas via proxima tutissima est eligenda. 3a , cessante impossibilitate, caute est supplendum quod impossibilitas  prohibeat et quod addebatur in illa septima racione, quod sufficeret dicere: “In nomine Trinitatis”. Respondetur quod non, quia Dominus tradendo formam baptismi explicauit ipsas personas, et sic intellexit eas per alios 
+              
+          <cb ed="#T" n="43va"/>
+              explicandas, et hoc etiam omnis Ecclesia tenet, sed per nomen Trinitatis non explicite sed implicite tantum significatur.</p> 
+        
+          <p>Ad octauum patet ex dictis quod licet <mentioned>pater</mentioned> et <mentioned>genitor</mentioned> idem significent, non tamen eodem modo neque 2m eundem conceptum, quia pater significat ‘suppositum diuinum per modum subsistentis’, sed genitor ‘per modum proprietatis’ et ita intelligatur de Filio et genito et ergo non est data eadem vis istis verbis que istis, ut dictum fuit.</p> 
+        
+        <p>Ad nonum respondetur 2m <name ref="#Aquinas">S<supplied>anctum</supplied> T<supplied>homam</supplied></name> quod 2m quosdam sufficit quantum ad invocationem Trinitatis, ut nichil minuatur aut subtrahatur de forma intelligibili quamuis minui possit de forma sensibili, id est exteriori et vocali, quia in vna persona omnes intelliguntur. Et ideo dicebant illi quod quando eciam vna sola persona exprimeretur in forma plenus esset baptismus, si saltem interius in corde esset fides plena et integra de Trinitate. Sed ut subdit <name ref="#Aquinas">Sanctus Thomas</name>, quia fides persone baptizantis uel etiam infidelitas eius nichil prodest, neque etiam nocet ad baptismum qui sit in virtute fidei Ecclesiae. Et ideo communiter dicunt doctores quod oportet in baptizando  omnes tres Personas exprimi, et si vna earum non exprimeretur non esset baptismus, ut etiam dictum fuit praeuius. Ad verbum autem beati <name ref="#Ambrose">Ambrosi</name> multipliciter respondetur : quidam enim dicunt quod, cum <name ref="#Ambrose">Ambrosius</name> dicit : <quote>Plenum est sacramentum,</quote> ponit sacramento pro fide, quia qui vnam solam personam exprimit et confitetur ore, si alias corde
+                
+          <cb ed="#T" n="43vb"/>
+                teneat et credat, plena est fides. Et sic etiam dicit <name ref="#Bonaventure">Bonauentura</name> quod sacramentum fidei ponit pro fide que per sacramentum significatur. Vel dicitur quod, si intelligitur de sacramento, tunc habet locum in casu, scilicet quando - vna sola persona nominata - puer deficeret in manibus sacerdotis : creditur enim quod summus sacerdos sua misericordia supplet defectum, nec aliquo modo dimitteret imperfectum quod bene fuerat inchoatum. Vel intelligitur verbum Ambrosii: in simili casu in quo apostoli in nomine Christi baptizabant , si enim Ecclesia ex familiari consilio Spiritus sancti et racionabili euidenti causa hoc ordinaret, posset fiery  - sicut tunc fiebat in nomine Christi - et illa solucio magis consonat verbis beati Ambrosii. Et adhuc dubium circa formam illam, scilicet an expressio  vocalis verbi sit de quidditate  et essencia baptismi, et videtur quod non, quia dicit Augustinus super Iohannem: “Accedit verbum ad elementum et fit sacramentum” non quia dicitur, sed quia creditur . Igitur si verbum non profert, sed nec mente creditur, fit verum sacramentum. 2° : Christus Dominus baptizatus est sine forma verborum, expressa  igitur ad exemplar eius possumus et nos baptizari  sine vlla expressione  verborum. Respondetur 2m doctores quod necesse est exprimi verbum vocale quia Deus contulit vim verbo vocali, vnde sine forma verborum vocaliter expressa  non est baptismus vllius efficacie. Racio autem quare Dominus voluit verbum exprimi est perfecta fidei professio,
+                
+          <cb ed="#T" n="44ra"/>
+                scilicet ut fit in facto et in verbo, et est etiam perfecta significatio actoris ipsius baptismi, scilicet Verbi incarnati, quod optime significatur per verbum vocale. Item dicit <ref><name ref="#Augustine">Augustinus</name> <title>super Iohannem</title></ref> et allegat <ref><name ref="#Lombard">Magister</name> in littera :</ref> <quote>Verbo baptisma consecratur.</quote> Detrahe verbum et quid aqua nisi aqua et quod intelligat de verbo vocali. Patet quia iterum dicitur in littera, in ipso uerbo aliud est sonus transiens et aliud virtus manens. Ad primum argumentum dicitur quod oportet ibi suppleri aliquid, ut scilicet dicatur : « Accedit verbum ad elementum et fit sacramentum ». Non quia dicitur : « Supple a te tantum », sed quia creditur : « Supple ab Ecclesia : non enim oportet quod credatur a persona baptizante , ut dicetur posterius, sed sufficit fides Ecclesiae. Ad 2m dicitur quod non est simile de baptismo Christi et nostro, quia de baptismo Christi aqua non fuit sanctificans, igitur non oportuit exprimere verbum vocale, sed ipsa aqua fuit sanctificata a contactu carnis Christi. Vel dicitur quod maior fuit in Christi baptismo expressio  Trinitatis quam vocalis, quia plus est expressio  in facto quam in solo verbo fuit autem ibi expressio  sancte Trinitatis in facto, quia Pater in voce ibidem apparuit, Filius in humana carne, Spiritus sanctus in columbe specie, et per hoc fuit praefigurata forma vera baptismi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

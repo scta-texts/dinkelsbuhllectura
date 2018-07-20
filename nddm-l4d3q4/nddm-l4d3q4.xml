@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 3, Quaestio 4</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d3q4">
+        <head>Librum IV, Distinctio 3, Quaestio 4</head>
+        <p>Quarto queritur vtrum ad veritatem baptismi requiratur trina immersio  ipsius baptizandi :</p> 
+        
+        <p>arguitur quod sic, quia in decretis dicitur de consecracione dictione 4ta. Si quis praesbyter  vel episcopus semel mergat - et non trinam immersionem  fecerit - deponatur ; hoc autem non esset nisi trina immersio  foret de necessitate sacramenti.</p> 
+        <p>2°, sicut fides Trinitatis exprimitur per nominatiuum Personarum, ita etiam partes immersiones  exprimuntur, sed si non nominarentur tres Persone non est baptismus, ut praeuius dictum fuit, igitur pari racione si non fieret trina immersio .</p> 
+        
+        <p>In oppositum arguitur quia immersio non est de necessitate sacramenti, igitur nec trina immersio . Antecedens patet ex conswetudine  aliquarum Ecclesiarum, vbi baptismus celebratur per aspersionem et non per immersionem . Item auctoritas beati Gregory  in littera posita dicit quod vtrumque potest fieri, seruata conswetudine  Ecclesie : igitur non est de necessitate baptismi neque vna immersio , neque trina.</p> 
+        
+        <p>Respondendo 
+          <lb ed="#T" n="47ra"/>
+          ad questiones dicitur primo quod non est de necessitate baptismi quod ipse baptizandus  aque immergatur. Patet quia sine tali immersione  potest fieri verus baptismus, igitur ipsa non est de necessitate sacramenti baptismi. Antecedens patet quia, ut dicit <name ref="#Aquinas">Sanctus Thomas,</name> baptismus dicit ablutionem 2m modum expositum in dictione baptismi, sed huiusmodi ablucio corporis humani potest fieri per aspersionem aut per superfusionem. Igitur vtroque istorum modorum potest fieri baptismus, et videtur quod apostoli hoc modo baptizauerunt  quia legitur quod simul, vna die, conuersi fuerant quinque milia ad fidem et alia uice tria milia (Actis 2° et 4°) quos baptizabant , et non immergendo , ut videtur, sed tantum aspergendo propter nimiam multitudinem, et ita posset habere. Dicit <name ref="#Aquinas">Sanctus Thomas</name> baptismus celebrari sine immersione  quando conswetudo Ecclesiae hoc pateretur aut quando esset necessitas propter periculum primum de cuius morte timeretur, uel propter imbecillitatem  sacerdotis baptizantis  non potentis sustentare infantem, uel etiam quia ipse baptizans  est rudis et timeretur quod lederet puerum, uel si puer non esset totus natus et tunc non posset immergi , sed esset aliter baptizandus  - ut dicetur postea - vel si esset penuria aque ita quod non esset tanta quod paruulus posset immergi , posset item fieri per aspersionem uel superfusionem. Item in passione <name>beati Laurency</name> 
+          <lb ed="#T" n="47rb"/>
+          legitur quod Romanus ab eo baptizandus  vrcium aque attulit in quo constat quod immergi  non poterat, igitur immersio  non est de necessitate baptismi.</p> 
+        
+        <p>2° dicitur quod nec vnitas immersionum , nec pluralitatis earum est de necessitate baptismi. Patet, quia immersio  non est de necessitate, ut iam dictum est, igitur nec vnitas aut pluralitas ipsius. Eciam alique Ecclesiae seruant morem quia ter immergunt , alique vero solum semel, et utroque vere confertur baptismus ; alias Ecclesiam non permitteret vtrumque fieri, sed alterum prohibetur. Patet etiam per <ref><name ref="#Lombard">Magistrum</name> in littera</ref> et per auctoritates sanctorum quas ad hoc inducit.</p> 
+        
+        <p>3° dicitur quod licet immersio  non fit de necessitate baptismi, est tamen de eius congruitate. Immersio  eius clarius videtur conuenire eius significationem quia, ut dicitur <ref><title ref="#rom">Ad Romanos</title> 6°,</ref> per baptismus configuramur sepulturae Christi. Et hoc fit clarius per baptismum cum in eo immergimur  quam quando alio modo baptizamur , quia per immersionem  quasi occultamur in aqua sicut Christus sub terra.</p> 
+        
+        <p>4° - Dicitur quod licet significationi baptismi congruat vnitas immersionis  et etiam trinitas immersionum , magis tamen fit congrue trina immersio  quam vnica. Prima pars patet quia in diuina natura est vnitas in essentia - et illa significatur per vnam immersionem  - et est trinitas Personarum - et illa significatur per trinam inmersionem  -. Similiter
+          <lb ed="#T" n="47va"/>
+          mors Christi est vna et illa significatur per vnam immersionem  et Christus fuit tribus in corde suo, et hoc significatur per trinam immersionem . 2a pars patet quia in forma baptismi cum fide Trinitatis expressa  per nomina personalia datur intelligi fides vnitatis. Et per hoc, quod dicitur in nomine, et ita etiam per trinam immersionem  datur intelligi fides Trinitatis. Et per similitudinem illarum immersionum  dat intelligi vnitas essentie, et ita in fide Trinitatis. Aliquo modo introducitur fides vnitatis ; non autem e commisso in fide vnitatis includitur sic fides Trinitatis, et ideo  congruentissime fit trina immersio  ut fit in actu baptismi : etiam fides Trinitatis exprimatur. De illa significatione trine immersionis  loquitur <name ref="#Augustine">Augustinus</name> et allegat <name ref="#Lombard">Magister</name> in littera dicens : <quote>Postquam nos credere promisimus […].</quote> 3°, capita vestra in sacro fonte demersimus quod ordo baptismi duplici mistery  significatione celebratur. Recte enim 3° mersi estis quia accepistis baptismus in nomine Christi qui die tertia resurrexit a mortuis: illa enim tercia repetita dimersio typum  dominice exprimit sepulturae. Et dicit <ref><name ref="#Dionysius">Dyonisius</name> 13° capitulo <title>Celestis Ierarchie</title></ref> quia baptismus debet fieri tribus immersionibus  et eleuacionibus ad seruandum quod Christus in sepulchro iacuit tribus diebus et tribus noctibus. Et <ref><name ref="#JohnChrysostom">Chrisostomus</name> <title>super Iohannem</title></ref> dicit : « 3°, fit immersio  ut discas quando virtus Patris et Fily  et Spiritus sancti omnia
+          
+          <lb ed="#T" n="47vb"/>
+          hec operatur. Idem dicit <ref><name ref="#Jerome">Hieronimus</name>  <title>super Epistulam ad Philippenses</title> :</ref> aliquis ex quo nec vnica immersio  nec etiam trina immersio  est de necessitate sacramenti, et cum hoc congruit vtrumque significationi baptismi quod ergo illorum est deseruandum, scilicet quotiens est immergendum . Respondet <name ref="#Bonaventure">Bonauentura</name> quod faciendum est 2m morem istius Ecclesiae in qua quis ex officio baptizat et qui illud propria auctoritate  mutat grauiter peccat. Et ideo de consecratione dictione 4a ex canonibus apostolorum dicitur : <quote>Si quis praesbyter uel episcopus non trinam immersionem  vnius mistery  celebrat, sed solum semel immergat  in baptismo deponatur .</quote> Et hoc non est ex hoc, quod non baptizet, ymo  vere baptizet, sed est ideo quia propria auctoritate noua introduceret et contra illius Ecclesiae conswuetudinem  faceret. Et item de consecratione distinctio 4a ex concilio tholitano dicitur principaliter vitanda scismatis scandalum uel heretici dogmatici vsum, sumpta teneamus baptismatis immersionem . Et loquitur ille canon 2m morem Ecclesiae illius in qua solebat tamen semel immergi , quem morem heretici ceperunt propria auctoritate mutare. Et ideo statuerunt Patres illum morem obseruari ibidem, ne videantur heresi consentire. Sic dicit <name><name ref="#Lombard">Magister</name> in littera</name> quod <name ref="#Cyprian">Cyprianus</name> deliquit qui semel mersit, sed hoc ideo quia aliter se habebat Ecclesiae conswetudo  in qua baptizabat  uel ideo quia vnam 
+          
+          <lb ed="#T" n="48ra"/>
+          tantum immersionem  necessario faciendam asserebat . Et item dicit Magister. Constat baptizando 3° debere immergi  et tamen, si semel immergantur , verum baptismum accipiunt et qui immergit  semel tantum non petrat nisi conswetudo  Ecclesiae obsistat, uel tantum hoc modo debere fieri asserat. Et est notandum quod si baptizando  trina fiat immersio , tunc licet non sit de necessitate baptismi ; est tamen 2m Bonauenturam congruum, quod in prima mersione paruuli nominentur Pater, in secunda Filius et in tercia Spiritus sanctus. Et modus immergendi  esset ut sacerdos teneat puerum per latera, et facie eius, scilicet pueri, versa ad aquam mergat eum sic quo habeat caput primo versus Orientem, 2° versus Aquilonem et 3° versus Meridiem. Verum, quod hoc tantum ad solempnitatem baptismi  pertinet et non ad necessitatem, et si ibi satis est de aqua, tunc mergat totum corpus pueri. Si autem parum fuerit aque, tunc sufficit quod pars principalior mergatur ut caput et pectus, uel caput tantum, uel facies tantum, quia ibi sunt omnes sensus et maxime viget ibi operacio anime.</p> 
+        
+        <p>Ad argumentum primum <unclear>dictur <!-- should be corrected to dicitur --></unclear> quod trina immersio  non est de necessitate sacramenti et quod ius imponit penam solum semel mergenti, hoc est de illis intelligendum qui sic faciunt contra consuetudinem Ecclesiae in qua baptizant  et quam propria auctoritate
+          
+          <lb ed="#T" n="48rb"/>
+          mutant aut qui docent, quod sit de necessitate solum semel immergere .</p> 
+        
+        <p>Ad 2m patet satis ex dictis non est enim simile de forma et dimensionibus  : forma enim est de necessitate integritatis sacramenti, mersio vero non nec vnitas aut pluralitas mersionum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

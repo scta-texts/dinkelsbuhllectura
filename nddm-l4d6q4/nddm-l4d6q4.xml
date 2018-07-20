@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 4</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q4">
+        <head>Librum IV, Distinctio 6, Quaestio 4</head>
+        <p>
+          <cb ed="#T" n="80rb"/>
+          quarto queritur vtrum oporteat baptizantem  personaliter distingwi  a baptizando  uel baptizato .</p> 
+        
+        <p>Arguitur quod non, quia sacerdos potest scilicet ipsi dare sacramentum Ewucaristiae in missa ; 
+          igitur etiam potest scilicet ipsi dare baptismum pari ratione, igitur et  quilibet alius, scilicet ipsi, 
+          potest dare baptismum et  seipsum baptizare .</p> 
+        
+        <p>In oppositum est decretalis extra de baptismo et eius effectu debitum.</p>
+        
+          <p>Dicit <name ref="#Scotus">Scotus</name> quod illa quaestio soluitur in praeallegato capitulo <mentioned><!-- incipit -->debitum</mentioned>, 
+            namque 2m idem capitulum nullus potest seipsum baptizare, 
+            sed oportet inter baptizantem  et baptizatum uel baptizandum esse personalem distinctionem. 
+            Et ad probandum hoc introducitur ibidem figura, auctoritas  et ratio congrua. 
+            Figura est quod ad hoc designandum Christus Dominus non a se, sed a <name ref="#JohnTheBaptist">Iohanne</name> 
+            voluit baptizari . Auctoritas  autem Domini ex verbis colligitur dicentis apostolis : 
+            <quote>ITE, BAPTIZATE OMNES GENTES IN NOMINE PATRIS ET FILII ET SPIRITUS SANCTI,</quote> 
+            vbi discipulos baptizantes  exprimit in vna persona et baptizandos  
+            exprimit in alia ratio est, quia ibi contrahitur cognacio spiritualis qua baptizans  
+            efficitur pater spiritualis ipsius baptizati. 
+            Nullus autem potest esse principaliter sui ipsius : sicut ergo in corporali 
+            generacione alius est qui gignit  et alius est qui gignitur , 
+            sic in sacramentali generacione alius debet 
+            <cb ed="#T" n="80va"/> 
+            esse qui generat spiritualiter et alius qui generatur spiritualiter, 
+            id est alius debet esse qui baptizat  et alius qui baptizatur .</p> 
+        
+        <p>Ad argumentum ante oppositum dicitur quod sumpcio Ewcaristiae  non est sacramentum - 
+          ut dicetur in suo loco - sed est commestio sew  perceptio sacramentalis. 
+          Ipse autem baptismus est sacramentum, et ideo non est simile. 
+          Diceret aliquis : sacerdos potest salubriter ministrare, scilicet ipsi Ewcaristiae  sacramentum, 
+          igitur pari racione potest sibi ipsi amministrare sacramentum baptismi, 
+          uel detur causa diuersitatis.</p> 
+        
+        <p>Respondetur quod ministracio Ewcaristiae  non est sacramentum. 
+          Nam sacramentum Ewcaristiae  non consistit in vsu eius, ministracio autem baptismi 
+          est ipsum sacramentum baptismi, quia tinccio actualis. 
+          Et 2m hoc est racio diuersitatis, quia sacramentum baptismi consistit essentialiter in vsu Ewcaristiae , 
+          autem est quoddam permanens aliud ab vsu eius. Si ergo aliquis in vsu sacramenti permanentis et in Ewcaristiae  
+          sacramento potest esse minister et suscipiens, non potest tamen hoc esse in sacramento, 
+          quod essentialiter consistit in vsu, ut est baptismus igitur, etcetera. 
+          Ex hys  patet ad argumentum : non enim est simile, 
+          ad hoc etiam faciunt raciones adducte in questione.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

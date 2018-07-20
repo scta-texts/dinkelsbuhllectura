@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 4</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q4">
+        <head>Librum IV, Distinctio 4, Quaestio 4</head>
+        <p>Quarto queritur vtrum adultus fictus recipiet baptismum et eius effectum. Arguitur quod sic, quia ipse accipit effectum baptismi, scilicet gratiam. Igitur a forciori recipit baptismus et caracteris impressionem . Quis patet per illud Ad Galathas  2° : QUOTQUOT IN CHRISTO BAPTIZATI ESTIS , CHRISTUM INDUISTIS. Sed nullus induit Christum nisi accipiendo gratiam fiat conformis Christo. In oppositum arguitur quia Augustinus in De penitentia dicit et ponitur etiam in littera.
+        
+        <cb ed="#T" n="54ra"/>
+        Omnis qui iam sue voluntatis arbiter constitutus est, cum accedit ad sacramentum fidelium, nisi peniteat cum veteris vite nouam inchoare non potest et de baptismo paruulorum dicit idem tunc valere. Incipit baptismus ad salutem cum illa ficcio veraci confessione recesserit que corde in malicia perseuerante peccatorum ablucionem non sinebat fieri. Igitur illa ficcio impediebat ablucionem peccatorum in baptismo et per consequens  graciam impediebat. Notandum quod fictus dicitur ille qui aliud praetendit exterius et aliud habet interius, potest autem baptismum suscipiens esse fictus dupliciter. Vno modo, quia exterius ostendit se velle recipere baptismum non ut balneum solum, sed eo modo quo Ecclesia intendit eum conferre, et tamen oppositum illius habet maior et sic deficit sibi intencio debita. Et qui sic ficte accedit ad baptismum ille nec recipit sacramentum : quia non est baptizatus nec etiam recipit effectum baptismi, scilicet gratiam et dimissionem culpe, ymo  grauiter peccat cum tali ficcione et tam indigne suscipiendo sacramentum. Et si postea in eo cessaret ficcio huiusmodi, ipse rebaptizandus  esset. Patet quia talis simpliciter nolens est respectu baptismi, dictum est autem praeuius, scilicet in priori questione,
+        
+        <cb ed="#T" n="54rb"/>
+        quod simpliciter nolens nec suscipit sacramentum, nec effectum eius. Ecclesia tamen que exteriora videt indicaret eum baptizatum et consensisse in sacramentalem ablucionem, et ideo eum cogeret ad obseruanciam fidei et legis christianae, quia praesumit partem meliorem quando signa exteriora eam praetendunt magis et demonstrant. 2° modo potest quis esse fictus, scilicet qui se ostendit dispositum  ad sacramentum percipiendum et non est dispositum, sed est in corde indispositus eo, quod non habet rectam fidem uel quia habet aliquod rectum peccatum mortale quod tum in actu committit. Vel, habet peccatum mortale praeteritum de quo nullo modo atteritur, et illo 2° modo locuntur sancti et doctores communiter de ficto baptismo et de illo qui est sic fictus, scilicet quod est impenitens  de peccato suo mortali aut quod non habet fidem. Dicunt doctores quod, si accedit ad sacramentum cum tali ficcione et in disposicione et tamen consentit in illud quod facit Ecclesia - et ut Ecclesia intendit facere - vere recipit baptismum, sed non recepit eius effectum. Quod autem vere recipiat baptismum, patet quia non est rebaptizandus  postea, cessante sic ficcione, ut patet extra de baptismo et eius effectu capitulo ‘Maiores’ : talis enim non involuntarius indicator, sed voluntarius, ut dictum fuit praeuius. Quod autem non suscipiat effectum
+        
+        <cb ed="#T" n="54va"/>
+        baptismi, scilicet gratia, patet quia Deus nolentes non iustificat. Iuxta illud Augustini : « Qui creauit te, sine te non iustificabit te sine te », quia Deus adultum peccatorem non iustificat nisi ad hoc : propria voluntas illius cooperetur per actum contricionis de peccatis aut per aliam necessariam praedisposicionem. Item quicumque ponit obicem gratiae, puta infidelitatem aut aliud mortale de quo non penitet, nullo modo accipit gratiam, secundum verba Augustini in oppositum questionis allegata. Sed ille fictus est talis de illo. Eciam intus illud Sapientiae primo : SPIRITUS SANCTUS DISCIPLINE EFFUGIET FICTUM. Alie autem ponuntur ad hoc auctoritates in littera. Contra istam conclusionem obicit Scotus sic : si ista esset  quod talis susciperet baptismum et non gratiam, tunc ipse esset perplexus : non enim pateret sibi via salutis. Patet, quia non posset iterum baptizari  cum esset baptizatus, nec potest etiam saluari sine gratia baptismali. Quod autem baptizatus  non possit iterum baptizari  patet, quia Deus instituit baptismum initerabilem ne propter plenam remissionem que ibi fit et culpe et pene daretur hominibus occasio sepius et faciliter delinquendi, si posset baptismus sepius iterari. Respondet Scotus quod ymo  tali patet via salutis: nulli enim quocienscumque labenti in peccatum
+        
+        <cb ed="#T" n="54vb"/>
+        praeclusit Deum viam salutis in hac vita. Non enim ad maiorem miseracionem voluit Deus quemcumque nostrum obligare quam ipse me voluit habere ad subditum suum, Petro autem querenti Mathei 18° : QUOTIENSCUMQUE DIMITTERE FRATRI IN IPSUM ? respondet Dominus sibi quod septuagesies sepcies. Ymo  2m Augustinum in omne milliens , milliens  et uniuersaliter, quocienscumque peccauerit et recognouerit parcendum est ei. Sic ergo Deus instituit aliquod aliud remedium quocienscumque peccanti in via, scilicet sacramentum penitentiae. Dico ergo quod isti sic ficto patet via salutis per veram penitentiam de illa fictione ; iuxta illud Augustini positum in De baptismo paruulorum. Tunc valere incipit, etcetera, ut fuit allegatum 2° loco in oppositum questionis. Diceret aliquis quomodo talis habebit gratiam baptismalem. Respondetur : vno modo, quod si quis fictus habens gratia exempli septem peccata mortalia peniteret de sex ante baptismum, uel in baptismo, et de septimo non peniteret, tunc illa sex delerentur in baptismo et remaneret septimum. Et si postea de illo septimo eciam peniteret, tunc cessaret iam ficcio et sic tunc conferretur, scilicet iam gratia baptismalis. Sed illa solucio non videtur bona eo, quod non potest vnum mortale deleri sine alio quoniam
+        
+        <cb ed="#T" n="55ra"/>
+        2m Augustinum est quedam impietas a Deo dimidiam sperare veniam. 2° dicitur quod illi ficto nullum peccatum dimittitur in baptismo, sed tantum imprimitur caracter et recedente ficcione per penitenciam. Tunc datur gratia maior et perfectio, scilicet que correspondet baptismo et penitentiae subsequende, sed contra hoc arguitur quia susceptio baptismi facta cum ficcione est mortua quia non est in ea gratia collata ; igitur non vnificatur  sicut nec cetera opera bona. Ad hoc respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> dicens quia baptismus non solum habet efficaciam ex opere operantis, sed magis habet eam ex opere operato, et illud opus operatum - ut dicit - est opus Dei et  non hominis. Licet ergo opus operans illius ficti fuerit mortuum et numquam viuificetur, opus tamen operatum non potest esse totaliter mortuum. Tercio dicitur quod isti sic ficto et postea penitenti datur tantum gracia correspondens penitentiae suscepte et non datur sibi aliquod de gratia correspondens precise  baptismo quem in ficcione suscepit, quia fuit mortua. Sic ergo 2m illum modum ipsa penitentia illi ficcionem illa etiam impetrat sibi gratiam. Sed quia textus de consecratione  distinccione 4a dicit quod baptismus incipit valere quando ficcio recedit, 2m illum 
+         
+          <cb ed="#T" n="55rb"/>
+          autem vltimum modum non inciperet baptismus vmquam valere, sed tantum penitentia, etcetera. Et ergo ad hoc aliter dicunt aly , scilicet quod quando recedit ficcio per penitentiam, tunc in virtute baptismi praecedentis deletur tota culpa et tota pena eorundem peccatorum quod ille ante baptismum commisit peccata, vero omnia que post baptismum commisit non delentur tota saltem regulariter. Non enim deletur virtute baptismi cum nichil ille operetur respectu sequencium peccatorum nec virtute contricionis, que non tanta est quod totam penam deleat, licet in casu possit esse tanta. Hanc viam dat <ref><name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> in solucione 2e rationis in 2° articulo de hac materia,</ref> et eis eam asserit <name ref="#Durandus">Durandus</name> huiusmodi : enim gratiae collacio est solum ex diuino facto, et illud esse potest de dando ipsam quando sacramentum actu suscipitur et suscipiens non ponit obicem, uel postquam susceptum est sacramentum et remotum fuerit quod praeuius fuerat impedimentum. Ad hoc facit <name ref="#Aquinas">beatus Thomas</name> tale argumentum : caracter quantum est ex se est disposicio necessitans ad gratiam nisi superveniat impedimentum, sed recente ficcione cessat impedimentum. Igitur, cum in tali sit caracter quia vere est baptizatus, in eo etiam causabitur gracia
+            
+            <cb ed="#T" n="55va"/>
+            baptismalis habens caracterem remoto impedimento. Idem v vlt Bonauentura dicens : sacramentum baptismi, cum non sit iterabile, imprimit caracterem, et ille habet omnem efficaciam recedente ficcione quam habuisset ante. Vnde peccata illa remittit quantum ad penam et culpam que praecesserunt, que autem post commisit virtute penitencie remittuntur et pro illis est penitentia imponenda. Ad argumentum ante oppositum respondet Scotus quod omnis baptizatus induit Christum quantum ad hoc, quod Christi familie adscribitur . Fit enim de Ecclesiae numero, quamuis non semper merito : non enim quilibet baptizatus induit Christum per caritatem sew  per gratiam, et primum indumentum potest dici communis omnibus de familia, 2m est speciale filiorum. Vel potest dici quod licet talis sit baptizatus in Christi nomine non tamen est in Christo baptizatus , quia non in virtute Christi interius baptizantis   et mundantis. Et dicit Magister in littera quod qui in Christo, id est in Christi conformitate baptizantur , ut scilicet morientur vetustate peccati, sicut Christus vetustate pene, illi induunt Christum uel quem per gratiam inhabitantem habent. De hoc loquitur Augustinus in De baptismo paruulorum dicens : « Induunt autem homines Christum aliquando usque ad perceptionem sacramenti,
+            
+            <cb ed="#T" n="55vb"/>
+            aliquando etiam vsque ad vite sanctificacionem, et illud praemium bonis et malis commune est, hoc alterum vero proprium bonorum est ». Omnes ergo qui in Christi nomine baptizantur  Christum induunt uel 2m sacramenti perceptionem, uel sanctificacionem. Dubitatur primo circa litteram de hoc quod dicit <name ref="#Augustine">S<supplied>anctus</supplied> Augustinus</name> : <quote>Nisi peniteat eum veteris vite, nouam non potest inchoare.</quote> 
+          Si hoc esset verum, tunc penitentia deberet praecedere baptismum et sic baptismus non esset primum sacramentum. 
+          Respondetur quod <name ref="#Augustine">Augustinus</name> non loquitur de sacramento penitentie. 
+          Illud enim non debet praecedere, sed loquitur de penitencie virtute, 
+          quia vvlt quod in adultis qui habent peccata actualia mortalia ipsum baptismum debet praecedere contritio de huiusmodi peccatis, 
+          alias ficte accederent et non susciperent effectum baptismi qui est gratia, etcetera. 
+          Dubitatur secundo de hoc quod dicit <name ref="#Lombard">Magister</name>, quod nec paruulis sine fide aliena qui propriam habere 
+          non possunt datur remissio. Contra ex hoc videtur sequi quod, si parentes paruuli essent infideles , 
+          tunc paruulus baptizatus  dampnaretur - quod est falsum et contra <name ref="#Augustine">Augustinum</name> et Bonifacium -. 
+          Respondetur prout dictum fuit superius : paruulo sufficit fides Ecclesiae eis militantis, que numquam deficiet totaliter vsque ad consumacionem seculi. 
+          Item dicit <name ref="#Lombard">Magister</name>, nam redire dimissa peccata vbi fraterna caritas non est - 
+          <cb ed="#T" n="56ra"/> 
+          docet <name ref="#Augustine">Augustinus</name> -. De illo docetur posterius distinccione 22a : ibi enim docetur quando et quomodo redeant dimissa peccata et quomodo non de illo quod dicit induunt homines Christum. Aliquando est notandum quod Christum induere nichil aliud est quam Christi similitudinem assumere, et hoc contingit dupliciter primo modo exterius - per sacramentalem repraesentationem, ut quod quis assumit sacramentum per quod sacramentum repraesentat mortem Christi et Eius resurreccionem - alio modo interius - per realem mutacionem et virtutum conformacionem solum -. Primo modo induunt Christum qui ficti accedunt, sed vtroque modo fieri boni et qui bene dispositi accedunt. Isti enim exterius induunt Christum in signo sacramentali et interius induunt Eum per gracie susceptionem et per bonorum operum imitacionem , etcetera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

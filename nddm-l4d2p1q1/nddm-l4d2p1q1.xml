@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 2, Pars 1, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 1, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d2p1q1">
+        <head>Librum IV, Distinctio 2, Pars 1, Quaestio 1</head>
+        <p>iam ad sacramenta Noue Legis. 
+          Postquam <name ref="#Lombard">Magister</name> 
+          egit de sacramentis in communy , descendit nunc ad sacramenta 
+          Noue Legis, de quibus est principalis sua intentio. Et diuiditur in duas partes: 
+          primo praemittit quedam que praexiguuntur ad sacramenta Noue Legis. 
+          2° prosequitur de eis in speciali, et hoc in duas. 
+          3a scilicet ibi post hoc videndum est prima in duas, 
+          quia primo praemittit quedam generalia circa sacramenta Noue Legis. 
+          3° determinant de baptismo <name ref="#John">Iohannis</name> qui fuit quedam praeparacio ad Christi verum baptismum. 
+          2a ibi, <mentioned>nunc autem de baptismo</mentioned></p> 
+          <p>
+            <cb ed="#T" n="28vb"/> 
+            circa primum queritur utrum tantum sint septem sacramenta 
+            Noue Legis a Christo Domino instituta.</p> 
+        
+        <p>Arguitur quod non sint septem, sed pauciora. Primo sic : quod potest 
+          fieri per vnum non debet fieri per plura, sed per baptismum possent 
+          tolli et tolluntur omnia peccata; igitur non oportuit contra culpam 
+          aliquod aliud sacramentum ordinari et sic non fuit necessarium penitentia.</p> 
+        
+        <p>Secundo arguitur quod debeant esse plura quam septem, 
+          quia quandoque illud quod datur in remedium peccati est sacramentum, 
+          sed aqua benedicta est huiusmodi, quia per eam venialia tolluntur, 
+          igitur est sacramentum.</p> 
+        
+        <p>3° oblationes et decime in lege naturae erant sacramenta secundum <name ref="#HughOfStVictor">Hugonem</name>. 
+          Cum ergo modo sunt etiam oblationes et decime, 
+          videtur quod sunt sacramenta et sic essent plura quam septem, quare quaestio falsa.</p> 
+        
+        <p>Quarto arguitur quod non sint omnia a Christo instituta 
+          quia de confirmacione et extrema vnctione non legitur 
+          Dominum aliquid dixisse. Et ista tamen sunt sacramenta Noue Legis, 
+          igitur non omnia sunt a Christo instituta quia de confirmacione 
+          et extrema vnctione non legitur Dominum aliquid dixisse. 
+          Et ista tamen sunt sacramenta Noue Legis, igitur non omnia sunt a Christo instituta.</p> 
+        
+        <p>In oppositum arguitur et primo quod sint septem et solum septem 
+          sacramenta Noue Legis : patet per <ref><name ref="#Lombard">Magistrum</name> in littera</ref>, 
+          qui  ea enumerat et patet per communem vsum et per auctoritatem Ecclesiae.</p> 
+        
+        <p>2°, quod omnia sunt a Christo instituta patet quia sacramenta 
+          Noue Legis habent efficaciam suam ex institucione, 
+          sed ipsorum efficacia non est nisi a Deo, ut dictum est praeuius, 
+          igitur et ipsorum institutio solum est a Deo et a nullo puro homine esse potuit.</p>
+        
+          <p>Oportuit rememorari eorum quae superius dicta sunt de diffinicione sacramenti Noue Legis : 
+          <cb ed="#T" n="29ra"/> 
+          dicebatur enim quod sacramentum Noue Legis, quod est sacramentum tantum, 
+          est res sensibilis in sensibilem effectum gratuitum ex Dei speciali institucione, 
+          significans et causans eundem effectum quem figurat.</p>
+        
+          <p>Isto modo loquendo de sacramento Noue Legis est conclusio prima, 
+            quod solum septem sunt sacramenta Noue Legis inter se specie distincta: 
+            patet conclusio manifeste ex auctoritate Ecclesiae vniuersalis et omnium doctorum. 
+            Sed quare sint instituta in numero septenario, dicunt quidam quod, 
+            quia hic sacramenta sunt instituta in remedium contra defectus animarum nostrarum, 
+            propter hoc enim dicuntur vasa medicinalia. 
+            Sed sunt septem in genere defectus animarum, et ideo septem sunt instituta sacramenta : 
+            sunt enim tres defectus culpabiles, scilicet quorum quaelibet est culpa. 
+            Primus est originale peccatum contra quod institutus est baptismus. 
+            Secundus defectus est peccatum actuale mortale, contra quod instituta est penitencia. 
+            3us est actuale veniale, contra quod instituta est vnctio extrema. 
+            Aly  quatuor defectus sunt penales et sunt pene peccatorum, 
+            et primus est infirmitas agendorum contra quam est confirmacio, 
+            secundus est ignorancia contra quem est ordo coordinatus docere et docere potest, 
+            3us  est concupiscentia noxiorum quantum ad carnalia contra quod est matrimonium, 
+            Quartus est concupiscentia terrenorum siue oculorum et superbia oculorum 
+            et superbia vite contra quem est Ewcaristia , vbi agitur de humiliacionis Christi 
+            memoria, et memoria ardentissime caritatis eius ad nos.</p> 
+        
+        <p>Alio modo 2m <name ref="#Aureoli">Petrum 
+          <cb ed="#T" n="29rb"/> 
+          Aureoli</name> sumitur sufficientia sacramentorum 
+          penes ea que necessario requiruntur ad bone esse 
+          legis alicuius aut secte. Cum enim latria et Dei cultus 
+          sit de lege naturae oportet aliquid esse quod Deo offeremus 
+          in nostra Lege, et hoc est sacrum Ewcaristiae , 
+          quomodo enim possit esse salutarior et placibilior oblacio. 
+          2° quia propter reuerentiam huius oblacionis oportet esse ministros 
+          ad haec deputatos et consecratos, et sic est sacramentum ordinis. 
+          3° oportet aliquod esse per quod homines huius Legis 
+          et distingwentur  a non talibus, et hoc est baptismus. 
+          4°, quia oportet pugnantes pro Lege confortari potissime si sunt in loco periculi, 
+          et hoc est sacramentum confirmationis vbi datur spiritus ad robur, 
+          quia necessarium est in praesentibus temptacionibus fidelium et maxime 
+          fuit necessarium in primitiuae Ecclesiae tempore persecutionem. 
+          Hoc oportet in qualibet lege fieri propagationem et crementum per homines 
+          eiusdem legis qui maxime sunt, scilicet invicem fideles : 
+          et ideo est sacramentum matrimony . 
+          Sexto, in qualibet lege debet esse via reconciliandi reos et quomodo 
+          ad hoc est sacramentum penitentie. Septimo est aliquid speciale in Lege nostra, 
+          scilicet quod Ecclesia militans ordinatur ad triumphantem, 
+          et quod hic existentes sunt illic intraturi, et ideo indigent salubri conductu quod fit per extremam vnctionem.</p> 
+        
+        <p>3° - secundum <name ref="#Scotus">Scotum</name> datur congruencia institucionis 
+          sacramentorum in numero septenario. Dicit enim : 
+          sicut in vita naturali primum est generacio hominis, deinde sequitur 
+          <cb ed="#T" n="29va"/> 
+          nutricio eius, 3° corroboracio, 4° sanitatis deperdite recuperacio, 
+          et haec  quatuor pertinent ad quamlibet personam singularem que perduci 
+          debet sic ad perfectionem vite naturalis - praeter hec requiritur 
+          aliquid pertinens communitatem quo aliud constituatur in gradu ad exercendum 
+          aliquod actum communitati necessarium - ita in vita spirituali oportet esse 
+          adiutorium aliquod pertinens ad spiritualem generationem. 
+          Et illud est sacramentum baptismi per quod regeneratur : 
+          regeneramur ad vitam qua confert baptismus. 
+          2° aliquid pertinens ad nutricionem, et hoc est Ewcaristia  
+          qua nutritur, conseruatur in homine gratia praehabita. 
+          3° oportet esse aliquod adiutorium pertinens ad roboracionem, et hoc est sacramentum confirmacionis. 
+          4° aliquid pertinens ad reparacionem post lapsum : 
+          et hoc est penitencia per quam homo lapsus in peccatum et deperdita vita gratiae reparatur ad vitam. 
+          Et praeter hec 5to requiritur aliquod quo exiens finaliter praeparetur, 
+          quia vita illa spiritualis est quedam via ordinans vt in ea bene et recte viuens 
+          de ipsa sine impedimento transeat ad perpetuam : et hoc est extrema vnctio. 
+          Et hec quinque requiruntur tamquam adiutoria necessaria cuilibet persone 
+          Christiane ad bonum, autem commentatis obseruantis hanc legem requiritur 
+          eis multiplicatio carnalis, quia illam praesupponit bonum spirituale 
+          sicut gratia praesupponit naturam. Et quo ad hoc institutum est matrimonium : 
+          requiritur etiam multiplicacio spiritualis 
+          <cb ed="#T" n="29vb"/> 
+          aliquorum in Lege, et ad hoc ordinatus est ordo. 
+          Sic ergo patet quomodo congruum fuit obseruantibus legem ewangelicam  
+          instituere septem sacramenta que essent septem adiutoria in quibus esset 
+          perfectio sufficiens ad omnia necessaria pro obseruancia legis Christiana.</p> 
+        
+        <p>Secunda conclusio docuit Christum Dominum suam legem 
+          ewangelicam  hys  sacramentis perfectissimis adornare. 
+          Declarat <name ref="#Scotus">Scotus</name> sic, quia lex Christi ewangelica  
+          est perfectissima lex quam sancta Trinitas disposuit dare 
+          hominibus pro statu huius vie, igitur competebat ut homines 
+          in statu istius perfectissime legis praepararentur  
+          ad gratiam perfectissimis adiutorys  cuiusmodi sunt illa perfectissima sacramenta. 
+          Antecedens, scilicet quod lex ewangelica  sit perfectissima probatur 
+          quia est vltima 2m illud <ref><title ref="#mt">Mathei</title> 26°</ref> 
+          Noui et eterni Testamenti, id est post quod   nullum aliud est futurum in processu, 
+          autem ab inperfecto ad perfectum posteriora sunt perfectiora.</p> 
+        
+        <p>2° probatur conclusio, quia perfectissima causa meritoria gratiae quam sancta 
+          Trinitas disposuit dari humano generi fuit Christus complens cursum suum in hac 
+          vita nobiscum. Igitur dignum fuit quod pro tempore Legis eius 
+          darentur eidem humano generi pro merito Christi perfectissima 
+          adiutoria ad gratiam consequendam, et illa sunt ad septem sacramenta.</p> 
+        
+        <p>Item consequitur : causa meritoria exhibita plus impetrat quam solum permissa, 
+          igitur per passionem Christi exhibitam  et consumatam tempore Legis Noue 
+          congruum fuit maxima adiutoria conferri 
+          <cb ed="#T" n="30ra"/> 
+          hominibus ad gratiam pro tempore istius Legis seruande igitur, etcetera.</p> 
+        
+        <p>Tertia conclusio : omnia sacramenta Noue Legis sunt a Christo Deo instituta, 
+          pro quo notandum quod, ut recitat <name ref="#Aquinas">sanctus Thomas</name>, 
+          fuit aliquorum opinio quod non omnia sacramenta Noue Legis fuissent a Christo 
+          immediate  instituta. Sed quod quedam per se instituita, quedam vero apostolis 
+          instituenda commisit, scilicet confirmationem in qua Spiritus sanctus datur ad robur, 
+          cuius institutio non debuit esse ante Christi ascensionem et Spiritus sancti 
+          plenariam missionem - que primo plenarie facta est in die Penthecostes - 
+          et extremam vnctionem, que ad gloriam resurrectionis sit immediatum  
+          et proximum preparatorium , non debuit ante resurrectionem Christi institui. 
+          Ita dicebant isti, sed quia institutio sacramentorum uidetur ad potestatis plenitudinem 
+          in sacramentis pertinere, quam potestatem Christus sibi reseruauit in sacramentis, 
+          et ideo <name ref="#Aquinas">S<supplied>anctus</supplied>> T<supplied>homas</supplied></name> 
+          et <name ref="#Scotus">Scotus</name> et aly  dicunt quod sicut hominis puri non est 
+          sacramenta mutare uel a sacramentis absoluere, ita nec noua sacramenta instituere. 
+          Et ideo dicunt communiter quod Christus deus et homo omnia sacramenta Noue Legis per 
+          se instituit, ut dicit conclusio illa tertia, quod declarat <name ref="#Scotus">Scotus</name> 
+          hic breuiter quia de singulis patebit plenius in locis eorum proprys . 
+          Patet igitur de baptismo quod fuit a Christo institutus ante passionem, quia 
+          <ref><name ref="#io">Iohannis<!-- iohannes? --></name> 3°</ref> dixit <name>Nicodemo</name> : 
+          <cit>
+            <quote ana="io3_5">NISI QUIS 
+              <cb ed="#T" n="30rb"/> 
+              RENATUS FUERIT EX AQUA ET SPIRITU,</quote>
+            <bibl>Ioannes 3:5</bibl>
+          </cit> 
+          etcetera. 
+          Et discipuli eius baptizabant , ut patet <ref><name ref="#io">Iohannis <!-- iohanno? --></name> 3°.</ref> 
+          Et in sua ascensione praecepit ut publice praedicaretur et exerceretur 
+          <ref><name ref="#mt">Mathei</name> vltimo:</ref> 
+          <cit>
+            <quote ana="#mt28_19">EUNTES, DOCETE OMNES GENTES BAPTIZANTES  EOS.</quote>
+            <bibl>Matthaeus 28:19</bibl>
+          </cit> 
+          De Ewcaristia patet praedicatio eius diffusa per Christum <ref><title>Iohannis</title> 6°</ref> 
+          et institutio eis in ultima cena patet 
+          <ref><title ref="#mt">Mathei</title> 26°.</ref> 
+          De confirmatione patet institutio eius 
+          <ref><title ref="#io">Iohannis</title> 20°,</ref> cum dixit : 
+          <cit>
+            <quote ana="#io20_22">ACCIPITE SPIRITUM SANCTUM,</quote>
+            <bibl>Ioannes 20:22</bibl>
+          </cit> 
+          etcetera. 
+          Vel, in Penthecostes festo 
+          <ref><title ref="#act">Actuum</title> I°.</ref> 
+          De penitentia dicunt aliqui quod fuit instituta <ref><title ref="#iac">Jacobi</title> 5°:</ref> 
+          <cit>
+            <quote ana="#iac5_16">CONFITEMINI ALTERUTRUM PECCATA VESTRA.</quote>
+            <bibl>Iacobi 15:16</bibl>
+          </cit> 
+          Sed hoc non videtur probabile, ut dicit Scotus ex iam processu litterae, 
+          quia sequitur in littera: 
+          <cit>
+            <quote ana="#iac5_16">ET ORATE PRO INVICEM.</quote>
+            <bibl>Iacobi 15:16</bibl>
+          </cit> 
+          Manifestum est autem quod per illa sequentia  
+          verba non voluit aliquod sacramentum instituere nec promulgare, 
+          nec etiam erat apud Iacobum auctoritas  instituendi sacramentum aliquod, 
+          ut dictum fuit. Dicitur ergo quod institutum est <ref><title ref="#io">Iohannis</title> 20°</ref>, 
+          cum Dominus dixit discipulis: 
+          <cit>
+            <quote ana="#io20_22"> <!-- and io20_23 -->ACCIPITE SPIRITUM SANCTUM. QUORUM REMISERITIS PECCATA,</quote>
+            <bibl>Iohannes 20:22-23</bibl>
+          </cit> 
+          etcetera. Et fuit promissum <ref><title ana="#mt">Mathei</title> 16° :</ref> 
+          <cit>
+            <quote ana="#mt16_19">TIBI DABO CLAVES REGNI CELORUM : 
+              QUODCUMQUE LIGAVERIS SUPER TERRAM ERIT LIGATUM ET IN CELIS,</quote>
+            <bibl>Matthaeus 16:19</bibl>
+          </cit> 
+          etcetera. Ista enim potestas non erat principaliter dimittendi peccata 
+          - quod est proprium Dei - sed arbitrandi de dimissione peccati. 
+          Arbitror approbando a Deo, sic autem arbitrari est in foro penitentiae soluere et ligare. 
+          De extrema vnctione dicunt aliqui quod instituta sit <ref><title ref="#iac">Iacobi</title> 5°,</ref> 
+          vbi dicitur: 
+          <cit>
+            <quote ana="#iac5_14">INFIRMATUR QUIS IN VOBIS INDUTA PRAESBYTEROS   ECCLESIAE 
+            <cb ed="#T" n="30va"/> 
+            ET ORENT SUPER EUM VNGENTES CUM OLEO IN NOMINE DOMINI,</quote>
+            <bibl>Iacobi 5:14</bibl>
+          </cit> 
+          etcetera. Sed licet ibi promulgauerit illud sacramentum, 
+          melius est tamen dicere quod fuerit a Christo institutum, vnde 
+          <ref><title ref="#mc">Marci</title> 6° capitulo</ref> dicitur: 
+          <cit>
+            <quote ana="#mc6_13">QUIA APOSTOLI VNGEBANT MULTOS INFIRMOS ET SANABANT.</quote>
+            <bibl>Marcus 6:13</bibl>
+          </cit> 
+          Constat autem quod hoc non fecerunt nec virtute Christi 
+          et eius auctoritate qui instituit talem vnctionem virtuosam. 
+          De matrimonio patet <ref><title ref="#mt">Mathei</title> 19°,</ref> 
+          vbi Christus ait : 
+          <cit>
+            <quote ana="#mt19_4">LEGISTIS QUIA MASCULUM ET FEMINAM FECIT EOS.</quote>
+            <bibl>Matthaeus 19:4</bibl>
+          </cit> 
+          Supple Deus et dixit : 
+          <cit>
+            <quote ana="#gen2_24">SUPPLE PER OS ADAM, QUAMOBREM RELINQUET HOMO PATREM ET MATREM, ET ADHEREBIT UXORI SUE,</quote>
+            <bibl>Genesis 2:24</bibl>
+          </cit> 
+          etcetera. Et postea subdit : 
+          <cit>
+            <quote ana="#mt19_6">QUOS ERGO DEUS CONIUNXIT HOMO NON SEPARARET,</quote>
+            <bibl>Matthaeus 19:6</bibl>
+          </cit> 
+          vbi Christus Dominus approbat et ratificat de matrimonio, 
+          quod sancta Trinitas a principio, scilicet in statu innocentie publicat. 
+          De ordine dicitur <ref><title ref="#mt">Mathei</title> 26° :</ref> 
+          <cit>
+            <quote ana="#lc22_19">HOC FACITE IN MEAM COMMEMORATIONEM,</quote>
+            <bibl>Lucas 22:19</bibl>
+          </cit> 
+          et 
+          <ref>
+            <title ref="#io">Iohannis</title> 20° :</ref> 
+          <cit>
+            <quote ana="#io20_23">QUORUM REMISERITIS PECCATA REMITTUNTUR EIS.</quote>
+            <bibl>Iohannes 20:23</bibl>
+          </cit> 
+          Hec enim duo pertinent ad ordinem sacerdotalem, 
+          scilicet potestas respectu veri corporis Christi et potestas 
+          respectu corporis Christi mistici, id est Ecclesiae, 
+          ut dicetur inferius cum agetur de sacramento ordinis. 
+          Et sic Christus instituens sacramentum Ewcaristiae  et sacramentum 
+          penitencie instituit etiam sacramentum ordinis sacerdotalis et dedit 
+          sacerdotibus potestatem consecrandi corpus suum verum, 
+          et dedit eis  potestatem in foro penitentiae super corpus suum misticum, 
+          ex quibus patet quod Christus Dominus illa septem sacramenta Noue Legis per se omnia 
+          <cb ed="#T" n="30vb"/>
+          instituit. Omnia eis sacramenta aliquo modo in Christi passione 
+          instituta mistice apparuerunt : baptismus in aqua que fluxit de latere eius, 
+          confirmatio in sangwine  ante corporis examinacionem quo roboramur ut eius fidem teneamus 
+          - ut dicit <name ref="#Augustine">Augustinus</name> <title>super Iohannem</title> 
+          - Ewcaristia  in toto corpore, uel etiam in tota eius persona que fuit Deo hostia. 
+          Ipse enim Dominus idem fuit sacerdos et hostia secundum 
+          <ref><name ref="#Augustine">Augustinum</name> 4° <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+          penitentia in confessione latronis et in eius penitentia iuxta summum sacerdotem Christi, 
+          ordo quia tunc Dominus exercuit summum sacerdocy  actum offerendo se ipsum hostiam Deo Patri. 
+          Ipse enim idem - ut dictum est - fuit sacerdos offerens et hostia oblata, 
+          matrimonium quia necessitate secundum Ecclesiam copulauit, 
+          extrema vnctio in corporis eius vnione in sepulchro aut melius per sangwinem  
+          linientem de corpore mortuo eius manantem. 
+          Ex hys  ergo patet quod omnia sacramenta Noue Legis sunt a Christo Domino instituta, 
+          et sicut sunt ab Eo instituta, ita etiam ab Eo habent suam efficaciam, 
+          ut dictum fuit praeuius. Nam Christus Dominus, secundum quod Deus, 
+          ipse est causa principalis efficacie eorum, et secundum quod homo est causa 
+          eiusdem efficacie eorum meritoria, quia, ut dicit <name ref="#Scotus">Scotus</name>, 
+          cum homo per culpam factus fuisset Dei inimicus, disposuit Deus non remittere illam culpam 
+          neque dare hominibus aliquod adiutorium ad talem remissionem siue ad beatitudinis consecutionem, 
+          nec per aliquod. Et proponitur secundum aliquod oblatum quod gracius acceptaret quam 
+          <cb ed="#T" n="31ra"/>
+          illa offensa esset sibi displicens uel ingrata, nichil autem potest inueniri 
+          quod sit gracius Trinitati quam offensa humani generis fuit displicens, 
+          scilicet ut illud fit aliquod obsequium persone magis dilecte Trinitati 
+          quam tota communitas homini que offenderat fuerat aut  debuerat esse cara si non offendisset. 
+          Talem autem personam sic Deo dilectam non potuit humanum genus habere ex se, 
+          quia totum fuit Deo offensum et inimicum de vna massa perdicionis. 
+          Procedens ergo Trinitas misericorditer disposuit vnam personam sic 
+          Ei dilectam dare humano generi, ac ipsam eandem personam ad hoc inclinare ut ipsa offerret 
+          Trinitati obsequium pro toto humano genere. 
+          Illa persona est Christus Dominus cui secundum humanitatem dedit 
+          Deus non ad mensuram spiritum caritatis et gratiae (<ref><title ref="#io">Iohannis</title> 3°</ref>). 
+          Tale autem obsequium est illud quod se sponte obtulit in mortem 
+          pro iustitia et pro salute hominum; 
+          recte ergo Trinitas nullum adiutorium pertinens ad salutem contulit 
+          homini viatori nisi in virtute oblacionis Christi necessitate facte a persona dignissima, 
+          quia a Christo Deo et homine et ex maxima obediencia et caritate et ita 
+          ut ergo passio Christi fuit causa meritoria respectu boni meritory  
+          collati hominibus viatoribus, quia quidquid de adiutorys  
+          disponentibus ad gratiae collacionem et peccati remissionem et 
+          ad beatitudinis adepcionem collatum est tempore suo antiquis 
+          <cb ed="#T" n="31rb"/> 
+          iustis, qui fuerunt ante Christi aduentum. 
+          Totum est eis collatum in virtute passionis Christi a Deo 
+          tunc prouise et ab ipsis fidelibus eiusdem temporis praecrediti 
+          uel exhibendi, efficacia vero sacramentorum nostrorum et adiutoria 
+          ad gratiam obtinendam et vniuersaliter quidquid ad salutem pertinens 
+          nunc confertur nobis. Hoc totum confertur propter passionem 
+          Christi nunc exhibitam et a nobis creditam uel exhibitam. 
+          Ex hys  consequenter patet quomodo in exhibicione talium adiutoriorum 
+          et remediorum et quorumcumque bonorum humano generi ad salutem necessariorum 
+          concurrunt misericordia et iustitia. Maxime enim misericordie est homini 
+          inimico talia bona conferre, sed etiam maxime iustitiae est propter obsequium 
+          tam gratum et a persona tam dilecta exhibita tantum remedium conferre 
+          illis pro quibus talis persona illud obsequium obtulit : iustum enim est 
+          obsequium persone tam dilecte acceptare pro illo pro quo offert obsequium. 
+          Diceret aliquis quod illorum sacramentorum est dignius et efficacius; 
+          respondetur quod vnum eorum excedit alia in vno et excedetur in alio et sic 
+          idem sacramentum est excedens et excessum secundum diuersos respectus. 
+          Nam baptismus excedit alia ratione efficacie, quia tollit omnem culpam 
+          et omnem penam pro culpis debitam. 
+          Ewcaristia  excedit ratione continencie : continet enim substancialiter 
+          et realiter Christum Dominum 
+          <cb ed="#T" n="31va"/>
+          fontem gratiarum et tocius boni. 
+          Confirmatio excedit alia ratione causa conferentis , 
+          quia a digniori confertur, scilicet ab episcopo. 
+          Similiter ordo excedit ratione conferentis et etiam excedit ratione dignificati, 
+          id est ipsius ordinati qui per hoc ad gradum altiorem in Ecclesia reponitur. 
+          Matrimonium excedit ratione significationis quia significat quedam maxima, 
+          scilicet coniunctionem  Christi cum Ecclesia et significat coniunctionem 
+          naturae diuinae et naturae humanae in persona Christi.</p> 
+        
+        <p>Ad argumenta ante opposita  ad primum dicit <name ref="#Aquinas">S<supplied>anctu</supplied>s T<supplied>homas</supplied></name> 
+          quod baptismus est sacramentum intrancium, 
+          quia facit hominem primo participem redemptionis per Christum facte, 
+          consepeliens eum in similitudinem mortis Christi. 
+          Et ideo non potest baptismus iterari sicut nec passio Christi, 
+          licet ergo baptismus deleat omnem culpam, et actualem et originalem. 
+          Tamen, quia non potest iterari - et peccata actualia iterantur - ideo oportuit 
+          contra peccatum actuale aliud remedium adhiberi per quod tolli posset, 
+          et illud est sacramentum penitentiae.</p> 
+          
+          <p>Secundum dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> 
+          quod aqua benedicta non est sacramentum, sed est sacramentale quoddam quia disponens ad sacramenta. 
+          Non enim ordinatur directe ad remedium praestandum 
+          nec est institutum ad gratiam conferendam, 
+          sed ordinatur ad remouendum prohibens gratiam et remedia animae : 
+          datur enim contra temptationes et nequitias demonum 
+          et contra venialia et contra talia que effectum sacramentorum 
+          <cb ed="#T" n="31vb"/> 
+          impedire possunt, de quo dicetur posterius loco suo.</p> 
+          
+          <p>Ad 3um respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+            quod decimae et oblationes erant sacramenta in Veteri Lege, 
+            in quantum erant figurales : solum figurabant enim et significabant ea 
+            quae tunc futura erant in Noua Lege, ut dictum fuit superius et quantum 
+            adhuc non manent modo. Sed nunc manent solum in quantum morales et de Lege necessarie, 
+            in quantum ad vsum ministrorum et pauperum sustentationem sunt deputata , 
+            et ideo nunc non sunt sacramenta.</p> 
+          
+          <p>Ad 4um dictum est quod Dominus confirmationem instituit <ref><title ref="#io">Iohannis</title> 20°,</ref> 
+            uel etiam in die Penthecostes cum fideles illi induebantur virtute ex alto, 
+            uel etiam eam instituit cum pueris, scilicet paternitatis manus imposuit ; 
+            extremam autem vnctionem instituit cum - discipulos ad praedicandum mittens - oleo eos 
+            inivngere disposuit egros vt  sanarentur.</p> 
+          
+          <p>Circa litteram notandum quod <ref><name ref="#Lombard">Magister</name> in primo capitulo</ref> enumerat septem sacramenta	
+            Noue Legis et post hoc dicit quorum alia in remedium.</p> 
+          
+          <p>Contra hoc arguitur quia - ut dictum est praeuius - omnia sacramenta Noue Legis sunt 
+            in remedium et conferunt gratiam igitur. Illa distinctio 
+            <name ref="#Lombard">Magistri</name> nulla est : respondet 
+            <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> dicens quod illa distinctio sacramentorum fuit secundum illud ad quod sacramenta principaliter ordinantur, quamuis ergo omnia conferant gratiam ratione operis operati et aliquo modo sunt in remedium. Quedam tamen principaliter sunt ordinata in remedium contra aliquod speciale morbum, ut matrimonium contra concupiscentiam, quedam vero principaliter
+        <cb ed="#T" n="32ra"/> 
+        et de primaria intentione sunt ordinata in remedium morbi et simul ad gratiam conferendam, 
+        sicut baptismus qui est illa spiritualis regeneratio per quam vetus homo corrumpitur per 
+        destructionem peccatorum et nouus homo generatur per collationem gratiae que est vita animae. 
+        Quedam autem sunt que supponunt gratiam insumentem  et illa ordinantur ad gratiae collationem, 
+        ut Ewcaristia , et sicut sunt verba <name ref="#Lombard">Magistri</name> intelligenda.</p> 
+        
+        <p>Circa sequentem textum videtur quod sacramenta Noue Legis debuerint institui a principio mundi 
+          statim post lapsum hominis in peccatum, quod fidelis medicus statim applicat infirmo 
+          efficaciorem medicinam ne infirmus diu laboret infirmitate et ne forte in ea periclitetur . 
+          Cum ergo sacramenta Noue Legis sint efficacissime medicine contra morbos animarum nostrarum 
+          videtur quod debebant institui statim post lapsum hominis in peccatum igitur, etcetera.</p> 
+        
+        <p>Respondet secundum <ref><name ref="#Lombard">Magistrum</name> in littera</ref> quod, quia 
+          sacramenta Noue Legis sunt plena, quia continent gratiam 2m modum superius declaratum, 
+          ideo debuerunt institui tempore plenitudinis, et hoc est tempus incarnacionis 
+          Christi qui in suo adventu gratiam mundo attulit. 2m illud <ref><name ref="#io">Iohannes</name> 3° :</ref> 
+          <cit>
+            <quote ana="#io1_17">GRATIA ET VERITAS PER IHESUM CHRISTUM FACTA EST.</quote>
+            <bibl>Ioannes 1:17</bibl>
+          </cit> 
+          Et ideo non ante Christi adventum, sed post institui debuerunt : 
+          ipse enim est verus medicus animarum nostrarum et ergo congruum fuit,
+        <cb ed="#T" n="32rb"/>
+         ut ipse praeuius existens in hoc mundo ordinaret et institueret medicinas homini egroto, 
+         scilicet ipsa sacramenta.</p> 
+        
+        <p>Ad argumentum dicitur secundum <name ref="#Aquinas">S<supplied>anctum</supplied> T<supplied>homam</supplied></name> quod congruum fuit ut 
+           homo praeuius cognosceret morbuum suum et defectus anime et quod medicinam desideraret 
+           et tunc eam primo reciperet. Et ideo fuit congruum ut homo scilicet ipsi derelinqueretur ut 
+           sic tempore Legis necessarie infirmum se cognosceret per ignoranciam ad ydolatriam declinando, 
+           et deinde tempore Legis scripte que remedium contra ignorantiam praestabat recognosceret se infirmum 
+           per concupiscentiam ad peccatum declinando, et sic salutem ab alio expectaret qui viam 
+           salutis docuit contra ignoranciam et sacramenta gracie dedit contra infirmitatem concupiscentiae.</p> 
+        
+        <p>Vltimo loquitur <name ref="#Lombard">Magister</name> de institucione coniugy , 
+          de quo videndum est posterius cum de matrimonio tractabitur.</p>
+      </div>
+    </body>
+  </text>
+  
+  </TEI>

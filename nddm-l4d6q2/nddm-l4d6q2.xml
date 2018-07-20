@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 2</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q2">
+        <head>Librum IV, Distinctio 6, Quaestio 2</head> 
+        <p>Secundo quaeritur vtrum puer possit in vtero matris baptizari.</p> 
+        
+        <p>Arguitur quod sic, quia donum Dei perfectius quam peccatum Ade,
+        <cb ed="#T" n="77ra"/>
+        ut patet <ref><title ref="#rom">Ad Romanos</title> 5°.</ref> 
+          Paruulus autem in vtero matris potest infici peccato <name ref="#Adam">Ade</name>, 
+          igitur potest perfici a dono Dei et sic recipere sacramentum perfectissimum, scilicet baptismum. Item si non posset in vtero baptizari, tunc in causa deberet mater scindi et puer extradi, et sic baptizari ut liberaretur ab eterna dampnacione: de duobus enim malis minus malum est eligendum, sed minus malum est mors corporalis matris quam mors eterna pueri. Hoc autem videtur falsum et crudele, igitur videtur quod pocius puer possit in vtero baptisar .</p> 
+        
+        <p>In oppositum arguitur per illud apostoli <title ref="#Icor">Prime ad Corinthi<supplied>os</supplied></title>   : 
+          <quote>NON PRAEVIUS QUOD SPIRITUALE, SED QUOD ANIMALE ET DEINDE QUOD SPIRITUALE EST.</quote> 
+          Igitur oportet puerum primo ex matre nasci carnaliter in mundum et posterius renasci spiritualiter per baptismum.</p>
+        
+          <p>Respondendo 2m  <name ref="#Aquinas">S<supplied>anctum</supplied>> T<supplied>homam</supplied></name> et <name ref="#Scotus">Scotum</name> dicitur primo quod, si puer 2m omnes partes est adhuc in vtero matris, tunc non potest baptizari quia non potest ablui - que tamen ablucio uel locio in aqua est baptismus - : paruulus enim sic totaliter in vtero existens non potest tangi immediate  ab aqua, etcetera nec ablui igitur, nec baptizari. Patet hec etiam per auctoritatem  apostoli  in oppositum allegatam, patet etiam per <name ref="#IsidoreOfSeville">Ysidorum</name>
+          
+          <cb ed="#T" n="77rb"/>
+          in <title>De summo bono</title> dicentem : <quote>Qui natus non est 2m Adam renasci non potest per baptismum.</quote> Et 
+            <name ref="#Augustine">Augustinus</name> dicit: 
+            <quote>Qui non vixit non potest mori.</quote> 
+            Ita quia natus non fuit, non potest renasci ; ex hoc infert <name ref="#Scotus">Scotus</name> 
+            quod si paruulus involuetur coreo et ita poneretur in aquam, 
+            quod ipsa aqua non tangeret corpus paruuli, 
+            ipse non esset baptizatus.</p> 
+        
+        <p>Secundo dicitur 2m praedictos doctores quod, 
+            si puer 2m partem principalem et 2m caput est extra vterum et timetur periculum mortis ante totalem egressionem, 
+            tunc potest baptizari in illa parte et est simpliciter baptizatus. 
+            Non enim est   verisimile quod in die Penthecostes, quando baptizabantur tria milia 
+            <ref><title ref="#act">Actuum</title> 2°,</ref> quod quilibet quantum ad <corr><add place="margin">totum <!-- margin place unclear --></add></corr> 
+            corpus suum lauaretur aqua et lauabantur praecise quantum ad faciem aspergendo, 
+            uel quantum ad caput fundendo et in illa  causa, si puer postea nasceretur totus et viuus non esset rebaptizandus, 
+            quia vere baptizatus es. Sed dicetur quomodo debet nominari paruulus talis in baptizando, 
+            cum non sit certum an sit masculus uel femella. 
+            Dicit <name>Hostiensis</name> quod tunc nominetur congrue <mentioned>creatura Dei</mentioned>. 
+            Et ergo obstetrix , ut dicit ille doctor, volens talem paruulum baptizare liniendo caput paruuli, 
+            cum aqua faciat crucem super caput paruuli et simul dicat : - Creatura  Dei, 
+            ego te baptizo in nomine Patris et Fily  et Spiritus sancti, Amen. 
+            Et si paruulus viuus egredietur, portetur ad sacerdotem qui querat 
+            <cb ed="#T" n="77va"/> 
+            quomodo et qualiter factum sit 2m quod audit factum esse. 
+            2m hoc suppleat quod obmissum est et imponat, scilicet nomen uel episcopus in confirmacione.</p>
+        
+          <p>3° dicitur 2m praedictos doctores quod si extra vterum egressa esset pars minus principalis pueri, 
+            uel manus, uel pes, etcetera, et timetur periculum mortis, illa est baptizandi quia in illa est tota anima, 
+            licet non omnis sensus sicut in capite. 
+            Et sperandum est quod diuina misericordia suppleat illud quod impotencia 
+            impediebat et quod illud acceptet pro toto baptismo. 
+            Et vero, si paruulus sic moriatur maxime cum, ut dictum, anima ita est vere totalis manu aut pede, 
+            ymo  in qualibet parte corporis sicut est capite aut etiam in toto corpore, 
+            et si postea viuus nasceretur et totaliter ex vtero non esset simpliciter et absolute baptizandus 
+            ne forte fieret sacramento iniuria, nec esset absolute non baptizandus ne forte dampnaretur 
+            si baptismus partis numerus principalis non sufficeret. 
+            Et ita ex quo est dubitandum an sit vere baptizatum an non est ad maiorem cautelam, 
+            ymo  ad omnem securitatem sub condicione baptizandus 2m formam que ponitur extra de baptismo et eius effectu, 
+            ut dicatur : <quote>Si es baptizatus  ego te non baptizo ,</quote> sed : <quote>Si non est baptizatus  ego te baptizo  in nomine Patris et Fily  et Spiritus sancti .</quote> 
+            Talis etiam puer quo 2m partem minus principalem baptizatus est, si postea egreditur mortuus de 
+            <cb ed="#T" n="77vb"/> 
+            vtero ut non potuit totaliter 2m modum iam dictum sub condicione baptizari , debet sepeliri in terra benedicta, 
+            ut dicit <name ref="#Scotus">Scotus</name> et patet racio ex dictis.</p> 
+        
+        <p>Ad primum ante oppositum dicit <name ref="#Scotus">Scotus</name> quod Deus per suum donum potest iustificare paruulum non natum sicut fecit <name ref="#Jeremiah">Hieremie</name> , 
+          <name ref="#JohnTheBaptist">Iohanni baptiste</name> et <name ref="#Mary">matri Domini</name>, 
+          sed non per istud sacramentum , quia dum est in vtero totaliter, 
+          tunc non est capax huius sacramenti, ut patet ex dictis.</p> 
+        
+        <p>Ad 2m dicitur quod sine dubio, matre viuente, ipsa numquam scindenda est, quia <quote>NON SUNT FACIENDA MALA UT INDE EVENIANT BONA</quote> (<ref><title ref="#rom">Ad Romanos</title> 3°</ref>), 
+          esset autem malum, quia homicidium, scindere mater enim cum adhuc viua est, et ideo homo pocius debet permittere perire infantem quam 
+          quod ipse pereat peccatum homicidy  in matrem committens. Ita dicit <name ref="#Aquinas">S<supplied>anctus</supplied>> T<supplied>homas</supplied></name> : 
+          si vero mater moriatur ante partum et fetus credatur viuere, 
+          tunc licite potest scindi mater ut appareat caput ipsius fetus quod abluendum est 2m modum praeuius dictum, et est vere baptizatus  fetus.</p>
+          
+          <p>Est dubium vtrum quis debeat ministrare baptismum quando praesumitur ipsum vergere in periculum vite corporalis eius qui suscipit. 
+          Respondet <name ref="#Scotus">Scotus</name> distingwendo  quia aut talis praesumpcio est certa, 
+            et ex certis signis : utpute si quis non habens aquam quam attingere posset nisi alium, 
+            scilicet ipsum baptizandum  propellat in fluuium 
+            <cb ed="#T" n="78ra"/>
+            uel in  puteum. Hic est certum, quod quantum est ex ratione talis actus nata est sequi mors, 
+            scilicet ipsa submersio. Quando ergo sic praesumitur mors, 
+            tunc nullo modo debet propellere eum uel proicere deorsum, 
+            quia mortaliter peccaret occidendo eum et quilibet tenetur magis vitare peccatum mortale 
+            in seipso quam querere salutem proximi. Ordinata caritas est magis ad seipsam ; 
+            dicitur etiam quod talis sic proiectus deorsum ad aquam cum tali periculo non esset baptizatus, 
+            quia baptismus est ablucio ordinata ad vitam ipsius abluti. Sed ablucio talis, seu immersio , 
+            non esset ordinata ad vitam eius nec esset proprie immersio  dicenda, sed submersio esset. 
+            Ergo in tali causa aliquis pannus submittendus in puteum uel fluuium si non haberet vas 
+            in quo posset aqua hauriri et de illo panno esset aqua exprimenda qua baptizaretur talis. 
+            Si autem praesumpcio de hac celebracione mortis ipsius baptizandi et haec per baptismum non sit certa, 
+            sed leuis et forte irrationabilis, utpute si paruulus uel etiam adultus est 
+            constitutus in articulo mortis propter infirmitatem, 
+            et aliquis crederet mortem eius accelerare per baptismum et propter aquae superfusionem,
+            <cb ed="#T" n="78rb"/>
+            dicit <name ref="#Scotus">Scotus</name> quod habens conscienciam talem de acceleracione 
+            mortis talis infirmi per baptisacionem eius, ille habet conscienciam erroneam que, 
+            si nullus alius adsit  qui baptizet , facit eum perplexum. Nullus est enim ex lege diuina perplexus, 
+            sed potest in causa esse perplexus in consciencia sua erronea. 
+            Quod autem talis sit ex sua erronea consciencia perplexus inter duo peccata mortalia, 
+            patet quia si infirmus decedit sine baptismo, dampnabitur - igitur si nullus alius adsit  qui eum baptizet , 
+            ille tenetur eum de salutis necessitate baptizare  ne dampnetur -. 
+            Magis enim tenetur diligere vitam eius sempiternam quam eius temporalem, 
+            cum ergo peccaret non soluendo in casu vitam eius corporalem, 
+            puta cum permitteret eum submergi nolendo sibi porrigere manum ad extrahendum fluuio. 
+            Cum posset, multo magis peccaret mortaliter, permittendo illum dampnari propter defectum baptismi. 
+            Si autem ille, stante tali consciencia de accelerando mortem eius, baptizet eum, iterum peccat mortaliter, 
+            quia 2m suam conscienciam facit homicidium in voluntate et coram Deo : 
+            credit enim se per baptismum illum occidere et nichilominus baptizat  eum. 
+            Quid ergo in illo casu est faciendum ? 
+            Respondetur quod deponenda est consciencia eo, quod est erronea quia in casu illo 
+            <cb ed="#T" n="78va"/>
+            nullum aliud remedium est vitandi peccatum mortale si saltem nullus alius adest qui baptizare  velit et possit. 
+            Apparet eciam satis rationabiliter quod illa praesumptio sit friuola, fatua et irrationabilis , 
+            quia non multum noceret etiam grauiter infirmo patrum aspergi aut liniri aqua in capite et forte si frigida noceret, 
+            quia paruuli tenerrimi  pro remedio balneantur aqua tepida. Sed queritur an baptizans  
+            in tali causa et cum illa sciencia et erronea esset regularis, 
+            si postea mors sequeretur  ipsius baptizati.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod non est regularis quia nulla lex ecclesiastica 
+          quantum ad illud reddit irregularem nisi uere homicidam. 
+          Ille autem 2m veritatem non est homicida eo, quod illa baptisacio ipsum in nullo lesit, 
+          nec mortem eius in veritate accellerauit. Tamen post mortem baptizati, stante illa consciencia, 
+          tenetur se habere pro regulari quia habet se pro homicida, sed cessante uel amota illa consciencia erronea 
+          non oportet eum dispensationem querere, quia numquam fuit irregularis.</p> 
+        
+        <p>Aliud dubium pono quod quis habens puerum in articulo mortis existentem et stet super altum puteum 
+          et non habeat vas aptum in quo posset haurire aquam, habet tamen cribrum, uel aliud simile ponit. 
+          Ergo paruulum in cribrum uel dimittit eum in corda deorsum in puteum et immittendo 
+          <cb ed="#T" n="78vb"/> 
+          ad aquam dicit debitam formam et habet debitam intencionem. 
+          Queritur vtrum talis sic vere baptizetur et videtur quod non, quia nullus eum attingit immediate , 
+          nec tangit aliquis intingendo ad aquam. Respondetur quod vere baptizatus  est, quia ibi omnia obseruantur 
+          que sunt de necessitate baptismi, nec oportet quod cum intingitur in aquam, quod tunc immediate  
+          tangatur ab aliquo. Apostoli enim in die Penthecostes baptizauerunt  
+          multos uerisimiliter aspergendo simul plures et non fuerunt omnibus immediati . 
+          Cum autem talis casus occurretur posset leuius fieri, scilicet quod - ut praeuius dictum est - 
+          pannus uel funis mitteretur in puteum et de illo possit aqua exprimi super caput pueri 
+          cum prolacione forme debite et cum debita intencione. Aliud dubium : quid sit faciendum de puero exposito ?</p> 
+          
+          <p>Respondetur quod, si inveniuntur in eo certa signa, quod non sit baptizatus sicut muliercule huiusmodi pueros exponentes - 
+            solent aliquando puero apponere sal uel  vestem illam candidam, qua puer post baptismum induendus est quemadmodum 
+            sit cum pueris deportandum ad baptismum - tunc absque hesitacione baptizandus est puer absolute. 
+            Si autem non inueniuntur talia signa cum paruulo, nec possint haberi testimonia fide digna quod baptizatus sit, 
+            tunc baptizandus  est. Incius tamen est quod baptizetur  sub forma condicionali, de qua loquitur
+            <cb ed="#T" n="79ra"/>
+            <title ref="#Decretals">decretalis</title> de baptismo et eius effectu, de quibus dubium est. 
+            De illo causa loquitur <ref><name>Leo papa</name> <title>de consecracione</title> distinccione 4a,</ref> de quibus inquit  : 
+            nulla existunt iudicia inter propinquos et vicinos quibus fuisse baptizati  doceantur. 
+            Agendum est ut renascantur ne pereant, in quibus quod non ostenditur gestum racio non sinit, 
+            ut videatur iteratum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

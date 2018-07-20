@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q1">
+        <head>Librum IV, Distinctio 4, Quaestio 1</head>
+        <p>Hic dicendum est aliquos suscipere  sacramentum, etcetera. Postquam <name ref="#Lombard">Magister</name> egit de baptismo quantum ad eius intrinseca , agit modo de suscipientibus baptismum, et illius distinctionis determinacio consistit in declarando quandam distinctionem trimembrem de suscipientibus baptismum, quae est quod aliqui recipiunt sacramentum et rem, aliqui sacramentum et non rem et aliquam rem et non sacramentum. Et illam trimembrem distinctionem in generali ponit <name ref="#Lombard">Magister</name> in prima parte litterae uel in secunda vero parte que incipit ibi. Sacramentum et rem <name ref="#Lombard">Magister</name> exponit dictam distinctionem trimembrem et diuidit in duo : in primo eam exponit et in 2° circa eam dubitaciones mouet et soluet. Ibi <quote>solet queri de illis</quote> : prima diuiditur in tres 2m
+        <cb ed="#T" n="50rb"/>
+        membra tria quae declarat ibi ; qui vero sine fide tertium ibi sunt vel alij.</p>
+        
+        <p>Circa hanc distinctionem uel primam partem 
+          perditae trimembris distinctionis queritur 
+          primo 
+          utrum paruuli sint baptizandi  uel suscipiant effectum baptismi.</p> 
+        
+        <p>Arguitur primo quod paruuli non sunt baptizandi  quia baptismo est remedium contra peccatum; paruuli vero non habent peccatum quia nec vsum racionis aut voluntatis. Et 2m <name ref="#Augustine">Augustinum</name> in <title>De vera religione</title> peccatum est adeo voluntarium, quod si non esset voluntarium non esset peccatum.</p> 
+        
+        <p>2°, <title ref="#mt">Mathei</title> vltimo dicitur: <quote>QUI NON CREDIDERIT CONDEMPNABITUR.</quote> Sed paruulus non potest credere, igitur per baptismum non potest saluari, igitur frustra baptizeretur .</p> 
+        
+        <p>3° probatur quod paruuli, ac  si baptizarentur , non tamen reciperent effectum baptismi, quia effectum baptismi est gratia, paruuli autem non recipiunt gratiam. Igitur maior probatur, quia <quote>SINE FIDE IMPOSSIBILE  EST PLACERE DEO</quote> (<ref><title ref="#hebr">Ad Hebreos</title> 11°</ref>). Paruuli autem non recipiunt fidem, quod probatur ex auctoritate apostoli  (<ref><title ref="#rom">Ad Romanos</title>  10°</ref>) : <quote ana="#ro10_17">FIDES EST EX AUDITU.</quote> Sic autem non possunt paruuli recipere fidem ex auditu per instructionem .</p> 
+        
+        <p>In oppositum arguitur primo auctoritate <ref><name ref="#Dionysius">Dionisy</name>  capitulo ultimo <title ref="#deCoelestiHierarchia">Celestis Ierarchie</title>,</ref> vbi  dicit quod diuini nostri duces, scilicet apostoli  probauerunt infantes decipi ad baptismum. Etiam circumcisioni successit baptismus et circumcisio praeuius conferebatur igitur, uel praeuius diceret dari baptismus uel consequenter dimissionem culpe uel collationem 
+          <cb ed="#T" n="50va"/>
+          gratiae qui sunt effectus baptismi.</p> 
+          
+          <p>Pro questione nota, quod pro praesenti non volo loqui de caractere, sed solum de ceteris effectibus qui in baptismo conferuntur hominis praecisi ex ui sacramenti uel ratione operis operati qui, ut patebit, sunt dimissio culpe, collacio gratiae uel aliarum uirtutum, conclusio prima : paruulis in sua puericia et cito conferendus est baptismus. Probatur quia in pueris est peccatum originale per quod a consecucione Ecclesiae salutis impedirentur. Si in eodem cederent, igitur oportet quod eis adhiberi possit aliquod remedium per quod remoueatur praedictum impedimentum, et hoc est baptismus qui est eis conferendus.</p> 
+        
+        <p>Item <name ref="#Augustine">Augustinus</name> in <title>De fide ad Petrum</title> firmissime tenet paruulos qui sine  sacramento baptismy  de hoc saeculo transeunt eterno supplicio  puniendos, quia originale peccatum carnali concepcione contraxerunt. Igitur sunt baptizandi  ne sine baptismo decedentes perpetuo dampnentur. Diceret aliquis : omnis Christi actio ut ostia debet esse instructio, cum ergo Christus cum suo baptismo expectauerit usque ad annum suum concessim videtur quod uel nos suo exemplo deberemus ad eandem etatem expectare, uel adherimus. Nemo deberet ante annos discrectionis baptizari  sicut nemo profitetur in religione ante annos discrecionis.</p> 
+        
+        <p>2°, medicina efficax debet sumi  quando maxime potest iuuare et prodesse, sed baptismus maxime iuuaret in fine vite, quia 
+        <cb ed="#T" n="50vb"/>
+        hominem absolueret a pena uel a culpa. Igitur expedit vsque tunc <unclear>differrre. <!--should be differre --></unclear> Respondet S<supplied>anctus</supplied> T<supplied>homas</supplied> quod laudabile est ut quanto citius fieri potest baptizetur  non expectata perfecta etate primo propter imbecillitatem naturae, quia de facili modo possit uel dampnari et ergo, ut dampnacionis periculum euitetur, debet baptismum praeuenire.</p> 
+        
+        <p>3° propter infestaciones demonum, quia non habent tantam potestatem in pueris baptizatis , 
+          etcetera ab originaly  mundatis quantum in illis qui adhuc originale habent neque quantum ad nociuum uel ad corporalia.</p> 
+        
+        <p>4° igitur dicitur omnis Christi actio, etcetera.</p> 
+        
+        <p>Respondetur quod non est simile de Christo et de alys  hominibus : aly  enim homines suscipiunt baptisma ut inde iuuetur et quia indigerent pro salute sua, 
+          Christus autem non indiguit nec suscepit ut inde iuuaretur. Sed ut per hoc ipsum baptismum quasi institueret, et uera uita uel mors non est sic in potestate aliorum hominum sicut erat continuacio in potestate Christi. 
+          Ideo, ne homines paruulos suos periculo dampnacionis eterne exponent, necesse est eos cito baptizari  ne pueri  morte dampnentur. Debemus ergo Christi actionem ymitari  in hoc, quod vnusquisque semel baptizetur  sacramento Christi ; baptizatus  est, sed non expedit ut differamus in longum ex causis que dicte sunt.</p> 
+        
+        <p>Ad 2m argumentum dicitur quod in baptismo confertur gratia ad bene viuendum et per illud tolluntur peccata priora et impediuntur futura. Et ideo, quamuis baptismus
+          
+          <cb ed="#T" n="51ra"/>
+          in fine vite susceptus plura perfecta tollit , tamen pauciora impediret et ad pauciora bona permoueret et esset minus vtilis propterea  multis casibus subiacet humana vita, et posset contingere ut qui baptismum in fine vite expectaret suscipere, subita morte praeuentus sua expectacione frauderetur.</p> 
+        
+        <p>2a conclusio : omnes paruuli qui rite baptizantur  suscipiunt rem sew  effectum baptismi sacramenti. Patet, quia omnes tales  paruuli mundantur ab originali et suscipiunt gratiam et alias virtutes et nec est susceptam  rem sew  effectum baptismi igitur. 
+          Maior probatur per auctoritatem <name ref="#Augustine">Augustini</name> in Bucljon dicentis a paruulo recenter nato usque ad decrepitum  : sicut nullus prohibetur a baptismo, ita nullus est qui moriatur  peccato nisi recipiat gratiam quae est paruulis baptismi. Ita nullus est qui non moriatur peccato in baptismo, sed nullus moriatur peccato nisi accipiat gratiam quae est paruulis baptismi esse certa . Item paruuli, si baptismo rite suscepto moriuntur, antequam actualiter peccant perveniunt ad vitam eternam, hec autem non esset nisi per sacramentum: dimitteretur eis originale et istud Deus pro statu naturae lapse non dimitteret alicui nisi det eidem tunc gratiam. Igitur per baptismum tunc suscipiunt gratia.</p> 
+        
+        <p>3°, Dei perfecta sunt opera - De voto 33° - et quando hominem sanat totaliter sanat, cum igitur impossibile  sit sine fide placere Deo. Sequitur quod in baptismo, cum paruulo datur gratia, dantur etiam sibi due alie virtutes theologicales , scilicet spes et fides. Haec certiter minuit <ref><name ref="#Lombard">Magister</name> in fine distinctionis praecedentis</ref>
+          
+          <cb ed="#T" n="51rb"/>
+          vbi dicit : causa institucionis baptismi est innouatio mentis ut homo qui per peccatum vetus seruatur per gratiam baptismi dominetur , quod fit depositione viciorum et collacione virtutum. Patet ergo quod paruuli in baptismo mundantur ab originali et suscipiunt gratias et alias virtutes, et hoc est suscipere effectum baptismi. Ad primum argumentum neget Bor et ad auctoritatem <name ref="#Augustine">Augustini</name> dicitur quod loquitur de peccato actuali : quodlibet enim tale est voluntarium despectu eius cui inest, secus autem est de peccato originali quale est enim in paruulis, sicut hoc declarari habet in 2° libro.</p> 
+        
+        <p>Ad 2m dicit quod illa auctoritas intelligitur de illo qui non credit nec actu nec aptu : talis condempnabitur, quia 2m apostolum  <ref><title ref="#hebr">Ad Hebreos</title> 11°</ref> oportet accedentem ad eum credere. Paruuli autem, licet non habent actum credendi, recipiunt tamen in baptismo habitum baptismi credendi, scilicet fidem infusam. Et illa habitualis  fides cum habitibus  spei uel gratiae eis sufficit ad salutem si moriuntur ante vsum racionis et sine actualibus peccatis.</p>
+        
+        <p>Ad 3um necessitatur minor, et dicitur quod paruuli in baptismo recipiunt fidem habitualem, scilicet cum gratia, auctoritas autem apostoli  loquitur de fide actuali. Et hic est notandum quod ad hoc, ut paruulos vite suscipiat, baptismum requiritur praeuia fides ; non quidem ipsius paruuli, quia non hanc  habent fidem praeuiam, sed etiam saltem habitualem. Primo recipit cum sacramento, sed requiritur fides aliena et non requiritur
+          
+          <cb ed="#T" n="51va"/>
+          fides parentum paruuli, nec patrinorum eius, nec baptizantis  : staret enim omnes istos non credere et tamen paruulum vere baptizari , sed requiritur et sufficit fides Ecclesiae. Vnde <name ref="#Augustine">Augustinus</name> ad Bonifacium : cum offeruntur paruuli ad percipiendum gratiam, non tamen ab eis quorum gestantur manibus, quamuis etiam ab ipsis, si ipsi fideles sunt quam ab vniuersa societate sanctorum atque fidelium. Ab omnibus namque offerri intelliguntur quibus placet ut offerentur et quorum sancta atque indiuidua caritate ad communionem spiritus adiuuentur. Sic ergo baptismus prodest paruulis merito et fide Ecclesiae militantis que, quamuis deficere possit, in aliquibus personis numquam tamen generaliter deficiet. Iuxta illud 
+          <ref><title ref="#mt">Mathei</title> vltimo :</ref> <quote>ECCE, EGO VOBISCUM SUM AD CONSUMACIONEM SECULI.</quote> Nauicula namque Petri potest concuti, sed mergi non potest.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 7, Quaestio 2</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d7q2">
+        <head>Librum IV, Distinctio 7, Quaestio 2</head>
+        <p>Secundo queritur vtrum crisma prius sanctificatum sit congrua materia huius sacramenti.</p> 
+        
+        <p>Arguitur quod non, quia illud sacramentum non habet materiam igitur, etcetera. 
+          Antecedens probatur, quia sacramenta omnia habent efficaciam a diuina institucione, sed mirabili legitur materiam huius sacramenti adeo institutam.</p> 
+          
+        <p>Secundo confirmatio datur ad plenitudinem Spiritus sancti percipiendam, sed super apostolos in die 
+          Penthecostes descendit Spiritus sancti plenitudo absque omni huiusmodi materia : igitur hoc sacramentum non indiget materiam.</p>
+          
+          <p>3° apostoli tradiderunt nobis formam ecclesiastici ritus, sed ipsi confirmabant solum manus imponendo sine quacumque alia materia, ut legitur in Actibus apostolorum.</p> 
+        
+        <p>4to arguitur quod crisma non sit eius materia quia materia sacramentorum debet esse omnibus communis, 
+          quia sacramenta omnibus proponuntur in salutem, sed oleum oliue et balsamus quae intrant confectionem crismatis non sunt communia omnibus. 
+          Igitur crisma non erit congrua materia huius sacramenti.</p> 
+        
+        <p>5to quod non requiratur materia consecrata, quia in baptismo non requiritur materia consecrata : 
+          igitur nec in confirmatione cum baptismus 
+          <cb ed="#T" n="94ra"/>
+          videatur maior et dignior.</p> 
+        
+        <p>In oppositum est communis vsus Ecclesiae et etiam determinatio Ecclesiae quae etiam ponit ritum consecrationis crismatis.</p> 
+          
+          <p>Respondetur quod duplex est materiam huius sacramenti, sicut et de baptismo dictum fuit.
+            Prima est materia eius propinqua et est vnctio cum crismate sanctificato facta in fronte per modo crucis, 
+            sicut in baptismo materia propinqua est ablucio in aqua. Sed materia remota est crisma confectum ex oleo oliue et balsamo, 
+            sanctificatum specialiter ab Episcopo uel alio cuius talis sanctificatio poterit committi. 
+            Et illa materia confirmationis, scilicet crisma, habet similitudinem cum effectu huius sacramenti : 
+            conficitur enim ex oleo et ex balsamo, oleum autem habet nitorem et supereminet alys  
+            liquidis et est materia incendy . 
+            Per primum significat castitatem et immunditiam, per alia duo significat caritatem. 
+            Balsamus habet bonum odorem et significat bonam famam, iuxta illud <ref><title>Ad Corinthios</title> 2° :</ref> 
+            <quote>CHRISTI BONUS ODOR SUMUS DEO.</quote> Balsamus etiam corpora mortuorum condiuntur ne cito putrescant, 
+            ideo incorruptionem significat. Per illam ergo materiam confirmationis, scilicet oleum et balsamum, 
+            significatur quod confirmatus debet habere mundiciam et caritatem et bonam famam, 
+            quia sine istis non erit multum autentica confirmatio fidei christiane per ipsum.</p>
+        
+        <p><cb ed="#T" n="94rb"/>Ad primum argumentum respondetur 2m <name ref="#Scotus">Scotum</name> quod Christus non alligauit potentiam suam sacramentis, 
+          et ideo ipse siue adhuc in terris, siue etiam in celis existens post ascensionem potuit confirmare apostolos sine tali materia, 
+          ymo  etiam sine forma cum apostolis etiam in primitiua Ecclesia potuit dispensare. 
+          Et maxime propter hoc, quia in confirmatione ab eis collata per manuum impositionem fuerunt aliqua signa sensibilia, 
+          utputa communiter descensus Spiritus sancti in signo aliquo visibili super confirmatos et etiam donum li<supplied>n</supplied>gwarum  , 
+          sed tamen, cessantibus talibus   miraculis, ministri debebant hanc materiam crismatis et confirmationis seruare, 
+          et similiter formam debitam de qua dicetur. 
+          Supponitur enim illa data fuisse a Deo, licet tempus et modo huius institucionis non legantur, 
+          et hoc ideo quia hystorici  Scripturam vsque ad tempus illud non perduxerunt. 
+          Non enim perduxerunt vltra tempus apostolorum, neque etiam vltra plures annos ante mortem eorum, 
+          toto autem tempore apostolorum forte mansit donum lingwarum  in sacramento confirmationis. 
+          Multa eis tradita sunt a Christo quae non leguntur in Scripturis, sicut forma verborum quibus conficitur in nullo 
+          Ewangeliorum  tota legitur. Etiam in nullo legitur quod Christus, antequam conficeret corpus suum, 
+          leuaret oculos suos in celum et ipsum hec fecisse credimus. 
+          Alias Ecclesia diceret falsum circa
+          <cb ed="#T" n="94va"/>
+          confectionem corporis Christi. Sic etiam dicit 
+          <ref><name ref="#JohnDamascenus">Damascenus</name> libro 4° capitulo 4° :</ref> - 
+          Multos ritus seruat nunc Ecclesia qui, licet non inveniantur in Scriptura, expresse instituti tamen 
+          Spiritus sanctus per sanctos eos instituit et reuelauit. 
+          Ita etiam intelligatur de materia sacramentorum quae sunt potissima salutis remedia.</p>
+        
+          <p>Ex istis patet etiam responsio ad 2m.</p> 
+        
+        <p>Ad 3m posset dici sicut ad primum, uel sicut dicit 
+          <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod apostoli non confirmabant sine materia nisi forte, quando praeter legem communem visibilius 
+          signis Spiritus sanctus descendebat in eos quibus per apostolos manus impositio facta fuerat : 
+          tunc enim visibilis apparicio supplebat locum elementi visibilis. 
+          Quod autem apostoli aliquando vterentur materia, dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name>, 
+          patet per <ref><name ref="#Dionysius">Dyonisium</name> in 4° capitulo <title>Ecclesiastice Ierarchie</title></ref> 
+          vbi dicit quod est quedam perfecta operacio quam duces nostri, 
+          id est apostoli  cymatis  'hostiani' nominantur, 'hostiam' 
+          dicens communiter omnem ritum sacramenti.</p> 
+        
+        <p>Ad 4m dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod ratio procedit in sacramentis necessitatis cuiusmodi non est hoc sacramentum : 
+          quamuis etiam oleum oliue et balsamus non vbique terrarum crescant, tamen faciliter 
+          possunt vbique transportari ad tantam quantitatem quanta per hoc sufficit.</p> 
+        
+        <p>Ad 5m dicitur quod Christus tactu sue mundissime carnis omnem aquam fecit 
+          ydoneam materiam sacramenti baptismi, non autem sic fecit de materia confirmationis, 
+          et ideo hic requiritur specialis sanctificatio materiae baptismus : 
+          <cb ed="#T" n="94vb"/> 
+          enim est sacramentum necessitatis, 
+          et ideo potest a quocumque ministro conferri. 
+          Et quod rationabile est quod in aqua non consecrata aliquando materia conueniens non esset communis 
+          et impedietur salus multorum.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

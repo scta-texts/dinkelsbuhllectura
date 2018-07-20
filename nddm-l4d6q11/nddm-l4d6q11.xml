@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 11</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 11</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q10">
+        <head>Librum IV, Distinctio 6, Quaestio 11</head>
+        <p>Vndecimo queritur vtrum in baptismo debeat exhorcismus praecedere baptismum.</p>
+        
+        <cb ed="#T" n="90vb"/>
+        <p>Arguitur quod non, quia exhorcismi circa energuminos instituti sunt, sed non omnes qui accedunt ad baptismum sunt energumini, igitur non omnes sunt exhorcizandi .</p> 
+        
+        <p>Secundo superfluum est ad eundem effectum ordinare diuersa remedia, sed ad potestatem demonis cohercendam sufficit aqua benedicta, igitur non oportet ad hoc esse aliquos exhorcismos.</p> 
+        
+        <p>3°, frustra fieret exhorcismus ante baptismum : nullus enim eius videtur effectus.</p> 
+        
+        <p>In oppositum arguitur au<supplied>c</supplied>toritate Celestini proprie  
+          dicentis : - Siue paruuli, siue iuuenes ad regeneracionis veniant ad sacramentum non fontem vite -. 
+          Primus aderat quam exhorcismus et ex sufflationibus clericorum immundus  spiritus ab eis abiciatur (in mg.: item). 
+          Alia que sanctificantur prius exhorcizantur , sicut patet in aqua benedicta et in sale quod apponitur, etcetera. Cum ergo homo in baptismo consecretur, videtur quod prius debeat exhorcizari .</p> 
+        
+        <p>Respondet <name ref="#Aquinas">S<supplied>anctus</supplied>> T<supplied>homas</supplied></name> quod propter peccatum hominis dyabolus potestatem accepit in hominem et in omnia que in vsum hominis veniunt, et hoc in hominis nocumentum. Et quia nulla conveniencia est Christi ad Belial, ideo quantumcumque aliquid sanctificandum est ad cultum diuinum prius exhorcizatur , ut liberatum a potestate dyaboli, quam in nocumentum hominis assumere potuit Deo consecrati ; et hoc patet in benedictione aque, in consecratione templi, et in omnibus huiusmodi.
+          
+          <cb ed="#T" n="91ra"/>
+          Cum autem prima consecratio qua homo Deo consecratur sit in baptismo, oportet quod primus ex homo baptizetur  quam baptizetur  multo forciori ratione quam alie res, quia non sic in alys  rebus sicut in ipso homine est causa quare dyabolus potestatem accepit in homines et alia que sunt propter homines, scilicet peccatum originale uel actuale, quod est causa tali potestatis dyaboli. Que causa non est in alys  rebus que non possunt subici peccatis, et haec significat ea que in exhorcismo dicuntur, et cum dicitur : RECEDE AB EO SATHANA, et huiusmodi. Et similiter ea que ille fuit, quia ipsa exsufflacio significat demonis expulsionem, benedictio autem cum manus impositione  praecludit expulso viam ne redire possit. Sal autem in os miscum et narium ac aurium cum sputo linitio significat remocionem impedimenti ipsius demonis respectu fidei docende uel addiscende, sed olei invnctio significat expeditionem hominis in pugnam quam aduersus dyabolum suscipit a cuius potestate exemptus est.</p> 
+        
+        <p>Ad argumentum primum dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod energumini dicuntur interius laborantes ab en, quod est in et ergen, quod est labor, 
+          et quamuis non omnes baptizandi  sint energumini nec interius laborantes a 
+          dyabolo corporaliter vexati, tamen interius laborant et infirmatur propter infectionem fomitis, 
+          dyabolo in eos potestatem habente.</p>
+        
+        <p>Ad 2m dicit quod dyabolus impugnat  nos et
+            <cb ed="#T" n="91rb"/>
+            ab exteriori et ab interiori, aqua ergo benedicta ordinata in pugnationem dyaboli que est ab exteriori, 
+            sed exhorcismus ab impugnacione  que est ab interiori.</p> 
+            
+            <p>Ad 3m dicitur quod fuit aliquorum opinio quod ea que in exhorcismo aguntur sunt tantum signa eorum que in baptismo complentur in quo potestas demonis totaliter euacuatur. Sed haec est contra beatum Gregorium super Ezechielem dicentem: SACERDOS. Dum per gratiam exhorcismi manus credentibus imponit et habitare malignus spiritus in eorum cordibus contradicit, quid aliud facit nisi quia demonia eicit ? Igitur habet aliquem effectum exhorcismus. Et ideo dicunt <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> et <name ref="#Bonaventure">Bonauentura</name> et aly  doctores quod non tantum significat, sed etiam efficiunt aliquid, non tantum in corpore sed etiam in anima, quia in vtroque est infectio fomitis, effectus autem ille est debilitacio potestatis demonis ne tantum possit in homine sicut ante ne baptismum et alia dona in ipso impediat. Sed potestas praedicta totaliter in baptismo tollitur, sicut etiam Pharao prius flagellatus est populo nondum de Egypto  egresso, et postea totaliter in Mari Rubro, quod figura est baptismi, submersus est. Dicens : - Si in baptismo totaliter tollitur potestas dyaboli - ad quid ergo exhorcizatur  paruulus iam baptizatus et cui exhorcismus propter articulum necessitatis obmissus fuit ? Respondet Sanctus Thomas
+              <cb ed="#T" n="91va"/>
+              quod ad hoc, ut vniformitas baptismi obseruetur, oportet quod exhorcismus - si praetermissus fuit - 
+              post baptismum suppleatur et tunc solum significat et nichil efficit. Vel forte additur etiam aliqua cohibicio ab 
+              impugnatione  dyaboli, nec hoc est inconueniens cum etiam per aquam benedictam qua post baptimum 
+              asperguntur aliqua potestas demonis reprimatur.</p> 
+        
+        <p>Circa textum dubitatur primo de hoc quod dicit <name ref="#Cyprian">Cyprianus</name> quomodo 
+          sanctificare potest aqua cum ipse immundus  fit ; ex hoc videretur quod baptismus non fiat nec in aqua sanctificata, 
+          quod est contra sepe dicta. 
+          Dubitatur secundo de argumentis beati <name ref="#Cyprian">Cypriani</name> que <name ref="#Lombard">Magister</name> 
+          non soluit : si enim nulla est sanctificatio nisi per Spiritum sanctum, et illum hereticus non habet, 
+          ergo nichil sanctificat.</p> 
+        
+        <p>Respondet <name ref="#Bonaventure">Bonauentura</name> quod duplex  
+          est sanctificatio aque baptismi quedam que spectat ad solempnitatem baptismi. 
+          Alia ad necessitatem illa que pertinet ad solempnitatem facta est per praelatum ecclesiae 
+          per orationes, et illa nec addit, nec adiuuit baptismo. 
+          Alia sanctificatio est per verbum adueniens ad elementum, per verbum - inquam - quod est de integritate sacramenti et est forma, 
+          et illud verbum non habet efficaciam suam adicente, sed abinstituente. 
+          Et ideo sanctificat et est efficax ; non virtute ministri, 
+          sed virtute Christi qui intus baptizat dat exitum. 
+          
+          <cb ed="#T" n="91vb"/> 
+          
+          Si Notorius odiosus regi et malus scribit litteras quas filius regis mittit patri suo regi, 
+          quamuis Notorius non placeat regi nec aliquid quod sit in ipso placet ; 
+          tamen littera fily  sui sibi, et est omnino efficax apud regem. 
+          Sic in proposito quamuis malus minister baptismi non placeat Deo, tamen baptismus fily  sui placet Deo Patri. 
+          Et est efficax ex Christi merito cui non potest obesse demeritum et maliciam  
+          conferentis exterius baptismum. 
+          Hoc ergo decepit <name ref="#Cyprian">beatum Cyprianum</name> quod potestatem traditam ministro non bene considerauit, nec ualet abiectio sua quia sanctificat ipsum sacramentum spiritus ministri, sed spiritus Christi. Cetera circa hoc sunt superius dicta in questione. Circa hoc quod dicit Augustinus in illo puero acceleratus est vsus racionis. Dubitatur vtrum Iohannes waptista  in vtero matris existens habuit vsum racionis et libery  arbitry  et videtur quod sic exultauit ad uocem beate Marie salutantis Elisabeth - ut dicitur Luce primo - sed talis exultatio non fuit nisi ad apprehensionem  rei animate. Res autem, scilicet potentia Christi et matris non apprehendebatur  nec racione, nec amabilis erat, nec voluntati praesentata. Cum ergo vsus racionis consistat in actu racionis et voluntatis, videtur quod tunc similiter habuit vsum liberi arbitry . Contrarium videtur, quod Augustinus ad Dardanum
+              
+              <cb ed="#T" n="92ra"/>
+              non est dictum quia credidit infans, ergo semotus fidei primus est motus virtutum. Videtur quod non habuerit motum alicuius virtutis et, cum hoc non fuerit propter defectum gratiae, sequitur quod hoc fuerit propter defectum vsus libery  arbitry . Respondet Bonauentura quod Augustinus ambigue de hac re locutus est, ut patet in textu. Ideo de hoc sunt due opiniones : aliqui enim dixerunt quod tunc (in mg. : Iohannes) non habuerit motum liberi arbitry  nec exultationem illam fuisse ab eo, sed magis in eo non per naturam sed super naturam, sicut asina Balaam locuta est, et tamen non intellexit quid diceret.
+              Sic dicunt Iohannem motum fuisse a Spiritu sancto ad aduentum Domini et matris eius Marie et illum motum fuisse admodum exultantis non quia ipse perciperet, sed volebat Dominus ut motum pueri eius matri, scilicet Elizabeth , perciperet penitentiam Domini et eius matris, et ut esset per sa<supplied>n</supplied>guinem futurorum. Et huic opinioni consonant verba Augustini. Aly  dixerunt quod Iohanni ad illud momentum datus fuit vsus liberi arbitry  et illustratio cogitationis : cognoscit enim Dominum penitentem et super naturam gauisus est. Et haec plus placet sancto Thome qui contradicit, quod non est inconueniens quod beato Iohanni postea ille vsus rationis  subtractus est, sicut et gratia raptus admonientum datur. Secus autem est de gratia gratum
+                
+                <cb ed="#T" n="92rb"/>
+                faciente qui non subtrahitur sine culpa circa hoc, quod Zacharias papa non intendens errorem inducere, per hoc videtur velle quod - si intenderet errorem inducere - quod non baptizaret. De hoc queritur quare hoc sit, cum tamen hereticus aut infidelis possit baptizare. Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> et <name ref="#Bonaventure">Bonauentura</name> quod si quis intendit errorem inducere intendens mutare forma Ecclesiae, tunc hoc ipso non intendit facere quod Ecclesia facit. Et ideo non baptizat non quia hereticus, sed quia deficit necessaria intencio, et quia figit intentionem suam ad illam formam quam sibi excogitat tamquam illa sit vera forma baptismi, quae tamen non est forma. Dubitatur etiam de hoc quod dicit Augustinus : - Si totum minute factum est, implorandum  est diuinum consilium :  videtur enim male dicere. Intentio enim est de necessitate baptismi, igitur si totum factum est ioculariter non est baptismus, igitur non est implorandum  diuinum consilium, sed rebaptizandus est. In hys  enim in quibus habemus humanum consilium non oportet confugere ad diuinum. Respondetur secundum Bonauenturam - et est intentio etiam sancti Thomae - quod ut dicit Hugo ludus non semper excluditur intentionem, sed compatitur eam. Exemplum : quis potest velle ludere et nullo modo dare baptismus ? Et sic excludit intentionem. Alio modo potest quis velle ludere et nichilominus dare baptismum ? Et talis vere baptizat, quia etiam habet intencionem dandi baptismum et faciendi quod facit Ecclesia
+                  <cb ed="#T" n="92va"/>
+                  vbi ergo in baptizando ad extra apparuit ludus et non potest sciri intencio baptisantis. Wult  beatus Augustinus quod requirendum est duplicem consilium quod si Dominus reuelat, baptizandus  est talis, sed sub condicione, et hoc est quod dicitur in quaestione prima de causa qui ibidem ponitur, scilicet quod puer Athanasius simulans se episcopus  baptizauit quosdam pueros ludicre, qui postea consilio Alexandri  Episcopi non sunt rebaptizandi, quia - ut inferius subditur - idem Episcopus superuenit et de intentione pueri quaesivit et ex verbis pueri cognouit quod habuit intencionem. Et ideo non debuerunt rebaptizari , quod autem puer habuit intencionem signum fuit, quia non baptizauit nisi cathecuminus. Et hec de baptismo sint dicta.</p>
+            
+            
+        
+      </div>
+    </body>
+  </text>
+</TEI>

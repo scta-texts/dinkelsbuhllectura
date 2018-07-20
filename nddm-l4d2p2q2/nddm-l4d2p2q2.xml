@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 2, Pars 2, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d2p2q2">
+        <head>Librum IV, Distinctio 2, Pars 2, Quaestio 2</head>
+        <p xml:id="nddml4d2p2q2-d1e3477">Secundo queritur vtrum baptizati  
+          baptismo <name ref="#John">Iohannis</name> tenebantur etiam baptizari  baptismo Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3483">Arguitur quod non, quia <ref><name ref="#Lombard">Magister</name> in littera capitulo vltimo</ref> 
+          dicit : qui spem non posuerunt in baptismo <name ref="#John">Iohannis</name> 
+          - et non  Patrem et Filium et Spiritum sanctum credebant - non 
+          <cb ed="#T" n="34va"/> 
+          sunt postea baptizati.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3496">Igitur secundo super illo <ref><title ref="#io">Iohannis</title> 3° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3505" ana="#act2_17"> <!-- or act2_18 --> EFFUNDAM DE SPIRITU MEO,</quote>
+            <bibl/>
+          </cit> 
+          etcetera. Dicit <name ref="#Jerome">Hieronimus</name>  quod hec est causa quare quidam baptizati  
+          a <name ref="#John">Iohanne</name> sunt baptismo Christi iterum baptizati  a <name ref="#Paul">Paulo</name>, 
+          ut patet <ref><title ref="#act">Actuum</title> 19° :</ref> 
+          quia fidem Trinitatis non habebant, quia nec si 
+          Spiritus sanctus sit audierunt. 
+          Si ergo aliqui fuissent baptizati  a <name ref="#John">Iohanne</name> qui habuissent fidem Trinitatis, 
+          videtur quod non debebant iterum baptizari  baptismo Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3532">3° in receptionem sacramentorum quod datur non est iterandum, 
+          sed si obmittatur aliquid caute est supplendum ; 
+          de sacramentis non iterandum, <ref>capitulo primo.</ref> 
+          Sed in baptismo <name ref="#John">Iohannis</name> ablucio exterior dabatur igitur, 
+          ex quo defuit interior ablucio : illa fuit supplenda, sed exterior non fuit talis. 
+          Iterum baptizandus  baptismo Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3542">4° dicitur <ref><title ref="#act">Actuum</title> 8uo</ref> quod Samaritani fuerunt a 
+          <name>Philippo</name> baptizati  et - ut videtur - solum baptismo <name ref="#John">Iohannis</name>, 
+          quia baptismus Christi est Spiritus sanctus, 
+          isti autem non receperunt Spiritum sanctum, ut dicitur <ref>ibidem in littera.</ref> 
+          Et illi non fuerunt rebaptizati  baptismo Christi, 
+          quia <name ref="#Peter">Petrus</name> et <name ref="#John">Iohannes</name> 
+          illuc missi per apostolos solum imponebant eis manus. 
+          Igitur videtur quod nec ceteri per <name ref="#John">Iohannem</name> baptizati  
+          debuerunt baptizari  baptismo Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3569">5° - Apostoli non leguntur post baptismum <name ref="#John">Iohannis</name> 
+          rebaptizati  baptismo Christi, igitur videtur quod non fuerit necessarium baptizari  
+          de uno praeuius baptismo Iohannis baptizatos .</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3575"><cb ed="#T" n="34vb"/> 
+          In oppositum arguitur quia, 
+          ut habetur <ref><title ref="#act">Actuum</title> 19°,</ref> <name ref="#Paul">Paulus</name> 
+          rebaptizauit  aliquos qui baptizati  erant baptismo <name ref="#John">Iohannis</name>, 
+          igitur et ceteri erant pari ratione rebaptisandi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3590">2° - <ref><name ref="#Augustine">beatus Augustinus</name> omne quinto capitulo super Iohannem</ref> 
+          dicit : si quos baptizauit  <name ref="#John">Iohannes</name>, iterum fuerunt baptizandi . 
+          Plane iterum, sed non iterato baptismo : quos enim baptizat  <name ref="#JudasIscariot">Iudas</name>, 
+          baptizat  et Christus, quos vero baptizat  <name ref="#John">Iohannes</name> non.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3607">Item <ref><name ref="#Augustine">Augustinus</name> in libro <title>Contra Donatistas</title></ref> 
+          dicit tali Christus baptismo mundat Ecclesiam, quod acceptum alterum non erat necessarium. 
+          <name ref="#John">Iohannes</name> autem tali baptismo praecurrebat quo accepto esset 
+          eciam baptisma dominicum necessarium.</p>
+        
+        <p xml:id="nddml4d2p2q2-d1e3620">Item dicit <name ref="#Augustine">Augustinum</name> : post <name ref="#John">Iohannem</name> 
+          baptizatum  est, post homicidam non est baptizatum  quia <name ref="#John">Iohannes</name> 
+          dedit baptismum suum, homicida dedit baptisma Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3633">De hac quaestione fuerunt due opiniones : 
+          vna dixit praeuius quod baptizati  baptismo <name ref="#John">Iohannis</name>, 
+          si non habebant fidem Trinitatis et posuerunt spem in baptismo <name ref="#John">Iohannis</name> 
+          tamquam eis sufficeret ad salutem, illi erant rebaptizandi  baptismo Christi. 
+          Propter hoc scribitur <ref><title ref="#act">Actuum</title> 19°</ref> quia <name ref="#Paul">Paulus</name> 
+          rebaptizat  quosdam qui erant baptizati  baptismo <name ref="#John">Iohannis</name> 
+          et non habebant veram fidem Trinitatis, qui non crediderunt in 
+          Spiritum sanctum. Dicitur enim ibidem sic, cum 
+          <name>Apollo</name>  esset Corinthi  et <name ref="#Paul">Paulus</name> paragraphi  
+          partibus superioribus veniret Ephesum et inveniret quosdam discipulos. 
+          Dixitque ad eos: - 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3661" ana="#act19_2">SI SPIRITUM SANCTUM ACCEPISTIS 
+              <cb ed="#T" n="35ra"/> 
+              CREDENTES .</quote>
+            <bibl>Actuum 19:2</bibl>
+          </cit> 
+          At illi dixerunt ad eum: 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3672" ana="#act19_2">SED NEQUE SI SPIRITUS SANCTUS SIT AUDIVIMUS.</quote>
+            <bibl>Actuum 19:2</bibl>
+          </cit> 
+          At ille dixit eis : 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3681" ana="#act19_3">IN QUO ERGO BAPTIZATI  ESTIS ?,</quote>
+            <bibl>Actuum 19:3</bibl>
+          </cit> 
+          qui dixerunt in baptismate <name ref="#John">Iohannis</name>. 
+          Dixit eis autem <name ref="#Paul">Paulus</name>: 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3697" ana="#act19_4">IOHANNES BAPTIZAVIT  BAPTISMATE PENITENTIE 
+              DICENS IN EO QUI VENTURUS 
+              ESSET POST IPSUM</quote>
+            <bibl>Actuum 19:4</bibl>
+          </cit> 
+          ut crederent, hoc est in Ihesum. 
+          Hys  auditis baptizati  sunt in nomine Domini 
+          Ihesu, et cum imposuisset  illis manus  <name ref="#Paul">Paulus</name> 
+          acceperunt Spiritum sanctum - supple sensibiliter - et loquebantur lingwis  et prophetabant. 
+          Ecce quomodo : ex illis  qui erant baptizati  baptismo <name ref="#John">Iohannis</name> 
+          et non habebant veram fidem Trinitatis, quia non credebant in Spiritum sanctum ; 
+          ymo  neque si esset Spiritus sanctus erant a beato Paulo rebaptizati .</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3711">2° dixerunt isti quod qui baptizati  
+          erant baptismo Iohannis et habebant fidem Trinitatis, 
+          illi non erant rebaptizandi  baptismo Christi. 
+          Sed sufficit ut imponerentur eis manus : 
+          tales enim habuerunt ablucionem exteriorem et habebant fidem Trinitatis, 
+          quia insignebantur quasi caractere , 
+          et per imposicionem  manuum receperunt 
+          Spiritum sanctum et sic habebant omnia que dantur in baptismo Christi, 
+          quare non erant rebaptizandi . 
+          Et propter hoc, ut isti dicunt: <name ref="#Peter">Petrus</name> et <name ref="#John">Iohannes</name> 
+          missi a ceteris apostolis a Hierusalem  
+          in Samariam non rebaptizabant  baptismo Christi 
+          baptizatos  a <name>Philippo</name> baptismo <name ref="#John">Iohannis</name>, ut ipsi dicunt, 
+          <cb ed="#T" n="35rb"/> 
+          sed solum per impositionem manuum dabant eis Spiritum sanctum, 
+          ut habetur <ref><title ref="#act">Actuum</title> 8uo.</ref> 
+          Dicitur enim ibidem, cum autem audissent apostoli qui erant Hierosolimis , 
+          quia Samaria accepisset verbum Dei. 
+          Miserunt ad eos <name ref="#Peter">Petrum</name> et <name ref="#John">Iohannem</name> 
+          qui, cum venissent, orauerunt pro ipsis ut 
+          acciperent Spiritum sanctum ; nondum enim in quemque 
+          illorum descenderat - supple visibiliter - 
+          sed baptizati  erant tantum. 
+          In nomine Domini Ihesu tunc imponebant manus suas super illos et 
+          accipiebant Spiritum sanctum, et hec fuit opinio <name ref="#Lombard">Magistri</name>, ut patet <ref>in littera capitulo vltimo.</ref></p>
+        
+        <p xml:id="nddml4d2p2q2-d1e3745">Sed contra hanc opinionem est communis positio doctorum 
+          qui dicunt concorditer quod qui pro illo tempore fuerunt baptizati  
+          solo baptismo <name ref="#John">Iohannis</name> erant omnes rebaptizandi  
+          baptismo Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3751">Probatur hoc, quia Christus dedit generale praeceptum omnibus de baptismo suo, 
+          dicens <ref><title ref="#io">Iohannis</title> 3°</ref> ut 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3760" ana="io3_5">QUIS RENATUS FUERIT EX AQUA</quote>
+            <bibl>Ioannes 3:5</bibl>
+          </cit> 
+          et illud praeceptum non impleuit. 
+          Qui erat solum baptismo <name ref="#John">Iohannis</name> baptizatus  
+          igitur tenebatur etiam baptizari  baptismo Christi. 
+          Et illud generale praeceptum erat rationabile quia fuit rationabile 
+          ut omnes ad hoc obligarent, quod essent membra Ecclesiae et ut susciperent 
+          signum illud commune omnibus Ecclesiam ingredientibus.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3771">Item, disposicione introducta, congruum est ut introducatur 
+          eis forma principalis, alias disposicio esset frustra. Sed baptismus Iohannis, ut dictum est, 
+          <cb ed="#T" n="35va"/> 
+          praeuius fuit disposicio et praeparacio ad baptismum Christi suscipiendum, 
+          scilicet ut per illam ablucionem facilius inclinarentur homines 
+          ad suscipiendum ablucionem sibi salutarem in Christi baptismo, 
+          nec esset ipsis molestum praeuius ad similia aswetis  et exercitatis. 
+          Igitur congruum fuit ut suscepto baptismo Iohannis a quocumque ab eo 
+          etiam susciperetur baptismus Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3776">Item imposicio  manuum habuit locum sacramenti confirmacionis, 
+          sed sacramentum confirmacionis praesupponit sacramentum baptismi, 
+          quod oportet esse primum et tamquam hostium ad cetera sacramenta. 
+          Et quia baptizati  solum baptismo <name ref="#John">Iohannis</name> 
+          non habuerunt adhuc verum sacramentum baptismi, nichil fecisset ei 
+          confirmacio sew  manuum imposicio. Patet eis illa positio per auctoritatem <name ref="#Augustine">Augustini</name>.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3786">In oppositum quaestionis adductae , 
+          scilicet ad argumenta ante opposita  ad primum dicitur quod Magister in hoc non  tenetur.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3789">Ad 2m dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod <name ref="#Jerome">Hieronimus</name>  per hec verba non vvlt tangere causam rebaptizandi , 
+          set vult tangere insufficienciam fidei ipsorum ad salutem, ut patet per verba praecendentia. 
+          Praemittit enim quod qui dicit se credere in Christum et non credit in Spiritum sanctum 
+          nondum habet claros oculos ; insufficientia autem fidei non possit esse causa quare aliqui 
+          baptizarentur , sed quare aliqui instruendi essent, sicut et nunc fit.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3803">Ad 3m dicendum quod maior est vera quando aliquod sacramentum confertur si in baptismo <name ref="#John">Iohannis</name> 
+          <cb ed="#T" n="35vb"/>
+          nichil baptismi sacramenti conferebatur. Ablucio enim exterior sine determinatis verbis a Christo 
+          ad hoc institutis et sine determinata intencione omnino nichil est sacramenti baptismi, 
+          sicut nec quaecumque alia balneacio. Cum ergo baptismus <name ref="#John">Iohannis</name> 
+          fieret sine illa sacramentali forma verborum et sine determinata intencione 
+          ad verum baptismum requisita, non fuit illa exterior corporum ablucio 
+          aliquod ipsius sacramenti baptismi, sicut nec alia corporis locio.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3814">Ad 4m dicitur quod illi de quibus dicitur <ref><name ref="#act">Actuum</name> 19°</ref> fuerunt baptizati  
+          solum baptismo <name ref="#John">Iohannis</name>, ut textus ostendit. 
+          Et ideo fuerunt a <name ref="#Paul">Paulo</name> baptizati  etiam baptismo Christi. 
+          Isti vero de quibus dicitur <ref><title>Actuum</title> 8uo</ref> fuerunt baptisati baptismo Christi, 
+          quia a <name>Philippo</name>, de quo constat quod baptizabat  baptismo Christi et in eodem baptismo 
+          receperunt Spiritum sanctum invisibiliter, sicut et nunc fit in Ecclesia omnibus rite baptizatis . 
+          Verum, quod nondum receperunt Spiritum sanctum visibiliter in signo sensibili, 
+          quia sic dabatur in primitiua Ecclesia in confirmatione, que fiebat per manuum  
+          imposicionem et conveniebat tunc solum apostolis sicut nunc solis episcopis. 
+          Sed dicit <ref><title>Gloza</title>  super eodem loco</ref> quod <name>Philippus</name> ille qui 
+          conuertebat Samaritanos et eos baptizabat  non fuit <name>Philippus apostolus</name>, 
+          sed fuit vnus de septuaginta duobus discipulis Christi. 
+          Et ideo non habuit auctoritatem eis imponendi manus et dandi eis Spiritum sanctum visibiliter, quare apostoli
+          <cb ed="#T" n="36ra"/>
+          miserunt de Hierosolimis  <name ref="#Peter">Petrum</name> et <name ref="#John">Iohannem</name> 
+          ewangelistam  qui imponebant eis manus et acceperunt Spiritum sanctum.</p> 
+        
+        <p xml:id="nddml4d2p2q2-d1e3856">Ad 5um respondet <name ref="#Aquinas">Sanctus Thomas</name> et <name ref="#Scotus">Scotus</name> et dicunt quod hoc non inveniatur in canone Biblie. 
+          Credit tamen quod apostoli fuerunt baptizati : hoc enim dicit <title>Gloza</title>  super Ium <!-- illum --> <ref><title ref="#io">Iohannis</title> 13 :</ref>  
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3877" ana="#io13_10">QUI LOTUS EST NON INDIGET NISI UT PEDES LAVET.</quote>
+          </cit> 
+          Et hoc videtur valde probabile quod Christus Dominus 
+          fecit eos sacerdotes conferens eis in cena potestatem 
+          conficiendi corpus Christi, dicens : 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3883">QUOTIENSCUMQUE,</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          etcetera, et conferens eis post resurrectionem potestatem absoluendi 
+          <ref><title ref="#io">Iohannis</title> 20° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3897" ana="#io20_23">QUORUM REMISERITIS PECCATA.</quote>
+            <bibl>Ioannes 20:23</bibl>
+          </cit> 
+          Contulit etiam eis officium baptizandi  
+          solemniter <ref><title ref="#mt">Mathei</title> vltimo:</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3911" ana="#mt28_19">EUNTES, BAPTIZATE ,</quote>
+            <bibl>Matthaeus 28:19</bibl>
+          </cit> 
+          etcetera. Ordo autem sacerdocy  praesupponit baptismum ; 
+          igitur omnino videtur quod praeuius fuerunt baptizati  baptismo Christi. 
+          Verum, quod Christus Dominus, qui habuit principalem potestatem dimittendi 
+          peccata et virtutem suam non allegauit sacramentis, 
+          potuit cum ipsis dispensare et sine baptismo eos ex quodam speciali 
+          priuilegio sanctificare, quod si fecisset non esset hoc, 
+          nunc a quoquam in consequentiam retrahendum. 
+          Ymo  videtur quod hoc non fecerit, sed quod baptizati  
+          fuerint omnes talis enim dispensacionis nulla fuisset 
+          necessitas et nulla racio ; nec videtur quod vlla ex hoc 
+          fuisset secuta vtilitas, quia ex hoc non fuissent graciores 
+          Deo quod non fuissent
+          <cb ed="#T" n="36rb"/>
+          baptizati , nec ex hoc fuissent doctores efficaciores in Ecclesia. 
+          Ymo  videtur ex hoc ut  minus efficaces fuissent doctores, 
+          quia alios docuissent quod ipsi non fecissent. 
+          Minus autem valet <name ref="#Lombard">Magister</name> in moralibus, 
+          qui non vvlt opere implere quod alios docet. 
+          Christus voluit in seipso baptismum recipere, 
+          saltem baptismum <name ref="#John">Iohannis</name> antequam Legem baptisandi alys  imponeret, 
+          quia <ref><title ref="#act">Actuum</title> primo</ref> dicitur 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3934" ana="#act1_1">de Eo quod cepit Ihesus facere et docere;</quote>
+            <bibl>Actuum 1:1</bibl>
+          </cit>  
+          et posterius subditur <mentioned>docere</mentioned> 
+          ad significandum quia illud quod alios docuit facere ipse prior fecit. 
+          Si ergo Christus voluit baptizari  antequam alys  imposuit Legem baptizandi , 
+          videtur omnino quod eciam apostoli exitum magistri sui imitantes  
+          fuerunt baptizati  baptismo Christi antequam publice et ex officio alios baptizarent . De 
+          <name ref="#Mary">Maria virgine</name> putant aliqui quod ipsa in conceptione Fily  
+          sui habuerit istam plenitudinem gratiae ad quam eam Deus disposuit pervenire et si sic est, 
+          tunc forte ab illa vniuersali lege baptismi ipsa fuit excepta. 
+          Et fuit in ea racio dispensandi quod baptismus nullum contulisset ei augmentum gratiae eo, 
+          quod tunc tantam habuisset, quod in ea crescere et augmentari non potuisset. 
+          Si vero gratia fuit in ea semper aucta vsque in diem et horam sue assumpcionis in celum, 
+          tunc est praesupponendum sicut de apostolis quod vere fuerit baptismo Christi baptizata  
+          propter generalem Legem baptismi a Christo in omnes promulgata. 
+          Et eciam propter augmentum
+          <cb ed="#T" n="36va"/>
+          gratiae - quantumcumque enim perfectus - accedit ad baptismum illi de Lege omnium, 
+          offert baptismus augmentum gratie ratione operis operati. 
+          Et etiam ex quo in die Penthecostes non est dedignata sedere in 
+          cenaculo Syon et ibi cum apostolis expectare adventum Spiritus sancti 
+          ut eius donis et gratia copiosius infunderetur, ut dicitur in omne super : 
+          <cit>
+            <quote xml:id="nddml4d2p2q2-Qd1e3952">STABAT IUXTA CRUCEM.</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          Vtique non est dedignata subicere Legem Fily sui 
+          uel per baptismum susceptum, 
+          scilicet eadem gracia amplius augeretur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

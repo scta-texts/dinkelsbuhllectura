@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 2, Pars 2, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d2p2q1">
+        <head>Librum IV, Distinctio 2, Pars 2, Quaestio 1</head>
+        <p xml:id="nddml4d2p2q1-d1e3477">Tvnc vero ad baptismij sacramentum 2a pars principalis istius 2e distinccionis 
+          in qua <name ref="#Lombard">Magister</name> agit de baptismo Iohannis, et habet tres partes. 
+          In prima ponit differentiam eius ad baptismum Christi, 
+          2° ostendit quasdam ipsius condiciones ibi ad quid ergo, 
+          3° determinat de ipso in quantum ad suscipiens ibi hic considerandum.</p>
+        
+        <p xml:id="nddml4d2p2q1-d1e3483">Circa istam partem queritur primo vtrum baptismus <name ref="#io">Iohannis</name> 
+          fuerit sacramentum Noue Legis 
+          <cb ed="#T" n="32va"/> 
+          conferens gratiam ratione operis operati.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3491">Arguitur quod sic et primo quod fuerit sacramentum Noue Legis quia fuit signum sacrae rei, 
+          scilicet baptismi Christi - ut dicit Magister in littera - 
+          et habuit circa materiam et circa formam verborum, quia dicitur 
+          <ref><title ref="#act">Actuum</title> 19° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3500">BAPTIZABAT  IOHANNES DICENS : 
+              IN EO QUI VENTURUS EST IGITUR VIDETUR QUOD FUERIT SACRAMENTUM NOVE LEGIS.</quote>
+            <bibl>XXX <!-- this doesn't seem quite right --></bibl>
+          </cit>
+        </p>
+        <p xml:id="nddml4d2p2q1-d1e3509">Secundo arguitur quod conferebat gratiam, 
+          quia dicitur <ref><title ref="#mt">Mathei</title> 3°:</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3518">ERAT IOHANNES BAPTIZANS  
+              ET PRAEDICANS BAPTISMUM PENITENTIAE 
+              IN REMISSIONEM PECCATORUM.</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          Sed illa non fit sine gratia, 
+          igitur baptismus ille conferebat gratiam.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3527">3° <name ref="#Augustine">Augustinus</name> 
+          dicit contra Donatistas ita : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3534">Credam Iohannem baptizasse  
+              in aqua in remissionem peccatorum ut ab eo baptizatis  
+              in spe remittentur peccata, 
+              sed spes de remissione peccatorum non potest esse nisi per gratiam.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit> 
+          Igitur baptismus ille contulit gratiam.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3542">In oppositum arguitur et primo quod non sit sacramentum 
+          Noue Legis quia omnia sacramenta Noue Legis sunt a 
+          Christo Domino instituta, sed baptismus 
+          <name ref="#John">Iohannis</name> non est a Deo institutus. 
+          Igitur maior nota ex dictis minor probatur, 
+          quia nullum sacramentum a Deo institutum nominatur a ministro : 
+          non enim dicitur <mentioned>baptismus <name ref="#Peter">Petri</name></mentioned> 
+          aut <mentioned>Pauli</mentioned>, 
+          sed ille baptismus dicitur <mentioned>baptismus Iohannis</mentioned>. 
+          Igitur ipse <name ref="#io">Iohannes</name> eum instituit igitur, 
+          etcetera.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3562">Secundo arguitur quod non conferebat gratiam 
+          quia gratia non confertur sine Spiritu sancto, 
+          sed in baptismo <name ref="#John">Iohannis</name> 
+          non dabatur Spiritus sanctus ipsis baptizatis , 
+          <cb ed="#T" n="32vb"/> 
+          vnde <ref><title ref="#act">Actuum</title> primo</ref> 
+          dicitur : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3576" ana="#act1_5">IOHANNES QUIDEM BAPTIZAVIT  AQUA, 
+              VOS AUTEM BAPTIZABIMINI  SPIRITU SANCTO IGITUR,</quote>
+            <bibl>Actuum 1:5</bibl>
+          </cit> 
+          etcetera.</p>
+        
+        <p xml:id="nddml4d2p2q1-d1e3584">Notandum quod <name ref="#John">Iohannes</name> 
+          fuit praecursor Domini in multis quia ante Eum fuit annunciatus , 
+          et ante Eum fuit natus, et ante Eum fuit mortuus, 
+          et ante Eum descendit in limbum Patrum. 
+          Similiter ante Eum praedicauit suam praedicationem : 
+          ante incepit quam Christus inceperit praedicare, 
+          et hoc ideo ut per suam praedicationem populum ad 
+          se congregaret et ipsi populo congregato annuntiaret 
+          Christum advenisse nunc in mundum per carnis assumpcionem 
+          et de proximo venturum per sui manifestationem. 
+          Et sic etiam ante Christum baptizauit  
+          ut per suum baptismum aswefaceret  homines ad Christi baptismum suscipiendum.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3590">Secundo notandum quod baptismus <name ref="#John">Iohannis</name> 
+          habuit pro materia aquam et pro forma habuit illa verba: 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3597">EGO TE BAPTIZO  IN NOMINE VENTURI.</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          Et per venturum intellexit Christum Dominum qui 
+          - licet ante triginta annos in carnem venerit - 
+          non tamen adhuc fuit mundo manifestus. 
+          Et ergo fuit adhuc in mundum venturus per sui manifestationem ; 
+          de hoc ergo baptismo <name ref="#John">Iohannis</name> querit quaestio vtrum fuerit sacramentum. 
+          Et pro illo oportet me morari vnius dicti in prima quaestione, 
+          scilicet quod sacramentum vno modo accipitur generaliter : 
+          prout diffinitur a <name ref="#Lombard">Magistro</name> est sacre rei signum, 
+          id est res sensibilis ex diuina institutione significans rem sacram.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3611">Respondendo ergo ad quaestionem dicitur primo quod baptismus <name ref="#John">Iohannis</name> 
+          <cb ed="#T" n="33ra"/> 
+          fuit sacramentum illo modo iam dictio causando <unclear>???</unclear>. 
+          Patet quia fuit res sensibilis, quia aqua et verba que poterant videri, 
+          audiri et tangi, et fuit a Deo institutus ad praefigurandum et 
+          designandum baptismum Christi, qui est sacra res. 
+          Fuit etiam baptismus <name ref="#John">Iohannis</name> institutus ad aswefaciendum  
+          homines ad baptismum Christi. 
+          Et ideo dixit <name ref="#John">Iohannes</name> <ref><title ref="#mt">Mathei</title> 20° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3635" ana="#mt3_11">EGO BAPTIZO  IN AQUA.</quote>
+            <bibl>Matthaeus 3:11</bibl>
+          </cit> 
+          Vt dicit <title>Gloza</title>  : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3647">Tantum corpora lauo quia peccata soluere nescio,</quote>
+            <bibl>Glossa</bibl>
+          </cit> 
+          ut sicut nascendo et praedicando praecedo, 
+          sic baptizando  ad Christi baptismum diligam.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3656">Secundo dicitur 
+          quod baptismus <name ref="#John">Iohannis</name> non fuit sacramentum Noue Legis, 
+          nec conferebat gratiam ratione operis operati. Prima pars patet quia ad sacramenta 
+          Noue Legis requiritur  quod significent effectum spiritualem et 
+          illum efficiant misterialiter ex omnia institutione. 
+          Modo baptismus <name ref="#John">Iohannis</name>, licet significet baptismum Christi, 
+          non tamen Christum efficiebat, nec efficiebat effectum ablutionis 
+          animae a peccato. Et ergo non fuit sacramentum vnius Noue Legis, 
+          sed fuit praeparatorium homini ad libencius suscipiendum Christi baptismum. 
+          Et ergo dicunt doctores quod sicut torneamentum  non est bellum, 
+          sed est quod praeparatorium ad bellum, sic baptismus <name ref="#John">Iohannis</name> 
+          non fuit sacramentum proprie, fuit quoddam praeparatorium et aswefactorium  
+          hominum ad Christi baptismum, qui est vere et propryssime  sacramentum.  
+          Secunda pars conceditur ab omnibus quia non efficie-
+          <cb ed="#T" n="33rb"/>
+          -bat aliquid quod non esset praeparatio hominis, 
+          gratia autem non potest ab homine dari et ideo patet quod baptismus <name ref="#John">Iohannis</name> 
+          gratiam non conferebat ratione operis operati.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3673">Ad primum argumentum ante oppositum dicitur quod, 
+          licet fuerit sacramento - accipiendo sacramentum generaliter prout 
+          est sacre rei signum, ut etiam dictum est in questione - non tamen fuit 
+          sacramentum proprie nec sacramentum Noue Legis eo, 
+          quod non mundabat a culpa nec conferebat gratiam ; 
+          scilicet tota eius vtilitas fuit disponere ad Christum et ad eius baptismum, 
+          ut dictum fuit, et ideo competens  fuit illa forma ut in nomine Christi venturi baptizaret.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3676">Ad 2m respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod illa auctoritas  sic exponenda est et illa duo, 
+          scilicet baptizans  et praedicans, reuenuntur ad diuersa baptismata. 
+          Hoc modo erat <name ref="#John">Iohannes</name> baptizans , 
+          scilicet suo baptismo et erat praedicans, 
+          scilicet baptismum Christi qui est in remissionem peccatorum. 
+          Si autem illa duo, scilicet baptizans  et  praedicans volumus referre ad idem, 
+          scilicet ad baptismum <name ref="#John">Iohannis</name>, sic dicitur esse 
+          in remissionem peccatorum, quia <name ref="#John">Iohannes</name> 
+          a se baptizatis  imponebat dignos fructus penitentie agere 
+          quibus communiter remissionem peccatorum. 
+          Et ita qui vere penitebant, illi consequebantur remissionem peccatorum non per baptismum <name ref="#John">Iohannis</name>, 
+          sed per penitentiam.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3699">Ad 3m dicitur quod spes ex gratia procedit aliquo modo, 
+          non tamen semper ex gratia habita, sed aliquando ex gratia expectata, 
+          etcetera. Baptismus <name ref="#John">Iohannes <!-- Iohannis --></name> 
+          spem dedit remissionis peccatorum non conferens gratiam, sed promittens 
+          <cb ed="#T" n="33va"/>
+          eam in hoc, quod praefigurabat baptismum Christi qui digne suscipientibus 
+          daret eam. Et licet argumenta in oppositum probent verum, 
+          scilicet quod baptismus <name ref="#John">Iohannis</name> non fuit sacramentum 
+          Noue Legis nec conferebat gratiam, tamen, quia primum argumentum petit etiam quare 
+          ille baptismus dicatur <mentioned>baptismus <name ref="#John">Iohannis</name></mentioned> 
+          cum tamen nullus dicatur <mentioned>baptismus <name ref="#Peter">Petri</name>,</mentioned> 
+          aut <mentioned>Pauli</mentioned> uel <mentioned>alterius ministri,</mentioned> 
+          et etiam petit an baptismus <name ref="#John">Iohannis</name> fuerit a Deo institutus. 
+          Ideo ad illud respondetur secundum <name ref="#Aquinas">S<supplied>anctum</supplied> T<supplied>homas</supplied></name> 
+          et ceteros : Iohannes suum baptismum instituit ex praecepto diuino. 
+          Et ideo <ref><title ref="#io">Iohannis</title> primo</ref> dixit : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3746" ana="#io1_33">QUI ME MISIT BAPTIZARE , ILLE MICHI DIXIT,</quote>
+            <bibl>Ioannes 1:33</bibl>
+          </cit> 
+          etcetera, sed tota Trinitas misit eum baptizare  
+          et ita auctoritate  Dei suum baptismum instituit. 
+          Et sic patet quod institucio illius baptismi fuit a Deo per auctoritatem  
+          et a <name ref="#John">Iohanne</name> per ministerium. 
+          Accepit autem baptismum ille nomine a <name ref="#John">beato Iohanne</name>, 
+          ut scilicet dicetur <mentioned>baptismus <name ref="#John">Iohannis</name></mentioned> 
+          propter tres causas, secundum <name ref="#Aquinas">S<supplied>anctum</supplied> T<supplied>homam</supplied></name>.</p>
+        
+        <p xml:id="nddml4d2p2q1-d1e3774">Primo quia ipse <name ref="#John">Iohannes</name> fuit illius sui baptismi institutor ministerialis, 
+          ut iam dictum est, sed nec <name ref="#Peter">Petrus</name>, nec <name ref="#Paul">Paulus</name>, 
+          nec aliquis aliorum fuit quocumque alio modo institutor baptismi Christi, quos scilicet ipsi baptizabant , ut notum est. 
+          Christus enim solus eum instituit et igitur <mentioned>baptismus Christi</mentioned> 
+          non dicitur <mentioned>baptismus <name ref="#Peter">Petri</name></mentioned>, aut <mentioned><name ref="#Paul">Pauli</name></mentioned>, 
+          aut cuiuscumque alterius, sed solius Christi.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3799">2°, quia in baptismo <name ref="#John">Iohannis</name> nichil efficiebatur quod <name ref="#John">Iohannes</name> 
+          non faceret proprie : in illo enim baptismo non dimittebantur peccata nec conferebatur 
+          <cb ed="#T" n="33vb"/> 
+          gratia, sed tantum lauabantur corpora exterius in signum et aswefactionem  baptismum Christi. 
+          Et hoc totum fecit <name ref="#John">Iohannes</name>, 
+          in baptismo vero Christi interius dimittitur culpa et infunditur gratia. 
+          Licet ergo <name ref="#Peter">Petrus</name> uel <name ref="#Paul">Paulus</name> 
+          aut alius minister baptismi Christi exterius adhibeat sensibilia elementa, 
+          non tamen effecit interiores effectus proprie, 
+          sed istos solus efficit Deus immediate , 
+          et inde est quod baptismus noster non dicitur baptismus <name ref="#Peter">Petri</name> 
+          aut alterius ministri, sed dicitur <mentioned>baptismus Christi,</mentioned> 
+          quia ille, cum solus instituit, et eius effectus in anima inmediate efficit.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3827">3° dicebatur <mentioned>baptismus <name ref="#John">Iohannis</name></mentioned> 
+          quia sibi soli, scilicet <name ref="#John">Iohanni</name>, 
+          fuit datum illius baptismi ministerium ut solus baptisaret 
+          illo baptismus et nullus alius, nec forte auctoritate <name ref="#John">Iohannis</name>. 
+          Sed diceret aliquis : ex quo baptismus <name ref="#John">Iohannis</name> 
+          fuit baptismus penitentiae, quare ergo Christus Dominus voluit eo baptizari , 
+          cum tamen penitentia ei non competebat sicut nec peccatum <unclear>?</unclear></p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3846">Respondetur quod sicut circumcisio non fuit Christo 
+          in remedium originalis peccati a quo penitus fuerat immunis, 
+          sic baptismus Iohannis non fuerat baptismus penitentiae quo ad Christum, 
+          sed quo ad alios qui per ipsum ad penitentiam praeparabantur. 
+          Licet ergo Christus nichil a baptismo <name ref="#John">Iohannis</name> accepit sicut nec a circumcisione, 
+          voluit tamen baptizari illo baptismo <name ref="#John">Iohannis</name> propter plures causas, 
+          quarum tres tangit <title>Gloza</title>  <name ref="#Lombard">Magistri</name> : 
+          primo voluit enim baptisari propter humilitatem implendam. Propter hoc
+          <cb ed="#T" n="34ra"/>
+          <ref><title ref="#mt">Mathei</title> 3°.</ref> Cum veniret ad baptismum <name ref="#John">Iohannis</name>, 
+          et <name ref="#John">Iohannes</name> eum prohiberet et diceret : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3876" ana="#mt3_14">EGO DEBEO A TE BAPTIZARI ,</quote>
+            <bibl>Matthaeus 3:14</bibl>
+          </cit> 
+          dixit ei Ihesus : 
+          <cit>
+            <quote xml:id="nddml4d2p2q1-Qd1e3885" ana="#mt3_15">SINE MODO SIC ENIM DECET NOS IMPLERE OMNEM IUSTITIAM,</quote>
+            <bibl>Matthaeus 3:15</bibl>
+          </cit> 
+          id est secundum <title>Glozam</title> decet nos implere perfectam humilitatem. 
+          Vocat omnem iusticiam propter hoc, quia omnis et perfecta iustitia omne alienum a se  
+          reicit et ei cuius est reddit iusticia : 
+          enim est vnicuique quod suum est reddere. 
+          Et hoc etiam facit perfecta humilitas que omne bonum a se quasi alienum remouet et Deo, 
+          cuius omne bonum est, reddit et attribuit. 
+          Reicit quidem a se non extingwendo  illud bonum, 
+          sed non sibi ipsi et suis viribus attribuendo, 
+          sed Deo attribuendo cuius omne bonum est quod in nobis est.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3896">2° uoluit baptizari  propter hoc, 
+          ut suo baptismo baptismum <name ref="#John">Iohannis</name> 
+          approbaret tamquam a Deo institutum et ordinatum.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3902">3° propter hoc, ut aquas consecraret 
+          in baptismum verum, quo nos baptizarentur  : 
+          tunc enim suo tactu mundissime carnis aquis vim regeneratiuam dedit, 
+          ut dicit <name ref="#Bede">Venerabilis Beda</name> et non solum illi 
+          aquae quam suo corpore tetigit, sed et omni aque elementali.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3908">4° uoluit baptizari  et a Iohanne minori se propter hoc, 
+          ut wult  <name ref="#Augustine">Augustinus</name>, inde natura boni ut ostenderet 
+          quod non interesset quantum est ex parte baptismi quis a quo baptizaretur  : 
+          baptismus enim, ut patebit posterius, non a ministro, sed a Christo habet efficaciam suam.</p> 
+        
+        <p xml:id="nddml4d2p2q1-d1e3914">5° secundum <name ref="#Augustine">Augustinum</name> 
+          <cb ed="#T" n="34rb"/> 
+          in De questionibus Noui et Veteris Testamenti, 
+          scilicet ad exemplum baptismi proponendum hys  
+          qui futuri erant Fily  Dei per fidem, 
+          ut scilicet et ipsi baptizarentur  
+          cum scirent et Christum baptismum accepisse. 
+          Et congruum fuit Christum magis in Iordane baptizari  
+          quam in alia aqua propter hoc, 
+          quod Iordanis fuit conveniens figura baptismi Christi, 
+          quia cum populus Israheliticus exiret de terra Egipti et venisset per desertum, 
+          tunc inter eos et terram promissionis mediabit Iordanis fluuius. 
+          Vt habetur in libro <title ref="#ios">Iosue</title>, nullus eorum potuit intrare terram promissionis, 
+          nec transeundo per fluuium Iordanis, 
+          ita ymaginandum  est quod baptismus Christi est sicut quidam 
+          fluuius medius inter hunc mundum in quo manemus et inter vitam eternam, 
+          per quem fluuium baptismi oportet transire omnes perventuros ad celeste regnum. 
+          Ex hys  apparet quare Christus Dominus voluit baptisari baptismo <name ref="#John">Iohannis</name>, 
+          qui tamen nichil sibi contulit sicut nec circumcisio, et quare potius in Iordane quam in alia aqua.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 7, Quaestio 4</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d7q4">
+        <head>Librum IV, Distinctio 7, Quaestio 4</head>
+        <p>Quarto queritur vtrum caracter qui in sacramento confirmationis imprimitur  praesupponat caracterem baptismalem.</p> 
+        
+        <p>Arguitur primo quod confirmatio non imprimat  caracterem quia, ut dictum est distinctione 6ta : - 
+          Caracter est signum distinctiuum, sed pugna spiritualis omnibus indicitur - . 
+          Cum ergo sacramentum confirmationis detur ad roborandum in pugna spirituali, videtur quod in ipsa non fiat aliqua distinctio alius ab altero : 
+          igitur non sit ibi impressio  caracteris distingwentis .</p> 
+        
+        <p>Secundo arguitur quod caracter confirmacionis non praesupponat caracterem baptismalem, 
+          quia caracter confirmacionis ad hoc datur ut homo fortiter Christum confiteatur. 
+          Sed aliqui ante baptismum Christum fortiter confessi sunt etiam ad martiry  palmam pervenientes, 
+          igitur quis patet ante baptismum accipere caracterem confirmacionis ?</p> 
+        
+        <p>3°, idem 2m essenciam est caracter baptismi et confirmationis, igitur vnus non praesupponit alterum : 
+          idem enim non praesupponit seipsum. Antecendens probatur 
+          <cb ed="#T" n="96ra"/> 
+          quia ad vnam formam non potest esse nisi vna assimilacio, 
+          igitur, cum caracter sit signum assimilans Trinitati, 
+          videtur quod caracter confirmacionis non potest esse alius a caractere baptismi.</p> 
+        
+        <p>4To, ad omnia que necessario se consecuntur quis eodem caractere adscribitur , 
+          sicut idem est caracter in sacerdote ad conficendum et absoluendum ? 
+          Sed confessio fidei cuius sacramentum est confirmacio consequitur de necessitate ad fidem cuius sacramentum est baptismus, 
+          quia <quote>CORDE CREDITUR AD IUSTITIAM, ORE AUTEM CONFESSIO AD SALUTEM</quote> (<title ref="#rom">Romanorum</title> 1°). 
+          Igitur idem caracter est in baptismo et confirmacione.</p> 
+        
+        <p>In oppositum arguitur et primo quod in confirmacione imprimatur caracter : 
+          dictum est distinctione sexta. 
+          Sed quod caracter confirmacionis praesupponat caracterem baptismalem, 
+          patet per <name ref="#Dionysius">Dyonisium</name> in <title>De Ecclesiastica Ierarchia,</title> 
+          vbi dicit : - Nichil diuinitus traditum operari potest qui non est regeneratus per baptismum -. 
+          Sed caracter confirmacionis est quoddam traditum diuinitus , 
+          igitur nullus potest eum recipere nisi baptizatus.</p> 
+        
+        <p>Respondeo 2m <name ref="#Aquinas">S<supplied>anctum</supplied>> T<supplied>homam</supplied></name> : 
+          dicitur primo quod in sacramento confirmacionis imprimatur caracter ei qui confirmatur. 
+          Declarat <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          sic, quia ut dictum fuit praeuius, caracter est signum distinctum quo quis ab alys  
+          distingwitur  ad aliquid spirituale deputatur . 
+          Sed ad spirituale potest vnus
+          <cb ed="#T" n="96rb"/>
+          deputari vno modo, ut in se spirituale participet. 
+          Et ad hoc deputatus est homo in baptismo quia baptizatus potest iam particeps esse omnis spiritualis receptionis.</p> 
+          
+          <p>Alio modo deputatur quis ad spirituale, aut ut spiritualia in noticiam aliorum ducat per Christi 
+          fortem confessionem. Et ad hoc deputatur homo per confirmationem unde eis, 
+          tempore persecutionis Ecclesiae, eligebantur aliqui qui debent 
+          in loco persecutionis remanere ad publice, non Christi confitendum alys  occulte  
+          credentibus, ut patet in legendo sancti Sebastiani.</p> 
+        
+        <p>3° modo deputatur ut etiam spiritualia alys  credentibus tradat et ad hoc deputatur homo per sacramentum ordinis. 
+          Et ideo, sicut in baptismo confertur caracter et in ordine, ita etiam in confirmatione. 
+          Secundo caracter est etiam signum conformans nos sanctae Trinitati, sed sicut oportet nos ei conformari 
+          in sapiencia et potentia, ita etiam in bonitate.</p>
+        
+          <p>Cum ergo in baptismo imprimatur  caracter fidei conformans nos diuinae sapiencie, 
+          et in ordine imprimatur  caracter potestatis conformans nos diuinae potentie, 
+          sequitur quod in confirmacione imprimatur  caracter plenitudinis Spiritus sancti, 
+          scilicet conformans nos diuinae bonitati. 3° per caracterem, quasi adscribimur  familie Christi. 
+          Sed sicut Christus est pater, mater et est sacerdos, ita est et rex noster. 
+          Cum ergo per caracterem baptismalem adscribimur  ei quasi patri,
+          <cb ed="#T" n="96va"/>
+          fily  regenerati per baptismum, et per caracterem ordinis adscribimur  
+          ei quasi ministri summo sacerdoti, sequitur quod simili racione in 
+          confirmatione debeat imprimi  caracter quo conformamur ei quasi milites regi. Hec <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied>.</name> 
+          Et etiam superius fuit declaratum quod in confirmatione imprimatur  caracterem .</p>
+          
+          <p>Secundo dicitur quod caracter confirmacionis est alius a caractere baptismali. 
+          Probatur, quia diuersarum causarum debent esse diuersi propry  et immediati  effectus. 
+          Sed baptismus et confirmacio sunt distincte causae et distincta sacramenta, et propry  
+          ac immediati  effectus sunt eorum caracteres, igitur etiam isti caracteres sunt inter se distincti. 
+          Confirmatur caracter confirmationis ad aliud, ordinatur ab eo ad quod  caracter baptismalis ordinatur, 
+          ut patet ex iam dictis et etiam ex dictis in fine distinctionis sexte. 
+          Igitur caracter ille est distinctus a caractere altero.</p>
+        
+          <p>3° dicitur quod caracter confirmationis praesupponit caracterem baptismalem in eo qui confirmatur ; patet per racionalem.</p> 
+        
+        <p>In oppositum argumenta confirmatur item, quia baptismus est principium vite spiritualis 
+          secundum <name ref="#Dionysius">Dyonisium</name> et <name ref="#JohnDamascenus">Damascenum</name>, 
+          sed remoto principium aufertur  quod est post principium ; igitur qui non est baptizatus  
+          non potest accipere caracterem confirmationis.</p> 
+        
+        <p>Ad primam racionem dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> quod pugna spiritualis, qua quis 
+          <cb ed="#T" n="96vb"/> 
+          pugnat contra impedientes salutem sui ipsius illa indicitur omnibus, 
+          sed ad hoc non datur sacramentum confirmacionis, sed datur ad persistendum 
+          fortiter in pugna contra eos qui nomen Christi inpugnant, 
+          et ut invitus Christi confessor permaneat et huic pugne non omnes ex officio exponunt, sed solum confirmati.</p> 
+        
+        <p>Ad 2m dicit quod ad ea quae sunt necessitatis homo admittitur etiam si illud non competat ei ex officio sicut patet quia, 
+          eciam non habens ordinem in necessitate baptizare, potest licite, quamuis hoc non congruat, scilicet ex officio, 
+          sic etiam quia confiteri nomen Christi, vbi confessio requiritur, est necessitatis. 
+          Igitur etiam non baptizatis fidelibus hoc conuenit, quamuis hoc non habeant ex officio caracteris, in sacramento confirmacionis suscepti.</p> 
+        
+        <p>Ad 3m dicit idem, quod ad vnam formam quam aliquod perfecte  repraesentat non potest esse nec vna assimilacio et Dei 
+          Patris non est nec vna ymago perfecta, scilicet Deus filius. 
+          Sed si non est perfecta repraesentacio, tunc possunt esse diuerse  
+          assimilationes ad vsum simplex et ideo diuerse creaturae diuersimode 2m suum modum diuersam ad Deum similitudinem habent, 
+          et propter hoc non est mencione mens, quod sunt diuersi caracteres in anima Trinitati 2m diuersa conformantes.</p> 
+        
+        <p>Ad 4m dicit quod, licet cuiuslibet baptizati et credentis sit confiteri Christum quando confessio ab eo expetitur, 
+          non tamen cuiuslibet est se libere exponere, sed tantum confirmatis. Et hoc patet in apostolis 
+          <cb ed="#T" n="97ra"/> 
+          quia ante adventum Spiritus sancti confirmantis eos erant clause 
+          fores cenaculi propter metum Iudeorum. Postea, repleti 
+          Spiritu sancto, ceperunt loqui cum fiducia et publice verbum Dei, 
+          ut patet in libro <title ref="#act">Actuum</title>.</p>
+                
+      </div>
+    </body>
+  </text>
+</TEI>

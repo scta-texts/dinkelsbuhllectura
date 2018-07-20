@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 8</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 8</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q8">
+        <head>Librum IV, Distinctio 6, Quaestio 8</head>
+        <p>
+          Queritur octauo vtrum in baptismo imprimatur caracter.</p> 
+        
+        <p>Arguitur quod non, quia circumcisio non impressit  caracterem, igitur nec baptismus imprimit <unclear>???,</unclear> 
+          quia circumcisioni successit baptismus et in remedium contra eundem morbum antecedens 
+          probatur quia ille caracter circumcisionis fuisset eiusdem rationis cum caractere baptismi. 
+          Et tunc sequeretur quod circumcisio non fuisset baptizando . Constans falsum est : ex dictis patet communia, 
+          quia duo accidentia eiusdem speciei non possunt manere in eodem subiecto.</p> 
+        
+        <p>In oppositum arguitur quia baptismus est sacramentum inreiterabile  - 
+          ut patet ex dictis - igitur imprimit aliquem effectum indelebilem, quia si omnis eius
+          <cb ed="#T" n="86va"/>
+          effectus posset deleri, ipsum posset iterari, 
+          sed nullum effectum indelebilem habet nisi caracterem.</p> 
+        
+        <p>Notandum secundum <name ref="#Scotus">Scotum</name> quod transferendo verbum ex verbo, 
+          caracter significat idem quod figuratur, et ita accipitur Ad Hebreos primo: VBI ENIM NOS HABEMUS FIGURAS SUBSTANCIE. In greco habetur 'caracter', et hoc modo figuras impositas quibus mediantibus scribitur dicimus ‘caracteres’, id est hoc etiam mondicius caracteres in incantationibus et huiusmodi quasdam figuras protractas. Hoc modo potest accipi in Apocalipsi  caracter bestie, id est figura in fronte uel in manu alicuius que significat ipsum pertinere ad familiam bestie. Generalius autem accipitur caracter pro signo et hoc modo ablucio baptismi potest dici 'caracter' quia est quoddam signum. Forma etiam verborum in sacramento aliquo potest dici ‘caracter’, sicut Magister loquitur de caractere illa sexta distinctione. Sed praetermissis omnibus alys  acceptionibus respondendo ad questionem et loquendo - sicut in proposito loquimur de caractere - dicitur primo quod theologi concipiunt communiter per caracterem quoddam spirituale impressum  suscipienti sacramentum non iterabile, cui rei attribuunt aliquos proprietates. Primo quod est forma assimilatiua aly  habenti, et sic caracter assimilat ad invicem baptizatos omnes.
+          <cb ed="#T" n="86vb"/>
+          Secunda quod est forma distinctiua a non habente eam, et sic caracter distingwit  baptizatos  a non baptisatis . Tertia quod est signum remuneratiuum  suscepti sacramenti, non solum quo ad illum qui suscipit, sed etiam quo ad alios, scilicet beatos et dampnatos qui istum caracterem signatum noscunt per illud signum. Et sine signo illo non noscerent ipsum baptizatum fore, et hoc erit scilicet in beatitudinem ad maiorem gloriam et in dampnacione ad maiorem confusionem. 4a quod est signum figuratiuum Christo cuius sacramentum suscipitur hoc, quod ipsum est signum ostendens illum Christo esse obligatum eo modo quo suscipiens sacramentum obligatum per eius susceptionem. Ex istis sequitur quod caracter non est gracia gratum faciens, nec est virtus aliqua infusa, puta fides spes aut caritas, quia tales virtutes non semper imprimuntur suscipienti sacramentum non iterabile, ut patet de ficto, caracter autem semper imprimitur ; etiam caracter est indelebilis, virtutes autem ille omnes sunt delebiles . Secundo dicitur quod theologi concorditer ponunt caracterem imprimi animae in baptismo, et hoc probant primo auctoritate  Augustini libro sexto Contra Donatistas, vbi dicit : « Satis illuxit ouem que foris dominicum caracterem acceperat venientem
+          <cb ed="#T" n="87ra"/>
+          ad salutem ab errore corrigi, caracterem tamen in ea dominicum agnoscit, quem caracterem multi lupi lupis infigunt”. Secundum quia sentiendum est de sacramentis sicut romana Ecclesia de eis sentit, ut haberetur extra de hereticis Ad abolendam. Sed romana Ecclesia sentit caracterem imprimi  animae in baptismo, ut dicit Innocentius tertius extra de baptismo et eius effectu  capitulo ‘Maiores’. Dicit enim qui sic te accedit ad baptismum, caracterem accipit Christianitatis impressum  et ibidem in fine. Tunc caracterem sacerdotalis imprimit  operacio cum obicem voluntatis contrarie non invenit obsistentem. Ponuntur ad hoc etiam tres congruentie. Prima est : congruum est ad formam perfectam poni aliquam dispositionem praeuiam, maxime in baptismo qui est primum sacramentum conferens gratiam ; gratia autem est perfecta supernaturalis, igitur congruum est ad eam esse in anima aliquam dispositionem praeuiam supernaturalem, et talis ponitur caracter. Secunda congruentia congruit Deum non instituisse sacramenta vana saltem pro nona lege que perfecta est, igitur congruit quod sacramenta sua a nullo recipiant vere quando aliquem effectum habeant, sed non 
+          <cb ed="#T" n="87rb"/>
+          semper habent effectum gracie, ut patet in ficto. Igitur habent aliquem alium, et ille est caracter alter in sacramentis initerabilibus, in alys  autem sacramentis ponunt quidam quendam ornatum toti respondentem caracteri. 3a congruentia est : congruit receptum in familia Christi distingwi  a non recepto, et hoc per aliquod intrinsecum sibi, quia licet posset distingwi  sine tali intrinseco, tamen perfectior est distinctio eius et in se et in comparatione ad omnem Ecclesiam militantem, scilicet et triumphantem. Si fiat per aliquam formam intrinsecam manentem quam si non sic fiat, tale autem distinctiuum eius qui suscepit sacramentum quo intratur in familiam Christi ab eo qui non suscepit immanens  ipse qui suscepit ponitur caracter. 3° dicitur quod caracter quilibet sacramentalis est indelebilis  - ut omnes dicunt - et hoc non est sic intelligendum quod sic caracter ponitur forma quedam absoluta animae impressa,  quod nulla potencia possit deleri. Non enim potest dari aliqua forma aut qualitas in anima quae sit distincta ab anima quam non possit Deus de potentia sua absoluta delere, ut notum est, sed caracter dicitur ideo indelebilis  quia nulla virtute cuiuscumque 
+          <cb ed="#T" n="87va"/>
+          creature  posset deleri ab anima eo, quod est forma supernaturalis. Neque potest deleri virtutem diuinam de potentia sua ordinata, quia ordinauit nullam formam spiritualem delere nisi propter aliud demeritum in habente eam, sed respectu caracteris dandi non potest esse causa demeritoria. Cum enim imprimitur cum actu peccandi mortaliter - ut patet in illo qui ficte accedit ad baptismum - non potest peccatum mortale demereri, ipsum tolli, igitur nec aliquod aliud demeritum propter ipsum tollere - ut dicit Scotus - . 4to dicitur secundum doctores communiter quod solum sacramenta irriterabilia imprimunt  caracterem et illa sunt tria, scilicet baptismus, confirmatio et ordo. Hoc declarat Bonauentura sic - ut dictum est - : Caracter est signum distinctiuum et etiam signum vnitiuum multorum ad invicem in vno statu fidei, et ideo solum in istis sacramentis imprimitur que respiciunt statum fidei determinatum. Tres autem - ut dicit - sunt status fidei, scilicet genite, roborate et iam multiplicate, et 2m hoc sumitur triplex distinctio in populo, scilicet bonorum a malis, forcium ab infirmis et clericorum a laicis, quia ergo tantum causa sunt sacramenta que respiciunt statum fidei determinatum. Baptismus primum quia ibi fides gignitur , 2m confirmatio quia ibi fides roboratur - et ibi homo ut pugil intingitur et ad proeliandum ab infirmis discernitur - 3m est
+          <cb ed="#T" n="87vb"/>
+          ordo, quia ibi virtus multiplicandi datur et homo ut sanctus ad ministerium templi a laycis  separatur. Et ideo illa causa tantum imprimunt caracterem. Idem etiam declarat Scotus per exitum in mundanis pollicys  : nullus enim habet determinatum gradum in familia regis ex hoc solum, quia comedit uel bibit et accedit ad mensam in domo regis. Vel quia, post offensam, Dominus reconciliatur ei nec ideo multiplicat personas in illa pollitia : nam isti actus possunt esse communes omnibus in quocumque gradu illius pollitie aut familie constituantur. Sed alium gradum habet aliquis quando recipitur in familiam Domini, alium quando vltimus proficit et constituitur ut milles ad defendendum rem publicam, alium quando constituitur ut supremus sub Domino ad constituendum alios in gradibus determinatis, in familia senescalcus  uel qualitercumque tale officium nominetur. Non ergo dicitur quis habere gradum aut dignitatem intimam  regis ex hoc, quod accedit ad mensam, uel quia coniugatus est aut quia rediens ad gratiam  post offensam. Sed diceretur habere gradum quando de populo assumptus est in familiam Domini, et vlteriorem quando in familia Domini constituitur ad defendendum domum et vlteriorem quando constituitur ad recipiendos alios in familiam et ad instruendum
+          <cb ed="#T" n="88ra"/>
+          inferiores. Sic in proposito tria sacramenta, scilicet Ewcaristia  ad nutritionem spiritualem, et matrimonium ad generationem corporalem et penitentia ad reconciliationem instituta in nullo certo grado constituunt in Ecclesia, ymo  possunt isti actus esse communes omni membro Ecclesiae in quocumque gradu sit. Sed primus gradus in Ecclesia et vniuersalissimus est recipi in familiam Christi quod fit in baptismo, secundus gradus est constitui in litem ad defensionem fidei Christiane quod fit in confirmatione, tertius constitui patrem et pastorem ad introducendum alios in Ecclesia et ad instruendum et dirigendum alios in Ecclesia, quod fit in ordine. Et sicut in pollicia illa non congruit illos tres gradus iterari, scilicet receptionem in familiam, promotionem ad maliciam et praelationem ad doctrinam bene tamen iterari possunt nutritio procreatio et reconciliatio, ita in  proposito istos tres ordines non debent iterari. Aly  autem iterantur et in non iterandis gradus irriterabilis acquiritur et caracter dicitur in eis conferri, in iterandis autem non dicitur conferri. Quinto dicitur quod caracter est vna qualitas absoluta subiectiue in anima existens et ei inherens et ab ea essentialiter distincta. Illa est positio quasi omnium doctorum, sed tamen de qua specie qualitatis
+          <cb ed="#T" n="88rb"/>
+          sit in hoc sunt diuersificati. Quidam dicunt quod sint de prima specie qualitatis quasi media inter habitum et dispositionem : in quantum enim est difficili mobili conuenit cum habitu in quantum vere disponit ad vlteriorem perfectionem, scilicet ad gratiam conuenit cum dispositione. Aly  dicunt quod est de secunda specie qualitatis, quia est potentia quedam qua homo potest in actiones gerarchicas que sunt ministrationes et receptiones sacramentorum et aliorum que ad fideles pertinent. 3y dicunt quod est de tertia specie qualitatis, quia est - ut quidam dicunt - spiritualis ornatus animae et ideo, licet non corporali, tamen spirituali sensui, scilicet angeli aut animae exutae infert quandam passionem muliebrem in quantum animam ornat et decorat. Quarti dicunt quod sit de quarta specie qualitatis, quia ipsa figuratio quam caracter suo nomine exprimunt importat vnitatem figurae que est in 4a specie qualitatis. Et quidam dicunt istam figuram esse caracterem Christi, que autem illarum posicionum sit tenenda de hoc est longa disputacio inter doctores cum qua nolo uestras reuerentias occupare pro praesenti. Et nota quod, licet praedicta posicio de quittitate  caracteris, scilicet quod sit quedam qualitas absoluta animae, impressa  sit quasi omnium doctorum, tamen aliqui doctores tenuerunt et contrarium dicentes quod caracter non est talis qualitas absoluta
+          <cb ed="#T" n="88va"/>
+          : superflue enim hoc poneretur sine auctoritate sufficiente aut ratione cogente. Et dicunt communiter quod caracter gratia exempli in baptismo non est aliud nec ipsa anima ipsius baptizati : diffiniunt enim caracterem sacramentalem sic et anima hominis qui est aut fuit viator circa quem per applicationem sacramenti factum est qualiter ex diuina institucione initerabiliter et solum semel fiendum erat. Sic enim dicendo putant illi quod omnia saluari possent circa caracterem , quod nulla necessitas sit ponendi illam qualitatem et plurificandi encia vbi nec ratio, nec auctoritas sufficienter cogit. Auctoritates enim de caractere possunt, ut dicunt omnes expositioni ad sensum iam dictum, dicendo quod caracter imprimatur. Cum circa homines sit cerimonialiter in sacramenti applicatione, agitur qualiter ex diuino praecepto solum semel est agendum. Ambas opiniones illas tractas Scotus et soluit huic inde raciones earum et nullam finaliter praeacceptat ex ambabus posicionibus. Patet quod in baptismo imprimitur caracter et quod percommunis quaestio est vera, et hoc omnes concedunt. Ad argumentum ante oppositum dicit Scotus quod potest concedi quod circumcisio imprimebat caracterem aliquando sicut et baptismus, quia ipsa fuit prima ianua salutis in lege mosayca - sicut baptismus in lege ewangelica  - et contulit gratiam
+          <cb ed="#T" n="88vb"/>
+          ex opere operato et fuit initerabilis, et cum arguitur quod talis circumcisus non fuisset baptizandus negatur consequentia. Potest enim dici quod caracter ille circumcisionis fuit eiusdem racionis cum caracter baptismatis, et tunc non imprimebatur caracter nouus cum baptizabatur primus circumcisus, sed cum subiectum habet formam aliquam, tunc non imprimitur. Item talis forma etiam a causa, que alias nata esset eam imprimere uel posset dici quod caracter circumcisionis differret a caractere baptismi sicut imperfectum a perfecto quemadmodum gracia collata in circumcisione differret a gratia baptismatis. Et tunc in collatione baptismi primus circumcisio non imprimeretur nouus caracter, sed prior perficeretur.
+        </p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

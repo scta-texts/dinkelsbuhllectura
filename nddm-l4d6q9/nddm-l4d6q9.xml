@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 9</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 9</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q9">
+        <head>Librum IV, Distinctio 6, Quaestio 9</head>
+        <p>Nono queritur vtrum debeant esse solum duo tempora ad baptizandum determinata.</p> 
+        
+        <p>Arguitur quod non, sed quod omni tempore liceat baptizare quia periculo quanto citius succurrendum est - 
+          sed homo propter fragilitatem  necessarie semper est in periculo vite sue - 
+          igitur non debet expectare tempus aliquod determinatum ad baptismum, 
+          sed debet statim baptizari.</p> 
+        
+        <p>Secundo arguitur quod sint plura quia vigilia Pasce et pari ratione etiam vigilia natiuitatis Christi, etcetera. Patet, quia per baptismum
+          <cb ed="#T" n="89ra"/>
+          homo generatur in filium Dei ad ymaginem  Christi cuius natiuitas tunc celebratur. 
+          Igitur debet tunc potissime baptismus celebrari, videtur etiam quod in die Epiphanie deberet baptismum potissime celebrare quia 
+          Dominus eodem die legitur baptizatus.</p> 
+        
+        <p>In oppositum est quod <ref><name ref="#Lombard">Magister</name> in littera</ref> dicit : - 
+          In baptizatis electis duo tempora sunt seruanda ut in sabato Pasce et in vigilia Penthecostes 
+          baptismum sacramenti celebretur.</p> 
+        
+        <p>Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod in baptismo duo considerantur, scilicet substantia sacramenti et solempnitas. 
+          Quantum ad substanciam sacramenti non est aliquod tempus determinatum ad baptismum, ymo  
+          quolibet die et etiam quaelibet hora baptismus celebrari potest et habet suam efficaciam. 
+          Sed solempnis celebratio baptismi in Ecclesia habet duo tempora determinate, 
+          scilicet duplex sabbatum  Pasce et Penthecostes, et huius ratio est, 
+          ut dicit, quia baptismus efficaciam habet ex duobus, scilicet ex virtute 
+          Spiritus sancti et ideo in vigilia Spiritus sancti aut Penthecostes 
+          celebratur solempniter. Baptismus etiam habet efficaciam ex passione Christi, 
+          cuius morti configuratur homo per baptismum, quasi consepultus Christo in mortem - 
+          ut dicitur <ref><title ref="#rom">ad Romanos</title> 6°</ref> - et ideo celebratur solempniter in die. 
+          Celebratur solemniter in die sepulturae Christi, scilicet in vigilia Pasce.</p> 
+        
+        <p>Ad primum argumentum dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod in necessitate non oportet expectare illa duo tempora, vnde
+            <cb ed="#T" n="89rb"/>
+            dicitur de consecratione distinctione 4ta de cathecumenis baptizandis . 
+            Id decretum est ut pascali festiuitate uel Penthecostes veniant ad baptismum, 
+            ceteris autem solempnitatis infirmi  tantum dicunt baptizari et quia pueri inter infirmos 
+            computantur propter naturae imbecillitatem  et propter periculum dampnationis a quo non possunt aliter liberari. 
+            Et ideo nunc ipsi pueri baptizantur et ut in pluribus non expectantur hec duo tempora, sicut in adultis solebant antiquitus expectare.</p> 
+            
+            <p>Ad 2m dicit quod in festo natiuitatis Christi retollitur natiuitas Christi. 
+              2m carnem nos autem per baptismum non efficimur fratres eius natiuitate carnis, sed spiritus, 
+              ideo non oportuit illud tempus instituere ad baptismi solempnem celebrationem. 
+              Et quod dicebatur de die Epiphanie, responditur quod non est institutum baptismum celebrare 
+              in die Epiphanie ut excluderetur quorundam error qui dicebant numquam posse baptismum offerri nec 
+              in illa die qua Dominus baptizatus est, scilicet Epiphanie.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

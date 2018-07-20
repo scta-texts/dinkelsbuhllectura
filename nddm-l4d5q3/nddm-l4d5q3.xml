@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 5, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 5, Quaestio 2</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d5q3">
+        <head>Librum IV, Distinctio 5, Quaestio 3</head> 
+        <p>Tercio queritur vtrum Christus secundum quod homo habuerit potestatem dimittendi peccata.</p> 
+        
+        <p>Arguitur quod sic, quia <ref><title ref="#mt">Mathei</title> 9°</ref> dicitur vt autem sciatis quia filius hominis habet potestatem dimitten-
+        <cb ed="#T" n="73vb"/>
+        -di peccata. 
+        Dixit paralitico : <quote>SURGE ET AMBULA.</quote> 
+          Sed non oportebat signo ostendi et probari, quod Deus habet potestatem dimittendi peccata - hoc enim Iudei confitebantur - 
+          igitur voluit ostendere quod 2m quod homo haberet potestatem dimittendi peccata.</p> 
+        
+        <p>Secundo, Christus 2m quod homo est redemptor - ut dicitur in <ref>3° distinccione 19a</ref> - sed non potest aliquis liberare a seruitute peccati nisi sibi 
+          dimissum sit peccatum. 
+          Igitur Christus 2m quod homo habuit auctoritatem dimittendi peccata quomodo alias redemisset nos a peccatis.</p> 
+        
+        <p>In oppositum arguitur illud : quod est solius Dei non conuenit Christo in quantum homo, 
+          sed dimittere peccata est solus Dei, ut patet <ref><title ref="#is">Ysaie</title> 4m :</ref> <quote>EGO SUM QUI DELEO INIQUITATES TUAS PROPTER ME.</quote></p>
+        
+        <p>Respondet <name>S<supplied>anctus</supplied> Thomas</name> quod triplex est potestas abluendi et mundandi a peccato in baptismo. 
+          Prima est potestas auctoritatis et hec est solius Dei, que virtute propria peccata dimittit quasi principalis causa remissionis peccati. 
+          A seipso enim et non aliunde habet potestatem immediate  per se, interius mundandi a culpa et tali potestate Christus in quandum 
+          Deus peccata dimittere potuit, sed non in quantum homo. Secundum humanam enim naturam non habuit virtute propria interius mundare a culpa, 
+          ymo  dicunt doctores quod hanc potestatem auctoritatis dimittendi peccata Deus non solum communicauit cuicumque,
+          <cb ed="#T" n="74ra"/>
+          sed eciam nec communicare potuit creaturae. 
+          Patet satis ex iam dictis quia non potest communicare creaturae, 
+          quod ipsa propria virtute peccata dimittit et sit tamquam principalis causa creacionis gracie 
+          et quod habeat seipsa et non aliunde recepit potestatem immediate  interius mundandi a culpa : 
+          hoc enim poneret eum extra limites creaturae.</p> 
+          
+          <p>Alia potestas est potestas ministery  que illis competit qui sacramenta ministrant et dispensant, 
+          in quibus diuina sacramentis virtus secrecius operatur salutem : 
+          illis enim datum ut possint exterius ministrare et elementum et verbum.</p> 
+        
+        <p>3a est media inter has duas que dicitur potestas excellencie, 
+          et hanc Christus 2m quod homo habuit prae alys . 
+          Attenditur autem hec excellencia quantum ad tria. 
+          Primo quantum ad hoc, quod baptismus habet efficaciam suam ex merito passionis Christi et non ex merito alicuius alterius, 
+          propter quod non est baptismus melior qui datur a meliori baptizante . 
+          2° attenditur excellencia quantum ad hoc, quod Christus poterat sine sacramento conferre sacramentorum effectum quasi 
+          dominus et institutor sacramentorum, quod de alys  non est verum. 
+          3° acceditur excellencia quantum ad hoc, quod ad invocacionem nominis eius dabatur remissio peccatorum
+          <cb ed="#T" n="74rb"/>
+          in primitiua Ecclesia : tunc enim ad tempus baptizabatur  
+          in nomine Christi quod non fit, nec factum est in nomine Petri, 
+          aut Pauli, uel alterius ministri.</p> 
+        
+        <p>Et dicunt doctores communiter quod hanc potestatem excellencie potuit dare ministris Ecclesiae, 
+          licet nulli alteri dederit nisi Christo. Primam partem velle videtur <name ref="#Lombard">Magister</name> cum in littera dicit: 
+          ministerium dedit Christus seruis, sed potestatem scilicet retinuit quam si vellet poterat seruis. 
+          Hoc videtur intelligendum de potestate excellencie quam Deus poterat dare non solum Christo secundum quod homo, 
+          sed eciam ceteris ministris.</p> 
+        
+        <p>Secundam partem similiter innuit <name ref="#Lombard">Magister</name> cum posterius dicit, 
+          sed noluit ne seruus in seruo spem poneret : vna enim causa propter quam non decuit ut ministris daretur huiusmodi 
+          potestas excellencie est, scilicet ne homo in puro homine speraret si baptismus efficaciam dimittendi peccata 
+          haberet ex meritis puri hominis ut ministri.</p> 
+        
+        <p>Secunda causa ne tot essent baptismata quot baptiste sew  quot institutiones baptismi 
+          qui numeratur baptismus et denominatur ab eo in cuius nomine fit et ab eo qui instituit. 
+          Et ita multi essent baptismi si multis esset data potestas excellencie, ut scilicet multi haberent auctoritatem instituendi baptismi. 
+          Et quod in eorum nomine haberet efficaciam,
+          <cb ed="#T" n="74va"/>
+          voluit ergo Christus scilicet soli istam potestatem excellencie retinere vt solus institueret. 
+          Et sic solus vnus baptismus remaneret : si enim essent plures baptismi in Ecclesia, 
+          tunc posset ex hoc fieri scisma  in eo, ut vnus diceret : 
+          <quote>EGO SUM CEPHE, EGO SUM PAULI, EGO SUM APOLLO ,</quote> et sic non esset perfecta vnitas in 
+          Ecclesia cuius vnitatis perfeccio fundamentum habet in vnitate baptismi.</p> 
+        
+        <p>Tercia causa propter quam potestatem excellencie Dominus sibi soli retinuit est ut per hoc ostenderetur 
+          esse vnum solum caput Ecclesie, scilicet Christus a quo omnia membra Ecclesiae accipiunt motum et sensum. 
+          Est adhuc dubium vtrum Deus potuerit dare ministris potestatem cooperacionis in dimittendis peccatis. 
+          Et doctores satis communiter dicunt quod non potuit Deus communicare creaturae potestatem cooperacionis 
+          saltem per modum efficientis respectu gracie et eodem modo quo agencia naturalia cooperant Deo in produccione 
+          ignis aut alterius rei naturalis. Videtur enim eis quod quia gracia eleuat hominem ad quandam vitam 
+          que est supra condicionem omnis naturae creaturae : est enim, ut dicunt, 
+          esse gratiae supra esse naturale et hominis et animalis  que sunt supreme 
+          <cb ed="#T" n="74vb"/>
+          creaturae. Et ideo agens quod effectiue sibi assimilat animam per graciam, 
+          oportet quod sit super omnem virtutem creatam et sic talis cooperacio excederet terminos creaturae. 
+          Et dicit <title ref="#Bonaventure">Bonauentura</title> quod talem modum cooperationis non potuit 
+          Deus communicare creaturae, nec de illo intellexit <name ref="#Augustine">Augustinus</name> 
+          quod multipliciter pro se allegat, sed intellexit de illa potestate cooperacionis qua aliquis dicitur cooperari. 
+          Non quia simul cum illo efficiat, sed quia aliquo dono, scilicet dato aliquid facit quo facto Deus fecit, 
+          scilicet solo nutu mentis sine actu sacramenti, vnde sicut beatus Petrus dicitur mortuos suscitasse 
+          et infirmos curasse et habuisse virtutem curandi et graciam sanitatum. 
+          Non quia ipse faceret ista miracula, sed quia Deus nutu <name ref="#Peter">beati Petri</name> 
+          faciebat sine aliquo visibili sacramento. 
+          Sic diceretur aliquis animas purgare et purificare et Deo in hys  cooperari si data esset ei consimilis gracia ad animas purgandas ; 
+          sed hoc noluit Deus dare, ut dicit <name ref="#Augustine">Augustinus</name>. <name ref="#Lombard">Magister</name> tamen in littera 
+          videtur velle quod Deus possit communicare creaturae quod tamquam secundarium et instrumentale agens cooperetur 
+          Deo ad produccionem gratiae in anima, sicut ignis cooperatur Deo instrumentaliter ad produccionem ignis. 
+          Sed 
+          <cb ed="#T" n="75ra"/> 
+          dicit <name ref="#Bonaventure">Bonauentura</name> quod non sit ei in hoc, vsquequaque consenciendo.</p> 
+        
+        <p>Ad raciones ante oppositum respondet <name>S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod filius hominis, 
+          id est Christus Dominus qui sepe se in Ewangelys  
+          sic nominat ut ostendat quid pro nobis misericorditer dignatus est fieri ille, 
+          inquam, filius hominis habuit potestatem auctoritatis  dimittendi peccata non 2m quod homo, 
+          sed secundum quod Deus. Et ideo per miraculum ibi ostensum in cuiusdam paralitici sanacione probabatur hoc, 
+          scilicet quod ille homo esset Deus cui natura obediebat quasi proprio creatori. 
+          Non ergo erit intencio probare quod Christus in quantum filius hominis haberet potestatem auctoritatis in dimittendi peccata, 
+          sed fuit intencio probare quod ipse filius hominis haberet potestatem et quod per hoc esset Deus; 
+          sic ergo Christus habet illam potestatem auctoritatis  
+          in quantum Deus et non in quantum homo, quia non communicat humane naturae sue, sed solum diuinae.</p> 
+        
+        <p>Ad 2m dicitur quod redemptor vno modo dicitur qui potestate auctoritatis  
+          vtitur in dimittendo peccata. Et sic Christus est redemptor 2m quod Deus ; 
+          alio modo dicitur  redemptor propter effectum humilitatis in quantum per humilitatem passionis 
+          nobis meruit dimissionem peccatorum. Et sic est redemptor 2m quod homo : 
+          2m enim humanam naturam passus 
+          <cb ed="#T" n="75rb"/> 
+          est et non secundum diuinam. 
+          Sic autem esse redemptorem pertinet ad potestatem excellencie, 
+          sed mereri remissionem peccatorum nobis dari per sacramentorum applicacionem, 
+          ut datum fuit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

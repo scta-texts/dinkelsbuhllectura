@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 5, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 5, Quaestio 2</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d5q1">
+        <head>Librum IV, Distinctio 5, Quaestio 1</head> 
+        <p>Post hoc sciendum quod sacramentum baptismi postquam 
+          <name ref="#Lombard">Magister</name> egit  de baptismo in se et de suscipiente hic agit de condicionibus ministri, 
+          et in hac quanta distinccione ostendit a quibus dari possit baptismus, 
+          quia a bonis et a malis et quod eius efficacia non potest impediri per maliciam ministri.</p> 
+        
+        <p>Circa hoc communiter primo vtrum mali possunt conferre sacramentum baptismi et eciam rem sacramenti .</p> 
+        
+        <p>Arguitur quod non, quia dicit <name ref="#Ambrose">Ambrosius</name> - et ponitur prima questione primo capitulo - : 
+          Non sanat  baptismus perfidi, non mundat, sed polluit, quod probat auctoritate <title ref="#ps">Psalmi</title> : 
+          <quote>IN DILUVIO AQUARUM MULTARUM AD EUM NON APPROSSIMABUNT.</quote> 
+          Probat eciam per illud <ref><title ref="#rom">Ad Romanos</title> 54° :</ref> <quote>OMNE QUOD NON EST EX FIDE PECCATUM EST.</quote></p> 
+        
+        <p>2°, prima quaestione capitulo primo dicitur - et est <name ref="#Augustine">Augustinus</name> De baptismo : - Separati formam habere
+          <cb ed="#T" n="67vb"/>
+          possunt, virtus in eis esse non potest quemadmodum sensus non sequitur membrum quando amputatur a corpore.</p> 
+        
+        <p>3°, membrum aridum  non potest esse causa fluendi vitam in aliud membrum : 
+          minister malus est membrum aridum  Ecclesiae, quia sine gratia quae est vita Ecclesiae.</p> 
+        
+        <p>4to, sicut ad baptismum requiritur materia et forma, ita minister, sed si sit materia indebita aut forma indebita, 
+          non erit. Baptismus ergo etiam, si erit minister indebitus, non erit baptismus, sed malus non est minister debitus, 
+          quia dicit <name ref="#Augustine">Augustinus</name> et ponitur in littera. 
+          Iustos oportet esse per quos baptizatur  igitur mali sacramentum conferre non 
+          possunt et a fortiori nec rem sacramenti.</p> 
+        
+        <p>5to <ref><title ref="#sir">Ecclesiastici</title> LX°</ref> dicitur <quote>AB IMMUNDO  QUIS MUNDABITUR ?</quote> 
+          Igitur minister immundus  per peccatum non potest mundare a peccato et percommunis nec baptismus conferre nec effectum eius.</p> 
+        
+        <p>Sexto <name ref="#Cyprian">beatus Cyprianus</name> 
+          asseruit hereticos et scismaticos non posse baptizare , 
+          ut dicit <name ref="#Augustine">Augustinus</name> in De vnico baptismo. 
+          Igitur ex auctoritate illius sancti doctoris et martiris aliquando mali - ut scilicet heretici et scismatici - 
+          non possunt baptizare  nec effectum baptismi  alicui eciam ministerialiter conferre.</p> 
+        
+        <p>In oppositum et pro veritate questionis est Magister in littera, 
+          vbi per plures auctoritates <name ref="#Augustine">Augustinus</name> Super Iohannem omne.</p> 
+        
+        <p>5ta probat quod
+        <cb ed="#T" n="68ra"/>
+          mali possunt baptizare  et effectum baptismi dare ministerialiter. 
+          Dicit enim inter cetera quod baptismus talis est qualis est ille in cuius potestate datur, 
+          scilicet Christus Dominus, et non qualis est minister a quo datur. 
+          Et item dicit : <quote>QUID FACIT TIBI MINISTER MALUS,</quote> vbi bonus est Dominus ? 
+        <quote>NEC QUI PLANTAT, NEQUE QUI RIGAT ALIQUID EST, SED QUI INCREMENTUM DAT EST DEUS.</quote> 
+        Si superbus fuerit minister cum dyabolo computatur, sed non condamnabitur  donum Christi quod per illum fluit : 
+        purum est, per lapideum  canalem  transit aqua ad aureolas, in canali  lapideo nichil generatur, 
+        sed ortus fructus plurimos affert. 
+        Igitur simpliciter per malos ministros et sacramenti  gratia transit ad digne suscipientes.</p> 
+      
+      <p>Conclusio prima : quilibet minister baptismi, siue hereticus, siue scismaticus, siue paganus, 
+        siue alis  in moribus malus potest vere baptizare  et vere baptizat , 
+        si ad hoc necessario requisita obseruat probatur, quia ut dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> : 
+        - In sacramentis est aliquid quod est de substantia sacramenti et aliquid quod est de congruencia et solempnitate. 
+        Si ergo subtraheretur aliquid quod esset de substantia sacramenti non esset verum sacramentum ; 
+        si autem subtraheret aliquid quod esset de solemnitate solum aut
+        <cb ed="#T" n="68rb"/>
+            conveniencia, non propter hoc desineret esse sacramentum.</p> 
+        
+        <p>Ad propositum ergo dico quod de necessitate sacramenti baptismi sunt persona baptizans , persona baptizata , 
+          tinctio in aqua elementari , verbum, id est prolacio debite forme et intencio faciendi, 
+          quod Ecclesia intendit facere cum suis et quia hereticus scismaticus et quantumcumque 
+          malus potest omnia illa obseruare. Igitur potest baptizare , et vere baptizat  
+          si attemptat et iam dicta obseruat, bonitas vero ministri solum est de conveniencia  
+          baptismi sicut et multa alia que circa baptismum obseruantur. 
+          Ea subtracta, adhuc manet verum sacramentum baptismi, et a tali baptizatus  non esset rebaptizandus  
+          si obseruabit omnia que pertinent ad substanciam sacramenti.</p> 
+        
+        <p>2a conclusio : quantumcumque minister baptismi sit malus, scilicet sine malicia heresis, 
+          sive scismatis, sive infidelitatis, siue etiam morum si in baptizando  obseruat modum Ecclesiae, 
+          ipse baptizatus  consequitur effectum baptismi sew rem baptismi, nisi propria sibi obsistat indisposicio. 
+          Patet, quia dicit in littera : cum baptizat  malus illud quod datum est, vnum est nec impar propter impares ministros, 
+          sed cum bona baptizant , tunc confertur sacramentum et res sacramenti. 
+          Igitur etiam conferuntur illa cum baptizat. 
+          <cb ed="#T" n="68va"/>
+            Malus minister est enim solum causa instrumentalis siue eciam ministerialis baptismi 
+            solum exterius lauans et uerbum proferens, etcetera. 
+            Sed principale agens in baptizando  est Deus qui interius anime infundit 
+            graciam et mundat eam a peccatis et a quocumque ministro fiant exterius requisita.</p> 
+        
+        <p>3a conclusio : baptismus datus per meliorem ministrum non est melior quam baptismus 
+          datus per ministrum malum aut minus bonum, saltem quantum est ex ui sacramenti 
+          et precise  et opere operato. Patet quia dicitur : 
+          in littera non est melior baptismus qui datur per ministrum meliorem, 
+          sed per ministros dispares Dei minus est equale. 
+          Et dixi nominanter quantum est ex ui sacramenti quia posset aliquando ex merito baptizantis  
+          Christi baptizato  plus conferri de gratia, ut dixi in priori distinccione in ista questione : 
+          vtrum omnes baptizati non ficti recipiant equaliter effectum baptismi.</p> 
+        
+        <p>Omnes ille tres conclusiones patent ex multis auctoritatibus 
+          <name ref="#Augustine">Augustini</name> quas ponit <name ref="#Lombard">Magister</name> et, 
+          ut dicit <name ref="#Scotus">Scotus</name>, illius non potest reddi racio nisi uoluntas Christi 
+          donum cui ita placuit instituere, ut malicia ministri quaecumque nullo modo impediret effectum baptismi. 
+          Quod autem instituerit Christus, colligit <name ref="#Augustine">Augustinus</name> ex illo
+          <cb ed="#T" n="68vb"/>
+            vero dicto ad Iohannem baptistam : 
+          <quote>SUPER QUEM VIDERIS SPIRITUM DISCENDENTEM ET MANENTEM SUPER EUM, HIC EST QUI BAPTIZATUR</quote> . 
+          Et scribitur <ref><title ref="#io">Iohannis</title> primo :</ref> 
+          ibi enim scribitur quod Iohannes baptista  de Christo non dixit : 
+          <quote>QUI ME MISIT BAPTIZARE IN AQUA, ILLE MICHI DIXIT : 
+            SUPER QUEM VIDERIS SPIRITUM DISCENDENTEM ET MANENTEM SUPER EUM, HIC EST QUI BAPTIZAT  IN SPIRITU SANCTO.</quote> 
+          Et ita Spiritus sanctus super Christum in baptismo descendens testimonium perhibuit , 
+          quoniam hic est qui baptizat  : Christus enim est qui interius causat effectum baptismi 
+          in anima que malicia ministri non potest impedire. 
+          Et quod baptismus fuerit sic instituendus, scilicet quod malicia ministri non impediret, 
+          ad hoc adducit Scotus aliquas congruencias.</p> 
+        
+        <p>Prima est quia - si baptismus non posset conferri nisi ab vno - tunc non esset in magnum remedium viatoris, 
+          sed ut communiter in detrimentum - cum enim nullus esset certus de bonitate propria - multo minus esset certus de bonitate aliena. 
+          Igitur si ex bonitate ministri dependeret baptismus, numquam posset aliquis esset certus. 
+          Si vere recepisset baptimum an non, quod esset multum inconveniens si obicias, 
+          quod nec modo homo potest esse certus, quia nescit disposicionem propriam.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod hoc non obstat, quia satis potest homo noscere certitudinaliter
+          <cb ed="#T" n="69ra"/> 
+          sicut hic requiritur certitudo, quod ipse intendit recipere baptismum. 
+          Et hoc sufficit ex parte eius, scilicet suscipientis baptismum. 
+          Item dicens contra quia homo non potest  esse certus de intencione ministri que tamen necessario requirit, 
+          igitur iterum non potest esse certus quod sit baptizatus .</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod, licet homo non sit omnino certus, 
+          tamen probabiliter potest praesumere, quod minister, talem actum exercens, 
+          intendat facere illud ad quod actus 2m se ordinatus est. 
+          Non autem ita possit haberi certitudo de bonitate aut sanctitate ministri.</p> 
+        
+        <p>Secunda congruencia, quia baptismus est sacramentum necessitatis maxime quo 
+          ad paruulos qui non habent aliud remedium per quod possint salui fieri. 
+          Igitur omnia ad ipsum necessaria pertinencia debent esse communissima et notissima, 
+          bonitas autem moralis et gratuita est valde rara et multum ignota; igitur non de necessitate requiritur in ministro baptismi.</p> 
+        
+        <p>3a congruentia sumitur  ex parte suscipientis, quia omnino iniustum videtur vnum pro iniquitate alterius puniri, 
+          quia iste aliter nullo modo communicat iniquitati istius ita ut possit scilicet ab aliquo modo imputari. 
+          Sed ille baptizandus  disponit se, ut pono, ad graciam quantum potest, si ergo malicia ministri impediret ille puniretur propter culpam
+            f. 69 rb 
+          <cb ed="#T" n="69rb"/>
+            alienam nullo modo sibi imputandam.</p> 
+        
+        <p>Ad primum argumentum dicitur : si talis perfidus baptizat  
+          paruulum et in forma ac intencione Ecclesiae, tunc perfidia ministri nichil 
+          obest paruulo nec quo ad sacramentum, nec quo ad sacramenti effectum. 
+          Si autem baptizat  adultum in forma et intencione Ecclesie, tunc adhuc confert sibi vere sacramentum et effectum sacramenti. 
+          Si saltem ille adultus est bene dispositus et non ponit obicem gracie, 
+          ponit autem obicem si consentit heresi et, ut dicit <title ref="#Bonaventure">Bonauentura</title>, hoc potest fieri tripliciter : 
+          primo si est hereticus et fauet errori, 
+          2°, si non est hereticus, vadit tamen ad hereticum praecisum in contemptum Ecclesiae, 
+          3° si ille ad quem vadit non est praecisus, sed occultus. 
+          Ipse tamen scit eum fore hereticum et vadit ad eum ad suscipiendum ab eo baptismum forte propter aliquod commodum  
+          aut propter istius fauorem, et tunc non accipit graciam propter obicem proprij peccati. 
+          Et de hoc loquitur <name ref="#Ambrose">Ambrosius</name>. 
+          Si autem homo vadit ad hereticum ignoranter, scilicet quia credit eum esse catholicum aut 
+          vadit ad talem in casu necessitatis et solo intuitu necessitatis, 
+          tunc recipit sacramentum et effectum eius.</p> 
+        
+        <p>Ad 2m respondetur quod virtus sacramenti est quedam vita spiritualis, 
+          et illa non manet in membro praeciso ab Ecclesia.
+          <cb ed="#T" n="69va"/> 
+          Ex hoc tamen non sequitur quando illa vita possit per sacramentum illius 
+          precise  esse in suscipienti, si idem suscipiens non ponit obicem gratiae.</p> 
+        
+        <p>Ad 3m dicitur quod non est in hoc simile de membris corporis mistici et de membris corporis naturalis, 
+          quia in corpore mistico non semper deriuatur gracia a Deo ad alia membra per ministros 
+          Ecclesiae quemadmodum in corpore naturali deriuatur vita a corde per membra propinquiora ad membra distinctiora. 
+          Sed ipsa gracia immediate  a Deo causatur in suscipientibus digne et rite sacramenta.</p> 
+        
+        <p>Ad 4m dicit <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> quod debitum dicitur dupliciter 
+          vno modo debitum necessitatibus et sic debitus minister est quilibet homo. 
+          Alio modo debitum conveniencie sew  debitum congruitatis, et sic oportet ministrum esse bonum et iustum, 
+          ut vult <name ref="#Augustine">Augustinus</name>. Sic eis oportet aquam in qua fit baptismus esse mundam ob reuerenciam sacramenti; 
+          tamen si sit immunda  nichilominus fit in ea baptismus, et similiter si sit minister malus, 
+          nichilominus confert vere baptismum.</p> 
+        
+        <p>Ad 5m respondetur quod proprie loquendo minister non mundat, 
+          sed Deus per illum uel non mundat efficiendo, sed ministerio suo sicut seruus immundus  per aquam mundat.</p> 
+        
+        <p>Ad 6m dicit <name ref="#Scotus">Scotus</name> quod aliqua sunt ita
+          <cb ed="#T" n="69vb"/> 
+          simpliciter de substantia fidei quod omnes suscipientes baptismum post 
+          tempus aliquantulum vsus racionis tenentur explicite credere illa sicut sunt articuli de incarnacione Christi, 
+          ut Christus est natus, est mortuus et ceterys  de quibus sunt solempnitates speciales in ecclesia et quos potest populus 
+          concipere quia sunt de Christo homine. 
+          Alia sunt requisita ad substanciam fidei que explicite simpliciter obseruanda et credenda sunt a maioribus Ecclesiae, 
+          ut sunt singularia et specialia de benedicta Trinitate. 
+          Alia sunt que nec explicite sunt ab istis aut ab illis necessario credenda eo, 
+          quod non sunt de illo tempore adhuc declarata per Ecclesiam, cuiusmodi sunt multe conclusiones incluse in articulis necessario creditis. 
+          Sed antequam sint per Ecclesiam determinate non oportet eas quemcumque explicite credere ; 
+          oportet tamen circa eas sobrie opinari ut scilicet homo sit paratus ea tenere pro tempore pro quo veritas fuerit declarata. 
+          Subdit <name ref="#Scotus">Scotus</name> hoc, ergo modo dico quod baptismum esse sacramentum Noue Legis necessarium ad salutem, 
+          statim est de veritate fidei christiane quia expresse  habitum in Ewangelys . 
+          Sed quod huiusmodi baptismus poterat ab heretico conferri, non fuit statim in Scriptura expressum , 
+          ymo  nec tempore <name ref="#Cyprian">Cypriani</name>
+          <cb ed="#T" n="70ra"/> 
+          declaratum, propter quod circa illam veritatem baptismi declarandam multum laborauit 
+          <name ref="#Augustine">Augustinus</name> in libro suo <title>De vnico baptismo</title> et in libro suo <title>Contra Donatistas.</title> 
+          Vnde si <name ref="#Cyprian">Cyprianus</name>, qui praecessit <name ref="#Augustine">Augustinum</name>, 
+          illam scilicet quod apud hereticos non esset baptisma ita tenuit, 
+          et de ea sensit sic quod tam promptus erat ex animo sentire circa hoc quod Ecclesia declararet in nullo peccauit, 
+          nec forte venialiter, si minus illi adhesit ad quod nullam auctoritatem  aut racionem cogentem habuit. 
+          Ratio enim sua non valet, scilicet quod quis non habet non potest dare, 
+          quia baptizans  non dat gratiam sed dat solum extrinsecum sacramentum, 
+          et illud habet in virtute quia habet ordinem. 
+          Et forte hoc modo innuit <name ref="#Augustine">Augustinus</name> eum peccasse. 
+          Dicit enim et ponitur distinccione sequenti : dum eos, scilicet hereticos, ipse, scilicet 
+          <name ref="#Cyprian">beatus Cyprianus</name>, minus detestaretur, si quid in eo purgandum erat passionis falce tollitur. 
+          Hoc etiam modo, ut subdit <name ref="#Scotus">Scotus</name>, potest excusari 
+          <name>abbas Joachim</name>, quia et si sentenciam erroneam dixit - ut patet extra 
+          de summa Trinitate et fide catholica, scilicet quod tres persone non sunt aliqua vna res que nec generat, 
+          nec generatur, nec spirat, nec spiratur - tamen hoc non dicitur pertinaciter asseruisse, sed 
+          <cb ed="#T" n="70rb"/> 
+          omnes libros suos reliquisse 2m iudicium Ecclesiae corrigendos.
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 7, Quaestio 1</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d7q1">
+        <head>Librum IV, Distinctio 7, Quaestio 1</head>
+        <p>Nunc de sacramento confirmationis distinctio septima in qua <name ref="#Lombard">Magister</name> - postquam in praecedentibus egit de primo sacramento, scilicet baptismi - agit modo de 2° sacramento, scilicet de confirmatione.</p> 
+        
+        <p>Et circa istam distinctionem queritur primo utrum confirmatio sit sacramentum 
+          necessitatis et 
+          <lb ed="#T"/>nobilius sacramento <!-- lines "sacramento ... omnem sacramentum" were skipped in word document --> 
+          <lb ed="#T"/>baptismi</p> 
+        
+        <p><g ref="#pilcrow"/>Arguitur 
+          <lb ed="#T"/>primo quod non sit sacramentum 
+          <lb ed="#T"/>est a Christo in<lb ed="#T"/>stitutum, 
+          <g ref="#slash"/>sed confirmatio nullibi legitur ab eo instituta, igitur, etcetera.</p> 
+        
+        <p>2° illud cuius vsus est in pluribus 
+          <cb ed="#T" n="93ra"/><lb ed="#T"/>sacramentis non videtur esse sacramentum per se sed, 
+          sicut dicit <name ref="#Dionysius">Dyonisius</name>, vsus sacris vnguenti , scilicet crismatis, est in pluribus alys  
+          sacramentis, sicut patet in baptismo in quo infunditur crisma in aqua baptismi et baptizatur  
+          crismate, vngitur in vertice. 
+          Et similiter pontifices crismatis vnctione consecrantur, et altare in quo etiam Ewcaristia  
+          consecranda est crismate linitur et calix similiter ; 
+          igitur videtur quod confirmatio que dicitur crismatio non sit speciale sacramentum, sed pocius sit sacramentale. 
+          Ex hys  communiter patet falsitas tocius questionis : si enim non est sacramentum, ut iam probatum videtur, 
+          tunc non est sacramentum necessitatis, nec etiam nobilius aut ignobilius baptismo.</p> 
+        
+        <p>In oppositum arguitur et primo quod sit sacramentum auctoritate  
+          <name>Rabani</name> que ponitur in littera : - Scitote quod vtrumque magnum est sacramentum, 
+          scilicet confirmacio et baptismus -. Item quod sit sacramentum necessitatis patet iterum auctoritate  <name>Rabani</name> in littera dicentis : - 
+          Omnes fideles debent post baptismum per Episcopos accipere Spiritum sanctum, ut pleni Christiani inveniantur, 
+          sed de necessitatis salutis est ut aliquis plenus sit Christianus, etcetera -. 
+          Et quod sit nobilius baptismo videtur ex hoc, quod datur a nobiliori ministro, 
+          scilicet ab Episcopo. 
+          Praemittenda est vna die confirmationis ex qua multa possunt intelligi pertinentia ad hoc sacramentum, et 
+          diffinitionem ponit <name ref="#Scotus">Scotus</name> sic : - 
+          Sacramentum confirmationis est vnctio hominis viatoris aliqualiter 
+          consencientis uel libero arbitrio numquam vsi facta in fronte in figura crucis 
+          cum crismate sanctificato. Et hoc a ministro ydoneo  simul cum intencione debita 
+          invngente et verba cetera proferente, significans efficaciter ex institucione 
+          diuinam vnctionem animae per gratiam roborantem ad confitendum cum fiducia fidem Christi. 
+          Illa die  posset declarari in particulis suis, sed ex dicendis patebit quare singule 
+          particule sint apposite.</p> 
+        
+        <p>Qua diffinicione sic praemissa respondetur ad questionem, 
+          et dicitur primo quod confirmatio est proprie et vere sacramentum Noue Legis : patet auctoritate  <name>Rabani</name> in oppositum allegata. 
+          2° patet quia alias non essent septem sacramenta noue Legis, quod est contra praeuius dicta : 
+          nullum enim aliud assignandum est quod poneretur loco confirmacionis. Patet 3° quia scilicet conuenit diffinitio sacramenti Noue Legis : 
+          est enim invisibilis gratiae visibile signum ut eius similitudinem gerat et causa existat. 
+          Hoc enim totum conuenit confirmationi ut patuit ex eius diffinitione praemissa.</p> 
+        
+        <p>2° dicitur quod hoc sacramentum confirmationis non est homini absolute necessarium ad salutem. 
+          Patet, quia paruuli saluantur sine confirmatione in sola gratia baptismali. Patet etiam per illud <title ref="#mc">Marci</title> vltimo:  
+          <quote>QUI CREDIDERIT ET BAPTIZATUS 
+            <cb ed="#T" n="93rb"/> 
+            FUERIT, SALVUS ERIT.</quote> 
+          Dicit tamen <name ref="#Scotus">Scotus</name> quod est  necessarium adulto sic saltem, 
+          quod non contempnat  recipere et quod pro tempore congruo recipiet in effectu. 
+          Iudicaretur enim contempnere qui oblata omnimodo opportunitate  non susciperet, 
+          et hoc fuit <name>Rabanus</name> in sua auctoritate  superius allegata.</p> 
+        
+        <p>3° dicitur 2m <name ref="#Scotus">Scotum</name> quod baptismus simpliciter loquendo 
+          est nobilius sacramentum quam confirmacio loquendo de nobilitate sacramenti penes 
+          finem eius principalem, qui est collatio gracie : maiorem enim baptismus confert gratiam quam 
+          confirmacio et ad plures effectus, quia ad dimissionem pene et culpe, etcetera. 
+          Potest tamen confirmatio dici nobilior ratione ministri, scilicet quia a nobiliori ministro datur, 
+          scilicet ab Episcopo, sed illud non est similiter propter eius nobilitatem, 
+          sed est propter baptismi maiorem necessitatem qui ideo pluribus ministris conceditur.</p> 
+        
+        <p>Ad argumentum primum dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod de institucione huius sacramenti fuerunt tres modi dicendi. 
+          Vnus fuit quod hoc sacramentum non fuit institutum a Christo uel ab apostolis, 
+          sed postea processu temporis fuit institutum in quodam concilio. 
+          Et dicunt quod Dominus rem sacramenti huius conferebat sine sacramento, 
+          scilicet manus imponendo ; similiter et apostoli eo, quod ipsi confirmati fuerunt immediate  
+          a Spiritu sancto. Sed hoc videtur valde absonum, 
+          quia sic Ecclesia posset tota die sacramenta noua instituere, quod est falsum cum ipsi praelati
+          <cb ed="#T" n="93va"/>
+          non sint sartores aut institutores Legis, sed ministri et cuiuslibet 
+          Legis fundamentum in sacramentis constitit. 
+          Praeterea in littera dicitur quod tempore apostolorum non ab alys  quam ab apostolis 
+          fuerit peractum hoc sacramentum; aly  dixerunt quod non fuerit a Christo, sed ab apostolis 
+          institutum, sed nec hoc stat quia et ipsi apostoli, quamuis essent bases Ecclesiae, 
+          tamen non fuerunt legislatores, vnde ad eos non pertinebat sacramenta instituere. 
+          Etiam ambe ille opiniones fuerunt reprobate superius in <ref>secunda distinctione, questione prima.</ref> 
+          Et ideo dicunt doctores communiter quod hoc sacramentum, sicut et omnia alia, 
+          fuerunt a Christo instituta, sicut illud fuit superius probatum <ref>in questione prima distinctionis 2e.</ref></p>
+        
+        <p>Et ut dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          huic non obstat, quod in Ewangelio  et in <title ref="#act">Actibus apostolorum</title> 
+          non sit mencio de materia huius sacramenti aut forma, quia forme sacramentales 
+          et alia que in sacramentis exiguuntur occultandi erant in primitiua Ecclesia propter irrisiones gentilium.</p>
+        
+          <p>Et <name ref="#Dionysius">Dyonisius</name> dicit, unde etiam in fine 
+            Ecclesiastice Ierarchie excusat se a determinatione formarum sacramentalium, 
+            secus autem est de baptismo qui est sacramentum necessitatis et statim cuilibet 
+            offerabatur in principio.</p> 
+        
+        <p>Ad 2m dicit quod, quamuis materia confirmationis, 
+          scilicet crismate, vtantur Ecclesie ministri in diuersis sacramentis, 
+          tamen hoc sacramentum non consistit tantum in materia, sed etiam in forma verborum et actu 
+          <cb ed="#T" n="93vb"/> 
+          sicut et sacramentum baptismi. Et tali forma huius sacramenti non vtuntur 
+          in alys  sacramentis, sed solum in illo, et ideo est per se sacramentum ab alys  
+          distinctum. Alia argumenta patent ex questione, etcetera.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

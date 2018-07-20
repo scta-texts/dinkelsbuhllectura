@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 2, Quaestio 5</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 5</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p2q5">
+        <head>Librum IV, Distinctio 1, Pars 2, Quaestio 5</head>
+        <p xml:id="nddml4d1p2q5-d1e3477">Quinto quaeritur vtrum circumcisio et alia legalia debuerunt cessare et cessauerunt in 
+          Christi passione.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3480">Arguitur quod non, et primo de circumcisione, quod non cessauerit, quia dicitur 
+          <ref><title ref="#gen">Genesis</title> 17°</ref>  quia circumcisio dabatur in fedus eternum, 
+          sed eternum dicitur quod nullo fine clauditur, igitur circumcisio eternaliter durare debuit in suo vigore.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3488">2° - Figuralia que significabant illa que semper facienda sunt non debent cessare, 
+          sicut thurificatio quae est vnum 
+          <cb ed="#T" n="24ra"/>
+          de legalibus non cessauit eo, quod significat deuotionem que semper habenda est. 
+          Sed 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3494" ana="#rom2_29">CIRCUMCISIO CORDIS, CUIUS LAUS EX DEO EST</quote>
+            <bibl>Romanos 2:29</bibl>
+          </cit> - <ref><title ref="#rom">Ad Romanos</title> 2°</ref> 
+          - semper facienda est, et illa significat exterior sacramentalis circumcisio ; 
+          igitur etiam non debuit cessare.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3507">3° arguitur quod nec alia legalia cessare debuerunt, 
+          quia - ut dicitur <ref><title>Mathei</title> 5°</ref>- 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3516" ana="#mt5_17">CHRISTUS NON VENIT LEGEM SOLVERE, SED IMPLERE.</quote>
+            <bibl>Matthaeus 5:17</bibl>
+          </cit> 
+          Lex autem consistebat non solum in moralibus sed etiam in sacramentis legalibus, igitur Christus non venit ea soluere.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3525">4° - Apud Deum non est transmutatio, sed est signum mutationis 
+          voluntatis si praeceptum quod praeuius datum est posterius reuocetur. 
+          Cum ergo Deus illa legalia praeceperit, videtur quod non debuerunt cessare nec reuocari.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3528">Quinto : praeceptum ab aliquo datum non potest reuocari nec per equalem aut superiorem, 
+          sed Deus dedit praecepta de legalibus et numquam legitur ea reuocasse. In Noua Lege igitur adhuc durant.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3531">Sexto adhuc tenemus aliqua legalia seruare, igitur non omnia cessauerunt. 
+          Antecedens patet quia tenemus seruare praecepta Noui Testamenti et statuta Ecclesiae ; 
+          sed praeceptum apostolorum in Nouo Testamento fuit de quibusdam legalis obseruandis, vnde <ref><title ref="#act">Actuum</title> 15°</ref> apostoli praeceperunt dicentes : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3540" ana="#act15_20">VISUM EST SPIRITUI SANCTO ET NOBIS UT ABSTINEATIS AB YMOLATIS  
+              SIMULACRORUM ET SANGUINE  ET SUFFOCATIONE ET FORNICATIONE</quote>
+            <bibl>Actuum 15:20</bibl>
+          </cit> 
+          quorum aliqua fuerunt de obseruantia Veteris Legis. 
+          Igitur tenemus adhuc aliqua 
+          <cb ed="#T" n="24rb"/> 
+          legalia significare et per consequentes non omnia cessauerunt, igitur quaestio falsa.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3550">In oppositum arguitur et primo quod circumcisiones  cessauerunt, quia dicitur 
+          <ref><title>ad Galathas</title>  5° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3559" ana="#gal5_2">SI CIRCUMCIDIMUR CHRISTUS, NICHIL VOBIS PRODERIT.</quote>
+            <bibl>Galatas 5:2</bibl>
+          </cit> 
+          Igitur non fuit circumcisio amplius seruanda, igitur cessauit.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3567">2° arguitur quod etiam cetera legalia cessauerunt, 
+          quia dicitur <ref><title>ad Hebreos</title> I :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3576" ana="#hebr10_1">VMBRAM HABENS LEX FUTURORUM BONORUM, 
+              SED VENIENTE VERITATE CESSAT FIGURA.</quote>
+            <bibl>Hebraeos 10:1</bibl>
+          </cit> 
+          Igitur veniente Christo cessauerunt legalia.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3584">3° super illo 
+          <ref><title ref="#gal">Galathas</title>. 3° - </ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3593" ana="#gal4_9">QUOMODO CONVERTIMINI DENUO AD EGENA,
+              et infirma elementa</quote>
+            <bibl>Galatas 4:9</bibl>
+          </cit>
+          dicit <title>Glossa</title>. 
+          Ideo dicit : denuo ut ostendat quod non distat modo Lex post Christum ab antiqua ydolatria . 
+          Sed ydolatria numquam potuit obseruari sine peccato, 
+          igitur nec legalia post Christum et per consequentes cessauerunt.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3605">Respondetur ad quaestionem quod tam circumcisio quam 
+          cetera legalia cessauerunt et cessare debuerunt. 
+          Quod  ad circumcisionem declarat hoc <title ref="#Aquinas">beatus Thomas</title>, 
+          quia cum venit quod perfectum est euacuari debet 
+          quod ex parte est si ad eundem effectum ordinatur circumcisio, 
+          autem imperfectam fuit respectu baptismi et ordinabatur 
+          ad eundem effectum ad quem baptismus - ut praeuius dictum fuit -. 
+          Igitur baptismo veniente debuit ipsa cessare.</p> 
+          <p xml:id="nddml4d1p2q5-d1e3611">Quod autem circumcisio fuerit imperfecta respectu baptismi patet ex tribus: 
+          primo quantum ad significationem, quia circumcisio non ita perfecte et expresse  
+          significabat mundacionem totius hominis ab immundicia  originalis culpe, sicut ablucio baptismalis.</p>
+        
+        <p xml:id="nddml4d1p2q5-d1e3614">2° 
+          <cb ed="#T" n="24va"/>
+          quantum ad gracias, quia non tam habundans gracia ad bene operandum et 
+          ad reprimendum formidinem  in circumcisione dabatur sicut in baptismo.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3619">3° quantum ad communitatem et vtilitatem, quia non fuit vtilitas circumcisionis 
+          ita communis sicut baptismi cum circumcisio habuerit determinatum populum, 
+          scilicet Israheliticum, cui soli praecepta fuerit. Et habuit determinatum sexum 
+          quia solum masculinum, et habuit determinatum tempus quia octauum diem a natiuitate paruuli. 
+          Baptismus autem praeceptus est omnibus populis et est communis ac vtilis et salubris 
+          viris et mulieribus et omni tempore potest fieri et est facilis respectiue ad circumcisionem 
+          que fuit durum et onerosum cauterium. Et hoc conuenit Noue Legi de qua 
+          Dominus dixit : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3623" ana="#mt11_30">IUGUM ENIM MEUM SOAVE EST, ET ONUS MEUM LEVE</quote>
+            <bibl>Matthaeus 11:30</bibl>
+          </cit> 
+          (<ref><title ref="#mt">Mathei</title> 11°</ref>). 
+          Et ideo debuit cessare circumcisio, 
+          instituto baptismo per Christum.</p> 
+          
+          <p xml:id="nddml4d1p2q5-d1e3636">Item circumcisio erat signum distinctiuum populi Hebreorum a populo 
+          gentilium incircumcisiorum, sed Christus utrumque populum in se lapidem angularem coniunxit, 
+          ut dicitur <ref><title ref="#eph">Ad Ephesios</title> 2°</ref>. 
+          Igitur circumcisionem distingwentem  debuit tollere, 
+          ita ergo patet quod circumcisio cessare debuit ; 
+          quod autem cetera legalia cessare debuerunt, 
+          declarat <name ref="#Aquinas">sanctus Thomas</name> principaliter ex tribus.</p> 
+          
+          <p xml:id="nddml4d1p2q5-d1e3647">Primo quia Lex instituta fuit ad significandum gratiam 
+            Noui Testamenti que per Christum facta est, 
+            et ideo veniente Christo cessare debuit sicut veniente corpore 
+            <cb ed="#T" n="24vb"/> 
+            lucido cessat vmbra. Hanc causam tangit 
+            <ref><name ref="#Paul">apostolus</name> <title ref="#hebr">ad Hebreos</title> 10°</ref> 
+            dicens: 
+            <cit>
+              <quote xml:id="nddml4d1p2q5-Qd1e3661">VMBRAM HABE LEX FUTURORUM BONORUM.</quote>
+            </cit>
+          </p>
+        <p xml:id="nddml4d1p2q5-d1e3667">2° debuit cessare Vetus Lex quod  ad legalia uel cerimonialia propter imperfectionem, 
+          quia in legalibus non conferebatur gracia tanta quanta  oportebat dari in Nouo Testamento ; 
+          et ideo oportuit alia sacramenta institui in quibus amplior gracia confertur. 
+          Et hanc causam tangit apostolus <ref><title ref="#hebr">ad Hebreos</title> 7°,</ref> 
+          vbi dicit : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3676" ana="#hebr7_18">REPROBATIO QUIDEM FIT PRIORIS MANDATI PROPTER INFINITATEM ET INVTILITATEM.</quote>
+            <bibl>Hebraeos 7:18</bibl>
+          </cit>
+        </p> 
+        <p xml:id="nddml4d1p2q5-d1e3684">3a causa cessacionis accipitur ex parte 
+          eorum quibus Lex data fuit, 
+          qui erant paruuli et imperfecti et ideo erant 
+          paulatim a pristina consuetudine ydolatrie abstrahendi, 
+          ut sic primo eis concederetur eadem offerre Deo quae 
+          prius ydolis obtulerunt uel eis offerri  
+          videantur, ut dicit <name ref="#Maimonides">Rabi Moyses</name>. 
+          Sed postmodum, quando humanum genus ad perfectam etatem peruenit, 
+          debuit ab hys  obseruantys  liberum esse et hanc causam tangit 
+          <ref><name ref="#Paul">apostolus</name> <title ref="#gal">ad Galathas</title>  3° et 4°</ref> 
+          et <ref><name ref="#Peter">Petrus</name> <title ref="#act">Actuum</title> 3°,</ref> 
+          ostendens illa legalia in onus illi populo rudi inposito esse.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3706">Sed est dubium quando circumcisio et alia legalia cessauerunt 
+          et sint facta invtilia uel etiam nociua seruantibus ea. 
+          Respondetur quod hoc dubium habet difficultatem ex quibusdam 
+          contrarietatibus que super hoc inveniuntur 
+          <cb ed="#T" n="25ra"/> 
+          in canone Biblie et in dictis sanctorum : 
+          quandoque enim inveniuntur obseruata legalia tempore gratiae et quandoque prohibita, 
+          ut Christus Dominus circumcisus est, oblatus est in templum et  alia multa obseruauit, comedit agnum pascalem.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3711">Item tempore apostolorum sunt plura seruata, 
+          sicut <name ref="#Paul">Paulus</name> circumcidit <name>Tymotheum</name> 
+            et purificatus secundum Legem templum intrauit et hostias obtulit (<ref><title ref="#act">Actuum</title> 21°</ref>). 
+            Inveniuntur autem prohibita tempore gratie, 
+            ut patet per argumenta in oppositum quaestionis adducta.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3725">Item <name ref="#Peter">Petrus</name> ea seruauit et eum <name ref="#Paul">Paulus</name> super hoc 
+          reprehendit , vnde <ref><title ref="#gal">Ad Galathas</title>  2°</ref> <name ref="#Paul">apostolus</name> 
+          dixit : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3743" ana="#gal2_11">CUM VENISSET <name>CEPHAS</name> ANTIOCHIAM IN FACIEM EI RESTITI, QUIA REPRAEHENSIBILIS ERAT.</quote>
+            <bibl>Galatas 2:11</bibl>
+          </cit> 
+          Prius enim quam uenirent quidam a <name ref="#Jacob">Jacobo</name> 
+          cum gentibus edebat, cum autem venissent  
+          subtrahebat et segregabat se timens eos qui ex circumcisione erant et 
+          simulacionem eius consenserunt ceteri Iudei, 
+          ita ut et <name>Barnabas</name>  seduceretur ab eis in illam simulationem. 
+          Sed cum vidissem quod non recte ambularent ad veritatem ewangely , dixit 
+          <name>Cephe</name> coram omnibus: 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3765" ana="#gal2_14">SI TU, CUM IUDEUS SIS, GENTILITER ET NON IUDAICE VIVIS, 
+              QUOMODO GENTES COGIS IUDAIZARE</quote>
+            <bibl>Galatas 2:14</bibl>
+          </cit>  ?</p> 
+          
+          <p xml:id="nddml4d1p2q5-d1e3773">Item circa hoc dubium videtur etiam <name ref="#Jerome">Hieronimus</name> et <name ref="#Augustine">Augustinus</name> 
+            contraria sentire : volebat enim <name ref="#Jerome">beatus Hieronimus</name>  
+            quod legalia post passionem Christi quantum ad illos ad quos 
+            gratia Noui Testamenti 
+            <cb ed="#T" n="25rb"/> 
+            manifeste divulgata erat fuerunt mortiferata. 
+            <name ref="#Paul">Apostolus</name> autem hys  vsus 
+            fuisse quadam die dispensacione ad cauendum 
+            scandalum Iudeorum. Et ideo <name ref="#Peter">Petrus</name> iudaizans , 
+            id est seruans legalia, 
+            ut dictum est in auctoritate praeallegata <ref><title ref="#gal">ad Galathas</title>  2°,</ref> 
+            non peccauit dispensatorie id faciens, 
+            et similiter <name ref="#Paul">Paulus</name> dispensatorie eum arguit ne exemplo 
+            <name ref="#Peter">Petri</name> gentiles quorum ipse <name ref="#Paul">Paulus apostolus</name> 
+            fuit legalia quasi necessaria querentur. 
+            Et sic vterque excusatur : <name ref="#Peter">Petrus</name> a culpa et <name ref="#Paul">Paulus</name> a <name ref="#Peter">Petri</name> 
+            reprehensione, qui quo ad auctoritatem fuit eo  superior. 
+            Et ita <name ref="#Jerome">beatus Hieronimus</name>  
+            distinxit duo tempora : vnum condendi ewangelium , 
+            quod incepit ab adventu Christi et durauit vsque ad passionis Christi 
+            consumacionem. 
+            Aliud fuit tempus promulgacionis ewangely , quod incepit a tempore missionis 
+            Spiritus sancti et dvrabit vsque in finem mundi. 
+            Concessit ergo <name ref="#Jerome">beatus Hieronimus</name>  
+            quod legalia seruari debebant in toto primo tempore, 
+            scilicet in tempore condendi ewangelium . 
+            Sed in toto secundo tempore illi ad quem sufficienter pervenit 
+            noticia et promulgatio veritatis ewangelice  licuit ea aliquo modo seruare. 
+            Non apostolis maioribus ex dispensatione et quadam pia simulatione ceteri 
+            erant transgressores qualitercumque seruabant, sed quia non videtur conveniens 
+            quod apostoli aliquod contra veritatem doctrine fecissent 
+            propter vitare scandalum Iudeorum. Nec 
+            <cb ed="#T" n="25va"/> 
+            conueniens dicere quod <name ref="#Paul">Paulus</name> in <title ana="#gal">Epistula ad Galathas</title> 
+            aliquid similare diceret, dicit autem <name ref="#Peter">Petrum</name> reprehensibilem  
+            fuisse et non recte ambulasse ad ewangelium , quod  enim audeat dicere 
+            ipsum in dispensatione doctrine veritatis falsum dixisse 
+            aut mentitum fuisse. Et dicit <name ref="#Scotus">Scotus</name> quod, licet apostoli in 
+            actibus uel verbis que dixerunt ut homines potuerunt errare, 
+            non tamen apostolus uel propheta in quantum scriptor alicuius 
+            partis Scripture aliquo modo errauit, 
+            quia secundum <ref><name ref="#Augustine">Augustinum</name> in <title>epistula ad Hieronimum</title></ref>  
+            dicitur : si ad Scripturas diuinas admissum fuerit aliquod mendacium quantumcumque 
+            paruum etiam officiosum, nichil remanet in ea solide veritatis qua convincitur aduersarius. 
+            Si quid enim contra ipsum allegatum fuerit, 
+            respondebit illud mendaciter esse dictum iocose uel officiose, 
+            ut illud aliud quod conceditur istud dictum.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3847">Et iterum dicit <ref>ibidem <name ref="#Augustine">Augustinus</name> :</ref> 
+          hys  solis libris qui <mentioned>canonici</mentioned> nominantur hanc didici ferre reuerenciam, 
+          quod nullum illorum in scribendo errasse firmissime credam. 
+          Cum ergo <ref><name ref="#Paul">Paulus</name> in <title>Epistula ad Galathas</title></ref> 
+          que est pars Scripturae canonice hec scribat, 
+          scilicet : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3867">EI RESTITI IN FACIEM ET QUOD NON RECTE AMBULARET,</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          etcetera, necesse est dicere 
+          illa verba non esse simulatoria, sed simpliciter vera, 
+          alias totius diuinae Scripturae affertur  auctoritas. 
+          Propter hoc <name ref="#Augustine">beatus Augustinus</name> 
+          aliter soluit dubium et melius dicit enim, 
+          quod ante passionem Christi Domini legalia fuerunt seruanda, 
+          <cb ed="#T" n="25vb"/> 
+          quod auctoritate diuinae institutionis et habuerunt adhuc effectum suum. 
+          Sed post Christi passionem ante divulgationem completam ewangely  
+          obseruari poterant a Iudeis ad fidem conuersis non spem in ipsis ponentibus, 
+          quasi adhuc alicuius virtutis essent aut quasi sine eis 
+          gratia Christi non sufficeret ad salutem, 
+          sed ideo solum ne videretur Lex Vetus omnino reprobanda si statim velud 
+          ydolatria fugeretur. Hoc ergo modo fuit mater synagoga cum honore ad tumulum 
+          deducenda ut per hoc ostenderetur bona pro suo tempore fuisse; 
+          sed post ewangely  promulgationem non sunt solum, non sunt salutifera, 
+          sed sunt etiam mortifera. Medio ergo tempore <name ref="#Peter">Petrus</name> et <name ref="#Paul">Paulus</name> 
+          obseruabant legalia non simulationis, sed uere ; <name ref="#Peter">Petrus</name> 
+          tamen illa vna vice se incaute habuit in obseruationem 
+          legalium nimis condescendens Iudeis illis qui legalia obseruanda dicebant, 
+          ita ut aliqui ex eius exemplo inducerentur ad ea seruanda quasi necessaria. 
+          Et ideo vere reprehensibilis  erat et aliquam leuem culpam incurrit - et ita dicit <name ref="#Aquinas">sanctus Thomas</name> - 
+          et <name ref="#Paul">Paulus</name> eum vere et non dispensatorie reprehendit .</p> 
+          
+          <p xml:id="nddml4d1p2q5-d1e3896">Et ad melius intelligendum est notandum quod <name ref="#Augustine">beatus Augustinus</name> 
+            circa hoc tria distinxit tempora, scilicet tempus condendi ewangelicum , 
+            scilicet quod fuit ab aduentu Christi usque ad passionis consumacionem, 
+            et in illo tempore sunt legalia infirmata et in Christi passione 
+            <cb ed="#T" n="26ra"/> 
+            mortua, quia de cetero invtilia.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3904">2um tempus fuit tempus promulgandi ewangelium  
+          et fuit a passione Christi vsque ad divulgationem ewangely  
+          in omnes gentes, ita quod potuit dici : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3908" ana="#ps18_5">IN OMNEM TERRAM EXIVIT SONUS EORUM,</quote>
+            <bibl>Psalmus 18:5</bibl>
+          </cit> 
+          etcetera. Et in illo tempore sunt illa legalia ad tumulum deducta.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3916">3um tempus fuit tempus custodiendi ewangelium  
+          iam in omnem terram divulgatum, et fuit a fine prioris 
+          temporis et durabit vsque in finem mundi.</p>
+        
+          <p xml:id="nddml4d1p2q5-d1e3919">Dixit ergo <name ref="#Augustine">Beatus Augustinus</name> quod in primo 
+          tempore legalia tempora poterant seruari tamquam viua adhuc et salutaria; 
+          et si baptismus habuit tunc efficaciam suam, 
+          tamen non fuit in praecepto, sed sub consilio. 
+          Propter hoc Dominus in occulto dixit <name>Nicodemo</name> tamquam amico : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e3929" ana="#io3_5">NISI QUIS RENATUS FUERIT,</quote>
+            <bibl>Ioannes 3:5</bibl>
+          </cit> 
+          etcetera (<ref><title ref="#io">Iohannis</title> 3°</ref>). 
+          Et in eodem primo tempore sub indifferentia currebat  
+          baptismus et circumcisio et quodlibet suffecit ad salutem. 
+          Dicit enim <name ref="#Scotus">Scotus</name> quod tunc Iudeo 
+          profuit circumcidi si voluit : non enim tunc fuit reuocata circumcisio 
+          quantum ad vtile aut quantum ad licitum. Licuit etiam sibi, 
+          ymo  tunc laudabile fuit baptizari .</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3945">In secundo etiam tempore poterint legalia seruari ab hys  
+          etiam qui audiuerunt ewangelium  et etiam maxime a Iudeis 
+          conuersis et hoc propter honestatem, quia mater synagoga, 
+          ut praeuius dictum fuit, erat cum honore ad sepulchrum 
+          deducenda et non subito, ut ydolatria abicienda. 
+          Poterant etiam eodem tempore seruari propter proximi 
+          infirmitatem, scilicet ut Iudei qui magnum habebant  zelum 
+          <cb ed="#T" n="26rb"/> 
+          Legis non reuocarentur a fide si nulli licuisset ea pro tempore obseruare.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e3951">3° vero tempore nullo modo sunt seruanda, quia sunt seruantibus nunc mortifera. 
+          Si enim quis aliquod legalium seruaret tamquam vim habens ex Veteri Lege, 
+          ille iudaizaret  et grauiter peccaret, ymo  esset perniciosus error quia per 
+          talia significaret Christum venturum esse : ad hoc enim significandum 
+          in Veteri Lege instituta erant. 
+          Hoc esset ita perniciosus error, sicut si vero confiteretur Christum 
+          adhuc esse venturum aut passionis. 
+          Consequenter dicit <name ref="#Augustine">Augustinus</name> quod tam <name ref="#Peter">Petrus</name> quam 
+          <name ref="#Paul">Paulus</name> in secundo tempore seruauit legalia, 
+          non solum propter scandalum proximi vitandum, 
+          sed etiam ad honorem debitum matri, scilicet ipsi synagoge impendendum 
+          et vterque veraciter, non simulatorie. Et quod <name ref="#Peter">Petrus</name> non simulatorie, 
+          sed veraciter est a Paulo reprehensus  non propter hoc, quod legalia seruauit, 
+          sed propter hoc, quod gentiles suo  exemplo iudaizare  cogebant, 
+          vnde circa hoc est notandum quod nunciy  de qualibus loquitur <name ref="#Paul">apostolus</name> 
+          in auctoritate praemissa - scilicet <ref><title ref="#gal">Ad Galathas</title>  2°</ref> - 
+          qui venerant a beato Iacobo minore episcopo hierosolimitano  
+          fuerunt Iudei conuersi. Et licet essent nomine Christiani 
+          erant tamen - ut dicit <name ref="#Ambrose">Ambrosius</name> - emulatores Legis et eque  
+          uere Christum et Legem venerabantur. 
+          Et <name ref="#Peter">beatus Petrus</name> non timens cibos, sed timens eos - 
+          scilicet dictos conuersos ex Iudeis - non instituit se conuersis ex gentibus, 
+          nec quo vtebatur eis ut praeuius in cibis et potibus per hoc 
+          simulans se quasi idem ad istis qui ex circumcisione 
+          <cb ed="#T" n="26va"/> 
+          venerant sentire, scilicet quod essent legalia seruanda et non esset vtendum communibus cibis, 
+          id est cibis in Lege prohibitis. Et hoc fecit ne ipsi quasi infirmi in fide scandalizarentur , 
+          sed ut paulatim in fide nutrirentur et instruerentur. 
+          Et hoc fuit in <name ref="#Peter">beato Petro</name> reprehensibile  eo, 
+          quod suo exemplo dabat occasionem gentibus seruandi Legem et quasi 
+          ostendit facto quod illud necessarium esset, 
+          quando tamen fuisset difficile gentibus praeuius de huiusmodi inswetis  
+          et forte dedisset impedimentum aliquorum conuersorum. Propter hoc <name ref="#Paul">Paulus</name>, 
+          qui fuit apostolus gentium, eum reprehendit  ; fuit etiam - ut videtur - hoc factum 
+          <name ref="#Peter">Petri</name> reprehensibile  
+          ex hoc, quod non vtebatur auctoritate praelati. Cum enim esset superior 
+          illis nunciys  Iacobi, magis debuisset ipse veritatem constanter tenere  
+          in opere et eos adducere ad rectitudinem suam quam propter timorem eorum 
+          flecti ad illud quod erat eis placitum, uel magis acceptum. 
+          Et talis remissio praelati est pro tempore reprehensibilis  
+          et ideo a <name ref="#Paul">Paulo</name> in <name ref="#Peter">beato Petro</name> reprehendebatur  
+          non simulatorie, sed vere, ut dicit <name ref="#Augustine">beatus Augustinus</name>. 
+          Et quia <name ref="#Augustine">beatus Augustinus</name> sanctus et sapiens doctor verbis 
+          <name ref="#Jerome">beati Hieronimi</name>  addidit, nec mirum si posteriores 
+          prioribus addunt, ymo  dicit <name ref="#Bonaventure">Bonauentura</name> quod <name ref="#Jerome">Hieronimo</name>  
+          illud addendum et corrigendum. <name ref="#Augustine">Augustinus</name> tradidit, 
+          et ideo modo dicendi <name ref="#Augustine">beati Augustini</name> 
+          tamquam sufficientiori adherent doctores communiter. 
+          Et dicit communiter <name ref="#Bonaventure">Bonauentura</name> quod 
+          <name ref="#Peter">Petrus</name> et <name ref="#Paul">Paulus</name> idem senserunt ; 
+          in hac restet quod pro tunc legalia praedicto modo 
+          <cb ed="#T" n="26vb"/> 
+          seruari poterant. Et tamen <name ref="#Peter">Petrus</name> iuste reprehensus  est a <name ref="#Paul">Paulo</name> 
+          non pro eo, quod legalia seruauit, sed quia aliquantulum incaute seruauit 
+          et ille defectus circumspectionis in eo fuit leuis culpa. 
+          Et sic <name ref="#Peter">Petrus</name> reprehensibilis , 
+          id est dignus reprehendi  et vtilis, quia ad veritatem ewangely  
+          non ambulat, id est non vsquequaque quia ex hoc veritas conculcabatur. 
+          Et <name ref="#Paul">Paulus</name> bene fecit et vtiliter qui coram omnibus eum reprehendit , 
+          ut omnes <name ref="#Peter">Petri</name> obiurgatione ab illo errore sanarentur.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4049">Ad argumenta ante opposita  ad primum dicit <name ref="#Aquinas">sanctus Thomas</name> 
+          et aly  doctores, et dicunt primo quod circumcisio fuit in fedus eternum, 
+          non quo ad seipsam, sed quo ad significatum : 
+          significabat enim circumcisionem omnis corrupcionis ab 
+          electis et hoc in generali resurrectione , ut dicit 
+          <ref><name ref="#Lombard">Magister</name> in littera.</ref> 
+          Et illud significatum, scilicet huiusmodi circumcisio electorum a 
+          bonum malo erit eterna, quia amplius in eternum nichil mali poterunt pati.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4060">Secundo dicunt quod eternum in textu praeallegato non capitur proprie, 
+          prout dicit aliquid quod numquam habebit finem, sed accipitur pro seculo, 
+          scilicet pro tempore quod habet quidem finem, sed non est nobis determinatus 
+          talis finis quod patet, quia in eadem auctoritate dicitur quod dabit eis 
+          terram promissionis in possessionem sempiternam. Et notum est quod terram eandem Iudei 
+          non possident et diu non possiderunt, et ergo dicitur hic <mentioned>eternum</mentioned> 
+          illud cuius finis non determinatur. Et sic etiam sacerdocium <name>Aaron</name> dicitur in Scriptura <mentioned>eternum</mentioned>, 
+          <cb ed="#T" n="27ra"/> 
+          quia Dominus in Scriptura nullibi determinat tempus cessationis eius. 
+          Eandem sententiam tradit 
+          <ref><name ref="#NicholasOfLyra">Nicolaus de Lira</name> in quodam libello</ref> quod 
+          fecit contra quendam Iudeum veritatis ewangelice omnino ignarum et qui tamen ex verbis Ewangely  
+          <name>beati Mathei</name> nititur auctoritatem Ewangely  inpugnare. 
+          Nam, loquens ibidem de obseruantia sabbati , dicit quod <ref><title ref="#ex">Exodi</title> 31°,</ref> 
+          vbi nos habemus <quote xml:id="nddml4d1p2q5-Qd1e4087">PACTUM EST SEMPITERNUM</quote>, in Hebreo habetur <quote xml:id="nddml4d1p2q5-Qd1e4090">PACTUM EST BEOLAM</quote>, id est <mentioned>in seculum,</mentioned> 
+          quod non significat <mentioned>sempiternum</mentioned>, sed <mentioned>tempus longum communiter acceptum.</mentioned> 
+          Vnde <ref><title ref="#ier">Ieremie</title> 2°</ref> dicitur : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4110" ana="#ier2_20">A SECULO CONFREGISTI IUGUM MEUM,</quote>
+            <bibl>Ieremias 2:20</bibl>
+          </cit> 
+          id est ab antiquo tempore, non ab eterno quia non ab eterno fuerunt, 
+          nec ab eterno habuerunt Legem ipsi Iudei. 
+          Et in Hebreo habetur <quote xml:id="nddml4d1p2q5-Qd1e4117">BEOLAM CONFREGISTI</quote>, id est <mentioned>a seculo</mentioned>. 
+          Aliquando etiam accipitur seculum pro <mentioned>tempore satis breui</mentioned>, 
+          sicut <ref><title ref="#deut">Dewteronomy</title>  capitulo 15°</ref> dicitur: 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4134" ana="#deut15_17">PERFORABIS AURUM EIUS IN IANUAM DOMUS TUE, ET ERIT TIBI SERVUS BEOLAM,</quote>
+            <bibl>Deuteronomium 15:17</bibl>
+          </cit> 
+          id est in seculum. Et hoc poterat esse longum uel breue. 
+          2m, quod multum adhuc  restabat, uel modicum de tempore vsque ad iubileum. Ex hoc infert 
+          <name ref="#NicholasOfLyra">Nicolaus de Lira</name> quod qui ex hac dictione hebraica beolam  
+          trastulerunt ‘eternum’ uel ‘sempiternum’. Incaute in hoc egerunt, quia dederunt simplicioribus occasionem errandi circa obseruationem 
+          <cb ed="#T" n="27rb"/> 
+          sabbati  et circumcisionis, 
+          sed debuisset trastulisse in seculum, id est in tempus cuius  tamen finis non fuit, 
+          a Deo determinatus in circumcisionis aut aliorum institutione. 
+          Patet ergo ex dictis quod Deus dedit circumcisionem et obseruationem sabbati , 
+          etcetera, cerimonialia Veteris Legis non in fedus eternum, 
+          sed temporali solum, scilicet vsque ad tempus Noue Legi, 
+          quam etiam se daturum promisit per prophetas. 
+          Vnde <ref><name ref="#Jeremiah">Ieremie</name> 31°</ref> 
+          dicitur : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4153" ana="#ier31_31">ECCE DIES VENIUNT,</quote>
+            <bibl>Ieremias 31:31</bibl>
+          </cit> 
+          scilicet tempus Noui Testamenti 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4163" ana="#ier31_31">ET ETIAM DOMUI ISRAHEL ET DOMUI IUDA,</quote>
+            <bibl>Ieremias 31:31</bibl>
+          </cit> 
+          id est omnibus confitentibus generaliter et conuersis ex Iudeis 
+          specialiter fedus nouum, id est Legem Nouam sew  
+          Nouum Testamentum, prout exponit apostolus <ref><title ref="#hebr">ad Hebreos</title> 7°.</ref> 
+          Vbi hunc textum prophete allegat : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4177" ana="#ier31_32">NON SECUNDUM PACTUM QUOD PEPEGI CUM PATRIBUS VESTRIS,</quote>
+            <bibl>Ieremias 31:32</bibl>
+          </cit> 
+          quia illa Lex Vetus fuit timoris, 
+          sed Lex Noua amoris 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4186" ana="#hebr8_9">IN DIE QUA APPREHENDI  MANUM EORUM UT EDUCEREM EOS DE TERRA AEGYPTI .</quote>
+            <bibl>Hebraeos 8:9</bibl>
+          </cit> 
+          Nam 7° die egressionis eorum de Aegypto  data fuit Lex in monte Sinai , 
+          id est pactum quod irritum fecerunt, scilicet ipsum multipliciter 
+          transgrediendo, ut patet in libris <title>Regum</title>, <title>Iudicum</title> et <title>Paralipomenon</title> . 
+          De eadem promissione Noue Legis multa dicit propheta consequenter. 
+          Ibidem etiam <ref><title ref="#is">Ysaias</title> <title ref="#is">Ysaie</title> 2° capitulo.</ref></p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4211">Ad secundum respondit <name ref="#Aquinas">sanctus Thomas</name> 
+          quod principalis significacio ad quam circumcisio instituta est fuit oblacio 
+          originalis culpe et etiam effectus eius, hec autem non semper facienda 
+          fuit per circumcisionem, et ideo 
+          <cb ed="#T" n="27va"/> 
+          non oportuit quod circumcisio semper remaneret. 
+          Alia autem significatio, scilicet ipsius circumcisionis spiritualis cordis, 
+          fuit ex consequenti, et istam solam significabat et non causabat. 
+          Et ideo secundum illam non oportet accipere iudicium de duratione 
+          eius thurificationis, autem significatio numquam fuit ad significandum 
+          aliquid ut effectum eius quem causaret. Significabat enim et hodie 
+          significat deuotionem, sed non causat, et ideo non est similis ratio; 
+          seruatur ergo nunc thurificatio in Ecclesia non quia instituta a Veteri Lege, 
+          sed quia ab Ecclesia sic ordinata est et illius auctoritate resumpta.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4219">Ad 3m dicitur quod Dominus noster impleuit Legem et prophetas, quod patet primo de Lege. 
+          Fuerint enim in Lege triplicia praecepta : quedam erant moralia, 
+          ut sunt praecepta Decalogi et alia multa ad ea reducibilia et que faciunt 
+          ad illorum declarationem, et ista impleuit Christus ea obseruando perfectissime. 
+          Adimpleuit etiam ea ipsa exponendo et sanum eorum intellecum declarando, 
+          ut patet <ref><title ref="#mt">Mathei</title> 5° capitulo,</ref> 
+          et insuper impleuit consimilia eis opponendo que faciunt ad ipsorum 
+          mandatorum perfectiorem obseruantiam. Alia praecepta erant Legis iudicialia 
+          que ordinabantur ad hoc, ut seruaretur inter homines iusticia et esset  
+          eorum ad invicem pacifica cohabitatio, ut fuit oculum pro oculo, 
+          dentem pro dente et qui furabatur tenebatur quadru- 
+          <cb ed="#T" n="27vb"/> 
+          -plum restituere. Et illa adimplet Dominus et perfectiora fecit per hoc, 
+          quod ipsorum rigorem per misericordiam temperauit : commisit enim eorum 
+          temperamentum suis ministris, scilicet Ecclesiae praelatis et principibus 
+          terrenis catholicis, ut de talibus ordinaret secundum quod viderint prodesse 
+          fidelium communitati secundum varietatem locorum et temporum et personarum. 
+          Hoc autem non fuit destruere Legem, sed magis adimplere et perficere 
+          quia sic ordinauit meliorem modum obseruationis iustitie, sicut non 
+          destruitur puer quando fit vir : licet enim transeat pueritia, 
+          tamen remanet melior status eiusdem persone etate mutata. 
+          Et dicit <name ref="#Scotus">Scotus</name> quod nullum iudiciale mandatum Veteris 
+          Legis nunc ligat homines, sed licet principalibus constituere aliqua que erant 
+          in Veteri Lege, et tunc talia instituta ligant non auctoritate 
+          Lege mosaice, sed ligant subditos ex auctoritate principis 
+          ea nunc instituentis. 3a fuerunt praecepta cerimonialia, 
+          et illa impleuit ut patet de circumcisione quam in se suscepit et deinde perfectius, 
+          scilicet baptismum loco eius instituit. Similiter impleuit sacrificia Veteris Legis : 
+          ista enim omnia erant figuratiua vnius perfecti sacrificy , 
+          scilicet Christi necessitate offerendi et ideo Christus illa impleuit 
+          vno modo corporaliter paciendo, alio modo loco illorum omnem 
+          vnum perfectius et efficacius sacrificium, scilicet Ewucaristiam 
+          <cb ed="#T" n="28ra"/> 
+          instituendo. Christus etiam impleuit prophetas, 
+          quia prophete principaliter locuti sunt de Christo, 
+          de adventu eius et de ceteris quae pertinent ad Ipsum. 
+          Et ideo prophetas impleuit nascendo, conuersando, in mundo moriendo, 
+          resurgendo et alia opera nostrae salutis faciendo, propter quod, 
+          inminente sua passione, dixit <ref><title ref="#lc">Luce</title> 18° :</ref>  
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4241">OPORTET IMPLERI EA QUE SCRIPTA SUNT IN PROPHETIS DE ME.</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          Sic ergo patet quomodo intelligitur quod Dominus dixit : 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4250" ana="#mt5_17">NON VENI SOLVERE LEGEM, SED IMPLERE.</quote>
+            <bibl>Matthaeus 5:17</bibl>
+          </cit>
+        </p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4258">Ad 4um dicitur quod non ex mutabilitate praecipientis, 
+          sed ex prudenti ipsius dispensatione contingit, 
+          quod ipse diuersa praecepta diuersis temporibus  
+          accomoda proponit sic in proposito, non ex Dei mutabilitate, 
+          sed ex ipsius infinita est sapientia, quod alia praecepit 
+          in Veteri Lege et alia nunc, semper tamen ea que eidem 
+          tempori erant acomoda. Simile eis habemus in Scripturis Veteris Testamenti : 
+          nam a principio humani generis Deus dedit hominibus licentiam 
+          comedendi fructus arborum, non autem dedit eis licentiam 
+          tunc comedendi carnes aut pisces, ut patet <ref><title ref="#gen">Genesis</title> primo capitulo ;</ref> 
+          post diluuium vero concessit eis esum carnium et piscium, nullum genus excipiendo. 
+          Vnde <ref><title ref="#gen">Genesis</title> 8°</ref> dicitur: 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4272" ana="#gen9_2"><!-- and gen9_3 --> OMNES PISCES MARIS MANIBUS VESTRIS TRADITI SUNT ET OMNE QUOD 
+              MORITUR ET VIVIT ERIT VOBIS IN CIBUM QUASI OLEI VIRENTIA. 
+              TRADIDI VOBIS OMNIA EXCEPTO QUOD CARNEM CUM SANGUINE NON COMEDETIS.</quote>
+            <bibl>Genesis 9:2-3</bibl>
+          </cit> 
+          Posterius autem utputa  tempore <name ref="#Moses">Moysi</name> 
+          prohibuit Iudeos ab esu multorum 
+          <cb ed="#T" n="28rb"/> 
+          que eis praeuius concesserat, ut ab esu animalium que non ruminant , 
+          que non findunt vngulas et ab esu piscium qui non habent squamas 
+          et penulas, etcetera, ut patet 
+          <ref><title ref="#lev">Leuitici</title> 11°:</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q5-Qd1e4293">IPSE ENIM DEUS SCIT QUID DIVERSIS TEMPORIBUS 
+              APTUM SIT ET EXPEDIENS SALUTI GENERIS HUMANI.</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          Ita in proposito Dominus per <name ref="#Abraham">Abraham</name> et <name ref="#Moses">Moysen</name> 
+          praecepit Iudeis tunc fidelibus circumcisionem et ceteras 
+          cerimonias Legis secundum quod tunc expediebat saluti fidelium, 
+          posterius vero, cum ipse factus est homo et est visibiliter inter homines 
+          conuersatus, priora mutauit et noua instituit, quae sua infinita sapiencia sciuit 
+          pro illo tempore magis apta et saluti fidelium suorum magis congrua. 
+          Propter quod dicit <ref><name ref="#Augustine">Augustinus</name> <title>ad Marcellinum</title> :</ref> 
+          aptum fuit primis temporibus sacrificium quod praeceparat Deus, 
+          nunc vero non ita est. Aliud enim praecepit quod huic tempori aptum esset, 
+          qui multo magis quam homo nouit quod cuique tempori accomodate adhibeatur. 
+          Oportuit ergo alys  sacramentis praenunciari  
+          Christum cum ueteris  erat et alys , cum uenisset nuntiari nec 
+          ex hoc a quoquam credidebat Deum esse mutabilem : 
+          sicut enim incorporeus existens creat corporalia, 
+          sic inmutabilis  existens facit mutabilia.</p> 
+        
+        <p xml:id="nddml4d1p2q5-d1e4316">Ad quintum dicit <name ref="#Aquinas">sanctus Thomas</name> quod Dominus ea 
+          reuocauit facto quia in re impleuit omnia que illa legalia figurabant, 
+          et ergo cum uenit ipsa res debuit cessare vmbra et cum venit 
+          veritas merito cessauit signa. 
+          Et ideo in passione sua dixit : CONSUMATUM EST, quasi diceret, omnis Scriptura 
+          <cb ed="#T" n="28va"/> 
+          que de me passuro loquitur, et omnis figura modo impleta est in me.</p>
+        
+        <p xml:id="nddml4d1p2q5-d1e4324">Ad 6m dicit <name ref="#Aquinas">Sanctus Thomas</name> quod epistula apostolorum 
+          non fuit praeceptoria quantum ad hoc, quod abstinere ab ydolaticis et 
+          sangwine  et suffocato, sed quod  ad illa fuit quedam provisio ad conseruandam 
+          pacem et communem vitam gentilium et Iudeorum conuersorum. 
+          Et ideo fornicationem prohibuerunt tamquam per se malum quod apud  
+          gentiles non reputabatur pro peccato, ydolaticum autem prohibuerunt quasi 
+          illud quod posset suspitionem ydolatrie adhuc  recente  de gentilibus generare 
+          in cordibus Iudeorum, id est conuersorum ex Iudeis. Sangwinem  autem et suffocatum, 
+          sicut que Iudei abhominabantur propter diswetudinem , 
+          sicut etiam nunc aliquis si vult alys  socialiter conviuere, 
+          oportet quod abstineat ab hys  que aly  abhominabantur</p>
+      </div>
+    </body>
+  </text>
+  
+  </TEI>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 2, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p2q1">
+        <head>Librum IV, Distinctio 1, Pars 2, Quaestio 1</head>
+        <p xml:id="nddml4d1p2q1-d1e3477">Fit tamen inter illa, etcetera, 2a pars principalis istius distinctionis prime, 
+          in qua <name ref="#Lombard">Magister</name> postquam determinauit in generali de 
+          sacramentis Noue Legis et Veteris legis. Nunc determinat modo in speciali de vno 
+          sacramento Veteris Legis, scilicet de circumcisione que fuit inter cetera principalius 
+          et fuit sacramentis Noue Legis similius.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3483">Et circa haec quaeritur (in mg. : primo) 
+        vtrum circumcisio fuerit in remedium originalis peccati 
+        tempore legis naturae congrue instituta ;</p>
+        
+        <p xml:id="nddml4d1p2q1-d1e3486"><cb ed="#T" n="17va"/>et arguitur primo quod non fuerit congrue data et instituta 
+          tempore legis naturae, quia dicit <name ref="#JohnDamascenus">Damascenus</name> quod circumcisio 
+          est signum determinans Israhel a gentibus : quod  populus 
+          Israhel suscepit Legem Veterem scriptam, igitur non debuit dari 
+          ante tempus Legis.</p>
+          
+          <p xml:id="nddml4d1p2q1-d1e3493">Item praeceptum de circumcisione non fuit 
+          praeceptum naturae, sed fuit praeceptum positum ; 
+          igitur non debuit dari tempore legis naturae, sed tempore Legis scripte.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3497">3° arguitur et specialiter quod non est congrue datum in remedium 
+          originalis, quia sapientis est aliquod facere quanto breuius potest, 
+          sed per fidem et sacramenta legis naturae, ut oblaciones, sacrifitia, 
+          etcetera purgabatur originale, sufficienter et faciliter. 
+          Igitur fuit superfluum, ymo  videtur nociuum fuisse instituere 
+          circumcisionem multo  difficiliorem.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3500">Quarto originale non est a paruulo contractum ex propria voluntate, 
+            igitur non debetur sibi pena sensibilis nec expiacio per satisfactionem, 
+            igitur etcetera ; sed circumcisio habet penam sensibilem, 
+            igitur non fuit congruum remedium contra originale peccatum.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3503">In oppositum est <ref><name ref="#Lombard">Magister</name> in littera</ref> 
+            qui dicit quod primo data est <name ref="#Abraham">Abrahe</name> et ille fuit tempore 
+            legis naturae et data est in remedium originalis et quia hoc totum factum est a Deo, 
+            qui non scit nisi congrue agere in actis.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3514">Notandum est primo quod circumcisio tempore Veteris Legis fuit in masculo amputatio pellicule quae 
+            <cb ed="#T" n="17vb"/> 
+            est in interiori parte membri generationis, et fuit sacramentum Veteris Legis : 
+            fuit enim res sensibilibus, quia perceptibilis tactu et visu et fuit a Deo 
+            instituta ad significandum aqua sacra, ut dicetur igitur, etcetera.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3519">Secundo notandum quod omnes paruuli qui communi modo nascuntur 
+            in ipsa sua natiuitate, etiam in vtero, hoc est in ipsa conceptione, 
+            cum anima corpori infunditur contrahunt regulariter peccatum originale, 
+            ut probet et docet <ref><name ref="#Lombard">Magister</name> 2° distinctione 30a.</ref> 
+            Propter quod inde ecclesiasticis dogmatibus dicitur, firmissime tenetur : 
+            nullatenus dubites omnem hominem qui per concubitum viri et mulieris 
+            concipitur cum originali peccato nasci impietati subditum, 
+            montique subiectum et propter hoc natura nec nasci filium a qua nullus 
+            liberatur, nec per fidem mediatoris Dei et hominum.</p> 
+            
+            <p xml:id="nddml4d1p2q1-d1e3527">Tertio notandum quod paruuli qui decedunt in illo originali 
+              solo ita quod non habuerunt adhuc actualia peccata 
+              dampnabuntur pro originali, quia carent et perpetuo 
+              carebunt gratia sine qua nemo saluatur, verum quando in 
+              solo originali decedunt, tunc solum habebunt penam dampni 
+              que est carencia visionis diuinae et carentia beatitudinis eterne : 
+              propter hoc enim, quod nullam experti sunt delectationem in peccatis actualibus, 
+              tamen nulla talia habuerint, nullam experirentur penam sensus. 
+              Ita docet <ref><name ref="#Lombard">Magister</name> in 2° distinctione 32a</ref> 
+              et doctores ibidem communiter. 
+              Et quia puer antequam haberet vsum racionis 
+              <cb ed="#T" n="18ra"/> 
+              non potuit se ad gratiam praeparare per quam liberaretur ab originali 
+              et ideo, ne omnino sine remedio remaneret, 
+              oportuit instituere aliquod sacramentum quod in virtute passionis 
+              Christi et fidei eius huiusmodi peccatum originale tolleret, 
+              et questio quaeritur  de illo saltem quo ad certum tempus.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3538">Conclusio prima : circumcisio fuit a Deo instituta in remedium contra originale peccatum: 
+          patet per <name ref="#Augustine">beatum Augustinum</name> et per <name ref="#Bede">venerabilem Bedam</name>, 
+          prout <name ref="#Lombard">Magister</name> allegat eos in textu.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3550">Secunda conclusio : congrue post legis naturae sacramenta fuit 
+          circumcisio in peccati originalis remedium instituta. 
+          Patet conclusio primo ex hoc, quod per successionem temporum creuit 
+          fides de persona reparatoris uenturi in mundum ; creuit quidem quo ad articulorum 
+          explicacionem igitur congruum fuit, quod sit etiam cresceret et multiplicaretur 
+          distinctio signorum sacramentalium per circumcisionis institucionem. Antedecens patet quia ante tempus <name ref="#Abraham">Abrahe</name> 
+          fuit fides de reparatore uenturo, sed non fuit adhuc explicatum in 
+          Scriptura de quo nasciturus esset. Sed tempore <name ref="#Abraham">Abrahe</name> fuit hoc 
+          primo explicatum cum fuit sibi dictum - <ref><title ref="#gen">Genesis</title> 22°</ref> et <ref><title ref="#sir">Ecclesiastici</title> 18°</ref> - 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3570" ana="#gen22_18">IN SEMINE TUO BENEDICENTUR OMNES TRIBUS <!-- gentes --> TERRE.</quote>
+            <bibl>Genesis 22:18</bibl>
+          </cit> 
+          Secundo patet conclusio ex hoc, 
+          quod circumcisio multas habet vtilitates quas praecedentia sacramenta non habuerunt, 
+          propter hoc congruum fuit eam institui post sacramenta praecedentia.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3580">Prima enim eius vtilitas fuit quod ipsa erat tunc efficax remedium contra originale 
+          <cb ed="#T" n="18rb"/> 
+          peccatum et conferebat gratiam ratione operis operati, quod praecedentia sacramenta 
+          non fecerunt ut praeuius fuerat declaratum.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3585">Secunda vtilitas et praerogatiua circumcisionis supra sacramenta priora fuit, 
+          quod expressius  significabat et plures effectus gratuitos quam priora sacramenta, 
+          scilicet legis nature.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3588">Primo enim expresse  significabat oblacionem originalis quo ad 4or.</p> 
+            
+            <p xml:id="nddml4d1p2q1-d1e3591">Primo quanto ad membrum generationis per quam generationem originalem transfunditur, 
+          quia sicut in circumcisione aufertur  praeputium a membro generationis, 
+          sic per ipsam circumcisionem auferebatur  interius originale ab anima 
+          quod per generationem transfusum est – 2° quantum ad signaturam praepucy  circularem, per quam significatur circulus 
+          qui est in processu originalis perfectionis secundum quam persona, scilicet <name ref="#Adam">Ade</name>, 
+          infecit et corrumpit naturam. Et natura corrupta inficit semper in posteris personam. 
+          Tertio quantum ad penam quae erat in circumcisione, quia originale contrahitur per delectationem ; 
+          fuit congruum ut eius delecio significaretur per contrariam penam. 
+          Quarto, quantum ad sangwinis  effusionem que fuit in circumcisione, 
+          per quam passio Christi significabatur, que fuit causa ablationis originalis 
+          et quantum ad istam causam et vtilitatem diffinitur circumcisio, 
+          quod est signaculum curationis a peccato originali.</p> 
+          
+          <p xml:id="nddml4d1p2q1-d1e3598">Secundo habuit circumcisio significationem institutam et moralem 
+          que erat signum castitatis seruande, et omnes mundicie non solum actum 
+            <cb ed="#T" n="18va"/> 
+            remouendo, sed inmundas cogitationes et desideria praua. 
+            Sicut pellicula que in circumcisione auferebatur 
+            est quasi superfluum in carne, ita debemus circumcidere cor 
+            auferendo  huiusmodi cogitationes prauas, etcetera, non solum superfluas, 
+            sed et nociuas.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3603">3° habuit significationem allegoricam in 
+          quantum significabat purgationem plenam per Christum futuram.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3606">Quarto habuit significacionem quasi anagogicam  
+          in quantum significabat depositionem mortalitatis et 
+          omnes defectus et corruptiones carnis et sangwis  
+          in resurrectione.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3609">3a vtilitas circumcisionis fuit distinctio populi, 
+          tunc fideles ab infidelibus. 
+          Et quantum ad hanc vtilitatem diffinit Damascenus circumcisionem sic : e
+          st signum determinans Israhel a gentibus cum quibus conuersabatur determinans, 
+          id est distingwens .</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3612">3a conclusio. Quamuis circumcisio fuerit instituta tempore 
+          legis nature principaliter, tamen pertinebat ad tempus legis scripte.</p>
+          
+          <p xml:id="nddml4d1p2q1-d1e3615">Prima pars patet quia primo fuit data <name ref="#Abraham">Abrahe</name>, ut patuit 
+          <ref><title ref="#gen">Genesis</title> 11°</ref> et ille fuit tempore legis naturae, 
+          quia ante Legem scriptam circa quadringentos annos. Et fuit congruum  ut suo tempore 
+          et sibi primo daretur, quia - ut dicit <name ref="#Aquinas">S<supplied>anctua</supplied> Thomas</name> 
+          - circa tempora <name ref="#Abraham">Abrahe</name> humanum genus usque 
+          ad profundissimum peccatorum venerat, scilicet ad infidelitatem, ad 
+          ydolatriam et ad turpissimum vitium contra naturam, et tunc temporis conueniebat primo manifestam fieri
+          <cb ed="#T" n="18rb"/>
+          promissionem de semine nascituro, in quo omnes gentes benedicerentur 
+          et a peccatis mundarentur , propter quod tunc illud fuit <name ref="#Abraham">Abrahe</name> promissum, 
+          ut patet <ref><title ref="#gen">Genesis</title> 22°</ref> vbi 
+          Dominus dixit ad Abraham: 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3647" ana="#gen22_18">BENEDICENTUR IN SEMINE TUO OMNES GENTES,</quote>
+            <bibl>Genesis 22:18</bibl>
+          </cit> 
+          id est in Christo ex tua progenie nascituro benedicentur omnes gentes. 
+          Tunc etiam oportebat in seruatione hominibus aliquod exitum fidei 
+          proponi contra infidelitatem et oportuit dare aliqua signa castitatis 
+          contra corruptissimam concupiscentiam que tunc valde regnabat. 	
+          Et ideo <name ref="#Abraham">Abrahe</name> primo data fuit circumcisio in signum 
+          patentis, ut ei ex quo nasciturus fuerat Christus Dominus peccatorum 
+          destructor, et fuit sibi data in signum fidei et distinctionis fidelium 
+          illius temporis ab infidelibus, et fuit data in signum castitatis et 
+          mundicie. Et dicit <name ref="#Lombard">Magister</name> et eis <name ref="#Bonaventure">Bonauentura</name>, 
+          quod fuit data <name ref="#Abraham">Abrahe</name> propter hoc, 
+          ut ipse per obedientiam mandati placeret Deo cui per inobedienciam displicuit <name ref="#Adam">Adam</name>. 
+          Et fuit data sibi in signum magne fidei sue, quia ipse primus fuit qui propter 
+          fidem et Dei cultum reliquit patriam suam et credidit promissionem Dei, scilicet 
+          quod habiturus esset Filium in quo benedicentur omnes gentes. Et fuit  etiam 
+          data sibi propter hoc, ut ille populus qui ab eo secundum carnem descensurus 
+          fuerat, scilicet Israheliticus, per hoc signaculum distingweretur  in carne
+          <cb ed="#T" n="19ra"/>
+          et in fide ab alys , quia in illo populo praepucie tollendus 
+          fuerat Deus et de illo nasciturus fuerat Christus.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3674">Secunda pars conclusionis probatur quia, licet fuerit data ante tempus legis scripte, 
+          tamen ipsa fuit praeparatio  quedam ad legem scriptam quia fuit propter hoc data, 
+          ut per eam populus fidelis vniretur et ab infidelibus distingweretur , 
+          ut sit ab alys  distinctus et ad invicem unitus susciperet legem scriptam ipsam. 
+          Etiam circumcisio fuit per totum tempus legis scripte obseruata, et cum lege 
+          terminata igitur iterum plus pertinuit ad tempus legis scripte quam 
+          ad legem naturae. Ex hys  patet quod quaestio est vera.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3677">Ad argumenta ante opposita  ad primum dicitur quod ex quo populum Israhel 
+          qui suscepturus fuit Legem debuit circumcisio distingwere  a gentibus. 
+          Fuit congruum ut circumcisio per quam distingweretur  daretur eidem 
+          antequam daretur Lex, ut sic per eam advnaretur populus qui erat Legem 
+          suscepturus. Lex enim scripta non debuit dari diuinitus nec populo prius 
+          fideli, et ideo oportuit populum fidelem prius congregari et ab alys  distingwi  
+          quam Lex diuinitus daretur. Non poterat autem populus fidelis sic advnari  
+          et ab alys  sic distingwi  nec per aliquod signum et hoc fuit circumcisio igitur, 
+          etcetera. Ad secundum necessarie communia, quia circumcisio debuit praeparare 
+          fideles et advnare ad Legem suscipiendum, et ideo debuit ante Legem dari.</p>
+        
+        <p xml:id="nddml4d1p2q1-d1e3680">Ad 3m dicitur quod licet sacramenta Legis necessarie fuerint faciliora, tamen circumcisio 
+          <cb ed="#T" n="19rb"/>
+          fuit vtilior : habuit enim multas utilitates, de quibus dictum est quas 
+          non habuerunt sacramenta Legis nouae, et ideo post illam et longum eorum 
+          vsum institui debuit.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3685">Ad quartum dicitur quod pena illa non fuit ad satisfactionem, 
+          sed tantum ad emundationem. Diceret aliquis ex quo dictum est 
+          in prima conclusione quod circumcisio sit data in remedium contra 
+          originale peccatum ita quod, sicut baptismus nunc mundat ab originali, 
+          ita tunc circumcisio mundabat circumcisum ab originali. 
+          Quare ergo Christus circumcidi voluit, ut legitur <ref><title>Luce</title> 2°</ref> cum tamen 
+          circumcisione non indiguerit eo, quod originale nullo modo traxit sicut aly , 
+          sed ex virgine contemptus fuit et natus ? Item inter praecepta Veteris 
+          Legis praeceptum de obseruatione sabbati  fuit propinquius praeceptus 
+          moralibus quam praeceptum de circumcisione, inter que etiam enumeratur quia ponitur inter 
+          praecepta Decalogi. Et tamen Christus illud non semper seruauit secundum morem Iudeorum, 
+          vnde Iudei dicebant de eo <ref><title ref="#io">Iohannis</title> 9°</ref> : 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3699" ana="io9_16">NON EST HIC HOMO A DEO, QUI SABBATUM  NON CUSTODIT.</quote>
+            <bibl>Ioannes 9:16</bibl>
+          </cit> 
+          Igitur nec debuit seruare praeceptum de circumcisione. 
+          Responditur quod Christus Dominus noster non indiguit circumcisione nec ad eam suscipiendum fuerat obligatus. 
+          Patet quia ipsa fuit remedium contra peccatum originale, 
+          Dominus autem non contraxit originale quia in gratia conceptus fuit, 
+          et sic in primo instanti creacionis animae sue humane
+          <cb ed="#T" n="19va"/>
+          ipsa tam plena fuit gratia, quod eis gracia scilicet augeri non potuit, 
+          nec ipsa anima melior fieri, ut docet <ref><name ref="#Lombard">Magister</name> in tertio distinctione 18a.</ref> 
+          Sed cum gratia nullum potest stare peccatum mortale aut  originale, 
+          igitur manifestum est quod non contraxit originale, 
+          igitur nec indiguit circumcisionem . 
+          Item peccatum originale est secundum <name ref="#Anselm">Anshelmum</name> carentia 
+          iustitie originalis cum debito habendi eam. Christus autem non fuit debito iusticie 
+          originalis cum non descendit ab Adam per viam propagacionis et modo naturali consweto , 
+          sed natus est ex virgine, igitur non indiguit circumcisione nec ad eam obligatus fuit. 
+          Quamuis autem Christus non indiguerit circumcisione, voluit tamen sponte circumcidi propter multas 
+          causas quas enumerant doctores. Hic est 
+          <ref><name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+            in tertia parte <title ref="#SummaTheologica">Summe</title> q<supplied>uaes</supplied>tione 37a</ref> 
+          et <ref><name ref="#NicholasOfLyra">Nicolaus de Lira</name> 
+          <title ref="#lc">Luce</title> 2° 
+          super isto texto Ewangely  : 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3742" ana="#lc2_21">POSTQUAM CONSUMATI SUNT DIES OCTO UT CIRCUMCIDERETUR PUER,</quote>
+            <bibl>Lucas 2:21</bibl>
+          </cit> 
+          etcetera.</ref></p> 
+          
+        <p xml:id="nddml4d1p2q1-d1e3750">Prima causa fuit ut probaret ueritatem humane naturae assumpte : 
+          sciuit enim Dominus, sicut omnia scit, quod uenturi essent homines 
+          peruersi in mundum qui dicturi essent quod Christus 
+          Dominus non habuit verum corpus, sed fantasticum tantum ut fuerunt Manichei 
+          et etiam homines aly  qui essent dicturi quod, 
+          licet haberet verum corpus, non tamen humanum corpus sicut et nos, 
+          sed haberet corpus celeste quod eis secum de celo attulisset, 
+          ut <name>Valentinus</name> et sui sequaces. 
+            Vt ergo Dominus suos fideles contra hos errores
+            <cb ed="#T" n="19vb"/>
+            incantaret voluit circumcidi, ut ex hoc noscerent in eo veritatem humane 
+            naturae ex carne et sanguine, sicut in alio homine.</p> 
+            
+            <p xml:id="nddml4d1p2q1-d1e3758">Secunda causa fuit ut per hoc circumcisionem approbaret 
+              et eam tunc institutam a Deo fuisse, sicut et totam Veterem Legem : 
+              sciuit enim Dominus uenturos in mundum peruersos homines qui 
+              circumcisionem et totam Veterem Legem non reciperent et 
+              dicerent eam non a Deo, sed a quodam principe malorum et 
+              Deo tenebrarum instituta, ut fuit <name>Manicheus</name> et 
+              discipulus eius Faustus et eorum complices. 
+              Voluit ergo Dominus circumcidi ut per hoc ostenderet non a Deo tenebrarum, 
+              sed a Deo vero circumcisionem sicut et totam Legem institutam ; 
+              alias utique non subisset circumcisionem et alia Legis onera si a Deo malorum, 
+              ut haeretici dixerunt, Lex fuisset instituta.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3765">Tertia causa ut per hoc ostenderet se fore dignetur <name ref="#Abraham">Abrahe</name> cui, ut dictum est, 
+          primo fuit datum praeceptum de circumcisione et fuit promissum quod de semine suo benedicentur omnes gentes .</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3771">Quarta causa ut per hoc Iudeis excusacionem tolleret Eum non recipiendi si non fuisset circumcisus : 
+          dixissent perfidi Iudei quod ideo non reciperent Eum ut Messiam, quia esset 
+          ethnicus et gentilis incircumcisus, messias vero esset futurus sanctus nasciturus de 
+          gente Iudeorum et de progenie Dauid. Vt ergo eis omnem huiusmodi excusacionem 
+          tolleret voluit circumcidi.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3774">Quinta causa ut per hoc nobis suo exemplo virtutem obedientie commendaret, 
+          cum scilicet in se seruaret 
+          <cb ed="#T" n="20ra"/> 
+          praeceptum Legis cui tamen non erat ascriptus . Cogitate, si Dei filius 
+          obediuit praecepto cuius non fuit debitor, 
+          quam dignum est et debitum est nos homines 
+          prompta voluntate obedire Dei praeceptis, 
+          et propter Deum praeceptis superiorum nostrorum 
+          hanc obedientiam etiam alibi nobis in seipso ostendit, 
+          cum <name ref="#Mary">Marie</name> matri eius et <name ref="#Joseph">Joseph</name> 
+          patri putatiuo minoribus et inferioribus se 
+          ymo  creaturis suis subditus fuit, ut dicitur <ref><title ref="#lc">Luce</title> 2°.</ref></p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3789">Sexta causa ut qui in similitudinem carnis peccati 
+          venerat remedium quo caro peccati in alys  mundari 
+          consweuerat  non renueret . Christus uenit in similitudinem 
+          carnis peccati quia assumpsit humanam naturam cum multis 
+          defectibus quos nos homines peccatores habemus, 
+          quamvis ex alia causa. Quia, ut dicit 
+          <ref><name ref="#Lombard">Magister</name> libro tertio distinctione tertia,</ref> 
+          nos ex peccato originali defectos nostros trahimus. 
+          Christus autem non habuit defectus ex aliquo 
+          peccato cum nullum umquam habuerit, sed sponte et ex 
+          sola misericordia propter nostram salutem assumpsit nostros 
+          defectus multos, saltem aliquos, scilicet per quos nobis ostenderet veritatem 
+          sue humanitatis, ut erant timor, tristitia et ceterae passiones 
+          animae et aliquos ad redemptionem  humanam , 
+          propter quam venerat implecionem, ut fuerunt in Eo passibilitas, 
+          mortalitas et cetera huiusmodi. 
+          Nec enim passibilis fuisset et mortalis : nos redimere non potuisset 
+          saltem de lege Dei ordinate, 
+          sicut ergo assumpsit similitudinem carnis peccati, 
+          id est carnem humanam cum de-
+          <cb ed="#T" n="20rb"/> 
+          -fectibus que in nobis ueniunt ex peccato. 
+          Ita etiam assumpsit circumcisionem qua non indiguit, 
+          et quae est in alys  remedium contra peccatum. 
+          Magnum fuit hoc humilitatis exitum quod Christus Dominus, 
+          qui peccatum non fecit, non dedignabatur ut peccator 
+          circumcidi et ob hoc ab alys  peccatorem estimari, 
+          quod arguit nostram superbiam. 
+          Multi enim volunt peccatores esse et tamen pro talibus 
+          non volunt haberi, ymo  non tamquam volunt pro iustis 
+          etiam reputari.</p> 
+        
+        <p xml:id="nddml4d1p2q1-d1e3799">Septima causa ut cum Legis onus in se sustineri 
+          nos a Legis onere liberaret, secundum illud 
+          <ref><title ref="#gal">ad Galathas</title>  4° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3808" ana="#gal4_4"> <!-- and gal4_5 -->MISIT DEUS FILIUS SUUM FACTUM 
+              SUB LEGE UT EOS QUI SUB LEGE ERANT REDIMERI,</quote>
+            <bibl>Galatas 4:4-5</bibl>
+          </cit> 
+          scilicet ab onere Legis sub quo seruiliter detenebantur. 
+          Dicit <title>Glossa</title> : ibidem dicitur autem lex omnis, 
+          quia multa et grauia inponebat hominibus que omnia non conferebant 
+          gratiam ratione operis operati, dempta circumcisione quae tamen 
+          minorem conferebat quam nunc baptismus. 
+          Diceret aliquis : omnis Christi actio nostra est instructio, 
+          propter quod ipse dixit <ref><title ref="#io">Iohannis</title> 13°</ref> : 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3827" ana="#io13_15">EXITUM <!-- exemplum --> ENIM DEDI VOBIS UT 
+              QUEMADMODUM EGO FECI VOBIS, ITA ET VOS FACIATIS,</quote>
+            <bibl>Ioannes 13:15</bibl>
+          </cit> 
+          cum ergo Dominus noster circumcisus sit deberemus et nos circumcidi. 
+          Respondet <ref><title ref="#Aquinas">sanctus Thomas</title> in tertia parte <title>Summe</title></ref> 
+          dicens quod Christus circumcisionem suscepit pro illo tempore pro quo adhuc fuerat in praecepto. 
+          Et ideo actio sua est nobis in hoc imitanda, 
+          ut nobis etiam seruaremus ea que nostro tempore sunt praecepta : 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3846" ana="#qoh8_6">VNICUIQUE AUTEM NEGOTIO 
+            <cb ed="#T" n="20va"/>
+            EST TEMPUS ET OPORTUNITAS,</quote>
+            <bibl>Ecclesiastes 8:6</bibl>
+          </cit> ut dicitur <ref><title ana="#qoh">Ecclesiastico</title> 8°.</ref> 
+          Circumcisio ergo tempore natiuitatis 
+          Christus fuit adhuc seruanda et habuit 
+          tunc efficaciam suam et licet Christus non indiguerit ea, 
+          voluit tamen eam suscipere propter causas enumeratas et 
+          quibus qui tunc fuisset potuisset etiam tunc eam suscepisse 
+          qui voluisset Christum in hoc imitare . 
+          Sed nunc, post Christi passionem et sufficientem ewangely promulgationem, 
+          ipsa circumcisio non est plus seruanda, 
+          quia facta est mortifera : qui enim nunc uellet circumcidi 
+          credens ipsam circumcisionem aliquid virtutis adhuc 
+          habere -  et sic in ea spem poneret - peccaret mortaliter, 
+          quia dicit <ref><name ref="#Paul">Apostolus</name> <title ref="#gal">ad Galathas</title>  5° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q1-Qd1e3870" ana="#gal5_2">SI CIRCUMCIDIMINI CHRISTUS NICHIL VOBIS PRODEST,</quote>
+            <bibl>Gal 5:2</bibl>
+          </cit>
+          NICHIL AUTEM PRAESERVAT HOMINEM FRUCTU MERITORUM CHRISTI, 
+          NEC PECCATUM MORTALE.
+        </p>
+        
+          <p xml:id="nddml4d1p2q1-d1e3878">Ex dictis nunc sufficienter patet quare 
+          Christus voluit circumcidi, sed quare non seruauit sic sabbatum , 
+          et quedam alia legalia ut vno argumento tangebatur. 
+          Respondet <name ref="#Aquinas">sanctum Thomas</name> quod 
+          Christus in pueritia sua in nullo fuit 
+          segregatus quo ad exteriorem conuersationem ab alys  
+          pueris ideo omnia que ad pueros pertinebant in Veteri Lege 
+          in se etiam impleri voluit, ut circumcisionem, 
+          praesentationem sui in templum cum oblacione hostiarum. 
+          Sed quando iam ad perfectam etatem pervenit, tunc ostendere se debuit esse 
+          Dominum Legis et se illa non ligari et eam usque ad ipsum impositam esset, 
+          et ideo in quibusdam tunc supra Legem operatus est, sicut de obserua-
+          <cb ed="#T" n="20vb"/> 
+          -tione sabbati  et de tactu leprosi, etcetera.</p>
+      </div>
+    </body>
+  </text>
+  </TEI>

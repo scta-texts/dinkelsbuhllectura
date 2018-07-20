@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 7, Quaestio 3</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d7q3">
+        <head>Librum IV, Distinctio 7, Quaestio 3</head>
+        <p>
+          <choice><orig>Sertio</orig><reg>Tertio</reg></choice> <!-- scribe drawing the illuminate initials made a mistak here and write "S" instead of "T" --> 
+          queritur vtrum in hoc sacramentum habeat propriam formam sibi convenientem :</p> 
+        
+        <p>arguitur quod non, quia sacramenta a Christo descenderunt, sed Christus non legitur aliqua forma vsus cum manus imponebat. Igitur, cum manus imposicio confirmationem designet, videtur quod sacramentum confirmationis non habeat aliquam formam. Secunda apostoli leguntur per manuum imposicionem Spiritum sanctum dedisse, sed illa manuum impositio, ut sancti dicunt, fuit confirmatio eorum quibus manus imponebant, igitur, cum non legatur eos cum aliqua forma verborum manus imposuisse, videtur quod hoc sacramentum non habeat aliquam formam. 3° sacramenta quae habent determinatam formam illa sub eisdem verbis apud omnes perficiuntur, sed sacramentum confirmationis non perficitur eisdem verbis apud omnes. Quidam enim dicunt : - Consigno te signo crucis, confirmo te crismate salutis in nomine Patris et Fily  et Spiritus sancti. - Quidam vero dicunt : - Consigno te signo crucis et confirmo te crismate sanctificationis, igitur, etcetera -. Hoc sacramentum non habet aliquam formam. In oppositum est quod  Magister in prima distinctione, scilicet quod ea in quibus sacramenta Noue Legis consistunt sunt verba et res,
+          <cb ed="#T" n="95ra"/>
+          verba autem ad formam pertinent.</p> 
+        
+        <p>2° dicit <name ref="#Augustine">Augustinus</name> : - Accedit verbum ad elementum et fit sacramentum - 
+          igitur hoc sacramentum habet verbum, igitur debitam formam que cum materia eius perficit totum sacramentum. 
+          Respondetur quod hoc sacramentum habet determinatam formam ad ipsum sacramentum requisitam, 
+          ut patet per rationes in oppositum argutas.</p>
+        
+        <p>Et illa est forma de qua dictum est in 3° 
+          argumento ante oppositum, scilicet illa : - 
+          Consigno te, etcetera, ut patet per communem vsum Ecclesiae.</p> 
+        
+        
+         <p>Et illa est huius sacramenti competens forma, quod declarat <name ref="#Aquinas">beatus Thomas</name> 
+          sic per formam enim sacramenti debet innotescere ea que ad sacramentum pertinent. 
+          Et ita fit hic, quia in hac forma ponuntur aliqua quae pertinent ad fidem sacramenti 
+          ad quem institutum est, quae est confessio fidei Christiane, cuius tota summa consistit 
+          in passione Christi. Vnde <ref><name ref="#Paul">apostolus</name> <title ref="#Icor">Prime Ad Corinthios</title> 2° :</ref> 
+          <quote>NON ENIM IUDICAVI ME ALIQUID SCIRE INTER TRES NEC IHESUM CHRISTUM ET HUNC CRUCIFIXUM.</quote> 
+          Et item huius articuli confessio maiorem habet difficultatem, 
+          sicut dicitur <ref>in eadem Epistula primo capitulo :</ref> 
+          <quote>NON AUTEM PRAEDICAMUS CHRISTUM CRUCIFIXUM IUDEIS QUIDEM SCANDALUM, GENTIBUS AUTEM STULTITIAM.</quote> 
+          Et ad hoc pertinet cum dicitur : - Consigno te signo crucis - 
+          ut scilicet confirmatus signum crucis non erubescat, sed publice confiteatur. 
+          2° ponitur ipse sacramentalis actus cum dicitur : - Confirmo te. 3° materia cum dicitur crismate salutis. 4to causa
+          <cb ed="#T" n="95rb"/>
+          principalis, vnde sacramentum suum effectum habet, tangitur in hoc quod dicitur : - In nomine Patris et Fily  et Spiritus sancti -.</p> 
+        
+        <p>Ad primum argumentum patet satis solucio. Ex solucione primi argumenti prioris quaestionis que recepta est a <name ref="#Scotus">Scoto</name> cui etiam concordat, 
+          quod dicit <name ref="#Aquinas">S<supplied>anctus</supplied>> T<supplied>homas</supplied></name> : - 
+          Si Dominus noster sine materia et sine forma confirmauit non est inconueniens, quia ipse habebat potestatem 
+          excellentie in sacramentis et ideo potuit effectum sacramentorum praebere quod non est prae alys . 
+          Hunc modum recita eis <name ref="#Bonaventure">Bonauentura</name>, dicens : - 
+          Quidam dicunt quod formam illam Christus instituit et ita intelligatur etiam de materia, 
+          et eam apostolis tradidit, et apostoli alys  postmodum reliquerunt 
+          licet illud non sit scriptum in canone Biblie. 
+          Ipse tamen illa forma non fuit vsus imponendo manus pueris quia hoc faciebat ut Dominus, non ut minister. 
+          Aliter dicunt aliqui quod Christus Dominus hoc sacramentum non dispensauit, 
+          quia decebat apostolos post ascensionem confirmari et Spiritum sanctum tunc primo ad robur dari, 
+          vnde <ref><title ref="#io">Iohannis</title> 7°.</ref> Spiritus sanctus nondum erat datus quia Ihesus nondum erat glorificatus. 
+          Non erat, inquam, datus in plenitudine et ad robur. 
+          Sed hoc fecit in die Penthecostes, unde confirmati sunt a Spiritu sancto immediate  
+          sine misterio et sacramentis et ideo, ut isti dicunt, ipsi apostoli etiam alios confirmabant sine verbo. 
+          Sed postquam bases Ecclesiae, apostoli,
+          <cb ed="#T" n="95va"/>
+            scilicet qui a Deo, non ab hominibus erant ordinati, praelati et confirmati defecerunt, 
+            instituit Spiritus sanctus huius sacramenti formam cui etiam virtutem sanctificandi dedit. 
+            Praecedens tamen via plus consonat superius dictis de institutione  sacramentorum a Christo.</p> 
+        
+        <p>Ad 2m etiam responsum est in solucione prime raciones praecedentis quaestionis. 
+          Potest tamen addi solucio <name ref="#Aquinas">Sancti Thome</name> dicentis quia apostoli aliqua 
+          forma vtebatur quamuis non sit scripta : multa enim apostoli seruabant in sacramentorum dispensacione que nolebant diwulgari  
+          propter derisionem gentilium euitandam, sicut patet per apostolum qui <ref><title>Prime Ad Corinthios</title> 11°</ref> dicit : 
+          <quote>CETERA CUM VENERO DISPONAM.</quote> Et loquitur de Ewcaristiae  celebratione, et hoc est etiam quod <name ref="#Dionysius">Dyonisius</name> 
+          dicit in fine <title>Ecclesiastice Ierarchie :</title> - 
+          Consumas autem invocationes - id est verba quibus proferuntur sacramenta. 
+          Non est iustum, Scripturis interpretantibus, neque mysticum  eorum aut in ipsas operatas ex Deo virtutes 
+          ex occulto ad commune adducere, sed ut nostra sacra tradicio habet sine pompa, 
+          id est occulte  eas edocens. Ex quibus verbis patet primo quod apostoli in sacramentis 
+          vtebantur forma verborum certa, quia ipse alibi in eodem libro dicit quod tradunt ritum 
+          sacramentorum, sicut apostoli dicebant. Secundo quod in occulto  tradebantur huiusmodi 
+          sacramentalia in primitiua Ecclesia. 3°, quod in ipsis est aliqua virtus.</p> 
+        
+        <p>Ad 3m dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod variacio forme 
+          <cb ed="#T" n="95vb"/> 
+          in hys  que non sunt de essentia forme potest tolerari 2m diuersas Ecclesiae conswetudines  
+          dummodo substantia forme apud omnes significauerunt. Hoc autem, quod a quibusdam dicitur crismate salutis, 
+          ab alys  sanctificacionis quasi in idem redit, et ideo per hoc non remouetur quando hoc sacramentum habeat determinatam formam, etcetera.</p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

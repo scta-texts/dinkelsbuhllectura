@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 3, Quaestio 3</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d3q3">
+        <head>Librum IV, Distinctio 3, Quaestio 3</head>
+        <p><lb ed="#T"/>Tercio queritur vtrum 
+          <lb ed="#T"/>aqua elementaris 
+          <lb ed="#T"/>sola sit conueniens bap<lb ed="#T"/>tismi 
+          materia.</p> 
+        
+        <p>Arguitur 
+          <cb ed="#T" n="44rb"/><lb ed="#T"/>quod non, quia baptismus est principium 
+          <lb ed="#T"/>vite spiritualis et maxime est sa<lb ed="#T"/>cramentum 
+          necessitatis, sed 
+          <lb ed="#T"/>aer habet maximam conuen<lb ed="#T"/>ientiam 
+          cum vita, quia est callidus 
+          <lb ed="#T"/>et humidus et est communissimum ele<lb ed="#T"/>mentum, 
+          ut nulli propter eius pe<lb ed="#T"/>nuriam 
+          posset esse periculum sicut 
+          <lb ed="#T"/>quandoque paruulis est periculum propter 
+          <lb ed="#T"/>defectum aque. Igitur baptismus 
+          <lb ed="#T"/>deberet <corr><del rend="strikethrough">maera fieri</del> <add place="inLine">in area fieari</add></corr> 
+          <lb ed="#T"/>et non in aqua. <g ref="#slash"/></p> 
+        
+        <p>2° per baptismum 
+          <lb ed="#T"/>configuramur sepulturae Christi ad 
+          <lb ed="#T"/><ref><title ref="#rom">Romanos</title> 6°,</ref> sed Christus in terra 
+          <lb ed="#T"/>sepultus fuit, igitur baptismus de<lb ed="#T"/>beret 
+          fieri in terra et non in aqua.</p> 
+        
+        <p><lb ed="#T"/>3° ex latere Christi fluxit in aliam 
+          <lb ed="#T"/>in qua constitutus est <corr><del rend="strikethrough">christus</del></corr> baptismus 
+          <lb ed="#T"/>extra de celebracione missarum 
+          <lb ed="#T"/>in quadam. Sed illud quod fluxit 
+          <lb ed="#T"/>ibi non fuit aqua elemen<lb ed="#T"/>taris, 
+          sed <sic>flewma</sic> , quia in 
+          <lb ed="#T"/>corpore mortuo non statim est 
+          <lb ed="#T"/>humor qui sit aqua elemen<lb ed="#T"/>taris, 
+          <g ref="#slash"/>nec per vvlneracionem 
+          <lb ed="#T"/><sic>exyt</sic>  aliquis humor nisi qui 
+          <lb ed="#T"/>tempore <choice><orig>apertionis</orig><reg>aspercionis</reg></choice> in corpore fuit. 
+          <lb ed="#T"/>Sed tunc non erat ibi aqua pura.</p> 
+        
+        <p><lb ed="#T"/>4to si aqua elementaris esset 
+          materia baptismi, <g ref="#slash"/> tunc in omni 
+          <lb ed="#T"/>aqua elementari posset fieri 
+          <lb ed="#T"/>baptismus, <g ref="#slash"/> quia quaelibet esset materia 
+          <lb ed="#T"/>eius. Sed hoc non igitur minor 
+          <lb ed="#T"/>probatur, quia Dominus <corr>tact<del>et</del><add place="aboveLine">u</add></corr> sue carnis 
+          <lb ed="#T"/>dedit aquis vim regeneratiuam, 
+          <lb ed="#T"/>sed non tetigit nisi aquas Iordanis. 
+          <lb ed="#T"/>Igitur sole aque Iordanis essent 
+          <lb ed="#T"/>materia apta baptismi et non quaelibet 
+          <lb ed="#T"/>elementaris.</p> 
+        
+        <p>In oppositum est illud 
+          <lb ed="#T"/><ref><title ref="#io">Iohannis</title> 3°,</ref> ut : <quote ana="#io3_5">QUIS RENATUS FUERIT 
+            <lb ed="#T"/>EX AQUA ET SPIRITU SANCTO.</quote></p> 
+        
+        <p>Conclusio
+          <cb ed="#T" n="44va"/><lb ed="#T"/>prima : ablucio est materia baptismi 
+          <lb ed="#T"/>propinqua et sola elementaris a 
+          <lb ed="#T"/>qua est materia baptismi remo<lb ed="#T"/>ta. 
+          Dicitur autem ablucio materia bap<lb ed="#T"/>tismi 
+          propinqua quia ipsa est ipsemet 
+          <lb ed="#T"/>baptismus. Et significat <choice><orig>inmedia<lb ed="#T"/>te</orig><reg>immedia<lb ed="#T"/>te</reg></choice>  
+          effectum baptismi, scilicet inte<lb ed="#T"/>riorem 
+          ablucionem  animae a peccato 
+          <lb ed="#T"/>intelligendo, sicut <unclear>praeuius <!-- prius --></unclear> dictum 
+          <lb ed="#T"/>fuit, per ablucionem ipsam tinctionem uel 
+          <lb ed="#T"/>contactum corporis cum aqua ; et aqua 
+          <lb ed="#T"/>dicitur materia baptismi remota, quia 
+          <lb ed="#T"/>oportet locionem fieri in aqua si 
+          <lb ed="#T"/>debet esse baptismus. Tunc patet 
+          <lb ed="#T"/>conclusio ex institucione Christi <ref><title ref="#io">Iohannis</title> 
+            <lb ed="#T"/>3°,</ref> vt allegatum fuit in oppo<lb ed="#T"/>situm 
+          questionis. Quare autem 
+          <lb ed="#T"/>a Christo sit institutum sic huius 
+          <lb ed="#T"/>doctores plures dant congruencias 
+          <lb ed="#T"/>valde aptas : aqua enim est fri<lb ed="#T"/>gida, 
+          mundificatiua, lucida, necessaria 
+          <lb ed="#T"/>et communis et hec proprietates omnes 
+          <lb ed="#T"/>racionabiliter conveniunt huiusmodi 
+          <lb ed="#T"/>in quo debet fieri baptismus.</p>
+        
+        <p>Cum 
+          <lb ed="#T"/>baptismus habeat proprietates similes 
+          <lb ed="#T"/>spirituales quas naturales aque 
+          <lb ed="#T"/>proprietates apte repraesentant, bap<lb ed="#T"/>tismus 
+          est ad reprimendum estum 
+          <lb ed="#T"/>concupiscentiae, et ille effectus signi<lb ed="#T"/>ficatur 
+          per frigiditatem et ideo 
+          <lb ed="#T"/>decens est, ut yeme  non acci<lb ed="#T"/>piatur 
+          aqua nimis callida, <unclear>uel <!-- ut --></unclear> 
+          <lb ed="#T"/>maneat illa significatio.</p> 
+        
+        <p>2°, 
+          <lb ed="#T"/>baptismus est ad mundificationem 
+          <lb ed="#T"/>animae a peccato originali per gratiam 
+          <lb ed="#T"/>interius lauantem , et ille effec<lb ed="#T"/>tus 
+          significatur per secundam con<lb ed="#T"/>dicionem 
+          aque que inter omnes 
+          <lb ed="#T"/>liquores maxime abluit et 
+          <lb ed="#T"/>mundificat.</p> 
+        
+        <p>3°, est baptismus 
+          <lb ed="#T"/>ad illustrandam mentem claritate 
+          <cb ed="#T" n="44vb"/><lb ed="#T"/>fidei, et hoc significatur per tertiam 
+          <lb ed="#T"/>proprietatem aque, quia ipsa aqua 
+          <lb ed="#T"/>est lucida et transparens.</p> 
+        
+        <p>4°, baptismus est necessarius ad 
+          <lb ed="#T"/>introducendum ad viam salutis, 
+          <lb ed="#T"/>et hoc significatur per quartam proprieta<lb ed="#T"/>tem 
+          aque quia ipsa aqua 
+          <lb ed="#T"/>est necessaria omnibus hominibus 
+          <lb ed="#T"/>et brutis.</p> 
+        
+        <p>Quinto, lex illa cuius 
+          <lb ed="#T"/>baptismus est iniciatiuus est 
+          <lb ed="#T"/>communis omnibus ad salutem, quod 
+          <lb ed="#T"/>significatur per communitatem aque. 
+          <lb ed="#T"/>Etiam ab illo sacramento nemo 
+          <lb ed="#T"/>absoluitur, sed quilibet ad ipsum 
+          <lb ed="#T"/>tenetur in quantum consequi potest. 
+          <lb ed="#T"/>Et ideo necesse fuit ipsum in<lb ed="#T"/>stitui 
+          in liquore qui est communis 
+          <lb ed="#T"/><choice><orig>aput</orig><reg>apud</reg></choice> <corr><del rend="strikethrough">l</del></corr> omnes homines, et in quo 
+          <lb ed="#T"/>habundant pauperes et diui<lb ed="#T"/>tes 
+          ut nullus per penuriam se 
+          <lb ed="#T"/>excusare possit.</p> 
+        
+        <p>2a conclusio : 
+          <lb ed="#T"/>aqua vsualis, quamuis permixta 
+          <lb ed="#T"/><sic>alys</sic> rebus et a sua naturali dispo<lb ed="#T"/>sicione 
+          aliqualiter alterata, est 
+          <lb ed="#T"/>baptismi congrua et vera ma<lb ed="#T"/>teria. 
+          Probatur quia aqua elementaris 
+          <lb ed="#T"/>est baptismi vera et congrua materia, 
+          <lb ed="#T"/>ut dicit conclusio praecedens, sed 
+          <lb ed="#T"/>aqua naturaliter <unclear>vsualis <!-- visualis --></unclear> nostra, permix<lb ed="#T"/>ta 
+          <unclear>alys</unclear> rebus et a sua naturali 
+          <lb ed="#T"/>complexione, aliqualiter alterata 
+          <lb ed="#T"/>est eiusdem <unclear>specie <!-- speciei --></unclear> essentialis 
+          <lb ed="#T"/>cum aqua elementari, quantum<lb ed="#T"/>cumque 
+          pura, igitur et illa erit ma<lb ed="#T"/>teria 
+          congrua baptismi.</p> 
+        
+        <p>Vbi notandum 
+          <lb ed="#T"/>2m <name ref="#Aquinas">Sanctum Thomam</name> quod duplex est permixtio 
+          <lb ed="#T"/>aque. Vna que tollit speciem aquae, 
+          <lb ed="#T"/>ut quando per alteracionem transit aqua 
+          <lb ed="#T"/>in rem alterius speciei es<lb ed="#T"/>sentialis, 
+          sicut cum per putrefactionem 
+          <lb ed="#T"/>aut aliquam digestionem transit 
+          <cb ed="#T" n="45ra"/><lb ed="#T"/>et mutatur in vinum, aut quando 
+          <lb ed="#T"/>per tantam addicionem liquoris 
+          <lb ed="#T"/>alterius speciei soluitur species 
+          <lb ed="#T"/>aque, sicut si parum aque multo 
+          <lb ed="#T"/>vino ministratur. Alia est per<lb ed="#T"/>mixtio 
+          que non tollit speciem 
+          <lb ed="#T"/>aque, sicut quando alteratur aqua 
+          <lb ed="#T"/>2m aliquod accidens et ma<lb ed="#T"/>net 
+          aqua substancialiter - ut 
+          <lb ed="#T"/>in aqua callefacta - uel aliquid 
+          <lb ed="#T"/>additur aque quod ei non commisceatur, 
+          <lb ed="#T"/>sicut si aliqua solida  ponantur 
+          <lb ed="#T"/>in aqua uel si tale additum 
+          <lb ed="#T"/>sit commistibile sicut aliquid 
+          <lb ed="#T"/>humidum. Tamen est tam parue quanti<lb ed="#T"/>tatis 
+          quod aquam non mutat a 
+          <lb ed="#T"/>sua specie, sed potius in aquam 
+          <lb ed="#T"/>conuertitur. In aqua autem <unclear>2° <!-- primo modo --></unclear> modo 
+          <lb ed="#T"/>mixta non potest fieri baptismus quia 
+          <lb ed="#T"/>iam non est aqua, sed alterius 
+          <lb ed="#T"/>speciei res. In aqua autem secundo modo 
+          <lb ed="#T"/>mixta potest fieri quia illa ad<lb ed="#T"/>huc 
+          est substancialiter aqua 
+          <lb ed="#T"/>et ideo congrua materia, baptismi. 
+          <lb ed="#T"/>Verum, quod nulli sacramento debet 
+          <lb ed="#T"/>fieri reuerentia, ut dicitur de con<lb ed="#T"/>secratione 
+          distinctione <unclear>4ta. <!-- quanta --></unclear> Et 
+          <lb ed="#T"/>ideo quanta aqua plus a 
+          <lb ed="#T"/>puritate et <corr><del rend="strikethrough">mg</del> <add place="inLine">integritate</add></corr> 
+          <lb ed="#T"/>sue naturae <corr><del rend="strikethrough">p</del></corr> recedit pro accidencia 
+          <lb ed="#T"/>disponentia ad corruptionem, 
+          <lb ed="#T"/>tanto magis committitur <unclear>peccato <!-- peccatum --></unclear> 
+          <lb ed="#T"/>si sine necessitate ad baptismum assumitur.</p> 
+        
+        <p><lb ed="#T"/><g ref="#dbslash"/>Tertia conclusio : aqua artifi<lb ed="#T"/>cialis 
+          <unclear>uel <!-- ut --></unclear> aqua roseucia et 
+          <lb ed="#T"/>alia similis non est baptismi 
+          <lb ed="#T"/>vera et congrua materia. <g ref="#slash"/> probatur 
+          <lb ed="#T"/>quia aque que communiter dicuntur 
+          <lb ed="#T"/>artificiales non sunt aque ele<lb ed="#T"/>mentares, 
+          igitur non sunt 
+          <lb ed="#T"/>congrua materia baptismi <g ref="#slash"/><unclear>3a</unclear>
+          <cb ed="#T" n="45rb"/><lb ed="#T"/>
+          ex conclusione prima <g ref="#slash"/> et antecedens patet 
+          <lb ed="#T"/>quia sunt quedam substan<lb ed="#T"/>tialiter 
+          mixta, sicut et corpora <corr><add place="marginRight">ex</add></corr> 
+          <lb ed="#T"/>quibus sunt resolute autem 
+          <lb ed="#T"/>stillate, et dicuntur solum equiuoce 
+          <lb ed="#T"/>aque.</p> 
+        
+        <p>Et hoc patet primo ex modo 
+          <lb ed="#T"/>generacionis, quia aque arti<lb ed="#T"/>ficiales 
+          ex quocumque fiant non 
+          <lb ed="#T"/><choice><orig>seruatur</orig><reg>seruantur</reg></choice> processus naturae per me<lb ed="#T"/>dia 
+          determinata et ordinata 
+          <lb ed="#T"/>et aque generationem; <g ref="#slash"/> igitur non 
+          <lb ed="#T"/>sunt proprie aque, scilicet elementa 
+          <lb ed="#T"/>res substantialiter. Patet quia 
+          <lb ed="#T"/>tales aque fuerint tantum per acciones 
+          <lb ed="#T"/>ignis decoquentis et resol<lb ed="#T"/>uentis, 
+          <g ref="#slash"/> ignis autem non est suffi<lb ed="#T"/>tiens 
+          in virtute actiua ad 
+          <lb ed="#T"/>conuertendum quecumque mixtam 
+          <lb ed="#T"/>in aquam elementarem, nec est 
+          <lb ed="#T"/>ille processus a natura ordinatus 
+          <lb ed="#T"/>ad aque elementaris generacionem. 
+          <lb ed="#T"/>Illa enim 2m naturam a frigido et 
+          <lb ed="#T"/>humido, etcetera, quia <corr><del rend="strikethrough">ex aer</del> <add place="inLine">ex area</add></corr> 
+          <lb ed="#T"/>inclusa invenis terre et 
+          <lb ed="#T"/>a frigiditate terre circumstantis.</p>
+        
+        <p><lb ed="#T"/>Item patet hoc ex qualitatibus con<lb ed="#T"/>sequentibus 
+          totam speciem : istas 
+          <lb ed="#T"/>enim aquas artificiales conse<lb ed="#T"/>cuntur 
+          a natura multe qualitates etiam 
+          <lb ed="#T"/>virtuales que non consecuntur 
+          <lb ed="#T"/>aquas elementares.</p> 
+        
+        <p><g ref="#pilcrow"/>Ex 
+          <lb ed="#T"/>istis dictis inferuntur aliqua 
+          <lb ed="#T"/>correlatiua. Primum est quod nec de 
+          <lb ed="#T"/>necessitate praecepti, nec de necessitate sa<lb ed="#T"/>cramenti 
+          est quod baptismus fiat similiter 
+          <lb ed="#T"/>in aqua frigida. Ymo , si expe<lb ed="#T"/>dit 
+          ut in yeme  tunc licite potest 
+          <lb ed="#T"/>fieri in aqua temperate callida, patet 
+          <lb ed="#T"/>quia non est praeceptum Ecclesiae quod 
+          <lb ed="#T"/>fiat in sola frigida nec callidi<lb ed="#T"/>tas 
+          statim mutat aquae speciem 
+          <cb ed="#T" n="45va"/><lb ed="#T"/>essentialem, sed callida aqua ma<lb ed="#T"/>net 
+          eiusdem specie, cuius fuit 
+          <lb ed="#T"/>frigida.</p> 
+        
+        <p><g ref="#pilcrow"/>2m : in aqua maris, 
+          <lb ed="#T"/>licet sit <choice><orig>falsa</orig><reg>salsa</reg></choice> potest fieri baptismus ? Patet, 
+          <lb ed="#T"/>quia est substantialiter elementa<lb ed="#T"/>ris 
+          aqua, retinens aptitu<lb ed="#T"/>dinem 
+          ad lauandum.</p> 
+        
+        <p><g ref="#pilcrow"/>3m bap<lb ed="#T"/>tismus 
+          potest fieri in aquis sulphu<lb ed="#T"/>reis, 
+          sicut sunt balnea naturalia 
+          <lb ed="#T"/>dicta uel <unclear>triuie ?</unclear> Patet, quia ille 
+          <lb ed="#T"/>aque sulphuree non sunt 
+          <lb ed="#T"/>extra speciem substancialem elemen<lb ed="#T"/>taris 
+          aque, sed transeunt per mi<lb ed="#T"/>neras 
+          sulphureas  aut per loca 
+          <lb ed="#T"/>adusta. Dicit <name ref="#Aquinas">Sanctus Thomas</name></p> 
+        
+        <p><g ref="#pilcrow"/>4m : in 
+          <lb ed="#T"/>necessitate baptismus potest licite fieri 
+          <lb ed="#T"/>in <choice><orig>lixiuio</orig><reg>licciuio</reg></choice>, et si fiat verus est 
+          <lb ed="#T"/>baptismus. Patet, quia <choice><orig>lixinium</orig><reg>liccinium</reg></choice> est 
+          <lb ed="#T"/>substancialiter aqua et non differt 
+          <lb ed="#T"/>ab alia aqua nisi quod collata est  
+          <lb ed="#T"/>per cineres. Et hec non mu<lb ed="#T"/>tat 
+          substantiam aque.</p> 
+        
+        <p>5m, in aqua 
+          <lb ed="#T"/>pluuiali et in aqua resoluta ex 
+          <lb ed="#T"/>niuibus et glaciebus uel gratia 
+          <lb ed="#T"/><unclear>diuina <!-- divinae --></unclear> potest fieri baptismus <g ref="#slash"/> Patet, quia 
+          <lb ed="#T"/>sunt eiusdem speciei cum aqua com<lb ed="#T"/>muni 
+          et vsuali, ymo  multociens 
+          <lb ed="#T"/>magna pars aque nostre vsua<lb ed="#T"/>lis 
+          venit ex talibus, vt patet ex flu<lb ed="#T"/>uijs 
+          descendentibus de Alpi<lb ed="#T"/>bus 
+          et de cisternis.</p> 
+        
+        <p>Similiter in aqua paludiali potest fieri bap<lb ed="#T"/>tismus, 
+          quia talis et vere et substan<lb ed="#T"/>tialiter 
+          aqua eiusdem speciei cum ceteris 
+          <lb ed="#T"/>aquis elementaribus. Non esset 
+          <lb ed="#T"/>tamen benefactum si in talibus putri<lb ed="#T"/>dis 
+          aquis aut turbidis fieri : 
+          <lb ed="#T"/>esset enim contra reuerentiam sacramen<lb ed="#T"/>ti 
+          nisi vrgeret necessitas, scilicet quod alia 
+          <lb ed="#T"/>aqua haberi non posset. Tunc <corr><del rend="strikethrough">quaelibet</del> 
+            <lb ed="#T"/><add place="inLine">quaelibet</add></corr> naturalis aqua sufficeret apta
+          <cb ed="#T" n="45vb"/><lb ed="#T"/>saltem ad lauandum.</p> 
+        
+        <p><g ref="#pilcrow"/>Sextum 
+          <lb ed="#T"/>corollarium quod in ptisana potest fieri bap<lb ed="#T"/>tismus. 
+          Non enim fit ibi tam longa 
+          <lb ed="#T"/>decoccio quod aqua per eam transmu<lb ed="#T"/>tetur 
+          per aliam speciem, nec aliud est 
+          <lb ed="#T"/>sibi commixtum quod eam alteretur 
+          <lb ed="#T"/>extra naturam suam. <g ref="#slash"/>Sed de longis decoc<lb ed="#T"/>cionibus 
+          uel de brodio carn<lb ed="#T"/>ium, 
+          ceruisia, medone et <unclear>ratio 
+            <lb ed="#T"/>similibus <!-- consimilibus --></unclear> dicunt aliqui quod non <unclear>pos<lb ed="#T"/>set <!-- left out in word doc --></unclear> 
+          in eis fieri baptismus, <g ref="#slash"/> quia 
+          <lb ed="#T"/>solum potest fieri in aqua elemen<lb ed="#T"/>tari. 
+          Sed - ut isti dicunt - talia ex vi 
+          <lb ed="#T"/>longe decoccionis <g ref="#dot"/> et propter 
+          <lb ed="#T"/>commixtionem aliorum forte alte<lb ed="#T"/>rancium 
+          sunt in aliam speciem 
+          <lb ed="#T"/>conuersa, <g ref="#slash"/> et totaliter a specie aquae 
+          <lb ed="#T"/>elementaris transmutata.</p> 
+        
+        <p><name ref="#Scotus">Scotus</name> tamen dicit quod non sit ma<lb ed="#T"/>nifestum 
+          de istis an per coccio<lb ed="#T"/>nem 
+          aut per aliud actuum cor<lb ed="#T"/>rumpens 
+          ipsum commixtum sint 
+          <lb ed="#T"/>transmutata in aliam speciem. 
+          <lb ed="#T"/>Et vlterius dicit quod ad philosophum 
+          <lb ed="#T"/>naturalem pertinet inquirere que 
+          <lb ed="#T"/>alteracio transferat aquam 
+          <lb ed="#T"/>a specie sua et que non, <g ref="#slash"/> et si de 
+          <lb ed="#T"/>aliquibus manet dubium 
+          <lb ed="#T"/>et in talibus fuerit baptismus factum. 
+          <lb ed="#T"/>Vtendum est ibi istis tribus 
+          <lb ed="#T"/>maximis que <ref>in priori questione</ref> 
+          <lb ed="#T"/>erant posite de remedys  
+          <lb ed="#T"/>adhibendis circa eos, <g ref="#slash"/> de qui<lb ed="#T"/>bus 
+          dubitatur probabiliter an 
+          <lb ed="#T"/>circa eos sit seruata debita 
+          <lb ed="#T"/>forma <g ref="#slash"/> et ita etiam erit facien<lb ed="#T"/>dum 
+          circa eos sit seruata de<lb ed="#T"/>bita 
+          materia.</p> 
+        
+        <p>Septimum corollarium : 
+          <lb ed="#T"/>baptismus non potest fieri in aqua 
+          <lb ed="#T"/>artificiali <g ref="#slash"/> et si quis attemptaret 
+          <lb ed="#T"/>ipse nichil faceret, <g ref="#slash"/> quia ad baptismum 
+          <cb ed="#T" n="46ra"/><lb ed="#T"/>necessario requiritur aqua elemen<lb ed="#T"/>taris 
+          substantialiter. <g ref="#slash"/> Tales autem 
+          <lb ed="#T"/>non sunt aque artificiales, 
+          <lb ed="#T"/>ut patet ex conclusione 3a.</p> 
+        
+        <p>Octa<lb ed="#T"/>uum : 
+          suo modo non potest fieri baptismum 
+          <lb ed="#T"/>in sudore, sputo, flegmate 
+          <lb ed="#T"/>aut alio tali, et si quis attemp<lb ed="#T"/>taret 
+          in talibus, ipse nichil 
+          <lb ed="#T"/>baptizaret. <g ref="#slash"/> Patet, quia talia non sunt 
+          <lb ed="#T"/>substantialiter aquae elementa<lb ed="#T"/>res, 
+          sed sunt res alterius speciei 
+          <lb ed="#T"/>et sunt iuxta substantialiter.</p> 
+        
+        <p><lb ed="#T"/>Nono, licet baptismus posset fieri 
+          <lb ed="#T"/>in aqua fluente in arena 
+          <lb ed="#T"/>et eam deferente, <g ref="#slash"/> non tamen 
+          <lb ed="#T"/>potest fieri in arena sola quantum<lb ed="#T"/>cumque 
+          fluente, sicut est in qui<lb ed="#T"/>busdam 
+          terris vbi - ut fertur 
+          <lb ed="#T"/>est - continuus fluxus arene 
+          <lb ed="#T"/>sicut hic aque. Et dicit <name>Iacobus 
+            <lb ed="#T"/>de Altavilla</name> quod quidam 
+          <lb ed="#T"/>monachus fuit in huius are<lb ed="#T"/>na 
+          baptizatus quem, cum diu 
+          officium sacerdotis exercuerat, 
+          <lb ed="#T"/>oportuit rebaptizari  et omnes 
+          <lb ed="#T"/>ordines de nouo suscipere. <g ref="#slash"/> 
+          <lb ed="#T"/>Tunc prima pars corollary  patet 
+          <lb ed="#T"/>quia talis aqua est vere aqua 
+          <lb ed="#T"/>quamuis habeat arenam commix<lb ed="#T"/>tam, 
+          igitur in ea potest fieri bap<lb ed="#T"/>tismus 
+          sicut in aqua turbi<lb ed="#T"/>da 
+          terra commixta. <g ref="#slash"/> 2a pars patet 
+          <lb ed="#T"/>quia arena non est aqua, et tamen 
+          <lb ed="#T"/>sola aqua est materia baptismi.</p> 
+        
+        <p><lb ed="#T"/>Decimum : aqua farine in 
+          <lb ed="#T"/>bibita, uel in pasta, uel in bibita 
+          <lb ed="#T"/>spongee, quamdiu ibi est, uel 
+          <lb ed="#T"/>in bibita luto spisso, uel aliquo 
+          <lb ed="#T"/>tali non est apta materia bap<lb ed="#T"/>tismi 
+          quam diu manet tali 
+          <lb ed="#T"/>rei in bibita sic. Patet, quia ad hoc 
+          <cb ed="#T" n="46rb"/><lb ed="#T"/>quod aqua eciam elementaris sit 
+          <lb ed="#T"/>apta materia baptismi requiritur 
+          <lb ed="#T"/>quod illo modo existat quod habeat proprie<lb ed="#T"/>tatem 
+          lauandi : sic enim est a Christo 
+          <lb ed="#T"/>institutum. <g ref="#slash"/> Sed aqua in pasta 
+          <lb ed="#T"/>aut in spongea manens ibi, 
+          <lb ed="#T"/>aut in spisso luto, aut in alio 
+          <lb ed="#T"/>huiusmodi quam diu sic manet <g ref="#slash"/> non 
+          <lb ed="#T"/>habet proprietatem lauandi, <g ref="#slash"/> quia 
+          <lb ed="#T"/>si talis aqua sic manens in 
+          <lb ed="#T"/>bibita corpus hominis tangat, 
+          <lb ed="#T"/>non tamen talis contactus dicitur 
+          <lb ed="#T"/>locio, sed tantum contactus aque fluide 
+          <lb ed="#T"/>coniungentis se cuti uel libere, uel <choice><orig>se<lb ed="#T"/>perantis</orig><reg>se<lb ed="#T"/>parantis</reg></choice> 
+          inter cutem vel aliud corpus.</p> 
+        
+        <p>Vndecimum corollarium : licet nix, gla<lb ed="#T"/>cies 
+          et grando sint aqua sub<lb ed="#T"/>stantialiter, 
+          non tamen potest in aliquo 
+          <lb ed="#T"/>illorum fieri baptismum <g ref="#slash"/> quam diu 
+          <lb ed="#T"/>manet tale. Patet, quia quamdiu 
+          <lb ed="#T"/>illa manent talia, scilicet nix, 
+          <lb ed="#T"/>grando uel glacies, tam diu 
+          <lb ed="#T"/>non sunt fluida et habent proprieta<lb ed="#T"/>tem 
+          lauandi, <g ref="#slash"/> quod requiritur ad 
+          <lb ed="#T"/>materiam baptismi, ut dictum est.</p>
+        
+          <p><lb ed="#T"/>Et dico nominanter quamdiu manent 
+            <lb ed="#T"/>talia, quia quando sunt resoluta 
+            <lb ed="#T"/>in aquam fluidam, <g ref="#slash"/> tunc in 
+            <lb ed="#T"/>eis potest fieri baptismus <g ref="#slash"/> ut in alia 
+            <lb ed="#T"/>aqua elementari, ut dixit 
+            <lb ed="#T"/><ref>in corollario  5°.</ref></p> 
+        
+        <p>Ad primum argumentum 
+          <lb ed="#T"/>dicitur quod, licet aer habeat aliqua<lb ed="#T"/>lem 
+          conuenienciam cum vita, <g ref="#slash"/> et 
+          <lb ed="#T"/>sic communior et facilius possit 
+          <lb ed="#T"/>haberi non tamen conueniunt sibi 
+          <lb ed="#T"/>cetera superius enumerata que 
+          <lb ed="#T"/>conueniunt aque ad significandum 
+          <lb ed="#T"/>effectus baptismi : <g ref="#slash"/> non enim ab<lb ed="#T"/>luitur 
+          et non est elementum 
+          <lb ed="#T"/>resistens tactui et ita sensi<lb ed="#T"/>bilis 
+          sicut aqua ; igitur conveniencius 
+          <cb ed="#T" n="46va"/><lb ed="#T"/>institutus est baptismus in aqua.</p> 
+        
+        <p>Ad 2m dicit <name ref="#Aquinas">Sanctus Thomas</name> quod sepultura Christi 
+          <lb ed="#T"/>est res significata per baptismum, sed non est contenta quia non 
+          <lb ed="#T"/>causat eam. Institucio autem 
+          <lb ed="#T"/>materiae sacramenti attenditur principaliter 
+          <lb ed="#T"/>quantum ad significationem rei con<lb ed="#T"/>tente, 
+          id est rei quam sacramentum 
+          <lb ed="#T"/>causat et in tali significatione 
+          <lb ed="#T"/>magis conuenit aqua quam terra.</p> 
+        
+        <p><g ref="#dbslash"/>Ad 3um respondet <name>Innocentius</name> 
+          <lb ed="#T"/>quod illa aqua que fluxit de latere 
+          <lb ed="#T"/>saluatoris non fuit flewma  
+          <lb ed="#T"/>sed fuit vera aqua, <g ref="#slash"/> quod probat 
+          <lb ed="#T"/>ex verbis Ewangeliste  dicentis. <g ref="#slash"/> Et 
+          <lb ed="#T"/>qui vidit testationem prohibuit ve<lb ed="#T"/>ritati, 
+          profecto non aquam, <g ref="#slash"/> sed 
+          <lb ed="#T"/>flewma  dixisset Ewangelista . <g ref="#slash"/> Si 
+          <lb ed="#T"/>non fuisset vera aqua probat eciam 
+          <lb ed="#T"/>a posteriori per materiam baptismi 
+          <lb ed="#T"/><corr><del>nec</del> <add place="aboveLine">in</add></corr> hoc, in quidam religioni 
+          <lb ed="#T"/>nostre fuisset ostensum sacramen<lb ed="#T"/>tum 
+          cum per sacramentum baptismi 
+          <lb ed="#T"/>non regeneraremur in flewma<lb ed="#T"/>te , 
+          sed in aqua. Probat etiam per figuram 
+          <lb ed="#T"/>que de hoc praecessit in Veteri 
+          <lb ed="#T"/>Testamento, quando <name ref="#Moses">Moyses</name> percus<lb ed="#T"/>sit 
+          silicem et ex ea non flew<lb ed="#T"/>ma , 
+          sed aqua manauit. Et ad 
+          <lb ed="#T"/>probacionem respondit quod uel illa aqua 
+          <lb ed="#T"/>fuit de nouo ibi creata immaculo<lb ed="#T"/>se, 
+          uel fuit de componentibus re<lb ed="#T"/>soluta. 
+          Et dicit <name ref="#Aquinas">Sanctus Thomas</name> quod de latere 
+          <lb ed="#T"/>Christi exiuit vera aqua sicut et 
+          <lb ed="#T"/>naturalis verus sangwuis , <g ref="#slash"/> et 
+          <lb ed="#T"/>hoc ad probandum corpus suum 
+          <lb ed="#T"/>fore verum corpus et non fanta<lb ed="#T"/>sticum, 
+          ut dixerunt <name>Manichei</name> : 
+          <lb ed="#T"/>fuit enim in eo compositio ex 
+          <lb ed="#T"/>elementis, quod per hoc probatum 
+          <lb ed="#T"/>fuit quod aqua, que est elementum, 
+          <cb ed="#T" n="46vb"/><lb ed="#T"/>prodyt  ex eius latere, et composi<lb ed="#T"/>cionem 
+          humorum probat sang<lb ed="#T"/>wis  
+          effluens.</p> 
+        
+        <p>Ad quartum dicitur quod Dominus 
+          <lb ed="#T"/>tangendo aquam Iordanis 
+          <lb ed="#T"/>dedit vim regeneratiuam in tota 
+          <lb ed="#T"/>specie aque, instituens eam 
+          <lb ed="#T"/>ydoneam baptismi materiam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

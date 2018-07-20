@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 5</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 5</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q5">
+        <head>Librum IV, Distinctio 4, Quaestio 5</head>
+        <p>Quinto queritur vtrum omnes, baptizati  non ficti, equaliter recipiant effectum baptismi.</p> 
+        <p>Arguitur quod non , quia in adultis baptismus tollit originale peccatum et similiter actualia peccata in paruulis, 
+          vero solum originale igitur plus efficit in adultis quam in pueris, quo ad mali remotionem. 
+          Confirmatur : mitigacio fomitis est effectus baptismi, sed post baptismum inve-
+          <cb ed="#T" n="56rb"/>
+          -nitur fomes magis mitigatus in vno quam in alio, igitur baptismus quo ad hoc plus efficit in vno quam in alio.</p> 
+        <p>Secundo sic : si gratia confertur in baptismo 2m exigenciam fidei et praedispositionis bone, ut dicit <name ref="#JohnDamascenus">Damascenus</name>, 
+          sed vnus accedit cum maiori disposicione et fide quam aliter, 
+          igitur maior confertur gratia, et sic baptismus in vno plus efficit quam in alio, 
+          eciam quod ad boni collacionem.</p> 
+        <p>In oppositum arguitur quia baptismus magis dependet a conferente 
+          qui habet se ut causa efficiens quam a suscipiente qui habet se ut materia solum. 
+          Sed videtur quod ministrorum inequalitas nichil faciat ad inequalitatem effectus, 
+          igitur nec a fortiori inequalitas suscipientium.</p> 
+          <p>Notandum quod multipliciter ponit effectus baptismi. 
+            Primus est caracter quod imprimit animae, solet dici sacramentum et res et de isto propono posterius facere mentionem, 
+            2us est dimissio culpe, 3us est dimissio pene, 
+            4tus est collacio gratiae, 5tus est remissio fomitis. 
+            Plures aly  ponuntur effectus baptismi de quibus non est cura ad primum . 
+            De primo propono dicere posterius, sed de illis quatuor dicam nunc et maxime de tribus prioribus. 
+            Sic ergo conclusio prima: baptismus in eo qui non ficte accedit aufert  
+            racione operis operati omnem culpam
+          <cb ed="#T" n="56va"/> 
+            quam in eo invenit, et etiam omnem penam persone per huiusmodi 
+            saltem actuali culpa uel culpis quo ad Deum et quo ad Ecclesiam debitam. 
+            Prima pars probatur, quia dicit <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridion</title> 23°:</ref> 
+            Baptizati  non vni tantum peccato, sed multis magis aut omnibus moriuntur, 
+            quaecumque eciam propria commiserunt  uel cogitacione, uel locucione, uel opere. 
+            Item per baptismum directe, uel per se generamur ad spiritualem vitam, ut dicitur ad Thytum.</p> 
+        
+        <p>3° per lauacrum regeneracionis igitur baptismus quantum est de se et non exigente 
+          impedimento ex parte suscipientis tollitionem, formam et disposicionem impossibilem  
+          spirituali vite contrariam, sed certum est quod tam originale quam actuale mortale 
+          est impossibile vite spirituali que est per gratiam gratum facientem et veniale. 
+          Licet non repugnat huic vite quia potest stare cum gratia, tamen disponit ad contrarium eius, 
+          scilicet ad mortale igitur in baptismo tolluntur omnia. 
+          Item ambe partes conclusionis patent simul per Magistrum in littera, quia loquens de hys  
+          qui praeuius iustificati accedunt ad baptismum dicit. 
+          Cum autem baptismum percipiunt et a peccatis si qua interim commiserunt 
+          mundantur et ab exterioris satisfactione liberantur et eis gratia adnutrix omnisque virtus
+          <cb ed="#T" n="56vb"/>
+          augetur, ut ferre nouus homo tunc dici possit. 
+          Si autem hec conferantur virtute baptismi praeuius iustificatis, 
+          pari racione omnibus rite suscipientibus. Item Ambrosius super illud  
+          <ref><title ref="#rom">Ad Romanos</title> 11° :</ref> 
+          <quote>SINE PENITENTIA SUNT DONA DEI ET VOCACIO.</quote> 
+          Dicit : gracia Dei in baptismo non requiritur genitum, uel planctum, uel aliquod opus, sed omnia gratis condonat et, 
+          ut dicit <name ref="#Lombard">Magister</name>, hoc de exteriori gemitu, planctu et satisfaccione  
+          intelligendum est, quia sine exteriori nemo adultus renouatur. 
+          Hoc autem non esset nisi a peccato et a penis pro peccatis debitis baptismus liberaret. 
+          Et nominanter dixi in conclusione non ficte, quia si quis accederet ad baptismum cum peccato 
+          infidelitatis aut alio mortali sine attricione de eodem, ille proprie ficte accederet et a nullo 
+          peccato nec a pena pro tunc per baptismum liberaretur, 
+          ymmo  peccaret nouo peccato eo, quod sacramentum indigne sumeret. 
+          Si quis accederet vero ad baptismum cum peccato veniali quod 
+          tunc actu committeret uel esset in proposito posterius committendi, 
+          illa esset ficcio 2m quid et impedit effectum baptismi non simpliciter, 
+          sed quantum ad remissionem illius venialis, quod actu committit aut committere proponit. 
+          Dixi eis nominanter quod tollit omnem penam saltem pro actuali debitam : penas
+          <cb ed="#T" n="57ra"/>
+          enim toti naturae humane pro originali debitas, vt sunt mors, incineracio, fames, 
+          sitis, pugna carnis aduersus spiritum et defectus inflicti humano generi non  
+          tollit baptismus. Et hoc ideo quia Deus baptismus ad hoc non ordinauit ut eas tolleret. 
+          Congruum enim fuit quod huiusmodi penalitates in nobis hic remanerent, ut dicit <name ref="#Bonaventure">Bonauentura</name> 
+          primo ad manifestandum equitatem Dei in Iudicio, ut illam sentenciam quam Deus dictauerat de morte <name ref="#Adam">Ade</name> 
+          et posteriorum eius et sic eciam de alys  penalitatibus. Cum dixit : 
+          <quote>CINIS ES ET IN CINEREM REVERTERIS IN SUDORATIONE VULTUS TUI ,</quote> etcetera, immobilis  permaneret, vnde : <quote>AB ILLA MORTE NEMO EVADET.</quote></p> 
+          <p>2° ad ostendendum fructum passionis Christi, quia si Dominus per baptismum curaret naturam et fomitem, 
+            in parente filius nasceretur immunis a culpa, nec indigeret regenerari a Christo. 
+            Vt ergo omnes se Christi passione noscant indigere data est virtus sacramento a passione 
+            qua remittit Deus penas personales et non naturales.</p> 
+        
+        <p>3° ad promouendum meritum liberi arbitry  : 
+          promouent enim ad multiplex bonum huiusmodi penalitates primo ad humilitatem, 
+          cum ex eis homo cognoscit proprium imperfectum ; 
+          2° iuuant de timoris incussione cum scit se homo moriturum et nescit horam; 
+          3° promouent hominem ad sui ipsius cognitionem, vnde <ref><title ref="#is">Ysaie</title> 28° :</ref> <quote>SOLA   
+          <cb ed="#T" n="57rb"/>
+          VEXACIO DAT INTELLECTUM.</quote> 
+          4° simulant hominem ad bonum iuxta illud <title ref="#mic">Michee</title> 2°: <quote>SURGITE ET ITE QUIA NON HABETIS HIC REQUIEM.</quote> 
+          5° dat exitum non peccandi cum homo considerat propter peccatum <name ref="#Adam">Ade</name> 
+          tam grauia toti humano generi illata, vnde <ref><title ref="#zac">Zachariae</title> 13 °:</ref> 
+          <quote>ADAM, EXITUM MEUM, AB ADOLESCENTIA MEA PROMOVERET ECIAM AD EXERCITIUM VIRTUTUM.</quote> Vnde 
+          <ref><title ref="#iudic">Iudicium</title> 3° :</ref> <quote>HEC SUNT GENTES QUAS RELIQUIT DOMINUS, UT IN EIS ERUDIAT IERUSALEM.</quote>
+          4°, congruum fuit huius penalitates remanere propter hoc, ut nemo ipsorum oblacione recipiat in retributionis praemium, 
+          ne scilicet homines propter hoc solum ad baptismum venirent. 
+          Si enim ibi daretur immortalitas  et aly  defectus in baptismo tollerentur, 
+          propter hoc plures accederent quam propter gratiam, 
+          nec tunc fides haberet meritum cui humana ratio praeberet experimentum. 
+          Manent ergo huius penalitates hic et per graciam baptismalem ut cedant ad multiplicem homini vtilitatem, 
+          ut dictum, sed in fine mundi. 
+          In generali resurreccione erit in virtute meritorum Christi, 
+          ut omnes electi curentur et sanentur ab omnibus hys  et alys  defectibus. 
+          Dixi quoque nominanter in conclusione quo ad Deum uel in foro Dei debitam. 
+          In iudicio namque humano non solum attenditur qua pena sit homo dignus quo ad Deum, 
+          sed eciam in qua sit obligatus quo ad homines qui sunt lesi per peccatum. 
+          Et ideo licet infidelis
+          <cb ed="#T" n="57va"/>
+          committens homicidium, si postea baptizatur, liberetur totaliter a culpa 
+          et a reatu pene eterne et pene temporalis satisfactorie quo ad Deum remanet, 
+          tamen obligatus quo ad homines ad penam iuste pro tali culpa a principe instituta. 
+          Et dicit <name ref="#Durandus">Durandus</name> quod in talibus posset princeps pie penam dimittere, 
+          maxime si signa euidencia apparerent quod homicida talis peteret baptismum ex deuocione 
+          fidei et non solum ex timore mortis. Insuper dixi nominanter in conclusione quo ad 
+          Ecclesiam, vnde pene iuris et Ecclesiae - ut sunt excommunicacio et irregularitas - et 
+          cetere debite pro peccatis remittuntur  in baptismo : homicida enim ante baptismum, 
+          ut fuit <name ref="#Paul">Paulus</name> respectu <name>Stephani</name>, potest post baptismum ordinari 
+          quia ille pene consecuntur culpam. Et sicut in baptismo totaliter dimittitur culpa, 
+          sic eciam pena talis ecclesiastica pro tali culpa inflicta remittitur, 
+          quia regeneratur homo in baptismo et fit quasi nouus homo, quo ad Deum et Ecclesiam. 
+          Verum dicunt aliqui quod irregularitas contracta ex bigamia non tollitur per baptismum, 
+          ita quod si Iudeus bigamus baptizatur non possit fieri clericus, 
+          quia talis pena non est contracta ex culpa. An autem, 
+          irregularitas contracta, audite iuste, reum condempnante 
+          ante baptismum tollatur per baptismum, quidam dicunt quod sic, et
+          <cb ed="#T" n="57vb"/>
+          quidam quod non quia, ut dicunt illi, per baptismum non tollitur pena nisi in quantum est pena culpe. 
+          Sed hec irregularitas nullius pena culpe fui, cum iudex non peccauerit iuste condempnando. 
+          Si autem priuata persona occidat ex ira ante baptismum tunc, quia iniuste occidit, 
+          si postea rite absoluitur a culpa et ab irregularitate que fuit, 
+          pena ecclesiastica illius culpe et in illo casu melior videtur esse condicio 
+          illius qui peccauit quam illius qui non peccauit. 
+          Sed hoc est ex virtute sacramenti : hoc tamen de pena ecclesiastica plus pertinent ad 
+          iuristas quia sunt ex ordinatione iuris. Contra hanc conclusionem arguitur et primo 
+          quod baptismus non semper omnem culpam tollit, quia accedat homo ad baptismum cum motu venialis peccati ; 
+          tunc non delet, scilicet illam venialem culpam alias simul esset et non esset.</p> 
+        
+        <p>2° arguitur quod non tollat omnem penam pro peccatis debitam in foro Dei, 
+          quia dicit <name ref="#Augustine">Augustinus</name> quod peccatum aut homo punit, 
+          aut Deus punit. Si ergo homo non punit, quod commisit punietur a Deo, igitur non tollitur per baptismum.</p> 
+        
+        <p>3° culpa non potest ordinari nisi per penam, sed Deus nichil inordinatum reliquit in mundo. 
+          Igitur non obmittet quando pro culpa aliquam penam infligat et per consequens baptismus absoluit ab omni, 
+          quia
+          <cb ed="#T" n="58ra"/>
+          ab illa non quam Deus infliget baptizato .</p> 
+        
+        <p>Ad primum dicunt quidam quod in illo casu veniale efficitur mortale sic, 
+          quod isti peccato quod alias esset veniale additur contemptus qui est mortalis eo, 
+          quod talis negligit se disponere ad sacramentum. 
+          Sed illud est ius durum quia frequenter insurgunt motus veniales cum eciam spirituales homines suscipiunt sacramenta. 
+          Ideo dicendum est quod motus venialis peccati non facit fictum simpliciter quia graciam non expellit, 
+          sed eam minuit aliquo modo et ad mortale disponit, et ideo baptismus in tali tollit omnem aliam culpam et penam. 
+          Et quoniam statim talis motus venialis cessat, 
+          tunc baptismus plenum  habet suum effectum, quia statim delet etiam illud veniale quod baptismo coexistebat. 
+          Pro illis duobus argumentis notat <name ref="#Aquinas">Sanctus Thomas</name> quod Christus 
+          per passionem et mortem suam sufficienter satisfecit pro peccatis totius humani generis, etcetera, 
+          si essent multa plura et quia homo per baptismum in morte Christi baptizatur  et ei commoritur et ei consepelitur , 
+          ut dicitur <ref><title ref="#rom">Ad Romanos</title> 6°.</ref> 
+          Et ideo baptismus quantum in se est totam efficaciam passionis in 
+          baptismatum influit et propter hoc absoluit non solum a culpa, 
+          sed eciam a pena  satisfactoria pro culpis, ut praeuius audistis.</p> 
+        
+        <p>Per
+         <cb ed="#T" n="58rb"/>
+          hoc ad argumentum 2m respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod per baptismum 
+          incorporatur homo Christo et efficitur membrum eius. 
+          Et ideo pena quam Christus sustinuit reputatur isti in satisfactionem, 
+          quia <quote>SI QUID  PATITUR VNUM MEMBRUM OMNIA ALIA COMPATIUNTUR,</quote> ut dicitur <ref><title>Primo Ad Corinthios</title> 12° .</ref> 
+          Et ideo Deus in Christo peccata illa puniuit, propter quod dicitur <ref><title ref="#is">Ysaie</title> 13° :</ref> 
+          <quote>POSUIT IN EO INIQUITATES OMNIUM NOSTRUM ; VIDETE QUAM INESTIMABILE ET STUPENDUM EST.</quote> 
+          Hoc, quod innocens Dominus penas protulit quas nos serui eius meruimus peccatis nostris et huiusmodi 
+          satisfactio per baptismum principaliter et per alia sacramenta consequenter applicatur nobis modo quo audistis, 
+          quod valde a nobis est perpendendum ut simus grati de tantis beneficys  
+          et simus Deo proniores ad graciarum actiones reddendum tanto benefactori Christo Domino. 
+          Quia ingratitudo pessimum est vicium et maxime displicens benefactori et quilibet poterit in se experiri, 
+          et ideo maxime priuat homines benefitiorum fructibus. Inter omnes species ingratitudinis illa maxima est, 
+          quod homo nec tantam diligentiam apponere vult ut eciam noscat aut recogitet suscepta beneficia, ut dicit <name ref="#Seneca">Seneca</name>.</p> 
+        
+        <p>Ad 3m dicit quod Deus ordinet culpam dupliciter vno modo ut satisfaciens, et sic culpa 
+          <cb ed="#T" n="58va"/> 
+          illius baptizati  remanet ordinata per satisfactionem Christi 
+          alio modo ut medicina sanans uel ut resecans membrum insanabile. 
+          Et sic culpa in baptizatis  reordinatur ut sanata per gratiam appositam ipsi baptizato .</p> 
+        
+        <p>2a conclusio : omnibus qui rite et non ficte suscipiunt baptismum confertur ex virtute sacramenti 
+          et racione operis operati equale beneficium gracie probatur, quia tota causalitas baptismi 
+          quantum ad beneficium gratiae gratum facientis est ex merito Christi. 
+          Sed quod illud equaliter respicit omnes saltem quantum ad sufficientiam, quia Christus passus est essencialiter equaliter pro omnibus, 
+          igitur quilibet qui rite suscipit et non ficte baptismum equaliter suscipit gratiam, in quantum est ex parte sacramenti et racione operis operati. 
+          Item tota essentia illius sacramenti est ex diuino statuto, quoniam Deus statuit quod in suscepcione debita baptismi vult conferre gratiam. 
+          Et cum non sit acceptor personarum, videtur quod determinat se semper concursurum ad equalem 
+          gradum glorie conferendum quantum est ex parte sacramenti praecise, licet aliunde possit aliquando addi maior, ut patebit statim. 
+          Et nominanter dixi in conclusione ex virtute sacramenti, etcetera, quia secundum <name ref="#Scotus">Scotum</name> 
+          Deus aliquam graciam disposuit regulariter conferre cum baptismo, 
+          ita quod nulli cum illo sacramento vvlt dare maiorem. Et illa gracia 
+          <cb ed="#T" n="58vb"/> 
+          dicitur conferri ex virtute sacramenti et ex opere operato. 
+          Et subdit dicens : verum est tamen quod, quia Deus praedestinat diuersos electos ad diuersos gradus gloriae, 
+          et hoc antequam instituit baptismus et antequam determinauit tantam et tantam graciam in baptismo conferendam - 
+          praeordinato autem ad maiorem gloriam racionabiliter confertur maior gracia - 
+          potuit ergo Deus in determinando et instituendo virtutem et efficaciam baptismi disponere. 
+          Quod alicui conferret praecise istam gratiam que confertur omnibus ex vi sacramenti et ratione operis operati, 
+          alicui autem conferret maiorem, scilicet quem praedestinauit ad maiorem gradum gloriae. 
+          Sed iste vlterior gradus gloriae non confertur virtute baptismi, sed ex Dei beniuolencia speciali. 
+          Et sic etiam dicit Bonauentura quod, quia Deus potenciam suam non alligauit sacramentis, 
+          non est necesse quod semper in baptismo det eciam paruulis equalem gratiam, 
+          sed potest facere cui vult priuilegium speciale. 
+          Dixi etiaùm nominanter in conclusione beneficium gratiae siue effectum gratiae quia alium 
+          effectum qui est dimissio culparum et penarum non semper suscipiunt equaliter omnes baptizati , 
+          ut patet de paruulo qui baptizatur : non habet nisi originale et de adulto repleto mortalibus et venialibus, 
+          vtrique totum dimittitur et sic adulto plus quam paruulo, et sic eciam vni adulto 
+          <cb ed="#T" n="59ra"/> 
+          plus dimittitur quam alterius non racione maioris  efficacie baptismi in vno quam in alio. 
+          Sed ideo, ne diuerse disponicionis eorum in vno enim plus invenit purgandum quam in alio, 
+          et si equaliter essent obligati equaliter mundarentur.</p> 
+        
+        <p>3a conclusio : quamvis non ex ui sacramenti, tamen racione disposicionis varie baptizatorum  
+          vnus altero maiorem suscipit gratiam in baptismo. Prima pars patet ex priori conclusione. 
+          2a probatur quia adulto non dimittitur peccatum aliquod in baptismo, 
+          nec digne suscipit sacramentum sine meritoria de peccatis contritione; si sit saltem vtens racione et illi contritionem, 
+          correspondet certa porcio gratie vltra gratiam baptismalem que praecise virtute sacramenti confertur. 
+          Talem autem contricionem non habet paruulus, igitur non recipit illum gradum gratiae eidem correspondentem, 
+          sed solum gradum qui virtute sacramenti confertur. 
+          Igitur maiorem recipit adultus quam paruulus racione proprie disposicionis sue. 
+          Item stat vnum adultum habere maiorem contricionem pro peccatis quam alium, 
+          et habere maiorem eis deuotionem quam alium et meliorem  praeparationem ad sacramentum, 
+          et talis etiam maiorem suscipit gratiam quam aliter non tantum bene dispositus.</p> 
+        
+        <p>4a conclusio a ministro sanctiore 
+          <cb ed="#T" n="59rb"/> 
+          sew  ex baptizantis  merito, quandoque plus confertur gratie et virtutum vni baptizato  
+          quam alteri secum equaliter disposito. Patet quia <name>Constatinus</name>, 
+          ex merito <name>Siluestri</name> baptizantis  ipsum fuit sanatus a lepra, 
+          et cum hoc fuit scilicet collata multiplex gratia. 
+          Item oraciones sacerdotis boni quas super baptismum scit multas ante 
+          et post hoc baptismi magis exaudiuntur et valent illi pro quo fuerit. 
+          Et hoc racione meriti propry  illius sacerdotis quam oraciones cedere sacerdotis mali aut non deuoti, 
+          quia licet per ministrum malum baptismus quantus est ex opere operato praecise sit tanti vigoris quanti per ministrum  bonum, 
+          tamen, si cum virtute sacramenti accederet propria deuocio ministri qui oraret pro paruulo uel alio baptizato , 
+          plus sibi conferretur de beneficio gracie. Cum enim, ad partes boni et deuoti sacerdotis, 
+          Deus ad se conuertat induratos et obstinatos in peccatis, quis dubitat queri ad praeces 
+          tamen pronus sit conferre graciam copiosiorem. 
+          Potest etiam contingere quod in parentibus vnius baptizandi  
+          sit maior motus deuotionis uel offerentis eum ad baptismum, 
+          uel in patrinis, uel in ministrantibus, uel in assistentibus baptismo. 
+          Propter quorum merita deuocionis et penas effectus et orationes Deus plus vim  confert gratie 
+          <cb ed="#T" n="59va"/> 
+          quam alterius non virtute baptismi, sed alieni meriti. 
+          Et hoc modo forte parentes beati Nicolay  oracionibus suis meruerunt 
+          sibi maiorem graciam que fuit in eo adhuc paruulo principium tam mirabilis effectus, 
+          ut duobus diebus in hebdomada  iuncta  lactatione contentus remaneret ; ita vult <name ref="#Scotus">Scotus</name>. 
+          Ex quibus patet quod assistentes collacioni baptismi non debent ridere et iocari 
+          ut aliquorum malus mos est a quo retrahi debent et doceri, 
+          ut habeant se honeste et mature ad reuerentiam sacramenti baptismi cui 
+          Christus sua passione et morte tantam efficaciam - ut audistis - 
+          et nobis tam salutarem meruit et ut deuote pro paruulo aut alio baptizando  
+          orent ad merendum, ut sibi augeatur gracia super graciam baptismalem. 
+          Ambo argumenta ante oppositum probant conclusionem terciam, ut patet intuenti.</p> 
+        
+        <p>Ad confirmacionem vero dicitur quod gratia quae confertur in baptismo non minuit 
+          fomitem quo ad suam essenciam, sed quo ad suum effectum quem consweuit  causare in animam hominis, 
+          ut peccatum et inclinationem ad peccata. 2m enim quod gracia in anima hominis augetur, 
+          2m hoc fomes minus habet efficaciam inclinandi ad peccata, quamuis ipse fomes in se et in sua essentia manet. 
+          Idem et eque magnus et huius dat <name ref="#Scotus">Scotus</name> familiare exitum de lapillo alligato alis 
+          <cb ed="#T" n="59vb"/> 
+          aquile, quia si cresceret virtus motiua ale, 
+          quantumcumque cresceret, numquam tamen minueretur grauitas lapilli. 
+          In se tamen grauitas lapilli minueretur quantum ad effectum : quanto enim maior virtus est in ala, 
+          tanto lapillus minus ascensum impedit uel volatum. Sic in proposito quantumcumque crescat gracia non minuitur 
+          fomes in seipso sed minuit quo ad effectum, quia quanto gracia maior est in anima, 
+          tantum minus potest fomes hominem inclinare ad peccata.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

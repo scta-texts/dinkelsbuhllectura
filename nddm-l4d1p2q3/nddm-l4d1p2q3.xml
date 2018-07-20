@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 2, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 3</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p2q3">
+        <head>Librum IV, Distinctio 1, Pars 2, Quaestio 3</head>
+        <p xml:id="nddml4d1p2q3-d1e3477">Tertio quaeritur vtrum fuit de necessitate quod circumcisio fieret die octauo et lapideo cultro.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3480">Arguitur quod non quia, dum Iudei vagabantur in deserto, 
+          tunc qui nascebantur non fuerunt circumcisi, sed post multo tempore in Galgala  - ut patet 
+          <ref><title ref="#ios">Josue</title> 5°</ref> - et eis profuit circumcisio, 
+          igitur non requirebatur ad eius efficaciam ut fieret die octauo.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3488">Item proselyti  iam perfectae etatis circumcidebantur ut <name>Achior</name> <name>Iudith</name> 
+          patet et multi aly , et eis profuit. Igitur etiam pueri poterant ante octauam aut 
+          etiam post circumcidi.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3497">3° arguitur quod non requirebatur culter lapideus, quia circumcisio non habebat 
+          vim nec ex diuina miseratione et ex praecepto Dei, sed in praecepto diuino dato 
+          de circumcisione et ponitur <ref><title ref="#gen">Genesis</title> 17° : </ref>  
+          <cit>
+            <quote xml:id="nddml4d1p2q3-Qd1e3506">NULLA SIT MENCIO DE CULTRO LAPIDEO</quote> <!-- reference unclear; can't find verse -->
+            <bibl>XXX</bibl>
+          </cit>  
+          <cb ed="#T" n="21vb"/>
+          Igitur non fuit de necessitate.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3519">In oppositum videtur esse 
+          <ref><name ref="#Lombard">Magister</name> in littera,</ref> 
+          vbi dicitur quod secundum Legem fiebat die octauo lapideo cultro, 
+          etcetera. 
+          Et specialiter de octauo die dicitur <ref><title ana="#gen">Genesis</title> 17°</ref> : 
+          <cit>
+            <quote xml:id="nddml4d1p2q3-Qd1e3533" ana="#gen17_12">INFANS OCTO DIERUM CIRCUMDIDETUR,</quote>
+            <bibl>Genesis 17:12</bibl>
+          </cit> 
+          etcetera.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3541">Conclusio prima : obseruatio octaue diei non requirebatur necessario ad efficaciam sacramento, 
+          proponitur quia circumcisio mundabat ab originali etiam proselytos  
+          adulte etatis sicut paruulos, ut dictum fuit igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3544">Secunda conclusio : determinatio temporis, scilicet octaue die, 
+          fuit in masculinis Iudeorum de obseruantia et de necessitate praecepti. 
+          Patet quia in prima circumcisionis institutione dixit Deus  
+          <ref><title ref="#gen">Genesis</title> 17° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q3-Qd1e3553" ana="#gen17_12">INFANS OCTO DIERUM CIRCUMCIDETUR IN VOBIS.</quote>
+            <bibl>Genesis 17:12</bibl>
+          </cit> 
+          Igitur illud tempus sic determinatum fuit apud Hebreos de 
+          necessitate obseruantie et praecepti ita quod reus erat 
+          transgressionis qui illud tempus non obseruabat. 
+          Et ideo quamuis circumcisio alio tempore rite facta fuerit efficax 
+          ad mundandum ab originali, ut dictum est in prima conclusione, 
+          tamen qui tempus illud praeueniebat aut qui circumcisionem parvuli vltra 
+          illud tempus differebat peccauit moraliter contra praeceptum, 
+          quamuis paruulus fuerit ab originali mundatus. 
+          Et est simile in nostris sacramentis : qui enim seruat debitam materiam 
+          et formam et intencionem obmittit tamen aliquid de solemnitatibus ad sacramentum requisitis, 
+          quod Ecclesiae institutione peccat quidem contra praeceptum, 
+          <cb ed="#T" n="22ra"/>
+          sed sacramentum adhuc habet efficaciam suam. 
+          Sic in  proposito interpretatur de tempore in circumcisione seruando.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3563">3a conclusio : determinacio temporis in circumcisione, 
+          scilicet octaue diei, etiam pertinebat ad perfectionem significationis sacramenti. 
+          Patet, quia per <ref><name ref="#Lombard">Magistrum</name> in littera</ref> 
+          circumcisio duo significabat, quorum vtrumque recte significatur per octauam diem. 
+          Nam primo significabat abscissionem  ab electis omnis corruptionis et defectus ac misericordiae, 
+          et illa cum in generali resurrectione que fiet in octaua die etate mundi, 
+          et ita congrue significatur per octauam diem in quo circumcidebatur caro praepucy .</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3571">Secundo significabat abscissionem  culpe ab anima per Christi resurrectionem que facta est octaua die, 
+          id est dominica, que fuit octaua dies creationis mundi: per istam enim Christi 
+          resurrectionem omnis anima fide formata, in Christum credens, 
+          circumciditur et mundatur a peccatis. Et ideo dicit <name ref="#Lombard">Magister</name> quod circumcisio 
+          habuit duas res, id est ipsa circumcisio fuit signum, quia sacramentum 
+          et significabat duo sacra, scilicet abscissionem omnis mali ab 
+          electis in generali resurrectione et abscissionem culpe ab anima fideli in praesenti.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3577">Praeter illa fuit etiam causa litteralis propter quam octauo die fiebat circumcisio, 
+          quam tangit <name ref="#Maimonides">Rabi Moyses</name> : dicit quod puer ante octauum diem est 
+          ita tener quasi sit in vtero matris, et ideo sicut non offerebantur  
+          animalia ante octauum diem propter dictam causam, ita nec queri circumcidebantur. 
+          Et insuper si puer ante octauum diem 
+          <cb ed="#T" n="22rb"/>
+          fuisset circumcisus propter teneritatem mortuus fuisset, 
+          et si vltra licuisset differre potuisset mori sine circumcisione et 
+          dampnari sicut nunc dampnantur paruuli decedentes sine baptismo. 
+          Parentes autem libenter diu distulissent circumcisionem  propter pueri dolorem, 
+          et ideo Dominus suo praecepto determinat diem octauum.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3586">Sed dicetur aliquis : si tempus sic fuit de necessitate praecepti, 
+          scilicet octauus dies, tunc nullo modo licuisset illud tempus praeuenire aut vltra differre . 
+          Dicunt aliqui quod non poterat praeueniri nec vltra differri sine peccato 
+          nisi interueniret dispensatio  et Dei aut nisi vrgeret necessitas, 
+          et ita volunt quod si timeretur quod verisimiliter de morte paruuli, 
+          poterat sine peccato circumcidi ante octauum diem propter istam necessitatem. 
+          Ita videtur velle <ref><name ref="#Lombard">Magister</name> in fine illius prime distinctionis .</ref> 
+          Aly  tamen, ut <name ref="#HughOfStVictor">Hugo</name>, etcetera, aliter dicunt scilicet quod non 
+          licuit huiusmodi paruulum circumcidere ante octauum diem, 
+          quia fuisset contra praeceptum et etiam non fuisset cautum praeueniens 
+          tempus propter infirmitatem, quia propter dolorem circumcisionis 
+          fuisse citius mortuus. Dicunt consequenter quod tales paruuli, 
+          quia non fuerunt obligati ante octauum diem ad circumcisionem, 
+          et ideo si ante imminebat  mors, saluabantur et curabantur eodem remedio 
+          quo femelle que ad circumcisionem non fuerunt obligate.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3597">Ex hys  patet quod octauus dies non fuit de efficacia circumcisionis, 
+          sed fuit de ob- 
+          <cb ed="#T" n="22va"/>
+          -seruantia praecepti et de perfectione significationis 
+          si enim puer ante fuisset circumcisus aut post ipse fuisset mundatus ab originali ; 
+          sed ille peccasset qui diem octauum praeuenisset aut qui ultra distulisset. 
+          Sed de cultro lapideo dicitur quod ille non fuit de efficacia nec de praecepto, 
+          et ideo in circumcisionis  institutione nulla fiebat mentio de instrvmento 
+          et insuper hodie ritus Iudeorum non habet ut cum lapideo instrvmento circumcidant. 
+          Fuit inde in aliquibus principalibus circumcisionibus obseruatum ut fierent cum 
+          lapideo cultro ad significandum petere Christum qui est causa meritoria trasmissionis 
+          originalis que in circumcisione fiebat.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3602">
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3480">
+            <seg>Ad primum argumentum</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3480">Vide supra</ref></bibl>
+          </ref>
+          dicit <name ref="#Aquinas">sanctum Thomas</name> quod illis qui in deserto 
+          vagabantur dispensacio praecepti facta est propter necessitatem que tangitur 
+          <ref><title ref="#ios">Iosue</title> 5°,</ref> quia scilicet nesciebant quando 
+          castra monenda erant et item quia non erat tunc necessarie eos aliquod signum 
+          distinctionis habere, ut dixit <name ref="#JohnDamascenus">Damascenus</name> quando 
+          seorsum ab alys  hominibus habitabant et tamen quantum ad aliquos qui negligentia uel 
+          contemptu praetermittebant. Dicit <name ref="#Augustine">Augustinus</name> quod in obedientiam 
+          incurrebant, non autem constat quod aliqui de illis qui in deserto sunt nati in deserto mortui sunt. 
+          Et videtur probabile quod non, quia dicitur in <title ref="#ps">Psalmo</title>: 
+          <cit>
+            <quote xml:id="nddml4d1p2q3-Qd1e3626" ana="#ps104_37">ET NON ERAT IN TRIBUS <!--tribubus --> EORUM INFIRMUS,</quote>
+            <bibl>Psalmus 104:37</bibl>
+          </cit> 
+          vnde illi qui de Egipto egressi sunt qui circumcisi erant mortui sunt, et ita 
+          <cb ed="#T" n="22vb"/> 
+          nullus est ibi mortuus incircumcisus, sed tamen aliqui incircumcisi mortui sunt. 
+          Idem dicendum est de eis et de hys  qui ante circumcisionis institutionem moriebantur.</p> 
+        
+        <p xml:id="nddml4d1p2q3-d1e3638">
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3488">
+            <seg>Ad secundum,</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3488">Vide supra</ref></bibl>
+          </ref> 
+          scilicet de proselytis , dictum est in corpore quaestionis et similiter 
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3497">
+            <seg>ad 3m</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p2q3-d1e3497">Vide supra</ref></bibl>
+          </ref> 
+          de cultro lapideo.</p>
+      </div>
+    </body>
+  </text>
+  
+  </TEI>

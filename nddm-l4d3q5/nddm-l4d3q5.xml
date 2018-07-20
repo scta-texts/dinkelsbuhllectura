@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3, Quaestio 5</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 3, Quaestio 5</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d3q5">
+        <head>Librum IV, Distinctio 3, Quaestio 5</head>
+        <p>Quinto queritur vtrum baptismus  fuerit ante Christi passionem institutus.</p> 
+        
+        <p>Arguitur quod sic, quia ante passionem dixit Dominus <ref><name>Iohannis</name> 3° :</ref> <quote>NEC QUIS RENATUS FUERIT,</quote> etcetera. Igitur baptismus   fuit institutus, tunc in oppositum argumentum baptismus  numquam fuit institutus  sine forma sua, sed forma primo fuit instituta post passionem, ut patet <ref><name ref="#mt">Mathei</name> vltimo</ref> cum Dominus tempore ascensionis dixit discipulis : <quote>EUNTES, DOCETE OMNES GENTES BAPTIZANTES  EOS IN NOMINE PATRIS ET FILY  ET SPIRITUS SANCTI.</quote> 
+          Dicitur primo quod Christus Dominus deus et homo instituit baptismum per se ; hoc fuit declaratum superius in principio distinctionis 2e.</p> 
+        
+        <p>2° dicitur quod fuit rationabile baptismum institutum fuisse tempore Noue Legis, et declarat <name ref="#Scotus">Scotus</name> : <quote>Racionabile fuit quod in Noua Lege sacramentum per quod intratur in eius obseruanciam  tale institueretur quod euidens in significatione,</quote> 
+          quia ipsa est lex veritatis euacuans vmbras et quod esset copiosum in gratiae collacione. Quia ipsa est lex gratiae Iohannis primo : <quote>GRATIA ET VERITAS PER IHESUM CHRISTUM FACTA EST,</quote> et quod esset facile quia <quote>IUGUM CHRISTI SUAVE EST 
+        
+        <cb ed="#T" n="48va"/>
+        ET ONUS EIUS LEVE</quote> (<ref><title ref="#mt">Mathei</title> vndecimo</ref>) et quod esset commune quia Deus ad legem <name ref="#Moses">Moysi</name> elegit vnum populum tantum, ad legem vero nouam totum mundum, quia <quote>IN OMNEM TERRAM EXIVIT SONUS EORUM,</quote> etcetera. Sed baptismus est talis igitur, rationabile fuit a Christo Domino institui : in Noua  Lege euidenter enim baptismus significat emundacionem anime a peccato quae  est effectus principalis baptismi et dat gratiam copiose, propter quod dicitur aqua refectionis in <title ref="#ps">Psalmo</title> : <quote>SUPER AQUAM REFECTIONIS EDUXISTI  ME.</quote> Est eciam facilis, quia nullo modo periculosus sicut fuit circumcisio. Est insuper communis omni sexui et etati, sed manet dubium quando fuerit institutus. <name ref="#Lombard">Magister</name> dicit in littera quod de hoc sunt varie estimaciones, sibi tamen comodosius  videtur dicendum quod institucio eius facta fuerit quando Christus baptizatus  fuit a <name ref="#JohnTheBaptist">Johanne</name> in Iordane : tunc enim Trinitas mysterium  innotuit, que Trinitas hominem interius baptizat .</p> 
+        
+        <p><name ref="#Scotus">Scotus</name> autem dicit aliter : dicit enim primo quod sacramentum baptismi non fuit tunc institutum quando ipse Dominus baptizabatur a <name ref="#JohnTheBaptist">Iohanne</name>, quia ille baptismus Christi non fuit cum illa forma verborum que necessario requiritur  ad Christi baptismum, sed fuit factus cum forma <name ref="#JohnTheBaptist">Iohannis</name> qui baptizabat  in nomine venturi. Nec fuit suus baptismus proprie sacramentum, ut superius fuerat declaratum, verum quod Dominus tunc dedicauit aquam tamquam
+        
+          <cb ed="#T" n="48vb"/>
+        materiam suo baptismo ydoneam  et hoc contactu sue mundissime carnis, etiam in ipso legislatore confirmatus est vsus aque in ministerium. Tunc etiam, ut dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name>, licet non fuerit forma instituta, fuit tamen aliquo modo praefigurata per potenciam trium Personarum in signo visibili, quia Pater apparuit in voce, Filius in carne, Spiritus sanctus in columbe specie. Et similiter fructus eius fuit tunc praefiguratus, quia <quote>CELI APERTI SUNT SUPER EUM,</quote> per quod figurabatur quod in Christum credentibus et baptismus eius suscipientibus gloria celestis appariretur.</p> 
+        
+        <p>2° dicit <name ref="#Scotus">Scotus</name> quod baptismus  etiam non fuit institutus <ref><title ref="#io">Iohannis</title> 3°,</ref> cum Dominus Nicodemo in secreto dixit : <quote>NISI QUIS NATUS FUERIT EX AQUA,</quote> etcetera, quia non est verisimile sacramentum necessarium in conclaui coram personam  priuatam  institui que non debuit esse praeco istius institutionis.</p> 
+        
+        <p>3° dicit <name ref="#Scotus">Scotus</name> quod institutio baptismi non est debita vsque ad tempus ascensionis. Cum <ref><title ref="#mt">Mathei</title> vltimo</ref> dixit : <quote>BAPTIZANTES  EOS,</quote> etcetera, patet hoc, quia discipuli Christi ante tempus ascensionis ymo  ante passionem baptizabant  baptismo Christi, vnde Iohannis</p> 
+        
+        
+        <p>3° dicitur quod discipuli Iohannis baptiste dixerunt ad eum : - <quote>RABI, CUI TESTIMONIUM PRAEBUISTI? ECCE BAPTIZANT  ET OMNES VENIUNT AD EUM.</quote> Et sequitur in capitulo sequenti : QUAMQUAM IHESUS NON BAPTIZARET , SED DISCIPULI EIUS CORAM DEO
+        
+          <cb ed="#T" n="49ra"/>
+          Ex hys  concluditur quod tempus institucionis baptismi Christi fuit tunc, cum discipuli baptizabant , uel ante tempus illud, ex quo enim tunc baptizabant  discipuli baptismo Christi, oportuit quod tunc institueret uel ante hoc instituisset. Istis dictis <name ref="#Scotus">Scoti</name> consonant dicta <name ref="#Bonaventure">Bonauenture</name> : dicit enim <name ref="#Bonaventure">Bonauentura</name> 
+          quod Christus sacramentum baptismi primo insynuauit  instituendo, 2° instituit et 3° institutum confirmauit. Insynuauit  quidem instituendum verbo et facto, facto ut, 
+          cum baptizabatur  a <name ref="#JohnTheBaptist">Iohanne</name> in aqua, ostendit enim ceteros credentes esse in aqua baptizandos. Vero autem insynuauit , 
+          cum <name>Nicodemo</name> dixit <ref><title ref="#io">Iohannis</title> 3°</ref> : <quote>NISI QUIS RENATUS FUERIT EX AQUA ET SPIRITU NON POTEST INTROIRE REGNUM DEI.</quote> 
+          Instituit autem baptismum suum cum ipse per discipulos suos baptizare cepit <ref><title ref="#io">Iohannis</title> 3°,</ref> ut praeuius allegatum fuit, et tunc instituit 
+          verbo et facto quia dicitur ibidem : BAPTIZABAT , et si ipse non in persona propria, tamen discipuli in sua potencia et 2m quod ipse volebat. 
+          Et rursus dimisit discipulos ad praedicandum et baptizandum  binos et binos (<ref><title ref="#lc">Luce</title> 10°</ref>) et solum ad Iudeam. Et ergo dicitur <ref><title ref="#mt">Mathei</title> 10° :</ref> <quote>IN VIAM GENTIUM NE ABIERITIS.</quote> Confirmauit quoque baptismum suum praeuius institutum verbo et facto. Facto quidem confirmauit cum de latere tempus incerte pendentis
+         
+          <cb ed="#T" n="49rb"/>
+          profluxit non tantum sangwis , sed et aqua in ipsa passionis  consumacione. Verbo autem confirmat quando post resurrectionem discipulos ad baptizandum  omnes et singulos misit dicens, <title ref="#mt">Mathei</title> vltimo : <quote>DOCETE OMNES GENTES BAPTIZANTES  EOS IN NOMINE PATRIS ET FILY  ET SPIRITUS SANCTI.</quote></p> 
+        
+        <p>4° dicit <name ref="#Scotus">Scotus</name> quod sacramentum baptismi fuit primo promulgatum per modum consily  solum et posterius per modum praecepti, et hoc fuit congruum primo ex hoc, quia lex ewangelica , que est perfectissima, non debet precipitanter imponi, sed debebant homines primo induci ad eam adhuc cadentem sub consilio, ut postea in ea exercitatis posset imponi  per modum praecepti.</p> 
+        
+        <p>2° fuit hoc congruum ex hoc, quod Lex Vetus non fuit mala sicut ydolatria fuit mala, et ideo non debuit subito repelli et abici per praeceptum baptismi tamquam illicita, sed debuit synagoga cum honore sepeliri ut ostenderetur quod fuisset bona pro suo tempore ; postea tamen debuit baptismus promulgari per modum praecepti, ut haberet firmitatem et necessitatem. Et ita distingwit  <name ref="#Scotus">Scotus</name> duo tempora baptismi, vnum in quo ipse baptismus fuit solum sub consilio, et illud tempus incepit a die in quo primo praedicabatur baptismus per Christum uel per apostolos et durauit vsque ad praedicationem solemnem  et autenticam eiusdem baptismi post ascensionem  Domini. 
+          Et in illo tempore 
+         
+          <cb ed="#T" n="49va"/>
+          currebant simul baptismus et circumcisio, et tunc vtrumque erat vtile et licitum - ut dixi superius - de cessacione legalium. 
+          Aliud est tempus baptismi in quo fuit et est sub praecepto, et illud incepit post Christi ascensionem, quia in die Penthecostes in Hierusalem . 
+          Ipsi enim vsque ad illum diem  non  praedicauerunt solempniter et publice, iuxta autem illud verbum Christi : <quote>VOS AUTEM SEDETE IN CIVITATE DONEC INDUAMINI VIRTUTE EX ALTO.</quote> Sed in die Penthecostes , misso Spiritu sancto, solemniter praedicauerunt et apposite sunt in illa die animae circiter tria milia et baptizate (<ref><title ref="#act">Actuum</title> 2°</ref>). Tunc ergo incepit illud tempus necessitatis baptismi et eius praecepti saltem quo ad illos quibus solemniter praedicabatur ; durat illud tempus usque in finem mundi. Circa hoc notat Scotus quod generaliter promulgacio facta de consilio diuino obligat ad non contempnendum  : qui enim contempnit consilium contempnit consulentem, et ideo nolens seruare consilium diuinum ewangelicum , quasi contempnens illud tamquam irrationabile et infructuosum, peccat mortaliter. Et subdit vnde videant mordentes paupertatem ewangelicam  ne forte seruare nolunt si quod non est necessarium contempnant, quia contempnentes uel paruipendentes contempnunt Christum, qui hanc swasit  obseruari tamquam meritoriam et vtilem ad eterna. 
+          Promulgatio autem per modum praecepti obligat
+         <cb ed="#T" n="49vb"/>
+          non solum ad non contempnendum, sed etiam obseruandum si est affirmatum uel ad cauendum si est negatiuum. 
+          Hec autem sunt dicta de consilio et praecepto diuino quia, ut dicit <name>idem Doctor,</name> 
+          secus est de praecepto humano et consilio eciam superioris aut praelati : 
+          licitum est enim necessarium praeceptum aut consilium superioris contempnere, 
+          id est illicitum et infructuosum iudicare. Sed non licet dum est praelatum contempnere non obseruando, 
+          quia dicitur <ref><title ref="#mt">Mathei</title> 23° :</ref> <quote>SUPER CATHEDRAM MOYSI SEDEBANT SCRIBE,</quote> etcetera, 
+          nisi praeceptum superioris aut consilium superioris esset illicitum et notorie contra Deum, 
+          quod autem in priori casu liceat consilium aut praeceptum superioris contempnere praedicto modo probatum. 
+          2m <name ref="#Scotus">Scotum</name>, quia nullus tenetur habere necessario falsam opinionem de suo superiori, 
+          sed eius monicio, consilium uel praeceptum potest esse irrationabile et infructuosum et tunc rationabiliter et 
+          vtiliter laborandum est ad eius reuocacionem et correccionem, uel eciam amocionem talis praelati fatue praecipientis, 
+          non ergo tenetur subitus semper reputare praeceptum eius rationabile uel fructuosum, sed potest reputare sicut est, 
+          uel ergo si est infructuosum et rationabile potest tale refutare, uel illo modo contempnere.</p> 
+        
+        <p>Ad argumentum ante oppositum dicitur quod tunc Dominus non instituit, sed instituendum insinuauit, 
+          ut dictum est de hac impositione. Ad argumentum vero in oppositum dicitur secundum <name ref="#Aquinas">S<supplied>anctum</supplied> T<supplied>homam</supplied></name> 
+          quod tunc scilicet
+         
+            <cb ed="#T" n="50ra"/>
+            in sua ascensione, cum dixit : <quote>BAPTIZANTES  EOS IN NOMINE PATRIS, uel FILY , uel SPIRITUS SANCTI,</quote> non instituit primo formam, sed praeuius ante passionem instituta fuit eo, quod discipuli in ea praeuius baptizabant , sed fuit tunc, scilicet in ascensione iterata et adsumpta cum Dominus discipulos misit praedicare omnibus gentilibus. 
+          Et ideo dicit <name ref="#Lombard">Magister</name> in littera quod apostoli - supple ante passionem – baptizabant  in nomine Trinitatis, scilicet in ea forma in qua postea baptizabant  gentes et subdit : - Non ergo tunc Christus illam formam tradidit primo, cum ad ewangelisandum  gentibus misit, sed quod antea tradiderat mittens in Iudeam post iterauit, cum ad gentes misit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 1, Quaestio 1</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 1, Quaestio 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p1q1">
+        <head>Librum IV, Distinctio 1, Pars 1, Quaestio 1</head>
+        <p xml:id="nddml4d1p1q1-d1e3477"><cb ed="#T" n="1ra"/>
+          In nomine Patris et Filii et Spiritus sancti Amen. 
+          Cum desiderarem vestris caritatibus in aliquo deseruire et id exposuissem uenerabilibus 
+          Patribus Domino nostro uersati et Domino  [deux mots coupés] est eis expedire ut elegam quartum 
+          Sententiarum propter utilitatem materierum que in ipso tractantur, maxime quo ad septem sacramenta 
+          Ecclesiae quibus saluator noster sua gloriosa  passione hanc dedit efficaciam ut essent quasi 
+          septem salutaria medicamenta morborum animarum nostrarum, per quorum ritam et dignam administrationem 
+          et vsum omnipotens Dominus et peccata dimittit et graciam sanctificantem tribuit et etiam propter 
+          facilitatem earundem materierum [sic] saltem respectu eorum quae in libris praecedentibus continentur. 
+          Et cum secundum venerabilem <name ref="#HughOfStVictor">Hugonem</name> in <title>Didascalicon</title> 
+          omnium christiano philosopho lectio exhortatio esse debeat magis quam occupatio et debeat in eo bona 
+          desideria non necare, sed pascere et veritatis sibi viam ostendere ut, secreta Dei alcius <!-- alcius/alicuius --> 
+          intelligens, arcius amet, maxime hoc videtur pertinere ad religiosos 
+          <cb ed="#T" n="1rb"/> 
+          qui se uite monastice manciparunt, 
+          quibus tamen locuturus 
+          sim et secundum <ref><name ref="#Augustine">Beatum Augustinum</name> <title>super 
+            Iohannem</title></ref> sermo doctoris moderandus 
+          sit secundum capacitatem et exigentiam auditorum, 
+          cogitaui in processu rescindere methaphisicalia et phisicalia et materias subtiles, 
+          scilicet steriles et quaestiones magis curiosas quantum fructuosas et 
+          etiam superfluas diuisiones ex huiusmodi que 
+          difficultatem facere possent simplicibus et magis eorum animum occupare quam edificare. 
+          Et volo procedere modo faciliori quo potero et prout materia admittit 
+          que fiunt pro tempore pertractanda, et quia in illo <ref>4o <title>Sententiarum</title> <name ref="#Lombard">Magister</name></ref> 
+          agit principaliter de sacramentis Ecclesiae, de Iudicio finali, 
+          de resurrectione corporum, de penis dampnatorum et de gloria beatorum et de multis alys, 
+          ad illas principales materias pertinentibus posset iste quartus liber diuidi in multas partes, 
+          sed in processu Domino largiente.</p>
+        
+        <p xml:id="nddml4d1p1q1-d1e3507">In <ref>prima distinctione <name ref="#Lombard">Magister</name></ref> 
+          tractat de sacramentis in generali, propter quod sit questio prima : talis dubitatur utrum in quolibet hominum statu fuerint aliqua sacramenta.</p>
+        
+        <p xml:id="nddml4d1p1q1-d1e3515">Arguitur quod non, quia per gratiam et virtutes peccati vulnera sanantur in nobis, igitur non indigemus sacramentis : ad istorum
+          <cb ed="#T" n="1va"/>
+          sanationem tenet communia, cum sacramenta secundum <name ref="#HughOfStVictor">Hugonem de Sancto Victore</name> 
+          sint instituta ut medicinae peccati. Cum ergo illa sanacio possit aliunde sufficienter fieri, 
+          uidetur quod sacramenta essent et fuissent superflua. 
+          Antecedens patet quia propter hoc gracia a sacramentis dicitur sanitas et decor animae, et 
+          <ref><name ref="#Aristotle">philosophus</name> 2° <title ref="#Ethics">Ethicorum</title></ref> comparat uirtutem sanitati corporali.</p> 
+        
+        <p xml:id="nddml4d1p1q1-d1e3530">In oppositum est quot dicit 
+          <ref><name ref="#Augustine">Beatus Augustinus</name> in libro <title>Contra Faustum</title> :</ref> 
+          dicit enim omnis religio habuit aliqua signa exteriora in quibus conueniebant ad Deum tollendum, 
+          sed omnis status hominum habuit aliquam religionem. Igitur in omni statu hominum fuerunt aliqua huiusmodi 
+          signa et illa dicuntur et sunt sacramenta, ut patebit.</p> 
+        
+          <p xml:id="nddml4d1p1q1-d1e3542">Pro declaratione criminorum in titulo quaestionum positarum  
+          est notandum quod dum septem distingwitur  status humani generis in hac vita.</p> 
+          
+          <p xml:id="nddml4d1p1q1-d1e3545">Primus est status innocentie siue naturae 
+          integrae aut necessarie institute, quod idem est uel durauit a creatione <name ref="#Adam">Ade</name> usque ad ipsius lapsum in peccatum : 
+          et ille status fuit breuis quia eo die quo creabantur <name ref="#Adam">Adam</name> et <name ref="#Eva">Eua</name>, 
+            eodem lababantur in peccatum per transgressionem 
+          duum precepti. Dicitur autem status ille innocencie uel status naturae integre, quia Deus creauit primos parentes
+          <cb ed="#T" n="1vb"/>
+          innocentes [lacuna] […] -gros in na- […] defectu cor- […] superaddidit […] et gratias gratis […] per illud breue […] 
+          iusti et in nomine […] superaddita conse- […] idem tempus […] naturalia ma- […] -sci et erant su-[…] -poris et animae […] 
+          mansissent ipsi […] si ipsi et eorum posteri semper in innocentia  perstitissent. 
+          Idem etiam status ex eadem causa dicitur status nature institute, quia quamdiu prothoplasti 
+          manserunt innocentes uel iusti quemadmodum creati erant, tamdiu mansit eis eorum natura integra et 
+          illesa sicut erat a Creatore condita et fuerat instituta. Alius status humani generis in hac vita est status naturae lapse siue naturae corrumpte et est status in quo nunc sumus, 
+          qui incepit a peccato primorum parentum - scilicet <name ref="#Adam">Ade</name> et <name ref="#Eva">Eve</name> - et durat vsque in finem mundi. 
+          Dicitur autem status ille status nature lapse uel corrupte, quia cum peccauerunt primi parentes contra praeceptum Dei in quo in 
+          penam peccati spoliati sunt iustitia originali et innocentia, cum quibus creati erant et multis alys  
+          bonis que pro se et pro sua posteritate receperunt. Tunc similiter puniti
+          <cb ed="#T" n="2ra"/>
+          sunt ipsi et omnis eorum posteritas cum omnibus istis malis et innumerabilibus defectibus quos continue sentimus 
+          in anima et corpore, unde dicit 
+          <ref><name ref="#IsidoreOfSeville">Ysidorus</name> in <title>De summo bono</title> :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q1-Qd1e3577">Cuncta mala per peccatum primi hominis pro pena translata sunt in vniuersum genus humanum.</quote>
+            <bibl>Isiodore de Seville, De summo bono, XXX</bibl>
+          </cit> 
+          Dicitur ergo status naturae corrupte eo, quod natura in <name ref="#Adam">Adam</name> propter peccatum aliquo 
+          modo fuit corrupta, quia spoliata multis bonis et quasi sauciata et vulnerata eo, 
+          quod incidit in multa mala et defectus qui transfusi sunt in omne genus humanum, 
+          sicut magis habet uideri in <ref>2° libro</ref>. Ex hoc significabat saluator noster <ref><title ref="#lc">Luce</title> 10°</ref> 
+          in parabola de homine quod 
+          <cit>
+            <quote xml:id="nddml4d1p1q1-Qd1e3598" ana="#lc10_36">descendit a Ierusalem in Iericho et incidit in latrones qui eum spoliauerunt et plagis impositis 
+              semiuiuum reliquerunt,</quote>
+            <bibl>Lucas 10:36</bibl>
+          </cit> 
+          cuius tamen vulneribus sanandis 
+          Samaritanus ei approprians vinum infudit et oleum. 
+          Hoc etiam <ref><name ref="#Lombard">Magister</name> loquitur in principio illius prime distinctionis,</ref> 
+          cum dicit : Samaritanus uulnerato approprians alligamenta adhibuit quia contra peccati originalis et actualis 
+          uulnera sacramentorum remedia Deus instituit. Vbi per vulnera intelligere debemus praedictam generalem lesionem  
+          humane naturae ex peccato primorum parentum et per Samaritanum
+          <cb ed="#T" n="2rb"/>
+          intelligere debemus Dei filium qui appropinquauit nobis cum humanam naturam, 
+          in vnitatem suppositi assumpsit et curam nostre salutis agens instituit nobis 
+          sacramenta Noue Legis efficacissima remedia contra peccati originalis et actualis peccati 
+          vulnera.</p>
+        
+        <p xml:id="nddml4d1p1q1-d1e3613">(Dubitatur) 2° - Notandum quod in statu naturae corrupte distingvvntur tria tempora : 
+          primum fuit ab Adam usque ad tempus in quo Deus per Moysen dedit populo Israhel Legem scriptam in Monte Synai. 
+          Et illud dicitur tempus legis naturae eo, quod tunc non fuerint diuinitus data aliqua praecepta uel pauca data 
+          erant ad bene viuendum praeter ea que ex naturali racione nota erant et quibus homines naturali 
+          racione ad bene viuendum informabantur. Secundum tempus in statu nature corrupte fuit tempus 
+          Legis scripte et dominauit a <name ref="#Moses">Moyse</name> usque ad Christum Dominum, 
+          in  quo tempore populus Iudaicus viuebat sub Lege Veteri quam Deus ipsi per <name ref="#Moses">Moysen</name> 
+          scriptam dedit et in qua eidem populo multa praecepit ceremonialia et 
+          iuditialia que lex nature non habuit, ut patet per totum Penthateucum . 
+          Tertium tempus est tempus Noue Legis siue tempus gracie, quod incepit a Christi 
+          aduentu et durabit vsque 
+        <cb ed="#T" n="2va"/>
+          in finem mundi.</p> 
+        
+        <p xml:id="nddml4d1p1q1-d1e3624">Tertio notandum quod sacramentum causatur in 
+          littera a mysterio tripliciter.</p> 
+        
+        <p xml:id="nddml4d1p1q1-d1e3627">Primo pro re sacra, scilicet qua fit hominis sacratio, 
+          et isto modo sacramentum secundum eum est sacrum secretum, id est sacrum significatum. 
+          Alios sacramentos hoc modo dicimus <mentioned>sacramentum Trinitatis,</mentioned> sacramentum deitatis, 
+          sacramentum Incarnationis, etcetera : quodlibet enim istorum est res sacra, homines sacrans et est 
+          significatum per aliqua signa a Deo ad hoc instituta. Isto modo non accipitur sacramentum in proposito, 
+          sed de sacramento taliter accepto agitur in  <ref>primo</ref> et <ref>tertio libro.</ref></p>
+        
+          <p xml:id="nddml4d1p1q1-d1e3638">2° modo accipit <name ref="#Lombard">Magister</name> sacramentum generaliter, 
+          et sic secundum eum sacramentum est sacre rei significatum. 
+          Sic tamen intelligendo quod sacramentum isto modo: 2° modo acceptum est res 
+          sensibilis ex Dei speciali institutione significans rem sacram 
+          et ut sit sanctificantem et sanantem morbos animae. 
+          Hec diffinitio conuenit in generali et sacramentis Noue Legis 
+          de quibus dicetur posterius et sacramentis Veteris Legis, 
+          qualia fuerunt  decimationes, oblationes, varia sacrificia, 
+          agnus paschalis et cetera huiusmodi : ista enim fuerunt res sensibiles, 
+          id est visu perceptibiles, et significabant Christum, 
+          passionem eius et mortem, etcetera, que sunt sacre res, 
+          et sanctificant homines et sanant et 
+          <cb ed="#T" n="2vb"/>
+          reparant homines. Et fuerunt a Deo ad hoc institute ut 
+          per eorum exercitium et vsum significarent hominibus huiusmodi 
+          sacras res et tamquam eos sanctificantes et sanantes, quia glorificabant 
+          Christum tamquam reparatorem mundi et redemptorem, etcetera. 
+          Et sanctificabant eius mortem, passionem, resurrectionem, etcetera que 
+          ad humanam generis redemptionem pertinebant. Quomodo autem sacramenta 
+          Veteris Legis significauerunt Christum et passionem eius et mortem 
+          volo determinare in vno et proportionabiliter intelligatur in alys . 
+          Declaro ergo hoc de oblacione agni, cuius frequens vsus tunc fuit in sacrificys : 
+          agnus enim est animalis manswetum , ratione cuius rite  significat Christum manswetum , de quo dicitur 
+          <ref><title ref="#is">Ysaie</title> quinquagesimo :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q1-Qd1e3652" ana="#is53_7">SICUT OVIS AD OCCISIONEM DUCETUR 
+              ET QUASI AGNUS CORAM TONDENTE OBMUTESCIT 
+              ET NON APERIET OS SUUM.</quote>
+            <bibl>Isaias 53:7</bibl>
+          </cit> 
+          Agnus talis offerabatur qui fuit sine macula, ratione cuius aperte significat 
+          Christum dominum de quo iterum 
+          <ref><title ref="#is">Ysaie</title> 5°</ref> et 
+          <ref><title ref="#Ipetr">Prime Petri</title> secundo:</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q1-Qd1e3672">QUI PECCATUM NON FECIT NEC INVENTUS EST DOLOS MORE <!-- in ore --> EIUS.</quote>
+          </cit> 
+          Agnus huiusmodi innocens et sine macula tunc ymolabatur  pro peccatis alienis ut pro peccatis populi, 
+          aut pro peccatis hominum eundem agnum offerencium ; 
+          sic innocens Dominus noster ymolatus  
+          est  pro peccatis non suis, quia nullum habuit nec habere
+          <cb ed="#T" n="3ra"/>
+          potuit, scilicet ymolabatur  pro peccatis alienis, 
+          quia nostris et tocius mundi per ymolationem  et esum agni pascalis fily  Israhel 
+          liberati sunt a seruitute egiptiaca , ut habetur 
+          <ref><title ref="#ex">Exodi</title> duodecimo.</ref> Sic per Christi passionem et mortem liberati sumus a seruitute 
+          dyabolica . Iuge : sacrificium quod fiebat de agno significabat beatitudinis perpetuitatem et 
+          rite  significat Christum Dominum qui est eterna nostra beatitudo. Ecce quam aperte oblatio 
+          et ymolatio  de agno significabat Christum Dominum ut reparatorem nostrum et ad hoc 
+          significandum huiusmodi agni oblatio a Deo instituta est, et sic intelligatur de alys; 
+          isto 2° modo accipiendi sacramentum volo vti in ista quaestione.</p> 
+          
+          <p xml:id="nddml4d1p1q1-d1e3687">3° modo accipit <name ref="#Lombard">Magister</name> sacramentum proprie prout solum conuenit sacramentis 
+            Noue Legis et forte conueniebat circumcisioni et de ista acceptione sacramenti 
+            loquar posterius in alia quaestione.</p> 
+        
+        <p xml:id="nddml4d1p1q1-d1e3693">Conclusio prima : non fuerunt instituta aliqua 
+            sacramenta pro statu innocentie, sicut nec sunt aut erunt aliqua in statu glorie. 
+            Prima pars patet quia vbi nulla fuit infirmitas animae, ibi non fuit opus aliqua medicina eius sanatiua,
+            dicente Domino <ref><title ref="#mt">Mathei</title> nono:</ref> 
+            <cit>
+              <quote xml:id="nddml4d1p1q1-Qd1e3702" ana="#mt9_12">non est opus medico bene habentibus, <!-- valentibus --></quote>
+              <bibl>Matthaeus 9:12</bibl>
+            </cit> 
+            sed in statu innocentie nulla fuit infirmitas animae, 
+            igitur tunc non fuit opus aliqua medicina eius sanatiua qualia
+            <cb ed="#T" n="3rb"/>
+            tamen sunt sacramenta, propter quod 
+            <name ref="#HughOfStVictor">uenerabilis Hugo</name> uocat ea <mentioned>vasa medicinalia.</mentioned> 
+              Minor autem, scilicet quod in statu innocentie non fuerit aliqua infirmitas animae, 
+              nunc patet quia omnis infirmitas animae uel est peccatum uel ex peccato proueniens, 
+              sed in statu innocentie nullum fuit peccatum hominis, etcetera. 
+              Ex eodem patet secunda pars conclusionis, cum in statu glorie nullum sit aut esse possit peccatum aut qualiscumque defectus.</p> 
+              
+              <p xml:id="nddml4d1p1q1-d1e3719">Secunda conclusio: in omni statu vie post lapsum necessarium 
+                fuit a Deo aliquod institui sacramentum. Patet quia secundum <name ref="#HughOfStVictor">Hugonem</name> 
+                quandocumque fuit morbus, tunc fuit etiam necessaria medicina eiusdem morbi. 
+                Sed quia peccatum in hac uita in omni statu humani generis post lapsum fuit morbus - 
+                quia peccatum et maxime originale cum quo communiter sew regulariter omnes nascuntur - 
+                igitur in hac uita, in omni statu hominum necessaria est et fuit homini sacramentalis 
+                medicina. Sed est hic notandum secundum <name ref="#Aquinas">beatum Thomam</name> quod cum dicitur 
+                quod pro omni statu vie post lapsum primorum parentum fuerint sacramenta hominibus necessaria, 
+                hoc non debet intellegi de necessitate absoluta, scilicet  quod sit sic necessarium 
+                sicut necessarium est Deum esse. Tamen, cum ex sola diuina bonitate et libertate  sint instituta, 
+                <cb ed="#T" n="3ra"/>
+                istud est intelligendum, quod sunt necessaria ad consecutionem finis, 
+                scilicet sanationis et curationis animae a peccato. Non tamen sic, 
+                intelligendo quod Deus hominem sine eis non possit sanare et mundare a peccatis: 
+                Deus enim virtutem suam non alligauit sacramentis, ut dicit 
+                <ref><name ref="#Lombard">Magister</name> in littera,</ref> sed huiusmodi sacramenta sunt et fuerunt necessaria, 
+                id est vtilia ad consecucionem huius finis, scilicet sanacionis. 
+                Magis enim congrue fit hominis curacio per sacramenta quam alio modo rite, 
+                sicut dicimus quod equus necessarius est ad  ambulandum non quod homo sine equo non possit 
+                ambulare, sed quia in equo homo facilius uadit. Ita in proposito huius sacramenti, 
+                aut congruitatis et utilitatis tres causas ponit 
+                <ref><name ref="#Lombard">Magister</name> in littera</ref> cum dicit quod instituta sint propter 
+                humiliationem, propter erudicionem et propter exercitationem. 
+                Nam, ut dicit <name ref="#Aquinas">beatus Thomas</name>, homo per peccatum sic corruptus 
+                fuit quo ad cognicionem quod eius mens nouerat solum se occupare arta 
+                sensibilia propter quod quidem sola sensibilia crediderunt esse. 
+                Et si aliqui ad cognicionem intelligibilium perueniebant, 
+                tamen ea secundum modum sensibilium indicabant, et ideo fuit necessarium, 
+                id est fuit pervtile et
+                <cb ed="#T" n="3ra"/>
+                congruum ualde sanacioni et curacioni huiusmodi morborum et defectuum 
+                nostrorum ut deus instituerat sacramenta sensibilia per que homo de spiritualibus 
+                erudiretur, ita quod ex eis proficeret ad spiritualia cognoscenda que ipsa  
+                sacramenta significabant. Et illa est secunda causa qua <ref><name ref="#Lombard">Magister</name> tangit in littera,</ref> cum dicit:
+                <cit>
+                  <quote xml:id="nddml4d1p1q1-Qd1e3752">Propter erudicionem instituta sunt ut per illud quod fortiter in spiritu 
+                    uisibili cernitur ad invisibilem virtutem, que intus est ad cognoscenda mens erudiatur.</quote>
+                  <bibl>Lombard</bibl>
+                </cit> 
+                Et subdit dicens: 
+                <cit>
+                  <quote xml:id="nddml4d1p1q1-Qd1e3761">Homo enim qui ante peccatum sine medio Deum uidebat, per peccatum a Deo habuit ut nesciat diuina capere 
+                    nisi humanis exercitatus,</quote>
+                </cit> 
+                id est qui diuinam cognitionem ante peccatum non ex sensibilibus signis capiebat, 
+                sed per infusionem illi per peccatum. Sic habuit ut nesciat diuina capere nisi per sensibilia exercitatus, 
+                quo ad affectum taliter quod rebus sensibilibus quasi summis et optimis inherebat, et Deo postposito in ypsis  
+                sensibilibus finem sui statuebat. Et ideo fuit homini pervtile ut Deus sibi instituerat sensibilia sacramenta ut homo, 
+                subiciendo se rebus eo quod natura inferioribus disceret ex hac humilitate  et aswesceret  non sistere in eis, 
+                sed affectum quem circa ea habet referret in Deum a quo
+                <cb ed="#T" n="4ra"/>
+                solo salutem quaerit . 
+                Et illa est prima causa qua tangit 
+                <ref><name ref="#Lombard">Magister</name> cum dicit in littera,</ref> 
+                propter humiliacionem, ut dum homo insensibilibus rebus que natura infra ipsum sit, 
+                ex praecepto Creatoris se referrendo subicit quod hac humilitate et obedientia Deo 
+                magis placeat et apud eum mereatur, cuius imperio salutem quaerit  
+                in inferioribus se. Et si non ab illis, sed per illa a Deo fuit insuper homo sic 
+                corruptus etiam quo ad accionem quo ipsis sensibilibus inordinate vtebatur et fuit necessarium, 
+                id est pervtile homini ut instituerat Deus sensibilia sacramenta ut homo ex eis disceret huiusmodi 
+                sensibilibus vti ordinate secundum Dei institucionem. 
+                Et illa est tercia causa quam 
+                <ref><name ref="#Lombard">Magister</name> tangit in littera</ref> 
+                cum dicit, propter exercitacionem : 
+                <cit>
+                  <quote xml:id="nddml4d1p1q1-Qd1e3780">Similiter instituta sunt quia cum homo otiosus esse non possit.</quote>
+                  <bibl>Lombard, XXX</bibl>
+                </cit> 
+                Proponitur ei utilis et salubris exercitatio in sacramentis pro alio et alio statu vie.</p>
+        
+                <p xml:id="nddml4d1p1q1-d1e3788">Tertia conclusio: pro alio et alio statu vie post lapsum fuerunt alia et alia sacramenta. 
+                  Pro quo notandum quod in omni statu et tempore post hominis lapsum requirebatur fides 
+                  de reparatione uenturo in mundum, per quem esset medicina morbi, quia
+                  <cb ed="#T" n="4rb"/>
+                  sine fide reparatoris nulli umquam salus fuit nec erit, 
+                  propter quod dicitur <ref><title ref="#act">Actuum</title> quarto capitulo :</ref> 
+                  <cit>
+                    <quote xml:id="nddml4d1p1q1-Qd1e3799" ana="#act4_12">NON EST IN ALIQUO ALIO SALUS, NEC ENIM ALIUD NOMEN EST 
+                      SUB CELO DATUM HOMINIBUS IN QUO OPORTEAT NOS SAVOS FIERI.</quote>
+                  </cit> 
+                  Ymo  fides de reparatore cadens est antiquorum et modernorum, 
+                  quia quem illi uere tunc credebant uenturum in mundum, passurum, resurrecturum, 
+                  istum nos uere credimus nunc venisse mortuum fuisse, resurrexisse, etcetera. 
+                  Propter quod dicit 
+                  <ref><name ref="#HughOfStVictor">beatus Hugus</name> in libro <title>De nuptys  et concupiscentyis</title> :</ref> 
+                  eadem fides mediatoris quae nos saluat, 
+                  saluos faciebat iustos antiquos, pusillos cum magnis, 
+                  quia sicut credimus Christum in carne uenisse ita illi uenturum, 
+                  et sicut nos mortuum ita illi tunc moriturum, 
+                  et sicut nos nunc credimus eum resurrexisse, 
+                  ita illi crediderunt resurrecturum, 
+                  et nos et illi ad iudicium mortuorum et viuorum venturum. 
+                  Sicut ergo tempore legis naturae omnes iusti credebant uenturum 
+                  redemptorem et reparatorem ac saluatorem generis humani, 
+                  sic in eodem tempore instituta fuerunt aliqua sacramenta 
+                  que fuerunt protestaciones et signa eiusdem reparationis uentura  
+                  et eius passionis, mortis et resurrectionis 
+                  <cb ed="#T" n="4va"/>
+                  et similium que ad reparatorem humani generis pertinebant. 
+                  Et secundum <name ref="#HughOfStVictor">Hugonem de Sancto Victore</name> huiusmodi 
+                  sacramenta tempore legis naturae fuerunt etiam in genere, scilicet doctrine oblationes et sacrificia. 
+                  Et dico <mentioned>notantur in genere</mentioned> quia in sacrificiis et oblationibus 
+                  fuit aliquod speciale institutum et determinatum, sed suffecit homini facere in hijs 
+                  decentia et sibi possibilia, ut patet de sacrificys  <name ref="#Abel">Abel</name> et <name ref="#Cain">Cayn</name> 
+                  <ref>(<title ref="#gen">Genesis</title> quarto),</ref> 
+                  qui obtulerunt fruges et animalia ex oblationis  nomine 
+                  <ref>(<title ref="#gen">Genesis</title> octauo).</ref> Qui obtulit alia animalia ex oblatione : 
+                  <name>Melchisedech</name> qui obtulit vinum et panem <ref>(<title ref="#gen">Genesis</title> 14°) ;</ref> 
+                  et ex oblatione <name ref="#Abraham">Abrahe</name> qui obtulit vaccam triennem <ref>(<title ref="#gen">Genesis</title> quarto decimo).</ref> 
+                  In tempore vero legis scripte quia crevit 
+                  fides mediatoris saltem quo ad articulorum explicationem, 
+                  ut determinatur in tertio distin<supplied>c</supplied>tione 54a. 
+                  Ideo oportuit tunc multipliciter sacramenta et determinari ea in speciali 
+                  quantum ad singulares circumstancias, tempore autem Legis gratia instituta sunt a 
+                  Christo alia sacramenta prioribus multum perfectiora, ut uidebitur posterius. 
+                  Et hys  igitur patet conclusio 3a : nam tempore Legis naturae fuerunt tria genera 
+                  sacramentorum in generali, et non fuit tunc circumcisio saltem ante 
+                  <cb ed="#T" n="4va"/>
+                  tempus <name ref="#Abraham">Abrahe</name>, sed tempore legis scripte fuit circumcisio 
+                  per totum et fuerunt agnus pascalis et multiplicia sacrificia et oblaciones et 
+                  distincte penitentie satisfactiones et multa talia usque ad singulares 
+                  circumstancias determinata. In Noua <unclear>???</unclear> Lege sunt sacramenta 
+                  alia posterius enumeranda, an autem ante circumcisionem fuerit institutum aliquid 
+                  speciale sacramentum in remedium originalis - sine quo originale non dimittebatur  - est dubium. 
+                  De quo dicetur posterius cum de circumcisione agetur. Ad argumentum ante appositum, quando dicitur : 
+                  <cit>
+                    <quote xml:id="nddml4d1p1q1-Qd1e3871">gracia et virtutes sanant uulnera  peccatorum, igitur non indigemus sacramentis,</quote>
+                  </cit> 
+                  negatur quia, licet enim gratia et uirtutes sanctae formaliter, quia sunt ipsamet sanitas, 
+                  ipsa tamen sacramenta sunt pervtilia ad sanandum, sicut medicinae aliquot modo effective eo, 
+                  quod causant gratiam saltem sacramenta Noue Legis. Et est simile : licet sanitas sanet formaliter, 
+                  adhuc indigemus medicinis que sanent effective et causant sanitatem, ex quo etiam patet quod non frustra 
+                  fuerunt instituta sacramenta quia, licet homo posset sine eis saluatus fuisse per penitentiam et 
+                  obseruationem mandatorum, tamen non tam bene propter multas vtilitates
+                  <cb ed="#T" n="5ra"/>
+                  quas afferebant et afferunt homini sacramenta debite suscepta, ut patuit in corpore quaestionis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 3</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q3">
+        <head>Librum IV, Distinctio 6, Quaestio 3</head>
+        <p>
+          Tercio queritur vtrum ad vnitatem baptismi requiratur vnitas ministri ;</p> 
+        
+        <p>arguitur quod non, quia vnus potest simul plures baptizare , 
+          igitur pari racione plures vnum. 
+          Antecedens probatur quia vnus potest simul perfundere plures et dicere : - <quote>Ego baptizo  uos,</quote> etcetera. 
+          Nec videtur ibi aliquod deesse quando vterque sit baptizatus.</p> 
+        
+        <p>In oppositum est quod ibi minister repraesentat Christum quia est vnum caput Ecclesiae et vnus mediator Dei et homini. 
+          Pro responsione ad questionem sunt mouenda et soluenda 4or media.</p> 
+          
+          <p>Primum est posito quod duo vnum baptizent  ita quod neuter totum faciet, 
+          sed vnus vnum et alter aliud et vnus immergat  et alter profert verba an talis sit baptizatus.</p>
+        
+          <p>2m <name ref="#Scotus">Scotum</name> et <name ref="#Bonaventure">Bonauenturam</name> 
+          respondetur quod talis non est baptizatus , 
+          sed est rebaptizandus  et ratio illius -  ut dicit <name ref="#Scotus">Scotus</name> - est in-
+          <cb ed="#T" n="79rb"/>
+          -stitucio Dei, quia sicut voluit esse vnum principale agens interius mundans, 
+          ita voluit habere vnum ministrum in collatione integra. 
+          Item ille qui verba profert, scilicet se abluere, cum dicit : 
+          <quote>Ego te baptizo </quote> et tamen non abluit, cum - ut positum est - in causa solum dicat : - 
+          Verba non debet autem omnino esse falsa forma sacramentorum. Ex quo patet quod, si duo vnus mutus et alter mancus, 
+          quorum vnus fit mutus immergat , et alter , scilicet mancus, proferat verba non est baptismus, 
+          quia sacramenta Ecclesiae sunt sacramenta vnitatis et in eis non debent diuidi que sunt de substancia sacramenti, 
+          licet possent diuidi ea que sunt de sacramenti solempnitate. 
+          Et ergo, si quis in consecratione Ewcaristiae  infirmitate praeventus dixisset : - <mentioned>Hoc est</mentioned>, alius non deberet prosequi dicendo : 
+          <mentioned>corpus meum</mentioned>, sed debet dicere totam formam. 
+          Sic in praesenti non diuidi potest hoc sacramentum, quod ea que de eius substancia fiant ad <unclear>m???s</unclear> 
+          ministris respectu vnius baptizandi .</p> 
+        
+        <p>Secundum dubium : posito quod duo simul baptizent , 
+          vnum sic quod vterque totum faciat, quia vterque immergit  et vterque profert debita verba cum debita intencione, 
+          an talis sit baptizatus  ?</p> 
+        
+        <p>Respondent <name ref="#Scotus">Scotus</name> et <name ref="#Bonaventure">Bonauentura</name> 
+          quod sic, quia vnus faciens non adnullat  
+          factum alterius, sed si tantum vnus eorum faceret quod facit, 
+          factum esset et esset vere baptismus. Igitur nichilominus factum
+          <cb ed="#T" n="79va"/>
+          est alio similiter facienti. 
+          Accio etiam et effectus agentis non impeditur nisi a resistente contrario , 
+          sed non a  simili, isti autem similiter agunt et non contrarie ad baptismum. 
+          Talis ergo esset baptizatus - et solum semel baptizatus  - et licet si alter baptizancium  
+          non concurretur alterius baptismus, sufficeret tamen, quia Deus instituit quod 
+          vnusquisque recipiens totalem baptismum vere sit baptizatus . 
+          Ille autem ab vtroque  talem recipit, quia simul in aquam mergunt et verba dicunt, 
+          et sic Deus amborum baptisma acceptat pro vno.</p> 
+        
+        <p>Tercium dubium : posito quod aliquis plures simul aspergat, 
+          uel perfundat aut immergat  et simul proferat formam impleri  dicendo : <mentioned>Ego baptizo  vobis</mentioned>, 
+          etcetera, an tales sint baptizati  ?</p> 
+        
+        <p>Respondent <name ref="#Bonaventure">Bonauentura</name> et <name ref="#Scotus">Scotus</name> : 
+          et sic ymmo  quilibet esset vere baptizatus . Addit tamen <name ref="#Scotus">Scotus</name> 
+          quod, sic faciens, peccat mortaliter eo, 
+          quod non seruat formam, scilicet impositam ab Ecclesia, 
+          nisi forte esset tanta necessitas quod immineret mors omnium statim. 
+          Aut, si singulos baptizaret  sigillatim, aliquis eorum moreretur antequam alios baptizasset . 
+          Quod autem talis casus necessitatis de pluribus morituris excusaret ministrum vtentem  illa forma impleri , scilicet : <mentioned>Ego baptizo  vos</mentioned>, 
+          videtur rationabile quia ex quo in potestate Ecclesiae fuit determinare istam formam quo ad ista verba : <mentioned>Ego bap-
+          <cb ed="#T" n="79vb"/>
+          -tizo  te,</mentioned> 
+          sicut supra dictum fuit distinctione 3a. 
+          Non videtur quod voluerit aliquem ita praecise ad istam formam artare quod per hoc alicui 
+          praeclauderetur via salutis, nunc autem in causa necessitatis alicui ipsorum praecluderetur 
+          salus si non posset aliquis sine peccato mortali vti illa forma : - <mentioned>Baptizo  vos</mentioned>. 
+          Nam si in quocumque causa esset peccatum vti ea tunc nullus 
+          cum illa forma deberet baptizare  illos sic necessitatos  : 
+          nullus enim debet salutem alterius curare peccando in se mortaliter.</p> 
+        
+        <p>Quartum dubium : posito quod sit monstrum aliquod 
+          tale quod appareret esse duo homines, 
+          queritur quomodo illud debeat baptizari .</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod, 
+          si tempus haberi potest ad distinguendum an mostrum sit simpliciter 
+          vna persona an sit due, tunc de hoc debet haberi diligens inquisicio antequam baptizetur .</p> 
+        
+        <p>Potest autem - ut dicit <name ref="#Scotus">Scotus</name> - inquisicio haberi uel ex parte corporis, 
+          uel si sint duo capita, uel due spine dorsi, uel principalius iudicium esset de cordibus. 
+          Sed illud non potest esse faciliter evidens dum viuit, 
+          sed nec signum de duobus capitibus esset omnino certum, 
+          ut declarat <name ref="#Scotus">Scotus</name> ex possibili disposicione matricis. 
+          Subdit dicens quod euidentissimum signum discernendi est pactum intellectus et voluntatis : 
+          si enim ibi sunt due animae, non est necesse vnam scire quoquod scit alia nec velle quodquod vult alia. 
+          Et si aliquo modo posset depraehendi diuersitas intellectuum
+          <cb ed="#T" n="80ra"/>
+          intelligendo, puta per aliquod signum depraehenderetur idem sciri et nesciri, 
+          uel posset depraehendi diuersitas voluntatum, puta quod esset ibi velle et nolle de eodem. 
+          Absque dubitacione tenendum esset ibi duas esse animas, sed illa non potest iudicari nisi 
+          de monstro adulto quale ponitur fuisse in <placeName>Francia</placeName> - ut dicit <name ref="#Scotus">Scotus</name> - 
+          habens duo capita quorum vnum expraessit velle de eo, de quo aliud expraessit nolle : 
+          vnum enim voluit contineri et sobrie viuere et aliud voluit lasciue viuere et epulari, 
+          et cum vnum per os suum excederet, reliquum clamabat se grauari. 
+          Consequenter dicit <name ref="#Scotus">Scotus</name> quod, habita diligente inquisicione, 
+          si certitudo haberi potest quod monstruum est due persone et quod habet duas animas 
+          et sint partes de quibus patet quod pertinent ad distinctas personas, 
+          et debet separatim perfundi illa pars et illa cum iteracione forme in singulari super vtrumque. 
+          Sed si certitudo haberi non potest an sint due persone an solum vna, baptizandum  
+          est saltem in illis partibus qui  principaliter pertinent ad vnum cum formali in singulari. 
+          Secundo abluende sunt alie partes que non videntur principaliter pertinere ad illum primum 
+          et cum forma illa condicionali quae in illis seruanda est. De quibus est dubium quae ponitur 
+          extra de baptismo et eius effectu capitulo, de quibus</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

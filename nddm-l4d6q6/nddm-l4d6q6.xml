@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 6</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 6</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q6">
+        <head>Librum IV, Distinctio 6, Quaestio 6</head>
+        <p>Sexto queritur vtrum in baptizante  requiritur intentio.</p> 
+        
+          <p>Arguitur quod non, quia instrumentum non habet intentionem, ut patet de securi, minister autem, 
+            scilicet baptizans, non mundat ipsum baptizatum  nisi ut instrumentum extrinsecum et 
+            Deus solus mundat interius immediate  igitur, etecetera.</p> 
+        
+        <p>Secundo : verba et elementum aque sola sunt de essencia baptismi, 
+          igitur non requiritur intencio.</p> 
+        
+        <p>Tercio : infidelis potest baptizare , ut dictum fuit, et tamen infidelis non intendit, ut videtur : 
+          nullus enim intendit aut vult fieri quod non credit posse fieri igitur, etcetera.</p> 
+        
+        <p>Quarto, 2m <name ref="#Augustine">Augustinum</name> ebriosus potest baptizare 
+          et tamen talis non potest habere intencionem cum tunc non vtatur ratione igitur, 
+          etcetera.</p> 
+        
+        <p>Quinto, intencio requiritur cogitacionem de re intenta, 
+          sed frequenter et de facili rapitur cogitatio ad aliud et sic baptismus, 
+          ut frequenter impediretur.</p> 
+        
+        <p>Sexto, intencio hominis non est alicui certa nisi ipsimet hominum habenti
+          
+          <cb ed="#T" n="81vb"/>
+          eam. Si ergo requiretur  ad baptismum intencio baptizantis , 
+          non esset de aliquo certum quod esset baptizatus  nisi apud eum qui ipsum baptizauit . 
+          Hoc autem esset inconveniens, scilicet quod omnis homo esset in tanto dubio sue salutis 
+          ut oporteret frequenter rebaptizare.</p> 
+        
+        <p>In oppositum arguitur : : ea que fiunt praeter intencionem sunt casualia, 
+          sed hoc sacramentis non conuenit, cum habeant determinatos  effectus et determinatas causas.</p> 
+          
+          <p>Secundo, opera quae fiunt a voluntate specificantur et determinantur intencione, vnde <name ref="#Ambrose">Ambrosius</name> 
+            dicit : 
+            <quote>Affectus tuus operi tuo nomen imponitur.</quote> Et <unclear>???</unclear> quia dicit <title>Gloza</title>  : 
+            quantum intendis, tantum facis, sed baptizare est actus voluntatis, 
+            igitur in ipso requiritur intencio ex parte baptizantis . 
+            Idem patet auctoritate  <name ref="#Lombard">Magistri</name> in littera dicentis : 
+            in hoc et in alys  sacramentis sicut forma est seruanda, 
+            ita et intencio illud celebrandi est habenda. 
+            Constat autem quod forma requiritur ad baptismum, igitur etiam intencio.</p> 
+        
+        <p>Respondendo 2m <name ref="#Aquinas">Sanctum Thomam</name>, <name ref="#Bonaventure">Bonauenturam</name> et <name ref="#Scotus">Scotum</name>. 
+          Dicitur primo quod necessario in baptizante  
+          requiritur intencio respectu actus quem exercetur. 
+          Probatur quia actus baptizandi  debet esse actus humanus, 
+          sed nisi baptizans  eum intenderet, non diceret humanus actus, 
+          sed solus fortuitus et casualis, sicut si praeter intencionem caderet cum paruulo ad aquam. 
+          Item alia intencio de qua dicetur necessario praesupponit illam, igitur eciam illa requiritur.
+          <cb ed="#T" n="82ra"/>
+          Dicitur autem hic intencio generaliter volicio alicuius aliquo modo deliberata, 
+          ut scilicet non fit omnino deliberatus actus, ut fricacio barbe est totaliter 
+          inde liberata aut casualis casus in aquam.</p> 
+        
+        <p>Secundo dico quod non requiritur 
+          necessario quod baptizans intendat baptizandum per baptismum ordinare ad vitam eternam. 
+          Patet, quia infidelis vere baptizat  - ut supradictum - et tamen ille non intendit baptizandum  
+          per hoc ordinare ad vitam eternam cum eam metignoret.</p> 
+        
+        <p>Tercio dico quod in ipso baptizante ad veritatem baptismi requiritur 
+          intentio qua vult et intendit ipsum baptizandum per baptismum adscribere  
+          secte christianorum. Vel generalius, scilicet quod intendat facere circa baptizandum  
+          illud quod Ecclesia Christianorum facit circa suos. 
+          Quod autem talis intentio uel consimilis requiratur in baptizante . 
+          patet, quia propter hoc heretici qui istam intencionem non habent nichil baptizant , 
+          id est si alia seruant in baptizando  et deficit illa intentio non conferunt baptismum. 
+          Sed sic baptizatus  esset rebaptizandus . Illi autem heretici qui in baptizando  
+          illam intentionem habent et seruant cum hoc alia requisita ut formam et materiam debitam vere baptizant , 
+          quantumcumque Christi infideles sint et credunt baptismum nichil valere. Item aliqua verba que ibi proferuntur
+          <cb ed="#T" n="82rb"/>
+          et actus qui ibi fit et elementum non sunt ordinata ad illum effectum solum, 
+          sed possunt eciam ad alios sumi, etiam ad diuersos effectus. 
+          Et ideo ad hoc, quod ordinetur ad illum vnum effectum secundum institutionem Christi, 
+          oportet necessario interuenire intencionem ministri qua intendat illo actu verbo et elemento talem effectum dare, 
+          uel quod facit Ecclesia facere. Et dicit <name ref="#Aquinas">Sanctus Thomas</name> et <name ref="#Bonaventure">Bonauentura</name> 
+          quod debet haberi pro vtili regula quod simul in omnibus alys  sacramentis requiritur : 
+          intentio ministri cum debita materia et forma debita, non solum ad effectum sacramenti consequendum, 
+          sed etiam ad sacramenti percepcionem ita quod sine debita intencione non conferretur  
+          verum sacramentum. Item, quod ad baptismum requiratur intencio, patet etiam per argumenta arguta.</p> 
+        
+        <p>In oppositum questionis, ut dicit <name ref="#Scotus">Scotus</name>, quod sicut praedicta intentio requiritur,
+          sic etiam sufficit in baptizante  etiam si credat baptismum nichil valere. 
+          Et ita statuit Christus Dominus propter necessitatem sacramenti, 
+          ne infidelitas ministri noceret baptizandis.</p> 
+        
+        <p>Ad raciones ante oppositum, ad primam respondet <name ref="#Aquinas">Sanctus Thomas</name> 
+          quod duplex est instrumentum, scilicet animatum ut sensus, inanimatum ut securus, 
+          ut dicitur <ref>8uo <title ref="#Ethics">Ethicorum</title>.</ref> 
+          Instrumento ergo inanimato non requiritur intentio propria, quia ipsa inclinatio instrumenti
+          <cb ed="#T" n="82va"/>
+          ad effectum permotum principalis agentis locum intentionis supplet, 
+          sed instrumento animato quod non solum agitur, sed aliquo modo agit - 
+          utpute per imperium agens et non per impulsum motus - 
+          requiritur intencio exequendi ministerium ad quod applicatum est. 
+          Tale autem instrumentum est minister sacramenti.</p> 
+        
+        <p>Ad 2m negatur assumptum, et patet ex dictis.</p> 
+        
+        <p>Ad 3m dicit <name ref="#Scotus">Scotus</name> quod, non habens fidem de fine vltimo, non intendit 
+          illud ordinare per baptismum ad finem vltimum, credens tamen per baptismum ipsum posse adscribi  
+          secte Christianorum, siue credat istam sectam ualere, siue non potest intendere 
+          illum adscribere  per baptismum illi secte. Vel generalius potest intendere per illum actum 
+          facere quod Christiani intendant facere circa suos. 
+          Ponit de hoc exitum : ego, credens Iudeos per circumcisionem distingwi  
+          ab alys , possem intendere illum paruulum adscribere  
+          secte Iudeorum et intendere circa eum facere idem quod Iudei intendunt 
+          facere circa suos circumcidendo eos, licet non credam istam circumcisionem illi proficere ad salutem. 
+          Secundum exemplum aliquis bone fidei posset proferre aliqua verba incantationum quibus vtuntur 
+          magi et mage et circa materiam qua aly  vtuntur 
+          intendens in genere proferre ad illum finem quo ipsi proferunt sic in proposito.</p> 
+        
+        <p>Ad 4m 
+          <cb ed="#T" n="82vb"/>
+          dicitur quod ebriosus est ille aswetus  ad ebrietatem, 
+          scilicet qui frequenter inebriatur, et talis non semper est ebrius quia non est semper impeditus ab actu racionis. 
+          Vnde nominanter dicit <name ref="#Augustine">Augustinus</name> : <quote>Non timeo ebriosum,</quote> 
+          id est asswetum  ad frequentem ebrietatem. 
+          Illa enim aswetuto  non prohibet quam aliquando sit sic sobrius quod baptismus 
+          ab eo collatus valeat ut, quando non est actu sic ebrius quoniam possit vti racione, 
+          secus esset per ebrietatem vsus racionis in eo totaliter impeditus. 
+          Illa enim ebrietas tolleret intencionem necessariam. Et dicit <name ref="#Bonaventure">Bonauentura</name> 
+          quod si talis ebrius habeat racionem aut de eo legatam quod tollatur intentio baptizandi  
+          quia nescit quod faciat, tunc non baptizat. Si autem ratio soluta est in tantum quod scit quid facit, 
+          non tamen omnimodo  est compos sui : tunc iudicandum est quod ille sit vere ab eo baptizatus etiam si lingwa  
+          aliquo modo balbuciat, quia illud non est semper signum ligaminis racionis efficax. 
+          Multi enim sunt qui ex modico vino balbuciuntur et tamen habent vsum racionis. 
+          Distingwendum  est tamen de ligamine lingwe  : nam, si format verba intelligibiliter - 
+          licet non omnino perfecte - baptizatus est paruulus, si autem ita corrupte quod intelligi non potest, 
+          rebaptizandus est paruulus. De illa tamen corruptione superius 
+          <cb ed="#T" n="83ra"/>
+          fuit lacius dictum in quaestione de forma baptismi.</p> 
+        
+        <p>Ad quantum dicit <name ref="#Aquinas">Sanctus Thomas</name> quod, quamuis minister sacramenti 
+          debeat mitti ad custodiendum cor suum quantum potest - et maxime ut in verbis sacramentalis 
+          forme intentionem habeat actualem - quia tamen cogitatio est valde labilis igitur, 
+          si eciam tunc non assumit  actualis intencio quando verba profert, 
+          Deum non praeuius intenderit et contraria intencio non interuenerit. 
+          Sacramentum non impeditur, quia operatur tunc in vi principalis intencionis. 
+          Non enim oportet quod in opere semper intencio coniungatur actualiter operi, 
+          sed sufficit quod opus ab intencione procedat, et ad melius intelligendum que intencio sufficiat, 
+          et requiratur ad baptismum. Est notandum quod Scotus ponit triplicem intencionem. 
+          Prima est actualis et est actus a voluntate elicitus respectu huius quod intendit. 
+          Alia est intencio habitualis et est habitus ad talem actualem intencionem inclinans, 
+          sed invenitur minus perfecte intendens quam primo modo et magis perfecte quam secundo modo ; 
+          et ideo est intentio quedam media, que dicitur intentio virtualis. 
+          Aliquis enim in principio intendit celebrare missam, 
+          si postea est distructus non habet actualem intentionem :
+          <cb ed="#T" n="83rb"/>
+          non enim intelligit tunc in actu illud, nec de eo cogitat igitur, 
+          nec vvult illud in actu, nec habet tunc solum habitualem, quia talem habet dormiens. 
+          Habet se ergo medio modo, et hanc eius disposicionem vocat <name>Scotus</name> <mentioned>intencionem virtualem,</mentioned> 
+          quia scilicet talis in virtute prime intentionis habite actualiter omnia operatur que facit. 
+          Et facit eam ex illa intencio actualis : est sibi principium ordinatum ad omnes actus et 
+          habet in se virtutem cuiuscumque illorum actuum, 
+          sicut intencio finis habet in se virtualiter intentionem propriam cuiuscumque ordinati 
+          ad finem et pro tanto manente intencione cuiuscumque ad finem. 
+          Et ut, descendente ab ista intencione, etiam illa intencio prima actualis maneat 
+          virtualis in omnibus istis hoc modo intendens, ite ad sanctum Iacobum. Ex intentione huius 
+          finis ordinat multa alia necessaria ad istum finem exequens, autem illa ordinata non semper 
+          cogitat de <name ref="#James">sancto Iacobo</name>, nec de reuerencia eius. 
+          Dico tamen quod semper habet meritum quia habet intentionem eorum que sunt ad finem illum, 
+          cuius illa est prima intencio. Vel habet actus aliquos sequentes ex 
+          illis intentionibus, quamuis cum ipsis committentur actus aliqui distrahentes 
+          eum ab ista prima intentione et ab intentionibus
+          <cb ed="#T" n="83va"/>
+          proprys  eorum que sunt ad illum finem. 
+          Aliud de hoc dat exemplum : martyres  in actu sustinendi martyrium  
+          non semper habuerunt intencionem nisi istam virtualem, quia immensitas  
+          penarum absorbeat forte vsum rationis in aliquibus. Adhuc tamen illa perpessio penarum erat quidem effectus 
+          deriuatus ex intentione seruandi fidem Dei. 
+          Et ideo dum durabat passio, durabat semper intencio illa virtualiter sicut in effectu, 
+          si ergo queritur que intencio sufficiat et requiratur in baptizante.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod sola intentio habitualis non sufficit in baptizante  
+          quia actus eius, licet conformis illi habitui, non dicitur propter hoc actus humanus. 
+          Nam, si aliquis habeat habitum inclinantem eum ad desiderium sanitatis, 
+          si currat nullo modo intendens actualiter sanitatem, sed ludere et iocari, 
+          si talis currendo sanatur non dicitur consequi sanitatem per aliquem actum humanum, 
+          sed casualiter uel fortuite non magis quam si non habuisset habitualem intencionem ad sanitatem. 
+          Igitur sola intentio habitualis non sufficit respectu finis actus humani ut humani.</p> 
+        
+        <p>Secundo, dicit <name ref="#Scotus">Scotus</name> quod non requiritur in baptizante  
+          semper actualis intencio, quia non obligauit Deus hominem ad impossibile, uel nimis
+          <cb ed="#T" n="83vb"/>
+          difficile cuiusmodi est non distrahi, quia 2m 
+          <ref><name ref="#Augustine">Augustinum</name> 3° <title ref="#DeLiberoArbitrio">De libero arbitrio</title></ref> 
+          non est in potestate nostra quibus visis tangamur, 
+          nec etiam plus obligauit ministrum in illo actu quam in exercendo actus aliorum sacramentorum. 
+          In conficiendo autem Ewcaristiam , que est excellentissimum sacramentum, 
+          non obligauit hominem a Domino distrahi quam praeuius celebrare intendens vere celebraret, 
+          licet in proferendo verba consecrationis, sic distractus, vere conficit. 
+          Ex hys  concludit Scotus quod sufficit in baptizante  intentio virtualis, 
+          hoc est quod aliquando habuit intentionem actualem ex qua descenderit actus baptizandi ; 
+          sine illo actu habeat intencionem actualem, siue aliquam ex ea descendentem  siue non. 
+          Et intelligo quod descenderit ille actus absque omni motu voluntatis contrario interueniente, 
+          sicut si induens se ad missam intendit celebrare 2m vsum romane Ecclesiae et ex illo procedit continue et forte. 
+          2m aliquem habitum derelictum in fantasia procedit cum magna distractione, 
+          vere tamen facit ea que necessaria sunt ad illum actum qui est conficere. 
+          Adhuc vere conficit si etiam verba consecracionis proferens non habeat actualem intencionem, 
+          sed cogitet de extraneis rebus. Ita in proposito.</p> 
+        
+          <p>Sed
+          <cb ed="#T" n="84ra"/>
+          queritur quomodo illa intencio que nunc est potest reduci in 
+          intentionem primam que nunc non est. Inter ceteros modos <name ref="#Scotus">Scoti</name> 
+            est vnus quod voluntas habet suas voliciones ordinate et respectu finis et respectu eorum que 
+            sunt ad finem. Et intencio finis est etiam causa eorum que sunt ad finem. 
+            Et cum voluntas ad illarum volicionum aliquam ipsorum ordinatarum ad finem pervenerit et actum 
+            inferioris potentie correspondentem imperauerit, potest ille actus imperatus inferioris potentie remanere, 
+            licet nec prima neque secunda intencio remaneat. 
+            Et dum manet ille actus voluntate quantumcumque  distracta, 
+            dicitur remanere intentio virtualis.</p> 
+        
+        <p>Ad sextum respondet 
+          <name ref="#Aquinas">Sanctus Thomas</name> et <name ref="#Bonaventure">Bonauentura</name> quod, 
+          si desit mentalis intencio in baptizante , scilicet et actualis et virtualis 2m modum praedictum, 
+          tunc non confert sacramentum baptismi. Tamen in adulto supplet fides et 
+          deuocio effectum baptismi ut periculum baptizato qui ignorat intencionem baptizantis nullum ex hoc proveniat. 
+          Si autem sit puer qui non potest seipsum disponere per propriam fidem et deuocionem et manet viuus usque ad etatem adultam, 
+          tunc haberet veram fidem et desiderium baptismi si sciret se non baptizatum. 
+          Tunc illa fides et deuocio ad suscipiendum baptismum et con-<cb ed="#T" n="84rb"/>
+          tritionem de peccatis proprys  supplent vicem baptismi et causant eius effectum. 
+          Si vero huiusmodi puer moriatur ante vsum, creditur pie quod in illo paruulo sumus sacerdos, 
+          scilicet Deus defectus suppleat et salutem ei conferat. 
+          Subdit <name ref="#Bonaventure">Bonauentura</name> 
+          dicens quod Deus voluit nos sic incertos esse de salute ad deponendum 
+          superbiam nostram et ad excitandum diligenciam, ut attencius et a personis dignioribus et securioribus sacramenta requiramus. 
+          Subdit. Credo tamen uel quod Deus reuelet, uel quod suppleat nisi 
+          peccata nostra praepediant hoc de intentione ministri baptizantis  ; 
+          sed est dubium que intencio requiratur in baptizando .</p> 
+        
+        <p>Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod, si est adultus, tunc ad hoc, ut vere suscipiat sacramentum, requiritur intencio et voluntas illud suscipiendi - 
+          ut etiam superius dictum fuit - et ad suscipiendum effectum sacramenti, scilicet gratiam, 
+          requiritur deuocio et praeuia contritio de peccatis. 
+          In pueris autem nullum illorum requiritur, sed absque vtroque illorum suscipiunt 
+          et sacramentum et rem sacramenti in fide Ecclesiae. 
+          Suo modo potest intelligi de fide illorum qui baptizandi sunt quod enim non requiratur fides in baptizante . 
+          Sufficienter dictum est : cum heretici, scismatici, infideles, etcetera, possint baptizare, 
+          dummodo seruant cetera ad baptismum necessario requisita. Sed de fide 
+          <cb ed="#T" n="84va"/>
+          quo ad baptizandos dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> - 
+          ut superius etiam dictum fuit in quaestionibus deficte accedentibus - 
+          quod in adultis requiritur fides etiam propria et personalis ad hoc saltem, 
+          quod consequentur effectum baptismi quia nisi quis vere credat, 
+          ipse reputatur fictus et tunc non consequitur rem sacramenti. 
+          Sed non requiritur in eis fides ad hoc, quod consecuntur sacramentum et sint vere baptizati . 
+          Sacramentum  enim potest percipere etiam qui non credit, vnde <name ref="#Augustine">Augustinus</name> 
+          dicit quod prorsus fieri potest ut aliqui verum baptisma habeant et non habeant veram fidem: 
+          in paruulis vero facit fides Ecclesiae ad utrumque.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

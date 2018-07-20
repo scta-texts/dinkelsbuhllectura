@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 2, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p2q2">
+        <head>Librum IV, Distinctio 1, Pars 2, Quaestio 2</head>
+        <p xml:id="nddml4d1p2q2-d1e3477">Secundo queritur 
+          vtrum praeceptum de circumcisione fuerit suo tempore 
+          omnium obligatorium</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3480">et uidetur quod sic, quia circumcisio 
+          fuit data in remedium originalis culpe. Sed ille morbus originalis 
+          culpe peccati communis fuit omnibus hominibus igitur, et medicina eiusdem 
+          morbi debuit esse communis omnibus, et debebant omnes homines ad eam suscipiendam obligari.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3483">In oppositum arguitur quia circumcisio fuit signum fidei, 
+          sed vnus tantum populus fuit in quo fides et Dei cultus remansit, 
+          ceteris per ydolatriam deprauatis, ergo eidem populo tantum circumcisio competebat.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3486">Conclusio prima : circumcisio non feminis, sed masculis solis data fuit in remedium originale. 
+          Patet <ref><title ref="#gen">Genesis</title> 17°,</ref> vbi dixit Deus ad 
+          <name ref="#Abraham">Abraham</name> : 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3498" ana="#gen17_10">CIRCUMCIDETUR  EX VOBIS OMNEM MASCULUM .</quote>
+            <bibl>Genesis 17:10</bibl>
+          </cit> 
+          Et item dicitur ibidem: 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3507" ana="#gen17_12">INFANS OCTO DIERUM CIRCUMCIDETUR EX VOBIS, 
+              OMNEM MASCULUM IN GENERATIONIBUS VESTRIS.</quote>
+            <bibl>Genesis 17:12</bibl>
+          </cit> 
+          Et huius rei congruitatem assignant doctores quia, 
+          licet prima trasgressio incipit a femina - scilicet Eua qui primo peccat - 
+          tamen ipsa non fuit causa transfusionis originalis peccati in posteros, sed uir, 
+          scilicet <name ref="#Adam">Adam</name>. Si enim <name ref="#Adam">Adam</name> non peccasset 
+          originale peccatum in nos transfusum, non fuisset quod significat apostolus ad 
+          <ref><title ref="#rom">Romanos</title> 5°</ref> dicens: 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3528" ana="#rom5_12">PER UNUM HOMINEM PECCATUM IN MUNDUM INTRAVIT,</quote>
+            <bibl>Romans 5:12</bibl>
+          </cit> 
+          et ideo feminis non    
+          <cb ed="#T" n="21ra"/>
+          data circumcisio in remedium originalis, 
+          sed quedam alia leuiora de quibus dicetur. 
+          Etiam circumcisio fuit signum distinctiuum populi fidelis ab infideli, 
+          sed populi distinctio principaliter est ex parte virorum et 
+          propter hoc apud Hebreos non computabantur genealogie ex parte mulieris, 
+          et idem obseruabant etiam <unclear>ewa???nta</unclear> in descriptione genealogie Christi.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3542">2a conclusio: quamuis praeceptum de circumcisione ligauerit solos Hebreos,
+          ipsa tamen prodesse poterat alys  maribus.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3545">Prima pars quo ad hoc, quod omnes Hebreos ligat, est 
+          <name ref="#Lombard">Magistri</name> dicentis : 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3552"><name ref="#Abraham">Abraham</name> primus mandatum de circumcisione habuit.</quote>
+            <bibl>Lombard, XXX</bibl>
+          </cit> 
+          Et subdit dicens: 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3563">nec ei soli  praecepta fuit circumcisio, sed et semini eius, id est omnibus Hebreis,</quote>
+            <bibl>Lombard, XXX</bibl>
+          </cit> 
+          ut patet vbi praeuius. 
+          Sed quod illud praeceptum solos Hebreos obligauerit, 
+          patet quia post circumcisionis institutionem plures sunt saluati 
+          qui non fuerunt circumcisi, quia dicit <name ref="#GregoryGreat">Sanctus Gregorius</name> 
+          quod <name ref="#Job">Job</name> fuit de stirpe <name ref="#Esau">Esaw</name>  
+          et sic descendit de <name ref="#Abraham">Abraham</name> et percommunis fuit post circumcisionis 
+          institutionem et fuit saluatus, et tamen non legitur circumcisus, 
+          vt dicit <name ref="#HughOfStVictor">Hugo de sancto Victore</name> et <ref><name ref="#GregoryGreat">beatus Gregorius</name> in prologo <title ref="#Moralium">Job</title></ref> 
+          et sic est intelligendum de alys .</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3594">Item Deus fecit pactum cum <name ref="#Abraham">Abraham</name> de certitudine natiuitatis Christi, 
+          de ipsius <name ref="#Abraham">Abrahe</name> posteritate, 
+          et de terra promissionis eidem danda. 
+          Et ideo soli isti intelliguntur praecepto ascripti  ad quos extendit 
+          <cb ed="#T" n="21rb"/> 
+          se illud pactum, sicut <name ref="#Abraham">Abraham</name> et non <name>Ismahel</name>  
+          filius eius, quia per illum non erat descensurus 
+          Christus nec erat posteritas sua possessura terram promissionis. 
+          Sed <name>Ysaac</name> filius <name ref="#Abraham">Abrahe</name> fuit ascriptus 
+          illo praecepto de illo enim dixit Deus <ref><title ref="#gen">Genesis</title> 17° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q2-Qd1e3624" ana="#gen17_19">CONSTITUAM ILLI PACTUM MEUM IN FEDUS SEMPITERNUM ET SEMEN EIUS POST EUM.</quote>
+            <bibl>Genesis 17:19</bibl>
+          </cit>
+          <name>Isaac</name>  igitur, filius <name ref="#Abraham">Abrahe</name>, 
+          obligatus fuit ad hoc praeceptum et non <name ref="#Esau">Esaw</name>  filius eius, sed <name ref="#Jacob">Jacob</name> 
+          filius et simili causa ut de <name>Ismahel</name>  et <name>Isaac</name>  et communiter omnes 
+          fuerunt obligati qui a <name ref="#Jacob">Iacob</name> descenderunt, ut sunt omnes Iudei 
+          duodecim tribus Israhel que descenderant a duodecim filijs <name>Iacob</name>.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3657">Secunda vero pars conclusionis patet quia 
+          ipsa fuit instituta masculis in remedium originalis igitur et alys  
+          maribus eam suscipientibus et ad eam non obligatis potuit prodesse 
+          ad originalis purgationem; propter hoc circumcidebantur proselyti  
+          Iudeorum, id est gentiles nouiter ad fidem Iudeorum conuersi.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3660">Item <name ref="#Abraham">Abraham</name> circumcidit <name>Ismahel</name>  
+          filium suum et vernaculos domus sue, et empticiones, 
+          et alienigenas qui non erant de populo ex quo Christus nasciturus 
+          erat et non circumcidit eos frustra igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p2q2-d1e3669">
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p2q2-d1e3480">
+            <seg>Ad argumentum ante oppositum</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p2q2-d1e3480">Vide supra</ref></bibl>
+          </ref> 
+          dicitur : sicut originale fuit omnibus commune, 
+          sic circumcisio potuit omnibus maribus prodesse, 
+          quamuis non fuerit omnibus maribus praecepta, 
+          sed solum populo israhelitico propter quod Christus
+          <cb ed="#T" n="21va"/> 
+          ex eo fuerat nasciturus. 
+          Quidquid enim ad Christum pertinebat, 
+          hoc debuit singulari sanctitate polire , 
+          sed populus autem Israhel sic ad Christum pertinebat 
+          quod de Eo nasciturus fuit et non de alio, et ideo oportuit quod 
+          in Eo specialiter vigeret cultus divinus et fides vnius Dei. 
+          Et quod consequenter in Eo essent sacramenta que illius essent signa, 
+          qualis erat circumcisio - ut dictum fuit praeuius - apud alios vero manebant eadem 
+          remedia que ante circumcisionem fuerunt, etcetera.</p>
+      </div>
+    </body>
+  </text>
+  </TEI>

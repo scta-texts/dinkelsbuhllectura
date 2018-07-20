@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 1, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 1, Quaestio 4</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p1q4">
+        <head>Librum IV, Distinctio 1, Pars 1, Quaestio 4</head>
+        <p xml:id="nddml4d1p1q4-d1e3477">qveritur quarto vtrum sacramentis Noue Legis insit 
+          quedam virtus ratione cuius causent et producant gratiam effectiue.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3480">Arguitur primo quod non insit eis virtus talis, 
+          quia sacramenta Noue Legis non habent a seipsis huiusmodi virtutem. 
+          Et ergo si esset in eis, oportet  quod habentur a Deo eam et non est a signare quando eis data sit : 
+          non enim in ipsa institutione sacramentorum eis dari potuit, quia res ille et illa uerba tunc non erant. 
+          Et illi quod non est nichil datur, nec potest dici quod Deus quotidie  dat eis illam virtutem a nouo, 
+          quia dicunt doctores quod creatio in hoc tempore solum animarum rationalium et gracie et non possent 
+          eis alio modo dari de nouo nisi per creationem igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3483">Secundo, talis virtus uel esset corporalis uel spiritualis, 
+          sed nullum istorum igitur minor probatur quia si esset corporalis 
+          tunc non posset agere in spiritum producendo caracterem  uel aliud huiusmodi, 
+          et sic esset virtus illa virtus frustra. Si autem virtus huiusmodi poneret spiritualis, 
+          tunc non posset esse in sacramento, quod est corporale, quia quomodo posset accidens 
+          spirituale esse in subiecto corporeo et extenso ?</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3486">Tertio : in sacramento sunt plura, scilicet uerba et res. 
+          Si ergo poneretur talis virtus in sacramento, 
+          <cb ed="#T" n="10ra"/> 
+          uel illa esset in altero tantum et hoc non cum non fit maior 
+          ratio de vno quam de altero uel poneretur in vtroque, et hoc 
+          item non potest rationabiliter dici quia illud esset multiplicare maculam  
+          sine necessitate eo, quod idem esset in diuersis subiectis, scilicet in verbis 
+          et rebus sacramenti et in diuersis sillabis verborum, et esset accidens in 
+          accidente subiectiue, quia huiusmodi virtus esset in verbis, in opere et 
+          per aerem sonantibus igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3492">Quarto sicut in naturalibus non 
+          est ponenda pluralitas sine necessitate secundum 
+          <ref><name ref="#Aristotle">Philosophum</name> primo <title ref="#Physics">Phisicorum</title></ref> 
+          et 
+          <ref>3° <title ref="#DeAnima">De anima:</title></ref> 
+          natura enim non habundat in superfluis nec aliquid facit  
+          frustra saltem secundum speciem. 
+          Ita etiam in fide non sunt plura ponenda quam veritas fidei 
+          non requirit ponere talem, sed veritas fidei non requirit 
+          ponere talem uirtutem in rebus aut verbis sacramentorum, 
+          cum omnia possint convenienter saluari : sine ea igitur superfluum est eam ponere.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3507">Quinto : in sacramento altaris nulla talis virtus est ponenda, 
+          igitur pari ratione nec in alijs sacramentis. Antecedens patet quia ibi 
+          transustanciabatur panis in corpus Christi et hoc non potest fieri aliqua 
+          virtute finita et creata, sed fit solum virtute divina infinita. 
+          Igitur fictitium videtur po-
+          <cb ed="#T" n="10rb"/>
+          -nere talem virtutem in sacramentis igitur, etcetera. Deinde arguitur quod 
+          ipsa sacramenta non causant gratiam, siue insit eis talis virtus siue non, 
+          quia dixit <name>Beatus Benedictus</name> de cena Domini : 
+          <cit>
+            <quote xml:id="nddml4d1p1q4-Qd1e3516">Sicut infestatur canonicus per librum, abbas per baculum et Episcopus per annulum, 
+            sic diuisiones gratiarum sunt diuersis edite sacramentis, sed liber non est causa canonicatus, 
+            nec annulus episcopatus igitur, nec sacramenta sunt causa gracie.</quote>
+          </cit> 
+          Secundo, quia si sacramenta essent causa gracie, 
+          tunc maxime essent cause effective ipsius productiue ; 
+          sed hoc non potest esse cum gratia secundum omnes creetur a solo Deo igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3521">In opposito arguitur et primo quod insit sacramentis quedam 
+          specialis virtus et spiritualis ordinata ad graciam pro ipsa inducenda, 
+          quia dicit <name ref="#Augustine">Augustinus</name> que est vis aque 
+          ut corpus tangat et corpus abluat ; igitur habet baptismus aliquam virtutem 
+          et ita videtur esse de alijs sacramentis a pari ratione.</p>
+        
+        <!-- second ?? -->
+          <p xml:id="nddml4d1p1q4-d1e3529">Similiter <name ref="#Bede">Beda</name> dicit quod Christus tactu mundissime 
+          carnis sue vim generatiuam contulit aquis.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3535">Tercio sacramenta sunt medicine spirituales, ut dicit 
+          <name ref="#HughOfStVictor">Hugo</name>: medicinae autem 
+          que non habent aliquam virtutem invtiles sunt, 
+          cum ergo medicinae spirituales et sacramentales 
+          non possunt esse de se invtiles. 
+          <cb ed="#T" n="10va"/> 
+          Sequitur quod habeant aliquam virtutem igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3544">Quarto arguitur quod sunt causa  pro gratiae productiua quia illa est 
+          differentia inter sacramenta Noue Legis et Veteris Legis, 
+          quia Noue Legis sacramenta causant quod figurant, 
+          id est significant et Veteris Legis non ut sepe dictum est, 
+          cum ergo sacramenta Nove Legis significent gratiam. 
+          Sequitur quod etiam causant eam et hoc etiam notum est ex diffinitione sacramenti 
+          Noue Legis.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3547">Quinto : sacramenta continent graciam et nonnisi ut causa suum effectum, 
+          igitur sunt cause gracie et non materialis, nec formalis, 
+          nec finalis - ut notum est - igitur sunt eius causa efficiens. 
+          Igitur antecedens patet quia in Glossa ad Galathas  sic dicitur, 
+          quod sacramenta Veteris Legis dicebantur egena et inania quia graciam non continebant, 
+          sed hoc non potest dici de sacramentis Noue Legis, scilicet quod egena sunt et inania : 
+          igitur graciam continebant. Idem patet per diffinitionem <name ref="#HughOfStVictor">Hugonis</name> 
+          superius positam vbi interceptans  clausolas dicitur etiam quod sacramentum est gratiam continens ; 
+          propter hoc etiam dicuntur vasa gracie et vasa medicinalia quamuis apud omnes sit certum et 
+          firmissime credendum sit quod sacramenta Noue Legis gratiam conferant et aliquo modo causent, 
+          vt prius dictum est.</p> 
+          
+        <p xml:id="nddml4d1p1q4-d1e3553"><cb ed="#T" n="10vb"/> 
+          Tamen de modo causandi eam et de virtute qua mediante causent non est inter doctores plena concordia, 
+          sed sunt de hoc due famose opiniones : vna est <name ref="#Aquinas">beati Thomae</name> et multorum 
+          aliorum secum in hoc concordancium, qui dicunt primo quod ex applicacione sacramenti Noue Legis secuntur 
+          in anima digne suscipientis duo effectus spirituales.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3560">Primus est caracter uel est quidam ornatus animae quo ad alia sacramenta que caracterem  non inprimunt.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3563">Secundus effectus qui sequitur ex applicatione sacramenti est ipsa gracia iustificans et gratum faciens.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3566">2° dicunt quod Deus in sacramento Noue Legis in eius applicatione et vsu dat quandam virtutem 
+          spiritualem qua mediante ipsum sacramentum producit in anima hominis primum effectum, 
+          scilicet caracterem  uel animae ornatum, qui caracter uel ornatus est dispositio 
+          ad cuius positionem Deus causat semper graciam in eadem anima nisi ponat 
+          impedimentum et obicem.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3570">3° dicunt quod ipsa sacramenta respectu primi effectus, scilicet caracteris  
+          vel ornatus, sunt cause efficientes eo, quod illum effectum mediante uirtute 
+          a Deo eis impressa  producunt causaliter effectiue. 
+          Respectu secundi vero - scilicet iustificationis aut gracie - non sunt cause 
+          <cb ed="#T" n="11ra"/> 
+          producentes sed solum sunt cause disponentes, quia producunt effectiue ornatum 
+          aut caracterem , qui est disposicio prima ad quam Deus inmediate producit gratiam 
+          eam creando et iustificat hominem. Et sic Deus est causa principalis respectu 
+          amborum effectuum, et sacramentum est causa instrumentalis efficiens quidem 
+          respectu primi - scilicet caracteris et ornatus - et est solum causa disponens 
+          respectu 2i - scilicet gratie - quia illam non attingit productive, 
+          sed solum producit disposicionem qua, posita in anima et non existente obicem, 
+          Deus creat gratiam. De hac re possunt poni plura exempla ex quibus omnibus 
+          simul combinatis potest aliquo modo hec materia intelligi : 
+          primum exitum est quod ??? uirtute sua naturali agit in embrionem producendo 
+          in eo complexionem conuenientem animae humane, qua complexione, 
+          posita in materia tamquam sufficienti disposicione pro humana anima infundenda, 
+          Deus solus creat animam humanam et ipsam corpori sic praedisposito infundit. 
+          Sic sacramentum Noue Legis per virtutem sibi desuper datam agit in animam 
+          producendo in ea caracterem aut ornatum, qui est sufficiens dispositio ad gracie 
+          <cb ed="#T" n="11rb"/> 
+          receptionem in eo qui non ponit obicem ; aliunde, qua dispositione posita, 
+          Deus solus creat gratiam et eam animae sic praedisposite infundit.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3577">Secundum exitum est - dicit <name>Damascenus</name> in suo 3° - quod humanitas 
+          Christi fuit uelut  quoddam organum sew  instrumentum deitatis et ideo humana 
+          natura commentabat aliquid in opere virtute diuina. 
+          Et ergo quando Christus tangendo mundauit leprosum tunc, sicut diuinitas sanat 
+          leprosum principaliter, sic tactus Christi corporalis causabat salutem leprose 
+          non ut signum solum, sed ut instrumentum quod commentabat aliquo modo in tali 
+          opere deitatis, scilicet in istius hominis sanationem. 
+          Sic in proposito uidetur ymaginandi  quod, cum applicatur alicui sacramentum, 
+          tunc Deus ut agens principale iustificat hominem et sacramentum concurrit 
+          non ut signum solum, ut dicunt alij, sed ut instrumentum quod producit 
+          dispositionem necessariam ad gratiam suscipiendam et sic ut Dei 
+          instrumentum pertingit ad effectum ad quem per se non posset attingere, 
+          et ideo pro illo producendo communicatur sancta virtus quedam supernaturalis.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3583">3um exitum est ignis Purgatory uel Inferni : agit penaliter in animam separatam, ymo  
+          idem ignis agit in vnam animam plus et in aliam minus, 2m diversitatem culparum, et neutrum 
+          <cb ed="#T" n="11va"/> 
+          illorum posset ignis ex se, sed potest hoc et facit in quantum instrumentum diuinae iustitie. 
+          Sic in  proposito sacramentum agit in animam dispositionem primam ad graciam imprimendam 
+          et hoc non posset ex se et ex sua natura, sed facit ut instrumentum diuinae 
+          misericordiae homines per sacramenta iustificantis et ut hoc posset facere 
+          Deus ei dat virtutem spiritualem mediante qua illud operatur.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3588">Quartum exitum : calor igneus, in quantum est instrumentum animae in 
+          corpore animalis. Habet secundum Philosophum inde anima generare 
+          carnem quam secundum suam naturam non posset generare, quia secundum 
+          propriam naturam non  haberet nec dissoluere et corrumpere. 
+          Ita in  proposito sacramentum - quod est aqua, uel oleum, uel alia similis 
+          materia corporalis - ut instrumentum Dei agit in animam et agit in eam 
+          nobilem dispositionem, scilicet caracterem aut aliud ornatum animae 
+          quorum neutrum posset ex se. Sed potest mediante virtute sibi ad hoc 
+          diuinitus data quod valde facit ad nobilitatem et excellenciam sacramentorum 
+          Noue Legis, quod eis Deus dat tam nobilem uirtutem supernaturalem ut 
+          possint tam nobilem effectuum agere in animam. Et ut non solum sint signa 
+          gratiae dande - sicut denarius plumbeus, uel aliud simile esset signum 
+          alterius elemosinae, uel alterius rei accipiende - sed 
+          <cb ed="#T" n="11vb"/> 
+          sint aliquo modo cause gracie, scilicet dispositiue prout superius 
+          fuit aliqualiter declaratum. Vlterius dicit <name ref="#Aquinas">Sanctus Thomas</name> 
+          quod uirtus illas sacramenti est in ipso sacramento sicut in subiecto. 
+          Gratia uero est in sacramento, non ut in subiecto, 
+          nec ut in vaso - ut patet ex dictis - sed est in sacramento eo modo 
+          quo effectus est in sua causa. Et quia sacramentum est causa gratiae 
+          dispositive instrumentaliter - ut patet ex dictis - et ergo gratia 
+          est in sacramento sicut in causa sua dispositiva instrumentali - et 
+          hoc volunt Glose et sancti cum dicunt gratiam esse in sacramento 
+          et sacramentum continere gratiam - diceret aliquis : - 
+          Sacramenta dicuntur <mentioned>vasa medicinalia</mentioned>, 
+          et vasa gratie quomodo ergo dixisti, quod gracia non est 
+          in sacramentis ut in vaso . Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod pulcherrime 
+            dictum est gratiam contineri in sacramentis sicut in vaso  per 
+            quandam similitudinem : sicut enim quod est in vaso non denominat 
+            <mentioned>vas</mentioned>, sed in eo conseruatur ut possit inde accipi cuiuslibet, 
+            ita gratia quae modo praedicto continetur in sacramentis non denominat ea, 
+            nec qualificat sicut actus solet denominare et qualificare subiectum, 
+            sed gratiam in ipsis sacramentis potest accipere quicumque eis digne et 
+            laudabiliter vti voluerit. 2m hanc positionem esset respondendum 
+            ad argumenta ante opposita  quae uidentur contra eam militare et ergo breuissime 
+            <cb ed="#T" n="12ra"/> 
+            monebo solum aliquas euasiones ; sed qui eam defendere voluerit cogitet particularius.</p>
+        
+            <p xml:id="nddml4d1p1q4-d1e3613">Ad primum dicitur secundum <name ref="#Aquinas">S<supplied>anctum</supplied> Thomam</name> 
+            quod sacramenta respectu effectus sacramentalis sunt instrumenta, sed virtus 
+            agendi instrumentaliter non datur instrumento saltem complete 
+            nec quando mouetur actualiter a principali agenti. 
+            Et ergo illa virtus datur sacramentis solum in ipso eorum vsu 
+            et applicatione et definit cum ipso sacramenti vsu.</p> 
+            
+            <p xml:id="nddml4d1p1q4-d1e3622">Ad primum dicitur quod virtus est spiritualis et est in sacramento corporali, 
+            quod non debet reputari intentione mens sicut nec de anima humana que est 
+            indivisibili corpore.</p> 
+            
+            <p xml:id="nddml4d1p1q4-d1e3626">Ad 3m posset dici quod virtus est in solo elemento quia, 
+            id est realiter sacramentum ut in aqua baptismi, uel in oleo, 
+            uel posset etiam poni in vis per assistentiam uel inherentiam.</p>
+        
+              <!-- 4o -->
+            <p xml:id="nddml4d1p1q4-d1e3631">Et cum dicitur in illo argumento et in sequenti, scilicet in quarto, 
+            quod non sunt multiplicanda miracula sine necessitate, dico quod huiusmodi non 
+            ponuntur ibi fieri sine necessitate et rationabili causa, quia ponuntur
+            ad saluandum dicta sanctorum. 
+            Quae alia non possunt - ut uidetur - rationabiliter saluari, 
+            quia in hijs quae pertinent ad materiam fidei magis oportet sequi auctoritate  
+            sacre Scripturae et dicta sanctorum quam rationes et argumenta que sepe fallunt. 
+            Sancti autem expresse dicunt sacramenta Noue Legis habere virtutem et 
+            causare gratiam quam significat quod sancti non dixissent
+            <cb ed="#T" n="12rb"/>    
+            nec tam diligenter prosecuti fuissent, nec ipsa sacramenta aliquam 
+            realem virtutem et causalitatem crediderint habere.</p>
+        
+            <p xml:id="nddml4d1p1q4-d1e3636">Ad 5tum posset dici quos talis virtus et causalitas ponitur 
+              in sacramentis solum respectu gratiae et illa non causatur in 
+              transubstantiatione ex ui sacramenti, sed in sacramenti vsu et sumptionem. 
+              Et ergo non oportet - ut videtur - ut uirtutem huiusmodi ponetur in verbis consecrationis, 
+              sed posset poni in specibus sacramentalibus cum sumitur sacramentum. 
+              Ad aliud dicit <name ref="#Aquinas">Sanctus Thomas</name> quod - sicut ex praecedentibus ibidem patet - 
+              Benedictus non intendit respondere similitudinem sacramentorum 
+              ad illa nec quantum ad significationem, quia annulus est 
+              signum et etiam baculus et similiter sacramenta, sed sacramenta 
+              vltra hoc sunt causa.</p>
+        
+              <p xml:id="nddml4d1p1q4-d1e3642">Ad vltimum patet ex corpore questionis 
+              quomodo sacramenta sunt causa instrumentalis dispositiua respectu 
+              gracie, et hoc sit dictum de illa prima opinione et sint illa tantum 
+              recitative dicta.</p>
+        
+            <p xml:id="nddml4d1p1q4-d1e3645">Alia est opinio <name ref="#Scots">Scoti</name> et multorum secum in hoc 
+              concordancium qui dicunt primo quod non sit aliqua virtus supernaturalis 
+              in sacramentis quam Deus eis infundat in vsu et applicatione eorum. 
+              Probant hoc argumentis : a principio arguitis ante oppositum questionis 
+              et maxime ex hoc, quod videtur eis superfluum talem virtutem ponere eo, 
+              quod omnia possunt saluari sine tali virtute et non oportet sic multiplicare maculam 
+              <cb ed="#T" n="12va"/> 
+              sine necessitate.</p> 
+              
+              <p xml:id="nddml4d1p1q4-d1e3654">Secundo dicitur quod, si caracter est quedam qualitas 
+              positiua in anima, tunc talem caracterem  non producit sacramentum 
+              nec forte posset producere etiam mediante tali virtute quam alij ponunt, 
+              quia caracter est quedam forma supernaturalis que non potest esse cernendus actionis  
+              naturalis, sed tantummodo creacionis sicut anima humana et gratia et sicut virtus, 
+              quam aly  ponunt a Deo immediate. Igitur item non oportet ponere virtutem qualem aly  
+              ponunt in sacramento ad producendum caracterem. Sicut enim ipsi dicunt quod Deus solus 
+              producit illam virtutem sacramenti et ei infundit, ita dicatur quod solus 
+              Deus producit caracterem et infundit animae, et sic nulla erit causa ponendi 
+              uirtutem huiusmodi ad caracterem producendi, nec aliquem alium effectum.</p>
+        
+            <p xml:id="nddml4d1p1q4-d1e3657">Tertio dicunt quod sacramenta non sunt cause gratiae illo modo, 
+              quod efficiant et producant siue principaliter, siue instrumentaliter 
+              in animam aliquam dispositionem super naturalem, qua posita Deus semper 
+              producat gratiam. Patet ex dictis cum naturalem talem dispositionem producant 
+              nec forte producere possint, sed dicuntur gratiae causae instrumentales 
+              solum isto modo et propter hoc, quia habent actionem aliquam naturalem 
+              exterius circa corpus aut circa sensum hominis qua facta rite, 
+              secundum Christi institutionem et Ecclesiae ordinationem. 
+              Et non existente impedimento insuscipienti, Deus semper causans 
+              <cb ed="#T" n="12vb"/> 
+              gratiam ex sua ordinacione et pactione firma. Sic enim Deus ordinat et pepegit 
+              cum Ecclesia sua et firmiter statuit quod quicumque viator rite et 
+              digne suscipit sacramentum aliquod Noue Legis, quod ille simul cum illo 
+              accipit gratiam a solo Deo immediate: exin gratia in baptismo. 
+              Ibi enim aqua quae est baptismi materia ex sui natura habet illam operationem 
+              circa hominis corpus quod habet illud abluere, et illa ablucio exterius circa 
+              corpus hominis facta cum debita forma uerborum, cum debita intentione et 
+              ceteris requisitis est causa qua posita Deus solus ex sua firma pactione. 
+              Interius causat  gratiam et abluit animam a peccatis, sacramento non producendo  
+              in anima quamcumque praeuiam dispositionem. Et ideo sacramentum potest ratione illius 
+              dici causa gratiae instrumentalis uel 2m alios ministerialis, quia est quasi ministerium 
+              vnum quo posito Deus ponit gratiam.</p> 
+              
+              <p xml:id="nddml4d1p1q4-d1e3662">Pro huius declaracione possunt poni aliqua exempla satis familiaria : 
+                primum est quod 2m aliam opinionem caracter uel aliter quidam animae ornatus est 
+                disposicio qua posita Deus ex ordinatione sua et pacto cum Ecclesia semper producit 
+                gratiam in eadem anima si non posuerit obicem peccati. 
+                Ita in proposito dicendum - secundum praesentem opinionem - quod ablucio aquae, 
+                uel linicio olei, etcetera cum  verbis debitis est inmediate disposicio 
+                qua posita Deus semper causat gratiam et hoc ex ordinatione 
+                <cb ed="#T" n="13ra"/> 
+                et firma cum Ecclesia pactione.</p>
+        
+        <p xml:id="nddml4d1p1q4-d1e3667">2m exitum : multum dicitur aliquo modo causa praemy  eo, quod praemium acquiritur 
+          per meritum et tamen meritum nullam disposicionem aliam a se causat in anima respectu praemy  
+          accipiendi. Sed Deus ex sua firma promissione statuit et ex sua invariabili et infallibili  
+          veritate semper implet et seruat quod existente merito ipse vult dare praemium correspondens. 
+          Sic in proposito sacramentum dicitur ‘causa gracie’ aliquo modo, 
+          et tamen nullam dispositionem praeuiam producit in anima, sed Deus posita rita applicatione 
+          sacramenti producit gratiam ex pacto suo inviolabili cum Ecclesia sua inito.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3670">3m exitum sit quod princeps aliquis pro signo pacis instituat tactum manus ut solitum fuit 
+          apud  veteres de porrectione dextere, et determinet se adhuc, et firmiter paciscatur quod 
+          semper cooperetur illi signo ad effectum pacis signatum, nisi impediat indisposicio alterius. 
+          Tunc posito tactu manus ponitur pax et non ex hoc, quod tactus ille agat in animam aliquam 
+          dispositionem specialem pacis effectiuam, sed solum ex pacto firmo inter illos habito. 
+          Sic in proposito, quia Deus applicacionem ritam sacramentorum Noue Legis instituit pro 
+          signo gratiae conferende et se ad hoc determinat  quod semper cooperari vult illo signo 
+          ad effectum per ipsum signatum, ut impediat indispositio persone 
+          <cb ed="#T" n="13rb"/> 
+          suscipientis sacramentum. Et ideo, quando rite applicatur sacramentum viatori disposito, 
+          tunc semper causat in eum gratiam non sic, quod sacramentum producat aliquod in animam, 
+          etcetera, sed Deus solus inmediate hoc facit ex suo pacto firmissimo et inviolabili, 
+          quod cum Ecclesia sua pepegit et semper seruabit.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3675">4m exitum: si princeps institueret  aliquod signum ut denarium plumbeum cum certo 
+          caractere aut alio tali et ordinaret quod quicumque accipit vnum de istis signis, 
+          ille habeat centum libras, tunc ille denarius (non add. ms.) dat tali centum libras, 
+          sed solus princeps dat, et denarius est tantum signum dationis futurae. 
+          Sic in proposito Deus instituit sacramenta Noue Legis et ordinat quod quicumque 
+          vnum ex illis rite et digne accipit, ille accipiat etiam gratiam. 
+          Et illud sacramentum non dat gratiam ipsi suscipienti, 
+          sed est solum signum gratiae conferende et Deus solus immediate  dat effectiue.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3679">5m exitum : ex diuina iussione per <name>Elizeum</name>  prophetam locionem corporis exteriorem 
+          in aqua Iordanis consecuta est, in Aamon syro mundacio lepre corporalis, 
+          ut patet 4to.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3685">Responditur 5° : et non est secuta uirtute aliqua  ad aquas Iordanis, 
+        cum nullam talem tunc habuerit quia fuit in Veteri Lege, sed facta est immediate  
+        a sola diuina virtute. Sic in proposito applicacionem ritam aque baptismalis 
+        sequitur mundacio animae a lepra spirituali per gratiae infusionem; non ex virtute 
+        <cb ed="#T" n="13va"/> 
+        aliqua speciali que sit in sacramento, sed sola ex diuina virtute ipsi sacramento 
+        praedicto modo assistente. Hec opinio habet respondere ad argumenta ad oppositum 
+        questionis facta.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3690">Ad primum ergo dicitur  2m eam quod <name ref="#Augustine">Augutinus <!-- Augustinus --></name> 
+          non vvlt , quod aquae baptismi aut materiae alterius sacramenti insit vna virtus specialis 
+          et supernaturalis secundum modum quem ponit prima opinio, 
+          sed vvlt  solum quod ex Dei ordinacione est, quod quando aqua  
+          baptismi applicatur homini rite 2m Christi institutionem, 
+          tunc Deus sic assistit sacramento quod ipse interius sua virtute 
+          gratiam infundit et illa mediante corpus abluit et mundat a peccato. 
+          Virtus enim illa de qua <name ref="#Augustine">Augustinus</name> loquitur est 
+          virtus diuina que ex suo pacto sic aque baptismi assistit, 
+          quod cum ipsa aqua corpus tangit exterius, Deus interius mundat 
+          animam effectiue producendo gratiam, quamuis aqua causat eam misterialiter suo modo.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3700">Respondetur ad 2m, ut illa virtus uel vis aque dicatur efficax 
+          Dei ordinacio concomitanciam in sacramenti rita applicatione et 
+          non dicatur illa vis regeneratiua aqua, qualitas et virtus productiua 
+          caracteris tamquam dispositionis et necessitatis ad gratiae productionem.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3703">Ad 3m dicitur quod sacramenta Noue Legis sunt vere et vtiles ac efficaces 
+          medicinae animae, non quidem sanitatem, scilicet gratiam efficiendo aut 
+          aliquam dispositionem ad eam praeuiam in anima producendo, 
+          sed tantum ut causae ministeriales, ad productionem concurren- 
+          <cb ed="#T" n="13vb"/> 
+          -do modo qui praedictus est.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3708">Ad vltima duo dicitur quod sacramenta continent gratiam non 
+          proprie - sicut vas continet liquorem - sed similitudinarie - sicut 
+          signum suum signatum - et sic causa ministerialis suum effectuum. 
+          Et hoc volunt sancti et non aliud, ut dicit illa opinio. 
+          Ex istis patet etiam differentia inter sacramenta Noue Legis et Veteris 
+          Legis 2m illam opinionem, quia sacramenta Noue Legis dicuntur causare 
+          gratiam quam significat  propter hoc, quod talis pactio a Deo certa 
+          illa sacramenta est et ordinacio, quod in eorum rita applicacione 
+          semper velit causare gratiam indigne suscipienti. Talis autem pactio non 
+          erat facta in sacramentis Veteris Legis ut accedentes ad ipsam semper 
+          gratiam acciperent, et ideo dicuntur gratiam non conferre, 
+          sed tantum promittebant pro futuro dandam per Christum verum, 
+          quod ista  de prima opinione fundat se principaliter in auctoritatibus  
+          et modo loquendi doctorum sanctorum qui valde aperte attribuunt sacramentis 
+          Noue Legis virtutem et causalitatem respectu effectuum sacramentalium. 
+          Pactio autem illa sola et ordinatio Dei de effectu per ipsum dando non tribuit 
+          ipsis sacramentis aliquod de ratione causae, sed solum de ratione signi, 
+          quia haberent se solum ut denarius plumbeus nichil dans, sed 
+          solum qui est signum indicans quis debeat accipere. Item sacramenta Noue Legis 
+          que differunt a sacramentis Veteris Legis 2m istam ordinationem 
+          solum - ut dicit secunda opinio - non differrent 
+          <cb ed="#T" n="14ra"/> 
+          ab eis secundum rationem causae, sed solum secundum modum signandi 
+          in quantum illa significant gratiam ut statim dandam. 
+          Illa vero non ut statim, et ergo uidetur quod ista secunda 
+          opinio non satisfaciat intencioni sanctorum quorum dictis in tali 
+          materia plus standum est quam racionibus et argumentis. 
+          Ex ambarum opinionum dictis sequitur quod sacramenta Noue Legis 
+          ex se et quantum est ex parte eorum sunt semper efficacia. 
+          Patet quia quodlibet sacramentum Noue Legis aut eius vsum 
+          quantum est ex parte sui concomitatur  semper effectus principalis 
+          ad quem significandum et causandum institutum est, igitur ex se semper 
+          est efficax. Patet  quia hoc est, sacramentum esse efficax, scilicet 
+          ipsum et eius vsum semper concomitari effectum quantum est ex parte sui. 
+          Et cum non fuerit impedimentum aliunde, antecedens probatur quia secundum 
+          ambas opiniones effectus principales ad quem significandum et causandum 
+          sacramenta instituta sunt et eorum vsus institutus est ex gratia gratum 
+          faciens et quandocumque fit sacramentorum ritus, vsus uel applicacio. 
+          Tunc Deus causat eandem graciam indigne suscipienti, et hoc ex pacto 
+          primo et instrumentali cum Ecclesia inito. Et dixi nominaliter ex se 
+          et quantum est ex parte sacramentorum quia si aliquando non sequitur 
+          effectus, hoc est propter indispositionem suscipientis quia ponit obicem 
+          gratiae per peccatum, et hoc non minuit efficaciam sacramenti sicut sol 
+          semper illuminat 
+          <cb ed="#T" n="14rb"/>
+            quantum est ex parte sui, et ideo efficax est ad semper illuminandum, 
+            non tamen semper illuminat propter obstaculum aut propter impedimentum 
+            rei illuminande ut propter nubem interpositam aut propter clausionem 
+            fenestre , sed manet dubium vnde et a quo sacramenta habeant huiusmodi 
+            efficaciam.</p> 
+            
+            <p xml:id="nddml4d1p1q4-d1e3716">Respondent doctores concorditer, et dicunt quod habent eam a Deo 
+              tamquam a causa principali et efficiente. 
+              Patet quia quod sacramenta concomitatur  semper eorum proprius effectus, 
+              hoc est eorum efficacia, vt dictum est, et hoc habent a Deo ut a 
+              causa principali quia solo statuit, ordinat et inviolabiliter servare 
+              vult semper quod ad omnem ordinatum sacramentorum vsum concomittetur 
+              effectus proprius eorum et solus tamquam principalis eosdem effectus 
+              inmediate producit causaliter effectiue, ut sepe dictum est.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3719">Secundo dicunt concorditer quod a Christo et Eius passione habent sacramenta 
+          efficaciam suam ut acta meritoria, quia Christus Dominus sua passione hoc nobis meruit, 
+          quod Deus talem efficaciam sacramentis Noue Legis dedit. 
+          Quia non meruit quod Deus talem pactum cum Ecclesia sua fecit, 
+          quod in omni ordinato vsu sacramentorum vult continere ad effectum eorum producendum, 
+          et sic inviolabiliter seruat et semper seruabit. 
+          Ex quibus patet quod Christus Dominus ratione duplicis naturae, 
+          siue scilicet diuine et humane, est dux, causa, efficacie sacramentorum, 
+          quia secundum quod Deus est cum Patre et Spiritu sancto causa influens, gratiam causans et 
+          <cb ed="#T" n="14va"/> 
+          infundens, sed 2m quod homo est causa meritoria, quia per passionem suam quam 2m 
+          quod homo sustinuit meruit nobis, quod diuina uirtus sic efficaciter assistit sacramentis.</p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3724">Contra illa arguitur primo sic : passio Christi non est, ergo non est causa alicuius effectus 
+            et percommunis non est causa sacramentorum. Antecedens patet quia dictum est : praeterita est.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3727">Secundo si sacramenta habent efficaciam a passione Christi, hoc maxime esse a vvulnere 
+          lateris eius, sed ab illo nullum sacramentum accepit efficaciam, 
+          igitur nec ab alia eius passione maior patet, quia super illo 
+          <ref><title ref="#rom">Ad Romanos</title> 5°.</ref> In similitudinem praeuaricationis <name ref="#Adam">Ade</name> 
+          dicit <title>Glossa</title> : sicut ex latere <name ref="#Adam">Ade</name> dormientis 
+          sumpta est costa - vnde formata est <name ref="#Eva">Eua</name> - sic ex latere Christi 
+          dormientis in cruce fluxerunt sacramenta, scilicet aquae ablutionis 
+          et sangwis  redemptionis. Et <ref>vigesima  2a <title ref="#CityOfGod">De ciuitate Dei</title> dicit <name ref="#Augustine">Augustinus</name></ref> 
+          in exordio generis humani de latere viri dormientis : 
+          detracta costa edificata est femina, Christum et Ecclesiam 
+          iam cum sacramento prophetari oportebat. Sopor ille, quippe viri dormientis, 
+          mors erat Christi cuius examinis incerte pendentis lancea latus perforatum est, 
+          ad quem inde sangwis  et aqua simul profluxit, que sacramenta esse nouimus 
+          quibus Christi edificatur Ecclesia, minor scilicet, 
+          quod non suppresserint  efficaciam ab illo vulnere 
+          <cb ed="#T" n="14vb"/> 
+          lateris Christi. Patet quia, cum vulnus illud fuit Christi lateri inflictum, 
+          tunc iam Christus mortuus fuit et anima a corpore separata, ut patet 
+          <ref><title ref="#io">Iohannis</title> 19°.</ref> Igitur tali vvlnere nichil tunc meruit.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3763">3° - Aliqua sacramenta Noue Legis fuerunt a Christo instituta 
+          ante eius passionem, et illa suam efficaciam non habebant a Christi 
+          passione. Antecedens patet de sacramento baptismi, de quo Dominus 
+          dixit <ref><title ref="#io">Iohannis</title>  3°:</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q4-Qd1e3772" ana="#io3_5">NEC QUIS RENATUS FUIT EX AQUA ET SPIRITU SANCTO NON POTEST INTROIRE IN REGNUM DEI.</quote>
+            <bibl>Ioannes 3:5</bibl>
+          </cit> 
+          Et de Ewcaristia  patet 
+          <ref><title ref="#lc">Luce</title> 22°</ref> et 
+          <ref><title ref="#mt">Mathei</title> 26°,</ref> 
+          vbi habetur quod Christus eam instituit ante passionem, 
+          quia in vltima cena.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3790">Ad primum argumentum dicitur secundum <name ref="#Scotus">Scotum</name> 
+          quod, licet passio Christo non sit in actu, est tamen in cognitione et 
+          acceptatione diuina et hoc sufficit ut sit causa meritoria propter 
+          quam tunc facta. Deus sic ut est dictum assistit sacramentis : 
+          sic enim est in nobis quod multa conferimus alys  propter seruicia aut 
+          merita quae non sunt in actu potencia.</p>
+        
+          <p xml:id="nddml4d1p1q4-d1e3797">Sic in proposito ad secundum dicitur quod, 
+          quia illud wulnus  inflictum fuit lateri Christi, 
+          eo iam mortuo, et ideo sacramenta non fluxerunt de wulnere  
+          illo, nec sumpserunt ab eo efficaciam suam tamquam a causa meritoria. 
+          Sed cum sancti dicant ea inde fluxisse, 
+          volunt solum per hoc in misericordiae quandam similitudinem expressam , 
+          quam habent ea que de Christi latere fluxerunt cum ut istis sensibilibus 
+          que sunt in quibusdam 
+          <cb ed="#T" n="15ra"/> 
+          sacramentis. Sangwis  enim qui fluxit de latere Christi expressiorem  
+          habet  similitudinem cum specibus sub quibus est sangwis  in Ewcaristiae  
+          sacramento et aqua que inde fluxit specialius assignatur materia baptismi, 
+          que duo sunt sacramenta principaliora. Et ad hoc innuendum dicitur 
+          extra de celebratione missarum ut in istis duobus, scilicet aqua et sangwine , 
+          duo maxima sacramenta regenerationis et redemptionis relucent.</p>
+        
+        <p xml:id="nddml4d1p1q4-d1e3802">Ad 3um dicitur secundum Scotum quod omnia sacramenta 
+          Noue Legis que Christus ante suam passionem instituit 
+          habuerunt tunc efficaciam ab eius passione ut exhibita, 
+          non quidem in actu exteriori, sed interiori actu. 
+          Christus enim a primo instanti conceptionis sue habuit 
+          meritum passionis, quia in primo instanti conceptionis et 
+          deinceps semper habuit etiam secundum humanam voluntatem 
+          perfectam et consumatam volicionem liberam offerendi se in 
+          passionem et mortem pro salute hominum. Et in isto interiori 
+          actu consistit principaliter meritum : Deus enim principaliter 
+          intuetur cor. Quodquod ergo Christus in tempore vite sue et 
+          conuersacionis in terra instituit, hoc potuit etiam tunc habere 
+          efficaciam a passione sua non quidem completa opere exteriori, 
+          sed ab eo secundum humanam voluntatem perfecte volita, que volicio 
+          et interior promptissima oblacio ex ardentissima caritate fuit 
+          diuinitati acceptissima 
+          <cb ed="#T" n="15rb"/> 
+          et gratissima et propter hoc meritoria causa efficacia 
+          sacramentorum a Christo institutorum. Videtur tamen aliquibus 
+          quod huiusmodi sacramenta Noue Legis a Christo ante eius passionem instituta habuerunt. 
+          Tunc scilicet eo hic morante et ante passionem minorem efficaciam quam post exhibitam 
+          passionem habuerunt, et nunc habeant passio volita interiori actu et cum hoc exhibita actu exteriori; 
+          et in re maiorem eis tribuit efficaciam quam solum volita actu interiori. 
+          Ita vult <name ref="#Scotus">Scotus</name> et idem <name>Petrus de Tharantasia</name>  
+          in praesenti questione et in solutione racionis vnius. Et consonat illi quod doctores 
+          communiter dicunt, scilicet quod omne bonum gratiae et gloriae quod 
+          vmquam post culpam <name ref="#Adam">Ade</name> hominibus collatum est 
+          aut confertur totum est collatum et confertur racione passionis Christi, 
+          et ex merito illius quidquod enim gratiae collatum fuit iustis ante Christi 
+          aduentum, illud conferebatur eis a Deo ratione passionis Christi futurae 
+          et adhuc nullo modo exhibite, nec in voluntate humana Christi nec in 
+          actu exteriori, sed ab hominibus credite et a Deo praeuise. 
+          Et quidquod gratiae est collatum hominibus post Christi aduentum et 
+          ante eius passionem, hoc fuit eis collatum ratione passionis Christi 
+          a Deo praeuise, et iam a Christo exhibite quo ad voluntatem, licet non 
+          quo ad factum quidquid autem nunc boni confertur hominibus illud confertur 
+          <cb ed="#T" n="15va"/> 
+          eis racione passionis Christi nunc exhibite et voluntate et 
+          facto et a nobis ut sit credite. Et dicunt communiter doctores 
+          quod Christi passio nunc exhibita est efficacior quam cum fuit 
+          exhibenda, vnde pro eodem actu bono Deus minorem gratiam dedit 
+          ante aduentum Christi - cum eius passio nullo modo fuit exhibita - 
+          quam post eius aduentum, cum fuit exhibita sola voluntate Christi. 
+          Et nunc dat plus de gratia pro illo eodem bono opere quando passio 
+          est exhibita et voluntate Christi et actu exteriori, et proportionabiliter 
+          intelligi de sacramentis, ut fuit dictum.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3818">Sunt adhuc pauca dubia 
+          et braeuia circa textum.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3821">Primum vtrum omne sacramentum sit signum, 
+          quod sic patet per <ref><title><name ref="#Lombard">Magistrum</name> in littera</title> qui proprie 
+          principium textus</ref> diffiniendo <mentioned>sacramentum</mentioned> dicit, 
+          quod omne sacramentum est signum et non econuerso, et ideo 
+          in diffinitione sacramenti ponit hic  signum pro genere.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3834">In oppositum arguitur quia triplex est signum scilicet demonstratum, 
+          quod est respectu praesentis praenoscitum, quod est respectu futuri 
+          et rememoraturi, quod est de praeterito. Sed nullum illorum conuenit 
+          sacramento, quia contingit aliquando quod recipiens sacramentum non habet 
+          gratiam de praesenti, nec habuit in praeterito, nec habebit in futuro et ergo 
+          sacramentum nullo modo est gratiae signum. Item Augustinus in De doctrina 
+          Christiana et similiter <name ref="#Lombard">Magister</name> in littera diuidunt 
+          signa in naturalia et in data, 
+            <cb ed="#T" n="15vb"/> 
+          id est constituta, sed sacramenta non sunt naturalia nec data igitur, etcetera. 
+          Minor probatur quia non sunt eadem apud homines, 
+          igitur non sunt naturalia nec sunt mutabilia, igitur non sunt instituta sew  
+          data siue uoluntaria.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3842">Est notandum secundum <name ref="#Aquinas">sanctum Thomam</name> quod signum importat 
+          nobis aliquod notum per quod manuducimur in cognitionem alterius 
+          nobis occulti, et quia res sensibiles sew  sensv perceptibiles sunt 
+          nobis primo note, ymo  omnis nostra cognitio incipit a sensibilibus, ut 
+          dicit <ref><name ref="#Aristotle">Aristoteles</name> primo <title ref="#Physics">Phisicorum</title>.</ref> 
+          Et ideo proprie dicitur signo res sensibilis nata nos manuducere 
+          in cognitionem alicuius nobis occulti, et hoc vvlt <ref><name ref="#Lombard">Magister</name> cum proprie principium 
+          illius prime distinctionis</ref> dicit <mentioned>signum</mentioned> et  <mentioned>res</mentioned> praeter speciem 
+          quam ingerit sensibus aliud aliquod ex se faciens in cognicionem uenire, 
+          id est signum proprie acceptum est res que sensu percipi potest, 
+          et que ex sui natura uel institutione voluntaria nata est hominem ducere in 
+          cognicionem alicuius occulti. Et dico <mentioned>ex sui natura</mentioned> propter signa 
+          naturalia ut fumus qui ex sui natura habet, quod ostendit et manifestat 
+          ignem etiam occultum. Et dicitur <mentioned>uel ex institutione</mentioned> 
+          propter signa instituta, ut sunt sacramenta que a Deo instituta sunt 
+          ad significandum gratiam et alia spiritualia de se occulta.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3875">Respondetur ergo ad dubium quod isto modo, accipiendo signum, omne sacramentum est signum, quia quodlibet est res
+            <cb ed="#T" n="16ra"/>
+            sensibilis, ut aqua baptismi, aut oleum in crismate, uel species albedenis in Ewcaristia  et ceterys  
+            et quodlibet ex diuina institucione natum est nos manuducere in cognitionem 
+            alicuius effectus spiritualis et occulti, ut patebit amplius cum de quolibet agetur 
+            in particulari.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3880">Ad primum argumentum in oppositum respondetur quod sacramenta Noue Legis 
+          tria significant, scilicet causam primam sanctificantem - sicut baptismus 
+          significat mortem Christi que est prima causa meritoria sanctificacionis nostrae, 
+          et quantum ad hoc sunt signa rememoratiua eo, quod signa cum est praeteritum 
+          in cuius memoriam nos ducit. Secundo significant effectum sanctificationis quae etiam faciunt 
+          et causant - quae significatio est eis principalis - et sic sunt signa demonstratiua que 
+          significant gratiam conferri principaliter illi suscipienti. Nec obstat si aliquis per 
+          sacramentum sanctitatem non recepit quia hoc non est ex defectu sacramenti sed 
+          ex indisposicione suscipientis : sacramentum enim conferret quantum esset in se. 
+          3° significant finem sanctificationis, scilicet vitam eternam et quantum ad hoc sunt signa praenoscita , 
+          sacramenta vero Veteris Legis erant tradita <mentioned>signa praenoscita</mentioned>  
+          quia significabant solum futura, ut est superius dictum.</p>
+        
+        <p xml:id="nddml4d1p1q4-d1e3886">Ad secundum dicitur quod sunt signa instituta quia, 
+          licet aptitudinem significandi habeant, a natura tamen 
+          actualem et ordinationem ad significandum 
+          <cb ed="#T" n="16rb"/> 
+          habent ab institutione diuina, et ergo sunt signa instituta et voluntaria. 
+          Sed quia  imposita sunt a voluntate diuina omnino invariabili, 
+          et ex hoc sunt inmutabilia signa.</p> 
+        <!-- second dubium -->
+        <p xml:id="nddml4d1p1q4-d1e3893">Secundum dubium circa hoc quod dicit 
+          <name ref="#Lombard">Magister</name> obseruancie cerimoniales Veteris Legis : 
+          queritur enim quod intelligat per cerimonias.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3899">Respondetur quod cerimonie dicuntur ritus et obseruancie exteriores maxime 
+          circa cultum diuinum qui secundum se non habent causam manifestam 
+          quare illa et sic fiant potius quam alia. 
+          Vel aliter quamuis possint habere causam ex sua institutione, 
+          ut dicit <name ref="#Aquinas">sanctus Thomas</name> ut in Veteri Lege 
+          dicebantur cerimonie, circumcisio, vnctio regum, esum agni pascalis, 2m 
+          certum modum et obseruantiam, iuge sacrificium, abstinentia a carnibus 
+          suillis et a multis alys  cibis et innumeralia erant in Veteri Lege, 
+          maxime circa diuinum cultum que non habebant causam ex se nec ex sua natura, 
+          quare ipsorum vsus esset in diuino cultu, et tali modo pocius quam vsus aliorum 
+          et alio modo quamuis habuerint causam ex Legis institucione. Verum, 
+          quod aliqui capiunt cerimonialia strictius, distingwentes  sacramentalia 
+          Veteris Legis a cerimonialys  eiusdem. Suo modo cerimonie dicuntur 
+          apud nos nunc thurificatio, celebracio misse cum talibus apparatibus 
+          cum tali, tantu et insuper genuflexiones, 
+          <cb ed="#T" n="16va"/> 
+          inclinaciones et innumera huiusmodi que sunt circa diuinum cultum et in 
+          obseruancys  religionum. Dicuntur autem cerimonie quasi munia ceteris que 
+          apud gentiles collebatur pro Dea frugum, quia ei primo sunt sacrificia instituta 
+          et huiusmodi, et exinde translatum est nomen ad omnem obseruantiam circa diuinum cultum. 
+          Vel, secundum <name>Valerium Maximum</name> dicuntur cerimonie a <name>Caere</name> oppido  
+          in quo Romani primo ritus suos instituerunt.</p> 
+        <!-- third dubium -->
+        <p xml:id="nddml4d1p1q4-d1e3916">3° queritur de hoc quod <name ref="#Lombard">Magister</name> dicit : 
+          <cit>
+            <quote xml:id="nddml4d1p1q4-Qd1e3923">homo enim qui ante peccatum sine medio Deum videbat,</quote>
+            <bibl>Lombardus, XXX</bibl>
+          </cit> 
+          etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3931">Est circa hoc notandum quod - ut dicit <ref><name ref="#Lombard">Magister</name> in 2° distinctione 23a</ref> - 
+          homo in statu innocentie habuit distinctionem boni 
+          et mali et habuit scientia rerum creatarum et cognicionem veritatis. 
+          Et subdit quod homo tunc fuit praeditus triplici cognitione, scilicet 
+          Creatoris et sui ipsius et rerum propter se factarum. 
+          Et dicit quod ad talem cognicionem homo tunc, scilicet ante lapsum, 
+          non studio et disciplina aliqua per interuallum temporis profecitur, 
+          sed ab exordio sue conditionis diuinitus illam perceperit. 
+          Et item dicit quod primus homo cognitionem Creatoris accepisse creditur : 
+          cognouit enim a quo creatus fuit non eodem modo cognoscendi quo a credentibus 
+          absens creditur, sed quadam interiori aspiratione qua Dei potentia  
+          contemplabatur, non tamen ita excellenter sicut post hanc vitam sancti, 
+          sicut visuri. Ita, si homo perstitisset in statu innocencie 
+          <cb ed="#T" n="16vb"/> 
+          ipse Dei et rerum spiritualium notitiam non accepisset 
+          ex sensibilibus et per discursum et alium laborem, 
+          sicut modo facimus, sed recepisset talium cognitionem 
+          inmediate a Deo per infusionem, et multo clarius quam 
+          talia hic cognoscere valeamus. Et hoc voluit <name ref="#Lombard">Magister</name> 
+          in praedictis verbis cum dixit: Sine medio Deum videbat, id est secundum 
+          <name ref="#Aquinas">s<supplied>anctum</supplied> T<supplied>homam</supplied></name> diuinorum 
+          cognitionem non ex sensibilibus signis accipiebat, sed per infusionem.</p>
+        <!-- 4th dubium -->
+        <p xml:id="nddml4d1p1q4-d1e3954">Vltimo dubitatur circa hoc quod <name ref="#Lombard">Magister</name> 
+          dicit : proprie finem istius prime partis distinctionis 
+          duo sunt in quibus sacramentum consistit, scilicet verba et res. 
+          Verba ut invocatio Trinitatis, res ut aqua, oleum, et cetera 
+          huiusmodi. Videtur quod hoc non sit verum : sacramentum enim est 
+          aliquod vnum, sed ex duobus que non sunt coniuncta non potest aliquod 
+          vnum fieri nec vnum potest esse forma alterius. 
+          Cum ergo verba et res sint omnino separata, videtur quod ex eis non possit constare sacramentum.</p>
+        
+        <p xml:id="nddml4d1p1q4-d1e3960">Secundo : in Veteri Lege erant sacramenta et ista non habebant aliqua verba determinata et eis appropriata, 
+          igitur non omne sacramentum constat ex verbis et rebus, et videtur quod nec pari ratione sacramenta 
+          Noue Legis debeant constare ex verbis et rebus.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3963">Respondet <name ref="#Aquinas">S<supplied>anctus</supplied> Thomas</name> quod commune est omnibus 
+          sacramentis quod consistant in rebus sensibilibus invisibilem effectum gratuitum significatibus, 
+          sed sacramentis Noue Legis est hoc speciale quod rebus illis sen- 
+          <cb ed="#T" n="17ra"/>-sibilibus adduntur uerba sacramenti. 
+          Ergo in Veteri Lege consistunt in solis rebus sensibilibus, 
+          sed sacramenta Noue Legis constituunt in uerbis et rebus primo 
+          propter hoc, quia hec sacramenta Noue Legis non solum significant 
+          opus redemptionis que per Christum facta est - sicut alia 
+          significabant - sed etiam ab ipsa Christi passione fluxerunt 
+          et efficaciam suam receperunt. 
+          Et ideo habent similitudinem causae sue quantum possunt, scilicet Christi 
+          redemptoris, et ideo ex rebus et verbis constituunt sicut Christus 
+          Dominus ex Verbo et carne, id est ex deitate et humanitate, ex quo 
+          ergo sacramenta ex quadam similitudine repraesentant Christum et ea 
+          que circa ipsum facta sunt. Et cum in Christo fuerit et sit verbum 
+          rei sensibili, scilicet humanitati coniunctum, oportet quod etiam sic 
+          in sacramentis Noue Legis sit Verbum coniunctum elemento sensibili.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e3975">Secundo propter hoc : Noue Legis sacramenta consistunt 
+          in verbis et rebus quia non solum sunt signa futurorum, 
+          sicut sacramenta Veteris Legis, sed etiam praesentium et praeteritorum, 
+          ut praeuius dictum que possunt expressius  significare quam futura 
+          et possunt etiam certius cognosci. 
+          Et ideo in sacramentis Noue Legis significacio uerborum, 
+          que est expressissima , adiungitur significationi rerum : 
+          verba enim inter signa optinent principatum, ut dicit 
+          <ref><name ref="#Augustine">Augustinus</name> in <title ref="#deDoctrinaChristiana">De 
+            <cb ed="#T" n="17rb"/>doctrina christiana.</title></ref></p> 
+          
+          <p xml:id="nddml4d1p1q4-d1e3986">3° ex hoc, quia gratiam contineret ex sanctificatione, 
+            ut dicit <name ref="#HughOfStVictor">Hugo</name>, sed 
+            <cit>
+              <quote xml:id="nddml4d1p1q4-Qd1e3993" ana="#Itim4_5">CREATURA SANCTIFICATUR PER VERBUM DEI</quote>
+              <bibl>I Timotheum 4:5</bibl>
+            </cit> 
+            - <title ref="#Itim">2a <!-- is actually first Timothy -->  ad Thymoteum</title> - . 
+            3° igitur oportuit quod in sacramentis esset non solum res, sed etiam verba.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e4006">Ad primum argumentum dicitur quod, quomodo quodlibet sacramentum sit vnum 
+          per se uel per aggregationem , dicetur posterius cum de ipsis agetur in speciali. 
+          Nunc sufficit quod si ex rebus et verbis sacramentalibus non fit vnum per se, 
+          potest tamen ex eis fieri vnum aggregatiue, sicut ex multis hominibus fit 
+          vnus exercitus ex multis lignis numero, uel eis specie distinctis fit vnum 
+          pondus. Ita in proposito intelligatur.</p> 
+        
+        <p xml:id="nddml4d1p1q4-d1e4009">Ad  2m patet ex dictis quod non est similitudinis ratio de 
+          sacramentis Noue Legis et Veteris Legis, etcetera. 
+          Ceterae particule textus patent ex hys  
+          que dicta sunt in questionibus, etcetera.</p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 1, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 1, Quaestio 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p1q2">
+        <head>Librum IV, Distinctio 1, Pars 1, Quaestio 2</head>
+        <p xml:id="nddml4d1p1q2-d1e3477">Qveritur secundo vtrum sacramenta Veteris Legis 
+          suo tempore contulerint gratiam racione operis operati.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3480">Arguitur quod sit <!-- sic -->, quia sacramenta a sacrando dicuntur sicut ornatus 
+          ab ornando et monimentum a monendo , sed sine gratia non potest aliquid sacrari, 
+          igitur sacramenta Veteris Legis non conferebant gratiam per quam sacrabant.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3485">2° - in canone misse fit oracio ut sacrificium Ecclesiae fiat Deum acceptum sicut sacrificia 
+          antiquorum Patrum, scilicet <name ref="#Abel">Abel</name>, <name ref="#Abraham">Abrahe</name> et 
+          <name>Melchisedech</name> accepta fuerunt. 
+          Dicimus enim supra que propicio et sereno vultu  respicere digneris et ea accepta habe sicut accepta 
+          habere dignatus es munera puri tui iusti <name ref="#Abel">Abel</name>, etcetera. 
+          Sed sacrificium Ecclesiae confert graciam ratione operis operati, igitur et sacramenta 
+          Veteris Legis conferebant graciam ratione operis operati.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3500">3° - <name ref="#HughOfStVictor">Hugo de Sancto Victore</name> dicit quod ex quo homo 
+          egrotare cepit Deus in sacramentis suis medicinam parauit, 
+          sed medicina non potest exhibere contra morbum peccati nisi per graciam ; 
+          <cb ed="#T" n="5rb"/>
+          igitur sacramenta antiquorum gratiam conferebant.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3509">In oppositum arguitur sacramenta Veteris Legis non auferebant  
+          peccata, igitur non conferebant gratiam communia. 
+          Tenet, quia gratia aufert  peccata. 
+          Antecedens patet per <name ref="#Paul">apostolum</name> ad <ref><title ref="#hebr">Hebreos</title> 10,</ref> vbi vult quod 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3521" ana="#hebr10_4">impossibile erat sangwine  
+              hircorum et taurorum  auferri  peccata.</quote>
+            <bibl>Hebraeos 10:4</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="nddml4d1p1q2-d1e3529">Pro ista quaestione est notandum primo quod circa 
+          sacramentum sunt duo consideranda : primum est opus operatum et est ypsummet  
+          sacramentum applicatum alicui aut ab aliquo susceptum, verbi gratia dignus pascalis fuit 
+          sacramentum Veteris Legis, ut patuit in priori quaestione. 
+          Et ille rite  commestus  secundum institutionem et modum Legis Mosaice dicitur 
+          in eodem sacramentum opus operatum. 
+          Similiter amputacio praepucy  in loco generationis facta secundum ordinationem 
+          Veteris Testamenti fuit tunc sacramentatio ; et ista amputatio praepucy  
+          in circumcisione dicitur opus operatum, quia ipsummet sacramentum. 
+          Similiter intelligatur de oblationibus, de sacrificys , 
+          de baptismalibus et innumeris alys  sacramentis et ritibus  Veteris Testamenti. 
+          Secundum considerandum in sacramento est secundum <name ref="#Aquinas">Thomam</name> usus eius, 
+          et est illud quod tenet se 
+          <cb ed="#T" n="5va"/>
+          ex parte ministri aut ex parte suscipientis sacramenti, 
+          quemadmodum est eius disposicio in deuotione, 
+          in fide et principaliter est eius volitio qua vvlt  
+          vti sacramentum uel qua vvlt sacrificare, offerre et edere agnum pascale, 
+          aut aliquod huiusmodi exercere, aut etiam est exterior vsus et operatio 
+          in quantum tamen ab interiore uolicione procedit et imperatur. 
+          Et ille vsus sacramenti vocatur <mentioned>operans</mentioned> eo, 
+          quod est operacio et actus istius qui sacramento tali vtitur, et maxime interior 
+          volicio qua libere vult tali sacramento vti propter Deum et a qua 
+          volicione exterior usus imperatur.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3540">2° - Notandum quod cum queritur vtrum sacramenta Veteris Legis conferebant graciam 
+          intelligitur non de quacumque gracia gratis data, sed intelligitur de ista speciali 
+          gracia quae est vna virtutum theologicarum, et in Scriptura dicitur gratia gratum faciens. 
+          Gracia quidem eo quod gratuita Dei bonitate tribuitur ut donum eius eximium, 
+          sed <mentioned>gratum faciens</mentioned> dicitur eo, quod naturam hominis et 
+          opera eius gratificat Deo, et sine ea nemo est acceptus nec alicuius opera etiam 
+          quantumcumque bona sunt sine ea meritoria vite eterne, ut patet per 
+          <ref><name ref="#Augustine">Augustinum</name> in <title ref="#deDoctrinaChristiana">De
+          <cb ed="#T" n="5vb"/>
+          doctrina christiana</title></ref> et in 
+          <ref><title>De laudibus caritati</title></ref> et in multis alys  locis. 
+          Et dare docet apostolus 
+          <ref><title ref="#Icor">primae Corinthiorum</title> 13°</ref> dicens : 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3565" ana="#Icor13_3">SI DISTRIBUERO OMNEM SUBSTANTIAM MEAM IN CIBOS PAUPERUM 
+              ET TRADIDERO CORPUM MEUM ITA UT ARDEAM, CARITATEM AUTEM NON HABUERO, 
+              NICHIL MICHI PRODEST.</quote>
+            <bibl>I Corinthios 13:3</bibl>
+          </cit> 
+          Dicitur enim ipsa gracia etiam caritas, 
+          ut per <name ref="#Paul">apostolum</name> hic. 
+          Et hoc ideo, quia hominem qui eam habet facit carum Deo et eius amicum. 
+          Iuxta illud <ref><title ref="#io">Iohannis</title> 15° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3583" ana="#io15_15">IAM NON DICAM VOS SERVOS, SED AMICOS MEOS.</quote>
+            <bibl>Ioannes 15:15</bibl>
+          </cit> 
+          Quod Dominus dixit apostolis : 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3592">Ratione caritatis habite ab eos,</quote>
+            <bibl>XXX</bibl>
+          </cit> 
+          facit etiam homini Deum carum et dilectum. 
+          Et dicitur <mentioned>caritas infusa</mentioned> 
+          quia a Deo inmediate creatur et voluntati hominis 
+          infunditur ratione, sicut anima humana a solo Deo 
+          creatur et corpori praedisposito infunditur ; sic 
+          caritas a solo Deo creatur et animae praedisposite 
+          infunditur. Et infunditur prima paruulo in baptismo 
+          et sic, cum peruenerit ad etatem perfectam et peccauerit 
+          mortaliter, tunc perdit eam. Nequaquam enim simul stant 
+          in eadem anima mortalis culpa et caritas infusa, 
+          ut probat <name ref="#Augustine">Augustinus</name> in <title>De penitencia</title>. 
+          Tali autem homini caritas redditur per
+          <cb ed="#T" n="6ra"/>
+          contritionem et in eo augetur et integratur per cuiuslibet 
+          sacramenti Noue Legis uitam dignam, susceptionem et per omnem 
+          bonum actum quem facit homo, inexistente caritate. Multa alia nomina habet 
+          in Scriptura de quibus et alijs proprietatibus caritatis sew  gratiae gratum 
+          facientis uidendum est in <ref>libro 3°</ref> et <ref>2°</ref> plenius. 
+          Cum ergo queritur vtrum sacramenta Veteris Legis, etcetera conferant gratiam, 
+          det intelligi de tali gratia de qua dixit, scilicet gratum faciente sew  
+          de infusa caritate.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3618">Hijs praemissis sit conclusio prima, <hi rend="underline">excepta circumcisione 
+          de qua posterius dicetur : nullum aliud Veteris Legis sacramentum conferebat 
+          gratia ex operis operati. Patet</hi> per illud 
+          <ref><name ref="#Paul">apostoli</name> <title ref="#hebr">ad Hebreos</title>  10°</ref>  
+          superius allegatum : 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3633" ana="#hebr10_4">impossibile est sanguinatione 
+              yrcorum et taurorum  auferri  peccata.</quote>
+            <bibl>Hebraeos 10:4</bibl>
+          </cit> 
+          Vbi dicit <title>Glossa</title>  
+          quod Deus illa imposuit tunc in seruitutem et non in iustificationem, 
+          igitur non conferebant gratiam ratione operis operati alias iustificassent. 
+          Item 
+          <ref><title ref="#Icor">ad Corinthiorum</title> 3° dicit <name ref="#Paul">apostolus</name></ref> <!-- ref to ad Corinthios seems wrong --> 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3655" ana="#rom3_20">quoniam ex operibus Legis non iustificabitur omnis caro</quote>
+            <bibl>Romanos 3:20</bibl>
+          </cit> 
+          vbi opera Legis dicuntur 
+          2m <title>Glosam</title> que cum Lege instituta sunt et terminata, 
+          ut erant cerimonialia et figuratiua 
+          que unquam valuerunt conscientiam mundare. 
+          Item dicunt
+          <cb ed="#T" n="6rb"/>
+          sancti quod Lex dedit occasionem mortis in quantum ostendebat peccatum et gratiam 
+          adiutricem ad resistendum eisdem peccatis non conferebat per huiusmodi 
+          sacramenta ratione operis operati. Vnde <name ref="#Augustine">Augustinus</name> super illud <ref><title ref="#io">Iohannis</title> primo</ref> - 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3677" ana="#io1_17">LEX PER MOYSEN DATA EST, GRATIA ET VERITAS PER IHESUM CHRISTUM FACTA EST</quote>
+            <bibl>Ioannes 1:17</bibl>
+          </cit> 
+          - dicit : 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3687">Lex minabatur, non opitulabatur ; iubebat, non sanabat. 
+              Langworem  ostendebat, non auferebat , sed praeparabat 
+              medico uenturo cum gratia et ueritate.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit> 
+        </p>
+        <p xml:id="nddml4d1p1q2-d1e3695">Secunda conclusio : Vsus sacramentorum Veteris Legis fuit meritorius vite 
+          eterne quando fiebat rite ordinate et in  caritate, ita quod operans fuit 
+          auctoritate et caritas eum mouit ad sic rite vtendum talibus sacramentis. 
+          Patet per <name ref="#Bede">uenerabilem Bedam</name> dicente quod 
+          sacramenta Veteris Legis suo tempore custodita et seruata secundum congruum 
+          eorum vsum vitam conferebant eternam nisi sit eiusdem eterne uite meritorium 
+          igitur, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3701">Item omnis actus uirtutis formate caritate est meritorius uite eterne, 
+          sed vsus sacramentorum Veteris Legis fuit actus uirtutis latrie, 
+          quia actus pertinens ad cultum diuinum et latria virtus in sanctis et iustis fuit formata caritate ; 
+          igitur usus iste fuit in eisdem sanctis et iustis 
+          <cb ed="#T" n="6va"/>
+          meritorius vite eterne, etcetera.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3707">Ex ista conclusione sequitur quod sacramenta Veteris Legis 
+          fuerunt meritoria uite eterne ratione operis operantis. 
+          Patet quia in sacramentis opus operans est vsus eorum secundum modum 
+          praedictum et talis vsus in habente caritatem fuit meritorius vite eterne, 
+          ut dicit conclusio praecedens, quia fuit opus virtutis - scilicet latrie - 
+          interius libere a voluntate elicitum aut exterius ab eadem volicione imperatum. 
+          Igitur et huiusmodi vsus sacramentorum fuit ratione operis operantis meritorius 
+          vite eterne. Secundo sequitur quod sacramenta Veteris Legis quo ad opus operans 
+          conferebant gratiam. Patet quia quid meretur vitam eternam, hoc etiam confert 
+          gratiam ex conclusioni doctrina doctorum, et alibi  habet plenius uideri. 
+          Cum ergo huiusmodi sacramenta ratione operis operantis conferebant graciam, 
+          quia per modum meriti - licet non ratione operis operati - quia non per modum  sacramenti. 
+          Et hoc est dicere quod sacramentum per se non  habuit vim aliquid de gracia conferendi, 
+          sed solo volicio utendi sacramento ex fide et devocione merebatur gratiam augeri et gradum glorie, 
+          sicut aliter actus virtutis ex caritate elicitus talia meretur. 
+          Et ideo poterat esse in causa, quod vnus in Veteri Testamento vtebatur sacramento
+          <cb ed="#T" n="6vb"/>
+          et aliter non, et tamen habentur equale meritum. 
+          Exempli gratia pono in causa quod <name ref="#Moses">Moyses</name> et <name>Aaron</name> tempore suo habuerint 
+          equales voliciones vtendi sacramento aliquo sui temporis, ut sacrificandi aut edendi agnum pascalem, 
+          etcetera et habuerint equales caritates ac fidem et deuocionem, 
+          et omnia fuerunt paria quae faciunt ad bonitatem actus. 
+          Et quod <name ref="#Moses">Moyses</name> vsus fuerit sacramento vt scilicet 
+          quod sacrificaverit actualiter aut comederit  agnum pascalem, etcetera, 
+          <name>Aaron</name> uero non quod impeditus fuit paupertate, aut infirmitate, 
+          aut captiuitate aut alio tali legittimo impedimento. 
+          Tunc licet <name ref="#Moses">Moyses</name> habuerit in tali sacramento opus operatum 
+          et opus operans et <name>Aaron</name> solum opus operans, tamen habebant equale 
+          augmentum gratiae et merebantur equalem gradum gloriae, quia opus operatum nichil 
+          tunc conferebat de gracia aut de gloria, sed solum opus operans, 
+          et hoc habebant equale et eque bonum quia habebant actus virtutis latrie, 
+          scilicet voliciones sacrificandi, etcetera equales et eque bonos per omnia. 
+          Et ex equali caritate, fide et deuocione procedentes igitur habebant equale meritum et 
+          praemium, secus uero est modo de sacramentis Noue Legis in quorum
+          <cb ed="#T" n="7ra"/>
+          digno vsu homo duplicem consequitur graciam vnam ex opere operato et aliam ex 
+          vi sacramenti, ut patebit in proxima quaestione.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3733">Tertia conclusio plura sacrificia Veteris Legis purgabunt ab 
+          inmundicijs carnis etiam ratione operis operati, pro quo notandum quod in Veteri 
+          Lege multa impedimenta erant constituta quibus homines tunc ad tempus efficiebantur inydonei  
+          ad vsum sacramentorum. Et hec impedita dicebantur inmundicia carnis non quod essent 
+          alique macule in corpore, sed quia per talia homo ad tempus reddebatur inydoneus  
+          ad corporaliter accedere ad sedendum ad sancta, ut adingrediens templum, 
+          ad habitandum intra castra, ad vsum sacramentorum, etcetera. 
+          Et aliqua sacramenta Veteris Legis purgabant  ab alijs inmundicijs carnis, 
+          id est illos qui talibus sacramentis vtebantur reddebant ydoneos  ut accedere possent 
+          ad templum et ad castra et ad cetera sacramenta, et talia fuerunt sangwis  
+          yrcorum et aqua expiationis et cetera que habentur 
+          <ref><title ref="#num">Numeris</title> 19°</ref> et 
+          in aliis multis locis. Propter quod dicit <ref><name ref="#Paul">apostolus</name>  <title ref="#hebr">ad Hebreos</title> 9° :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3750" ana="#hebr9_13">« SAMGWIS  YRCORUM  ET TAURORUM  ET CINIS VITULI ASPERSUS INQUINATOS SANCTIFICAT  AD EMENDACIONEM CARNIS ».</quote>
+            <bibl>Hebraeos 9:13</bibl>
+          </cit> 
+          Et ista inquinacio secundum <ref><name ref="#Lombard">Magistrum</name> in littera</ref> 
+          fuit contactus mortui et fuerunt plura alia. 
+          Et <name ref="#Augustine">Augustinus</name> dicit :  
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3768">Nichil aliud intelligo in- 
+              <cb ed="#T" n="7rb"/> 
+              -quinationem quam Lex mundat nisi contactum mortui hominis quem qui tetigerat inmundus erat septem diebus, 
+              sed purificabatur secundum Legem die tertio et septimo et 
+              mundus erat ut iam intraret templum.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit> 
+          Et subdit <name ref="#Lombard">Magister</name> : 
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3782">Mundabant etiam interdum a corporali lepra illa legalia</quote>
+            <bibl>Lombard, XXX</bibl>
+          </cit> 
+          quod tamen non est sic intelligendum, quod leprosos uere sanauerit. 
+          Sed cum dicit <name ref="#Aquinas">beatus Thomas</name> mundabant, 
+          id est mundatos ostendebant quando signa aliqua lepre que apparuerunt 
+          cessabant. Diceret aliquis contra illam conclusionem quod  inter omnia 
+          sacramenta Veteris Legis magis pernegativum erat cinis uituli aspersus, ut patet 
+          <ref><title ref="#num">Numeris</title>  19°</ref> et tamen illud magis mundabat 
+          quam purgabat, igitur nec alia mundabant. 
+          Antecedens patet quia sacerdos, 
+          quod vitulam ymolabat , sanabat se et uestimenta sua et cum alios aspergebat 
+          inmundus efficiebatur, ut patet <name ref="#Bede">Venerabilis Beda</name> igitur. 
+          Respondet <name ref="#Aquinas">sanctus Thomas</name> quod ymo  cinis aspersus mundabat 
+          modo praedicto, sed sacerdos lauabat se. Hoc fecit ne cum manibus sangwinolentis  
+          et timorosis alia tangeret, etiam quia sacramentorum ad communia non debet esse commixtio, 
+          vnde et vncti crismate lauauit manus et abstergunt exilii  causa, quod autem alios aspergendo 
+          et sic mundando inmundus reputabatur. Hoc institutum fuit propter tria :
+          <cb ed="#T" n="7va"/>
+          primo propter hoc, ut sacerdos etiam esset sub oneribus 
+          Legis sicut alij, et 2° ad tollendum superbiam sacerdotum de hoc, 
+          quod alios sanctificabant inmundi, ergo erant secundum Legem ne superbirent ex hoc super alios quos sanctificabant. 
+          Tertio ad significandum quod sacerdos in Noua Lege propter maximam sanctitatem sacrificij ??? 
+          et propter maximam reuerentiam eidem debitam semper se debet inydoneum  reputare.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3807">Ad argumenta ante opposita 
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3480">
+            <seg>ad primum</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3480">Vide supra</ref></bibl>
+          </ref> 
+          respondet <name ref="#Aquinas">sanctus Thomas</name> quod sanctificatio 
+          vno modo importat emundationem a peccato et confirmacionem in bono que fit per gratiam ; 
+          et sic sacramenta Veteris Legis non dicebantur sacramenta improprie, scilicet quasi signa sanctificancium. 
+          Recte, sicut inproprie dicimus sanum illud quod tantum significat sanitatem, et dicit 
+          <ref><name ref="#Lombard">Magister</name> in littera</ref> quod minus proprie in Scriptura sepe sacramenta uocantur, 
+          quia signa erant rei sacre quae  utique non praestabant saltem rationem operis operati. 
+          Alio modo sanctificatio dicitur mancipatio alicuius ad aliquod sacrum et isto modo dicebantur sacramenta 
+          quasi mancipancia ad sacra, quia per ea fiebat quedam ydoneitas rerum ad sacrum vsum et in templo, et in vasis, et ministris. 
+          Et in populo illo modo etiam dicebantur apud gentiles <mentioned>sacramenta militaria,</mentioned> quibus homo mancipatur 
+          <cb ed="#T" n="7vb"/>
+          officio militari.</p> 
+        
+        <p xml:id="nddml4d1p1q2-d1e3823">
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3485">
+            <seg>Ad secundum</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3485">Vide supra</ref></bibl>
+          </ref> dicitur quod ibi non comparamus sacrificium  nostrum, 
+          scilicet sacramentum altaris ad sacrificia veterum, etiam quorumcumque saltem quo ad 
+          opera operata et quo ad sacramenta in se eo, quod nostrum sacrificium altaris incomparabiliter 
+          dignius est et plus placens Deo quam sacrificia quorumcumque antiquorum Patrum in Veteri Lege. 
+          Sed fit ibi comparacio quo ad opera operantia, quia fit comparacio fidei et deuotionis sacerdotis offerentis 
+          ad fidem et deuocionem sanctorum Patrum, tunc scilicet in Veteri Lege Deo sacrificancium. 
+          Nam propter fidem et deuotionem istorum trium Patrum ibi nominatorum placuerunt 
+          Deo ipsorum sacrificia, propter quod dicitur <ref><title ref="#gen">Genesis</title> 4° :</ref>  
+          <cit>
+            <quote xml:id="nddml4d1p1q2-Qd1e3830" ana="#gen4_3">RESPEXIT DEUS AD ABEL ET AD MUNERA EIUS.</quote>
+            <bibl>Genesis 4:3</bibl>
+          </cit> 
+          Ecce, primo respexit Deus ad <name ref="#Abel">Abel</name> quia virtus et deuocio <name ref="#Abel">Abel</name> 
+          offerentis placuit sibi et post hoc dicitur quod respexit ad 
+          munera eius quia propter merita ipsius placuerunt Deo eius sacrificia. 
+          Et ita petimus ut etiam Deus tales nos faciat in fide, 
+          deuotione et caritate ut illud sacrificium dignissimum quod in seipso semper sibi 
+          placet et est sibi acceptissimum etiam fiat sibi a nobis acceptum.</p>
+        
+        <p xml:id="nddml4d1p1q2-d1e3846">
+          <ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3500">
+            <seg>Ad secundum</seg>
+            <bibl><ref type="commentary" target="http://scta.info/resource/nddml4d1p1q2-d1e3500">Vide supra</ref></bibl>
+          </ref> <!-- probably should be third --> dicitur secundum <name ref="#Aquinas">beatum Thomam</name> quod sacramenta Veteris Legis dicebantur 
+          <mentioned>medicine</mentioned> quantum ad significationem et non quantum 
+          ad collacionem gratiae. Vel, dicatur quod 
+          <name ref="#HughOfStVictor">Hugo 
+            <cb ed="#T" n="8ra"/> 
+            de Sancto Victore</name> 
+          fuit illius opinionis, quod sacramenta Veteris Legis aliquo modo conferent graciam, 
+          et ideo vocauit ea <mentioned>medicinalia.</mentioned> 
+          Sed quia hoc non tenetur communiter et uidetur adversum dictis sanctorum 
+          et ideo non est in hoc curanda ista auctoritas sua.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

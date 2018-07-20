@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 9</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 9</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q9">
+        <head>Librum IV, Distinctio 4, Quaestio 9</head>
+        <p>
+          <cb ed="#T" n="64vb"/>
+          Nono queritur vtrum prius iustificati teneantur adhuc ad suscepcionem baptismi.</p> 
+        
+        <p>Arguitur quod non, quia baptizatus  baptismo sangwinis  non tenetur ad baptimum fluminis, 
+          igitur nec baptizatus  baptismo flamini. Antecedens patet quia talis statim euolat.</p> 
+        
+        <p>2°, nullus tenetur sacramentum recipere frustra in operibus : 
+          enim  Dei nichil frustra est, sed baptismus receptus a iustificato praeuius frustra acciperetur, 
+          quia non haberet effectum qui est ablucio a peccato cum talis praeuius esset ablutus.</p>
+          
+          <p>Item nullus tenetur iniuriari sacramento, sed hoc fieret si iustificatus baptizaretur : 
+          iniuria enim est sacramentum facere quantum est in se, quod sit signum falsum, 
+          sed hoc faceret talis suscipiens, quia sacramentum careret tunc signato eo, quod non daret gratiam.</p> 
+        
+        <p>4to , sanctificatus in materno vtero non tenetur ad suscepcionem baptismi, ergo nec aliter iustificatus pari racione. 
+          Antecedens probatur quia qui baptizatus  est et item baptizatus  facit contumeliam sacramento, quia primum remedium reputat insufficiens. 
+          Ideo pari racione si sanctificatus in vtero, postea baptizaretur , faceret in nostram sanctificationem.</p> 
+        
+        <p>In oppositum est <ref><name ref="#io">Iohannis</name> 3°:</ref> <quote>NISI QUIS RENATUS FUERIT,</quote> etcetera.</p> 
+        
+        <p>2°, baptismus circumcisioni succedit, sed Iohannes baptista sanctificatus in vtero: legitur <quote>8UO DIE CIRCUMCISUS</quote> <ref><title ref="#lc">Luce</title> primo.</ref>
+          <cb ed="#T" n="65ra"/>
+          Igitur et sanctificatus in vtero esset baptizandus .</p> 
+        
+        <p>3°, sanctificatio in vtero est baptismus flaminis, sed adulti baptizati  per contricionem baptismo flaminis sunt baptizandi  baptismo fluminis, 
+          igitur pari racione sanctificati in vtero.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod post baptismum promulgatum pro  modo praecepti 
+          quilibet qualitercumque iustificatus qui non impleuit illud praeceptum et cum quo 
+          Deus super hoc non dispensauit specialiter, scilicet ut ad hoc non tenetur, 
+          tenetur ad baptismum effectu et pro loco et tempore  in effectu si maneat vobiscum. 
+          Viator quousque potest comode recipere in effectum probat primo sic, 
+          quia lex uniuersaliter promulgata sic, quod in eius promulgacione nulla persona est excepta illa obligat omnes, 
+          tale autem fuit praeceptum de baptismo igitur, etcetera. 
+          Et hoc fuit racionabiliter sic factum, quia congruum fuit omnes de lege christiana habere vnum signum in quo convenirent inter se et distingwentur  
+          ab alys  et maxime illud signum per quod ingrederentur obseruantiam illius legis : 
+          per eius enim susceptionem adscribuntur  illi legi et erunt de familia Christi.</p> 
+        
+        <p>2a racio : quilibet viator tenetur esse membrum Ecclesiae militantis et non solum in praesencia diuina, sed etiam quantum ad noticiam aliorum
+          <cb ed="#T" n="65rb"/> 
+          membrorum quantum in se est, quia tenetur cum alys  membris communicare in hys  que pertinent ad obseruantiam legis et eos non scandalizare. 
+          Si autem non acciperet sacramentum per quod fit membrum Ecclesiae, 
+          2m iudicium Ecclesiae non esset aptus ad communionem cum alys  membris in multis actibus pertinentibus ad Ecclesiam : 
+          scandalizaret etiam actiue alia membra que habuerunt occasionem iudicandi eum contempnere communitatem uel gratiam, igitur, etcetera.</p> 
+        
+        <p>3a racio quia qui potest ex actu facili magnam graciam acquirere si negligit illum actum videtur graciam contempnere uel 
+          saltem eam non ita adpreciari  quantum est adpreciabilis , sed ille qui non est baptizatus  
+          qualitercumque aliter sit iustificatus per actum facilem, scilicet per suscepcionem baptismi, 
+          potest acquirere magnam graciam, quia quantumcumque perfectio de lege communi accedenti 
+          ad baptismum augetur gracia si non ponit obicem. Et si negligat videtur contempnere gratiam et dat alys  
+          occasionem sic iudicandi. Beatus etiam <name ref="#Aquinas">Thomas</name> 
+          assignat tres causas propter quas primus iustificatus aut etiam in vtero sanctificatus debeat baptizari .</p> 
+        
+        <p>Prima est ut accipiat caracterem baptismalem quo annumeretur  populo Dei, et quasi deputetur ad percipienda diuina sacramenta.2a ut per baptismi
+          <cb ed="#T" n="65va"/>
+          percepcionem passioni Christi etiam corporaliter conformetur. 
+          3a propter bonum obediencie, quia praeceptum de baptismo omnibus datum est et ab omnibus impleri debet nisi articulus necessitatis excludat.</p> 
+        
+        <p>Ad primum argumentum ante oppositum dicit Scotus quod baptizatus  baptismo sangwinis  - si postea est nobiscum viator - 
+          tenetur affectu et pro loco et tempore effectu recipere baptismi sacramentum. Hoc autem quod hic supponitur, 
+          scilicet quod baptizatus  baptismo  sangwinis maneat nobiscum viator, dicit Scotus fore possibile : 
+          legitur enim de quibusdam, ut dicit, quod sunt bis facti martires, quia sustinuerunt bis penas pro fide per quas tamen non sunt mortui. 
+          Vel si quis, suscepto pro fide letali vvlnere, non statim moreretur, sed ad tempus viueret, ut de beata Lucia legitur. 
+          Subdit <name ref="#Scotus">Scotus</name> : si autem baptismus sangwinis  sit completus quia sic baptizatus, 
+          statim moritur et non manet nobiscum viator, tunc non est obligatus ad praeceptum viatorum, 
+          sacramentum autem non habet locum nisi pro statu vie.</p> 
+        
+        <p>Ad 2m respondet iterum <name ref="#Scotus">Scotus</name> quod talis non frustra reciperet <unclear>baptimum, <!-- baptisum --></unclear> 
+          quia si prius habet graciam illam , scilicet in baptismo, augetur nisi pervenerit ad terminum, 
+          ut scilicet iam consecutus sit illum gradum gratiae ad quem praeordinatus est. 
+          Et si praeuius pervenit ad suum terminum
+          <cb ed="#T" n="65vb"/>
+          gratiae, tunc tamen sibi additur meritum obediendo praecepto diuino, 
+          nec est frustra post plenitudinem gracie si quis eam haberet addere opera meritoria.</p> 
+        
+        <p>Ad 3m dicitur quod ille non iniuriatur sacramento nec facit quod sit falsum signum, 
+          quia uel ibi confertur gracia aliqua - et tunc est signum practicum verum - uel vlla confertur, 
+          si forte iam ibi fuit gracia perfecta. Et tunc adhuc est signum verum practicum non respectu eius quod est gratia in fieri, 
+          scilicet respectu eius quod est eam inesse. Si autem obicitur quod saltem non habet secum signatum, 
+          scilicet ablucionem anime a peccato, dico quod illa ablucio significatur uel tunc infieri, 
+          uel tamquam tunc infiat, uel tamquam infiendam quantum est ex parte sacramenti. 
+          Si scilicet aliquid inesset a quo anima esset abluenda dicitur eciam quod talis 
+          primus iustificatus baptizatur ut recipiat caracterem quem baptismus fluminis imprimit et  nullus alius baptismus.</p> 
+        
+        <p>Ad vltimum dicitur : necessitando assumptum, sunt assignate cause propter quas tenetur 
+          adhuc ad baptismum et est hic patefactum de sanctificatis in vtero et patebit. 
+          Notandum quod dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          distinctione 6ta quod, sicut Deus virtutem suam non obligat rebus naturalibus quando possit, potest eas operari cum voluerit, 
+          sed eciam sacramentis non obligauit virtutem suam, sic quando possit sine sacramentorum ministris 
+          <cb ed="#T" n="66ra"/> 
+          aliquem sanctificaret . 
+            Et ideo legitur aliquos praeter legem communem in maternis vteris sanctificasse, 
+            id est eos mundasse a peccato originali et eis contulisse graciam eciam maiorem quam de communi lege conferat per baptismi sacramentum. 
+            Et praecipue sanctificauit in vtero illos qui immediacius  ordinabantur ad eius sanctissimam contempcionem : 
+            matrem enim eius in vtero fuisse sanctificatam multis sanctorum testimonijs obprobatur , 
+            etiam <name ref="#JohnTheBaptist">Iohannes baptista</name>, qui ei in vtero existenti 
+          testimonium peribuit, legitur sanctificatus in vtero <ref><title>Luce</title> I°,</ref> vbi de eo dicitur : 
+          <quote>ET REPLEBITUR SPIRITU SANCTO ADHUC EX VTERO MATRIS SUE.</quote> <name ref="#Jeremiah">Hieremias</name>  etiam, 
+          qui eciam conceptionem vaticinio expresso  praedixit : 
+          <quote>NOVUM  inquit  FACIET DOMINUS SUPER TERRAM, MULTIPLICITER CIRCUMDABIT VIRUM</quote> (<ref><title ref="#Jeremiah">Hieremie</title>  31°</ref>). 
+          Ille enim idem <name ref="#Jeremiah">Hieremias</name>  legitur eciam : <quote>SANCTIFICATUS IN VTERO,</quote> 
+          ut expresse  habetur <ref><title ref="#ier">Hieremie</title>  primo capitulo.</ref> 
+          Et dicunt doctores communiter in 3° distinctione 3a : 
+          illa sanctificacio in vtero non fuit equalis in hys  tribus, 
+          sed habuit gradus secundum gradum propinquitatis ad Christum. 
+          Mater enim Domini propinquissime fecit ad Christi contemptionem et ideo amplius fuit sanctificata et tanta gracia fuit ei in 
+          vtero matris collata ut per eam fuit fomes sopitus aut sic debilitatus, uel eciam totaliter extinctus 
+          <cb ed="#T" n="66rb"/> 
+          quod per totam vitam suam numquam commisit peccatum paruum aut magnum, 
+          mortale aut veniale, nec vmquam eciam fuit inclinata ad aliquod peccatum. 
+          In alys  autem potuit fomes inclinare ad veniale non autem ad mortale, et sicut <name ref="#JohnTheBaptist">Iohannes baptista</name> 
+          propinquius fecit ad Christi concepcionem eo, 
+          quod eam quadam exultatione in matris vtero ostendit, propter quod dicitur <ref><title ref="#lc">Luce</title> primo :</ref> 
+          <quote>DIXIT ELISABETH  : EXULTAVIT INFANS IN VTERO MEO.</quote> 
+          Sic eciam ei amplior fuit data sanctificacio et gratia , 
+          scilicet per quam fuit praeseruatus, quia in tota vita sua numquam peccauit mortaliter 
+          et cum hoc raro venialiter. Hieremie , qui longe praedixit Christi concepcionem, 
+          data fuit sanctificatio et tanta gracia in vtero quod non potuit peccare mortaliter, 
+          licet sepius venialiter peccauit. Hy  ergo tres electi erant diuinitus ut graciae speciales praecones et ministri, 
+          et ideo tali priuilegiata sanctificatione dotati sunt.</p> 
+        
+        <p>Circa litteram dubitatur et primo circa hoc quod dicit <name ref="#Lombard">Magister</name> in littera, 
+        quod non solum passio vim baptismi implet, sed eciam contricio. 
+        Est notandum quod contricio quo ad hoc supplet vim baptismi fluminis - quod tollit peccatum originale - 
+        sicut baptismus et similiter omne peccatum mortale confert enim graciam cum qua nullum illorum  potest stare. 
+        Sed contritio non totaliter et semper 
+        <cb ed="#T" n="66va"/> 
+          supplet vicem baptismi, quia baptismus rite susceptus tollit omnem culpam et penam. 
+          Sed contricio non semper tollit omnem culpam quia non omne  veniale eo, quod talia possunt stare cum gratia, 
+          nec tollit semper penam pro peccatis debitam.</p> 
+        
+        <p>Item dicit <name ref="#Lombard">Magister</name>, 
+        neque enim latro ille pro Christi nomine crucifixus est, 
+        sed pro meritis facinorum suorum. Ex hoc sequeretur quod latro non fuerit martir quia martirem non facit pena, 
+        sed causa, ut scilicet ut pro Christi nomine pro iustiticia aut veritate paciatur consequens.</p>
+        
+        <p>Est contra <title ref="#Jerome">Hieronimum</title>  dicentem : <quote>Christus de cruce latronem vocauit ad Paradisum,</quote> 
+          et ne quis putaret aliquando seram esse conuersionem homicidy  penam fecit esse martirem.</p> 
+        
+        <p>Respondetur quod ad perfectum martirium et completum tria concurrunt, 
+          scilicet pena mortis, iusta voluntas, scilicet paciendi voluntarie huiusmodi 
+          penam et iusta causa, ut scilicet pro Christo paciatur pro fide et veritate aut pro iusticia. 
+          Et sic <name>Stephanus</name>, <name>Laurencius</name> et <name>Cyprianus</name>  
+          fuerunt veri martires eo, quod illa tria in eis concurrebant, 
+          scilicet pena mortis, et iusta voluntas sufferrendi eam, et iusta causa, 
+          quia voluntarie paciebantur pro Christo et veritate fidei.</p> 
+        
+        <p>2m autem deficit in innocentibus  qui scilicet non habebant voluntatem paciendi quia nondum vtebantur racione.</p> 
+      
+      <p>Et 3m deficit in latrone, qui non pro Christi nomine pa- 
+        <cb ed="#T" n="66vb"/> 
+        -ciebatur, sed pro demeritis suis propter quod in innocentibus  
+        et in latrone sancto non fuit completum martirium, sed ut dicit <name ref="#Bonaventure">Bonauentura</name> dicens : 
+        <quote>Dominus in innocentibus , quia simul cum ipso nati,</quote> 
+        et propter hoc, quod erat illis suppleuit quod in eis deerat ex parte voluntatis. 
+        Et sic etiam in latrone qui cum eo paciente paciebatur suppleuit quod deerat ex parte cause, 
+        vnde optime dicit Hieronimus , scilicet quod Dominus fecit esse martirium, quasi diceret, 
+        Dominus de suo suppleuit quia quod de se non fuit completum martirium, ipse fecit martirium.</p> 
+        
+        <p>Item circa hoc quod dicit <name ref="#Ambrose">Ambrosius</name> de <name>Valentiniano</name> : 
+        <quote>Quem regnaturus eram amisi,</quote> 
+        ex hoc videtur quod <name ref="#Ambrose">Ambrosius</name> 
+        peccauerit eo, quod eum perdidit.</p> 
+        
+        <p>Item <name ref="#Ambrose">Ambrosius</name> dolebat ut ipsemet  dicit, 
+          uel ergo dolebat propter peccatum illius. 
+          Et hoc non quia ipse dicit quod ille non amisit graciam quam poposcit, 
+          ergo propter suum proprium peccatum videtur doluisse.</p> 
+        
+        <p>Respondetur quod erat conswetudo  Ecclesiae differre baptismum vsque ad solemne tempus et vsque ad perfectam ipsius baptizandi  
+          instructionem nisi immineret  periculum mortis. Sed quia <name ref="#Ambrose">Ambrosius</name> non immineret periculum mortis, 
+          ideo differendo non peccauit nec ipse dampnatus fuit, quia petyt  baptismum. 
+          Et ergo, cum fuerit in eo voluntas et desiderium baptismi non fuit ibi contentus. 
+          Non ergo dolebat beatus <name ref="#Ambrose">Ambrosius</name> de culpa 
+          <cb ed="#T" n="67ra"/> 
+          sua uel die illius dampnatione, sed dolebat dolere compassionis , ut dicit <name ref="#Bonaventure">Bonauentura</name>, 
+          scilicet quia, si fuisset talis baptizatus , tunc statim mortuus euolasset ad celum eo, 
+          quod baptismus omnem penam abstulisset. Sed cum non fuit baptizatus, oportuit eum aliquam penam pati in 
+          Purgatorio. Item dubitatur de hoc quod dicit <name ref="#Augustine">Augustinus</name>, 
+            quod paruuli si ante baptismum fuerint defuncti, etiam cum ad baptismum deferuntur 
+            dampnantur. Ponatur enim casus quod aliquis occidat puerum cum defertur ad baptismum, ne baptizetur . 
+            Nunc quid dicemus paruulum huiusmodi dampnari, qui propter suscepcionem baptismi mortuus est ? 
+            Videretur enim quod hoc esset magna crudelitas. Si autem diceremus eum saluari, quomodo tunc est verum dictum ? 
+          <ref><name>Augustinus</name>  in littera</ref> vult quod non saluantur etiam si ad baptismum deferantur.</p> 
+        
+        <p>Respondetur quod nullus paruulus saluatur de lege communi nisi virtute sacramenti, 
+          non  quia paruulus teneatur ad baptimum excepto, sed quia sine sacramento uel aliquo quod equiualeat 
+          sacramento Deus non disposuit dare gratiam. Dico autem nominanter uel quod conualeat, etcetera. 
+          Qui propter hoc solum occisus est a persecutore, cum portaretur ad baptismum, ne baptizetur  
+          moritur pro baptismo et ideo in sangwine  suo pie creditur baptizatus . 
+          Si autem ex alia causa occiditur, quantumcumque deferretur ad baptismum 
+          <cb ed="#T" n="67rb"/> 
+          aut pro eo oretur, dampnatur. Huius racionem assignat idem doctor quia post passionem 
+          Christi formata est Ecclesia et ecclesiastica sacramenta et omnis paruulus qui saluatur in 
+          fide Ecclesiae saluatur quantumcumque parentes sint mali. 
+          Et ideo nisi opus ecclesiasticum vtputa sacramentale fiat circa eum expers fidei Ecclesiae et per hoc etiam expers salutis. 
+          Item queritur de hoc. <ref><name ref="#Augustine">Augustinus</name> in littera</ref> dicit : 
+          paruulus non baptizatus  eterno supplicio dampnandus. Hoc videtur falsum : paruuli enim nichil commiserunt mali nec ad aliquem 
+          actualiter conuersi sunt, sed pena ignis et supplicy  debetur iniuste delectacioni et conuersioni 
+          indebite ad bonum commutabile.</p> 
+        
+        <p>Respondetur quod <name ref="#Lombard">Magister</name> - in secundo distinccione 33a - et magistri 
+          communiter dicunt quod paruuli qui sine baptismo decedunt non habent penam sensus nec quantum ad ignem, 
+          nec quantum ad vermem, sed solum penam dampni, scilicet propter eternam carentiam visionis diuinae. 
+          Et istam penam dampni vocat <name ref="#Augustine">Augustinus</name> <mentioned>supplicium</mentioned>, 
+          quamuis improprie  ; hoc tamen in secundo distinctius videtur.</p> 
+        
+        <p>Item dicit <ref><name ref="#Augustine">Augustinus</name> in littera</ref> quod paruuli post baptismum mortui a 
+          consorcio fidelium non separantur  cum Ecclesia orat pro fidelibus defunctis. 
+          Hoc non videtur verum quia frustra oraret Ecclesia pro eis cum non indigeant, 
+          ymo  Ecclesia faceret in hoc iniuriam baptismo tamquam non plene purificet, 
+          sicut iniuriam 
+          <cb ed="#T" n="67va"/> 
+          facit martiri qui pro martire orat.</p> 
+        
+        <p>Respondetur secundum <name ref="#Aquinas">S<supplied>anctum</supplied>> T<supplied>homam</supplied></name> 
+          et <name ref="#Bonaventure">Bonaventuram</name>  quod Ecclesia pro huius paruulis non ideo orat quia indigeant, 
+          sed ut ostendat quod sunt de eius gremio et eius fily , nec frustra orat quia huiusmodi orationes sunt pro paruulis 
+          graciarum actiones et pro indigentibus suffragia computatur, quia alys  prosunt qui in 
+          Purgatorio sunt, et huiusmodi indigent suffragys , etcetera.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

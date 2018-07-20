@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 6</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 6</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q6">
+        <head>Librum IV, Distinctio 4, Quaestio 6</head>
+        <p>Sexto queritur vtrum baptismus flaminis siue fluminis sufficiat ad salutem.</p> 
+        
+        <p>Arguitur quod non, quia Dominus dicit <ref><title ref="#io">Iohannis</title> 3°:</ref> 
+          <quote>NISI QUIS RENATUS FUERIT EX AQUA ET SPIRITU SANCTO NON POTEST INTROIRE IN REGNUM CELORUM.</quote> 
+          Sed nullus sic renascitur nisi baptizetur  baptismo aque siue fluminis, igitur nullus intrat in regnum celorum sine baptismo fluminis, 
+          igitur baptisma spiritus non sufficit.</p> 
+        
+        <p>2°, <ref><title ref="#act">Actuum</title> 10°</ref> dicitur quia <name>Cornelius</name> 
+          et qui cum eo erant receperunt praeuius Spiritum sanctum, 
+          et post modum baptizati  sunt baptismo aque quod non videtur factum 
+          fuisse nisi quia baptismus flaminis non sufficit sine baptismo fluminis.</p> 
+        
+        <p>Tertio, si aliquis saluari possit sine baptismo aque maxime videtur de paruulo 
+          cui cicius debet eximia Dei subvenire. Sed paruulus qui non est renatus aqua
+          f. 60 ra
+          dampnatur, ut dicit <ref><name ref="#Augustine">Augustinus</name> in <title>De fide ad Petrum</title></ref> et ponitur in littera. 
+          Igitur a forciori nullus alius sine aque baptismo potest saluari qualitercumque aliter baptizatur , 
+          scilicet baptismus flaminis uel sangwinis .</p> 
+        
+        <p>4°, si sine baptismo aque potest quis saluari uel baptizari , 
+          tunc baptismus aquae non esset sacramentum necessitatis. 
+          Et sic non peccarent qui nollent baptizari  aqua, quod est manifeste falsum ; 
+          igitur sine baptismo non est alicui salus.</p> 
+        
+        <p>In oppositum arguitur per illud 
+          <ref><title ref="#io">Iohannis</title> 11° :</ref> 
+          <quote>QUI VIVIT ET CREDIT IN ME NON MORIETUR IN ETERNUM.</quote> 
+          Sed iusti credunt et fideles sunt ante baptismum fluminis per solum baptismum flaminis. 
+          Igitur si decedunt in tali fide non moriuntur in eternum. 
+          Item <name ref="#Ambrose">Ambrosius</name> de quodam cathecumino mortuo ante baptismum fluminis 
+          dicit quod regnaturus eram, gratiam quam poposcit non amisit. 
+          Igitur ille saluus fuit sine baptismo fluminis.</p> 
+        
+        <p>Notandum per questionem  quod <name ref="#JohnDamascenus">Damascenus</name> in suo 4° nouem distingwit  
+          et enumerat baptismata.</p>
+        
+        <p>Primum est baptismus fluminis qui est tinctio in aqua cum certa forma verborum ex institucione diuina significans, 
+          ut superius de hoc dictum fuit.</p> 
+          
+          <p>2us est baptismus sangwinis  et est martirium pro Christo perpessum 
+            et ille baptismus non est proprie sacramentum eo, quod deficient, 
+            scilicet ea que sunt de racione sacramenti propry  dicti. 
+            Deficit enim repraesentacio ex similitudine, quia sang- 
+            <cb ed="#T" n="60rb"/> 
+            -gwis  non habet racionem ablutionis sicut habet baptismi materia, 
+            quae est naturalis aqua que maxime nata est abluere. 
+            Deficit eciam significacio ex institucione, quia martirium non est adeo institutum ad hoc, 
+            ut significet mundacionem interius a peccato. 
+            Sicut baptismus aque institutus est, eciam non seruatur ibi aliqua forma verborum ad hoc determinata, 
+            ut oportet fieri in baptismo, qui est sacramentum.</p> 
+        
+        <p>Tertius est baptismus penitentiae : sic nominat eum 
+          <ref><name ref="#Lombard">Magister</name> in littera,</ref> 
+          et est iustificacio hominis interius et mundacio a peccato per gratiam sibi collatam, 
+          et hoc virtute contricionis et penitentiae praeuie. 
+          Vel, si volumus istum baptismum nominare quoddam nomine generaliori, 
+          tunc communiter nominatur baptismus flaminis et sic est iustificacio hominis a peccato interius per gratiam sibi a Deo collatam. 
+          Siue illud sit in vtero matris, ut qui ibi sanctificabant ex speciali privilegio, 
+          siue fiat post natiuitatem ex vtero, et hoc per penitencie virtutem sicut in adultis 
+          qui mundantur per contricionem de illis, siue eis per sacramenti baptismi applicacionem. 
+          Semper enim interior iustificacio a peccatis est baptismus flaminis, licet exterior ablucio sit baptismus fluminis. 
+          Et ille baptismus flaminis etiam non est sacramentum cum non sit res sensibilis, 
+          sed potius est res sacramenti, ut sepe dictum fuit. Licet ergo baptismus sangwinis  
+          et flaminis 
+          <cb ed="#T" n="60va"/>
+          non sunt sacramentum, dicunt tamen communiter baptismi propter similitudinem effectus eorum cum effectu baptismi fluminis interiori. 
+          Sicut enim interior effectus principalis baptismi fluminis est iustificacio et mundacio a peccato, 
+          sic eciam effectus martiry  et penitencie est mundatio a peccatis.</p> 
+        
+        <p>4tus, baptismus est diluuium : dicitur enim <mentioned>baptismus</mentioned> eo, quod significat aliquo modo nostrum baptismum in hoc, 
+          quod per nostrum baptismum salui fiunt homines quo ad salutem spiritualis vite, 
+          sicut tunc saluabantur octo anime in Archa quo ad vitam corporalem , ut patet <ref><title>Petri</title> 3°.</ref></p> 
+          
+          <p>5tus est transitus Maris Rubri qui dicitur baptismus eo, 
+            quod eciam significant vnum effectum baptismi nostri : 
+            sicut enim illi transeundo Mare Rubrum liberati sunt a seruitute egipciaca, 
+            sic per baptismum nostrum liberamur a seruitute demonum, ut innuit apostolus 
+            <ref><title ref="#Icor">Prima  ad Corinthios</title> 10°.</ref></p> 
+        
+        <p>Sextus baptismus fuit abluciones et mundaciones corporum 
+          et uasorum que crebro fiebant in Lege Veteri, 
+          et significant nostrum baptismum propter vnum principalem effectum eius, 
+          qui est purgatio peccatorum que fit in nostro baptismo rite suscepto.</p> 
+        
+        <p>Septimus, baptismus est baptismus <name ref="#JohnTheBaptist">Iohannis</name>, 
+          qui ideo dicebatur baptismus quia fuit aliquo modo causa baptismi 
+          nostri veri sacramenti in quantum fuit disponens et aswe- 
+          <cb ed="#T" n="60vb"/>
+          -faciens  ad baptismum nostrum.</p> 
+        
+        <p>Octauus est ille baptismus quo Christus baptizatus  
+          erat, qui non erat sacramentum, ut sepe dictum, ut dicitur tamen baptismus eo, 
+          quod dedit aliquo modo efficaciam nostro baptismo quia per hoc Christus dedicauit aquam in 
+          ydoneam materiam veri nostri baptismi.</p> 
+        
+        <p>Nonus est baptismus spiritus, quo homini iustificato datur consumatio in bono, 
+          de quod dicitur <ref><title ref="#act">Actuum</title> primo:</ref> 
+          <quote>ET VOS AUTEM BAPTIZABIMINI  SPIRITU SANCTO NON POST MULTOS HOS DIES.</quote>  
+          Hec nouem baptismata ponit <name ref="#JohnDamascenus">Damascenus</name>, 
+          sed <ref><name ref="#Lombard">Magister</name> in littera praesenti</ref> 
+          solum tangit de illis duobus, scilicet sangwis  et flaminis qui habent convenientiam cum vero baptismo in effectu eius principali. 
+          Et de illis etiam solum loquor hic : de primo enim, scilicet de sacramento baptismi, 
+          multa dicta sunt praeuius, et de alys  vero sex non est magna vis.</p>
+        
+        <p>Hys  praemissis, sit conclusio prima : quicumque rite et non ficte suscipit baptismum fluminis, 
+          ille simul baptizatur  baptismo flaminis aut eo praeuius baptizatus est. 
+          Probatur : quicumque rite baptizatur, ille suscipit sacramentum et rem sacramenti, 
+          scilicet graciam et iustificacionem a peccato. Vel illa, scilicet gratia et iustificatio 
+          scilicet praeuius collata sunt ut in iustificatis in vtero aut in adultis 
+          in quibus praeuia contricio deleuit culpam, ut dictum fuit. 
+          Illud autem 
+          <cb ed="#T" n="61ra"/>
+          est baptizari  aut praeuius baptizatos  fuisse baptismo sangwinis , 
+          ut patet ex notabili praemisso.</p> 
+        
+        <p>2a conclusio : quicumque baptizatur  solo baptismo flaminis et non baptismo fluminis, ille non recipit sacramentum. 
+          Licet rem recipiat sacramenti, quod non sacramentum patet quia, ut praeuius dictum est, 
+          baptismus flaminis non est sacramentum nec imprimit caracterem, quod autem recipiat rem sacramenti, 
+          scilicet gratiam et iustificationem, patet ex dictis cum baptismus flaminis fit ipsammet iustificatio.</p> 
+        
+        <p>3a conclusio : baptismus flaminis sine baptismo fluminis sufficit homini ad salutem, 
+          dum tamen homo habeat voluntatem accipiendi baptismum fluminis ante mortem et recipit nisi necessitate impediatur. 
+          Patet conclusio per raciones in oppositum questionis factas. 
+          Et dicit <name ref="#Bonaventure">Bonauentura</name> quod Deus nullum obligat per suum praeceptum ad impossibile, 
+          ut dicit beatus <name ref="#Jerome">Hieronimus</name> , 
+          et ergo si quis est iustificatus per penitentiam et vellet baptizari  
+          et non potest, quia praeuenitur morte aut est in turri clausus aut est inter infideles - vbi non potest habere baptizantem  - 
+          tunc salvatur per baptismum flaminis nec obligatur ad baptismum fluminis quia non obligatur ad sibi impossibilem, 
+          et etiam quod quis non potest facere - si vellet facere - reputatur ei apud Deum pro facto, quia dicit Gloza  
+          super illud <title ref="#prov">Prouerbi</title> : <quote>ETENIM IN CORDE INIQUITATES, IN CORDE OPERAMINI,</quote> etcetera. 
+          <cb ed="#T" n="61rb"/> 
+          Quod non potes facere et vis, Deus factum reputet : 
+          igitur baptismus aque non est sic necessarius quando, 
+          si assuit  voluntas et desiderium baptizandi  et desit possibilitas , 
+          quando homo sine eo possit saluari. 
+          Et addit <name ref="#Bonaventure">Bonauentura</name> quod nullus sine baptismo fluminis potest saluari 
+          si possit et negligit baptizari  ; et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, 
+          quod potest quis saluari non percepto baptismi sacramento, 
+          sed non potest saluari eo contempto. 
+          Tunc autem contemnit cum baptizari  potest, 
+          et locus et tempus se offert et nolit  aut negligit baptizari . 
+          Tunc etiam priuatur baptismo flaminis quia a gracia praeuius habita cadit.</p> 
+        
+        <p>Ad argumenta ante opposita  ad prima  duo responsum est per dicta immediate . 
+          Vtrumque enim intelligitur de eo qui facultatem habet et non impeditur necessitate, 
+          <name>Cornelius</name> autem locum et tempus habebat et Domini mandatum affirmatum eum qui poterat obligabat.</p> 
+        
+        <p>Ad 3m dicitur quod, si paruulus haberet baptismum flaminis, etcetera, 
+          sine baptismo fluminis numquam dampnaretur si sic decederet, sed quod dampnatur, 
+          hoc est quia priuatus est baptismo fluminis et caret etiam baptismo flaminis et 
+          gracia Spiritus sancti. Aliter enim paruulus non potest de lege communi 
+          disponi ad graciam nisi per baptismus aque nisi Deus faceret de priuilegio speciali 
+          sicut fecit de sanctificatis in vtero, adultus vero de lege communi potest 
+          <cb ed="#T" n="61va"/>
+          per fidem et attricionem de peccatis suis ad graciam disponi. 2
+          m illud <ref><title ref="#ez">Ezechielis</title> 18° :</ref> 
+          <quote>QUACUMQUE HORA PECCATOR INGEMUERIT VITA VIVET,</quote> 
+          etcetera. Vnde non est simile de adulto 
+          et de puero quia unicuique plus valet fides sua quam aliena, 
+          et ita adulto plus valet voluntas sua quam paruulo voluntas aliena. 
+          Nec dampnatur paruulus propter transgressionem mandati, 
+          sed propter culpam originalem que in eo manet non deleta.</p> 
+        
+        <p>Ad vltimum satis patet ex dictis : dicitur enim baptismus 
+          fluminis necessitatis non quia sine eo non possit homo saluari, 
+          sed quia ad hoc sacramentum suscipiendum tenetur si potest. 
+          Et hoc neglecto voluntarie non potest saluari nisi in fine etiam 
+          de illa negligencia peniteret.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 5</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 5</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q5">
+        <head>Librum IV, Distinctio 6, Quaestio 5</head>
+        <p>Quinto queritur vtrum ad veritatem baptismi requiratur quod simul fiant ablucio et verborum prolacio.</p> 
+        
+        <p>Arguitur quod non, quia Ewcaristia  est vnum sacramentum, 
+          <cb ed="#T" n="80vb"/>
+          et tamen inter verba consecracionis super vnum est magna interposicio, 
+          quia ab illo loco simili modo vsque ibi hic est.</p> 
+        
+        <p>In oppositum est <name ref="#Augustine">Augustini</name> <title>Super Iohannem</title> omne, 
+          et ponitur prima questione primo capitulo : <mentioned>Detrahi</mentioned>. 
+          Dicit enim : <quote>Accedit verbum ad elementum et fit sacramentum.</quote> 
+          Igitur requiritur eorum simultas.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotus</name> quod requiritur verbi et ablucionis aliqua simultas, 
+          ut clare docent praedicta verba Augustini.</p> 
+        
+        <p>Et racio principalis 2m <name ref="#Scotus">Scotum</name> est institutio Christi instituentis 
+          hec duo tamquam vnum signum completum ad significandum effectum et causandum ministerialiter. 
+          Et neutrum est signum sine alio, sed est dubium qualis illorum simultas requiratur ad baptismum. 
+          Notandum quod Opatus super illud capitulum <mentioned>Detrahi</mentioned> 
+          recitat opinionem quorundam dicencium quod aqua per se non est sacramentum, 
+          sed quando coniuncta est verbo vltima prolacione forme et - 
+          ut dicit Glozator  - habet 2m eos verbum, 
+          est in tantum quod si in aliquo instanti in quo forma terminatur et aqua 
+          fit sacramentum puer non esset in aqua, sed parum antequam dixisset et 
+          Spiritus sancti eum eleuasset de aqua non esset baptizatus. Sed contra illud arguitur : 
+          apostoli baptizabant  vno die tria milia, ut habetur <ref><title ref="#lc">Luce</title> 2°:</ref> 
+          baptizabant  verisimiliter non immergendo , sed aspergendo, 
+          sicut et mos ille adhuc seruari posset vbi est conswetudo  sic baptizare. 
+          Et seruari debet vbi est necessitas aut propter 
+          <cb ed="#T" n="81ra"/>
+          infirmitatem baptizantis  quia manus eius sunt debiles, 
+          uel quia rudis et timetur ne puerum ledat, uel propter debilitatem et potenciam nati, 
+          utpute si non esset totus natus, uel propter penuriam elementi, ut si sit modicum de aqua. 
+          Et cum apostoli sic baptizabant, non semper cum vltima sillaba forme aspergebant ita quod tunc tetigerit aqua baptizatum. 
+          Item, quare pocius in prolacione vltime sillabe requireretur contactus aque et corporis quam 
+          in prolacione cuiuscumque praecedentis, non videtur causa nisi dicatur quod oporteat puerum 
+          per totum tempus prolacionis verborum esse in aqua. Quod non est verum, ut patet manifeste 
+          in baptismo per aspersionem, quemadmodum apostoli multitudinem baptizauerunt . 
+          Vel, si dicatur quod ideo, quia in vltimo instanti prolacionis verborum est 
+          in aqua quedam virtus illius sacramenti que non remanet post actum baptizandi , 
+          nec est ibi ante completam verborum prolacionem.</p>
+        
+          <p>Contra hoc est praecedens argumentum de baptismo per aspersionem et eciam : 
+          uel illa virtus durat per tempus, uel per instans solum. Si per tempus, 
+          tunc non simul incipit esse et desinit esse, ut tamen ipsi dicunt, si vero per instans solum durat, 
+          tunc 2m eos non sit illa virtus ante completam prolacionem verborum, 
+          et non sit dare vltimum instans prolacionis quia est res successiua. 
+          Oportet
+          <cb ed="#T" n="81rb"/>
+          quod illa virtus sit praecise in primo instanti non esse prolacionis verborum, 
+          tunc si puer esset in contactu aque adequate per tempus prolacionis verborum non esset baptizatus , 
+          et tamen fuisset ibi debita materia et forma igitur, etcetera.</p> 
+        
+        <p>Dicitur ergo 2m <name ref="#Scotus">Scotum</name> quod talis ibi requiritur simultas qualis in actibus humanis : 
+          noluit enim Christus nos obligare ad tam subtilem simultatem quam vix homo posset percipere uel seruare. 
+          Iudicatur autem simultas inter factum hominis et verbum quando incipit vnum ante quam finiuerit aliud, 
+          et hoc indifferenter siue praeuius hoc fuerit quam aliud   inceperit, uel econuerso verbi gratia. 
+          Si quis dixerit hanc oracionem, faciet  hoc et fricet barbam ante incepcionem prolationis, 
+          siue econuerso incipiet prolacionem ante inceptionem actus, dummodo vnum non finiatur complete et totaliter ante alterius inceptionem, 
+          dicetur : - Ille simul dixit hoc, et fecit illud - . 
+          Ita in proposito dicit <name ref="#Scotus">Scotus</name> siue sacerdos praeuius immergat  
+          vna immersione  - vbi mos terre est ter immergere  et postea incipiat verba cum secunda 
+          immersione  - siue prauius incipiat verba et dicto : <mentioned>Ego te baptizo</mentioned> 
+          immergat  cum verbis sequentibus sufficiens est simultas, 
+          dum tamen prolacio non finiatur ante inceptionem ablucionis, 
+          nec ablucio finiatur ante inceptionem prolationis.</p>
+          
+          <p><cb ed="#T" n="81va"/>Ad argumentum ante oppositum dicitur quod in Ewcaristia  
+            non est talis vnitas inter species panis et vini qualis est in sacramento baptismi. 
+            Ille enim non sunt tales partes quod neutra significet sine altera : 
+            vere enim species panis continet corpus Christi ante consecracionem sangwinis , 
+            sed in baptismo verba nichil sunt  sine ipsius baptismi ablucione, nec econuerso.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

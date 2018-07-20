@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 7, Quaestio 5</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 7, Quaestio 5</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d7q5">
+        <head>Librum IV, Distinctio 7, Quaestio 5</head>
+        <p>Quinto queritur vtrum in susceptione sacramenti confirmationis conferatur gratia gratum faciens distincta a gratia baptismali.</p> 
+        
+        <p>Arguitur quod huiusmodi gratia per hoc sacramentum non conferatur, quia ad illud quod potest fieri in peccato mortali non requiritur gratia gratum faciens, 
+          sed in peccato mortali existentes possunt fortiter confiteri Christum. 
+          Igitur, cum confirmatio sit sacramentum confessionis Christi, 
+          videtur quod non detur ibi gracia gratum faciens : 
+          et si nulla ibi datur, tunc non erit distincta a gracia baptismali.</p> 
+        
+        <p>In oppositum arguitur quia sacramentum Noue Legis efficit quod figurat, 
+          sed per vnctionem crismatis exterius significatur vnctio gratiae interius, 
+          igitur talis datur in confirmatione, sicut in baptismo confertur.</p> 
+        
+        <p>Respondetur quod cuilibet qui rite suscipit confirmationem et digne confertur gratia gratum faciens probatur, 
+          cuicumque datur Spiritus sanctus, illi datur simul gratia gratum faciens, 
+          ut docetur <ref>in libro primo distinctione 17.</ref> 
+          Sed in confirmatione rite et digne suscipienti datur Spiritus sanctus. 
+          Igitur datur, scilicet gratia, igitur minor probatur per <name ref="#HughOfStVictor">Hugonem</name> dicentem: - Im- 
+          <cb ed="#T" n="97rb"/> 
+          posicio manus debetur Episcopis apostolorum vicarys  ut christianum signent Spiritum, Paraclitum tradant. 
+          Patet etiam per <name>Rabanum</name> dicentem quod per imposicionem manuum summi sacerdotis Spiritus 
+          sanctus traditur confirmato. Patet etiam in littera per <name ref="#Lombard">Magistrum</name>. 
+          Et nota quod baptizato et praeuius existenti in gracia datur in confirmacione gratia gratum faciens non ut de ingrato fiat, 
+          sed ut de grato primus fiat, scilicet nunc magis gratus. 2° dicitur quod gratia que confertur in confirmatione est alia essentialiter 
+          et secundum numerum a gracia quae confertur in baptismo. 
+          Patet quia praesupponit illam et baptismalis est prior tempore igitur, etcetera. 
+          Et ex illis duobus gradibus gratiae gratum facientis collatis  in baptismo et 
+          in confirmatione fit vna gracia aucta et intensa, sicut est vna anima 
+          quae gratificat Deo et per vnum peccatum mortale tollitur tota. 
+          Sunt enim illi gradus gratiae eiusdem speciei ; 
+          igitur in eodem subiecto, scilicet in eadem anima indiuisibili puniuntur 
+          constituentes vnam totalem intensiorem quam fiunt sola baptismalis gratia. 
+          Et hoc wult  <name>Rabanus</name> et aly , 
+          dicentes quod in confirmatione detur plenitudo gratiae, etcetera, 
+          et hoc est verum cum praesupposicione et in conclusione gratiae baptismalis, 
+          illa enim totalis ex ambabus resultans. Si autem loquamur 2m praecisionem, 
+          tunc gratia in baptismo collata est maior et maioris efficacie 
+          <cb ed="#T" n="97va"/> 
+          quam gradus ille collatus per solam confirmationem.</p> 
+        
+        <p>Ad argumentum ante oppositum dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> 
+          quod, quamuis possit aliquis existens immortali constanter fidem Christi confiteri, 
+          non tamen est ydonea illa confessio, quia non est speciosa laus in ore peccatoris, 
+          nec etiam est meritoria ad salutem. Sacramentum autem non solum ordinatur ad hoc, 
+          quod aliquid fiat qualitercumque, sed ad hoc, quod ydoneo fiat, 
+          nec sit defectus ex parte suscipientis sacramentum.</p> 
+        
+                
+      </div>
+    </body>
+  </text>
+</TEI>

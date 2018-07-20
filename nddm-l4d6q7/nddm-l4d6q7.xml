@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 7</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 7</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q7">
+        <head>Librum IV, Distinctio 6, Quaestio 7</head>
+        <p>Septimo queritur vtrum baptismus possit iterari.</p> 
+        
+        <p>Arguitur quod sic, quia Ewcaristia  potest iterari, et tamen est sacramentum excellencius.</p> 
+        
+        <p>In oppositum arguitur quia <ref><title ref="#eph">Ad Ephesios</title> 4°</ref> dicitur : <quote>VNA FIDES, VNUM BAPTISMA,</quote> etcetera. Igitur non debet iterari.</p> 
+        
+        <p>Item <ref><title>de consecracione</title> distinctione 4a :</ref> 
+          baptizare hereticum qui hec signa sanctitatis acceperit omnino peccatum est, 
+          catholicum vero immanissimum  scelus est.</p> 
+        
+        <p>Respondetur quod ab omnibus tenetur pro certo quod non licet iterare baptismum : 
+          et si de facto iteretur, nullam habet efficaciam. Hoc tradunt auctoritates  sanctorum. 
+          Et dicit <name ref="#Scotus">Scotus</name> quod causa huius initeracionis est institucio diuina, cuius
+            <cb ed="#T" n="84vb"/>
+            non potest dari alia causa prior nisi voluntas eius est tamen illa institucio racionabilis ex quatuor causis quas 
+            enumerat <ref>S<supplied>anctus</supplied> T<supplied>homas</supplied>.</ref></p>
+        
+          <p>Primo sumitur ex morbo contra quem baptismus principaliter est, scilicet originale peccatum quod non iteratur, 
+          et ideo nec medicina iterari debet.</p> 
+        
+        <p>Secunda sumitur ex parte effectus sacramenti, 
+          quia in baptismo deletur culpa et pena totaliter et ideo, si frequenter liceret homini baptisma suscipere – 
+          et si baptismus frequenter susceptus - semper haberet suam efficaciam sed quandam  prouocationem  ad peccandum, 
+          quia facilitas venie incentiuum praebet delinquendi, ut dicit <name>Gregorius</name>.</p> 
+          
+          <p>Tercia sumitur ex sua significatione quia homo per baptismum configuratur morti 
+            Christi qui semel tantum mortuus est.</p> 
+          
+          <p>Quarta sumitur ex ipso sacramento, quia caracter quem imprimit indelibiliter manet, 
+            vnde fieret iniuria sacramento si baptismus iteretur quasi prima sanctificatio non suffecisset.</p> 
+          
+          <p>Et item quia ipsum sacramentum regeneratio quedam est, cuiuslibet autem generatio est tantum semel.</p> 
+          
+          <p>Ad argumentum ante oppositum dicitur quod illa verba que proferuntur super materiam Ewcaristiae  
+            et quibus Ewcaristia  consecratur non sunt sacramentum, sed consecracio sacramentalis. 
+            Et illa non habet bis iterari super eandem materiam: et si 2° iteraretur nichil fieret, quia iam primus totum factum
+              <cb ed="#T" n="85ra"/>
+              est. Illa autem Ewcaristiae  percepcio non est sacramentum, ut inferius patebit. 
+              Licet ergo eadem persona posset plures communicare siue recipere Ewcaristiam , 
+              non tamen super eandem materiam posset frequenter proferre verba consecracionis Ewcaristiae , 
+              nec posset sic Ewcaristia  iterari, quia proprie eadem materia huius sacramenti suscipiat bis formam eius.</p> 
+        
+        <p>Est hic dubium, que pena sit iterancium baptismum siue suscipiendo, siue conferendo.</p> 
+        
+        <p>Respondet <name ref="#Scotus">Scotum</name> quod tam suscipiens quam ministrans scienter ita quod sciat 
+          illum uel se baptizatum, et nunc iterum baptizari  est regularis : 
+          illud patet extra de apostatis  ex litterarum. Est tamen differentia si publice 
+          fiat aut occulte quantum ad hoc, quod facilius dispensatur in vna irregularitate quam in alia, 
+          vnde si in priuato illa iteratio facta est, forte Episcopus posset dispensare, 
+          sed si in publico, tunc nonnisi per Papam, quod patet ibidem et 3°. 
+          Hoc intelligendum : iteracio absolute fit. Si enim quis in dubio racionabili 
+          dando uel accipiendo iteraretur non absolute, sed cum condicione dicendo: 
+          <quote>Si es baptizatus  ego non baptizo , sed si non es baptizatus , etcetera, non est regularis,</quote> 
+          quia non est iteratum quod nescitur factum.</p> 
+        
+        <p>Secundo dicit <name ref="#Scotus">Scotus</name> quod 2m iuristas suscipiens ignoranter ignorancia invicibili est,
+              <cb ed="#T" n="85rb"/>
+              eciam regularis, intelligendo semper de ignorancia facti, 
+              scilicet quod ignoret quod praeuius fuerat baptizatus. 
+              Probatur 2m eos per illud <ref><title>de consecratione</title> distinctio 4a <!-- incipit --> <mentioned>Qui bis</mentioned>,</ref> 
+          vbi dicitur : qui bis ignoranter baptizati sunt non indigent pro eo penitere nisi 
+          quod 2m canones ordinari non possunt, nisi magna necessitas cogat. 
+          Et patet quod illud capitulum loquitur de ignorancia facti: 
+          si enim esset de ignorancia iuris oportet penitere, nec illud quod subditur - <mentioned>nisi magna necessitas cogat</mentioned> - 
+          tollit quando talis sit regularis. 
+          Illud enim additur propter hoc, quod in tali necessitate dispensandum 
+          est cum eo sic dicerent canoniste, ut ponit <name ref="#Scotus">Scotus</name>.</p> 
+        
+        <p>Sed contra hoc arguit <name ref="#Scotus">Scotus</name> sic : 
+          non videtur esse maioris ponderis 2m racionem de baptizato quam baptizante, 
+          sed secundo baptizans  aliquem quem ignorat praeuius esse baptizatum non est irregularis. 
+          Non enim tenetur de quolibet sacerdos facere sanctissimam inquisicionem an vetula praeuius baptizauerit paruulum in domo. 
+          Igitur nec est irregularis qui 2° baptizatur  <unclear>???,</unclear> 
+          quia non videtur causa dabilis propter quam ille qui 2° baptizatur  
+          ignoranter deberet plus puniri quam ille qui 2° baptizat ignoranter. 
+          Ymmo  minus, quia ille querere videtur salutem suam ne sit in dubio, nec auctoritas  
+          capituli <!-- incipit --><mentioned>Qui bis</mentioned> quam aly  
+          allegant videtur satis certa : 
+          nullus enim potest infligere irregularitatem toti Ecclesiae nisi caput 
+          <cb ed="#T" n="85va"/> 
+          tocius Ecclesiae, scilicet Papa. 
+          Illud autem capitulum, sicut ibidem intitulatur, 
+          accipitur ex penitencionali <name>Theodori Episcopi Cantuariensi.</name> 
+          Igitur, in quantum est huius auctoris , 
+          nullum robur habet ad infligendum penam regularitatis 
+          toti Ecclesiae, vnde nec inveniatur alicubi 
+          expressum quod dominus Papa hoc expresse  dicat uel, 
+          vbi ipse omnia capitula ibi compilata confirmat, 
+          non videtur illud tenendum, ut dicit <name ref="#Scotus">Scotus</name>. 
+          Et 2m eum nec dans, nec suscipiens iterationem baptismi per ignorantiam invincibilem est regularis.</p> 
+        
+        <p>Tercio dicit <name ref="#Scotus">Scotus</name> 
+          quod ignorancia iuris penam regularitatis infligentis non excusat iterantes baptismum. 
+          Patet, quia ibi concurrunt prohibicio iuris diuini et pena lata a canone ; 
+          quando autem super aliquo quod est de iure diuino illicitum additur pena canonica, 
+          ut illud amplius euitetur non est necessarium ad hoc, 
+          ut incurratur illa pena scire iura canonica, sed sufficit quod teneatur scire diuinum praeceptum. 
+          Et si illud transgrediatur incurrat penam canonicam, etiam si nesciat penam a iure canonico 
+          inflictam exemplum percuciens modo clericum cum faciat contra praeceptum diuinum de caritate fraterna. 
+          Et si nescieret excommunicationem latam a canone super tali facto, 
+          tamen incurretur eam similiter occidens hominem. 
+          Licet nesciret canonem punientem 
+          <cb ed="#T" n="85vb"/> 
+          homicida pena regularitatis tamen regularis esset, 
+          et eadem ratio est in omnibus istis quia dat operam rei illicite. 
+          De qua re debet scire quod sit illicita, et si nesciet quod sit illicita nullo 
+          modo debet eam exequi donec consulat peritos per quos posset scire illam rem esse illicita.</p> 
+        
+        <p>Aliud dubium ponatur casus, quod quis intendat baptizare masculum et sit ille paruulus, 
+          siue oblatus, femella queritur vtrum ille puer sit vere baptizatus an sit rebaptizandus. 
+          Alius casus : sit aliquis sacerdos cecus et habeat  duos cathecuminos, scilicet <c>a</c>. et <c>b</c>. 
+          et ex aliqua causa intendat <c>a</c> hodie baptizare et <c>b</c> cras, 
+          et conueniant iste inter se quod decipiant sacerdotem. Et <c>b</c>. 
+          ueniet hodie offerens se sacerdoti in persona <c>a</c>, et <c>a</c> 
+          cras econuerso. Item queritur similiter vtrum isti ambo sint baptizati  uel neuter eorum.</p> 
+        
+        <p>Respondent doctores quod femella esset baptizata et similiter illi duo, scilicet <c>a</c>. et <c>b</c>. 
+          et dant huiusmodi  exemplum, quia <name>Ysaac</name>, cum crederet se benedicere <name ref="#Esau">Esaw</name> 
+          primogenitum, benedixit <name ref="#Jacob">Iacob</name> 
+          vere, ut patet per fassionem patris qui dixit : <quote>BENEDIXI EI ET ERIT BENEDICTUS.</quote> 
+          Et racio fuit quia potest directe : 
+          tulit intencionem suam in illum quod tenebat manibus, 
+          licet error esset adiunctus ut crederet ipse esset <name ref="#Esau">Esaw</name>. 
+          Sic etiam sufficit ad veritam baptismi, 
+          quod sacerdos intendat baptizare paruulum 
+          <cb ed="#T" n="86ra"/> 
+          istum quem in manu tenet, 
+          et si credit hunc esse masculum et est femella, 
+          adhuc vere est baptizatus. Sic, etiamsi est <name ref="#Peter">Petrus</name> et baptizans , 
+          credit quod sit <name ref="#JohnTheBaptist">Iohannes</name> adhuc est baptizatus  
+          cum saltem fert intencionem suam in istum, scilicet principaliter oblatum uel que manibus tenet, dicens : <quote>Quid erit de nomine, si est ?,</quote> 
+          scilicet datum nomen masculinum, cum sit femella. 
+          Vel econuerso dicitur quod nomen non est de essentia baptismi vnde etiam potest mutari faciliter, 
+          ut in confirmacione. Aliud dubium sit sacerdos aliquis cecus qui intendit baptizare 
+          vnum puerum et offerentur sibi duo et non habeat plus noticiam vnius quam alterius, 
+          nec plus aut distancius intendat vnum quam reliquum, sed in generali intendat baptizare vnum puerum, 
+          scilicet nunc offerendum, et bene percipit quod ibi sibi ponitur vnus puer et sit quod credatur quod tantum vnus ibi ponatur.</p>
+        
+          <p>Et ponantur tamen duo, et fundat aquam super vtrumque dicendo : 
+          <quote>Ego te baptizo  in nomine Patris et Fily  et Spiritus sancti</quote>. 
+          Queritur vtrum in tali causa vterque puer baptizatus  sit et alter tantum, uel neuter.</p> 
+        
+        <p>Respondetur quod in tali causa nullus est baptizatus : 
+          non enim ambo cum nunc forma verborum ad ambos se extendat, 
+          nec intencio baptizantis , nec alter eorum est baptizatus , 
+          quia qua racione vnus eorum esset baptizatus
+          <cb ed="#T" n="86rb"/>
+          eadem racione et alter, secus autem esset si ad vnum eorum distincte, 
+          ut forte quem manu tangeret uel forte quem alias in particulari nosceret 
+          ferret intencionem suam. Tunc ille solus esset vere baptizatus  et alter non. 
+          Et quia casus posset variari multipliciter valde, si in aliquo etiam esset sapientibus, 
+          dubium esset in eodem casu faciendum - ut superius dictum est - debere si in dubys , 
+          scilicet baptizandis sub condicione, quia facta est mencio de caractere et etiam sepe superius facta est, 
+          et in alys  locis fit multotiens sermo de hoc igitur, etcetera.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

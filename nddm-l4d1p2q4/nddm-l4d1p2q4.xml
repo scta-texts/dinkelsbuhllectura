@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 2, Quaestio 4</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 2, Quaestio 4</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p2q4">
+        <head>Librum IV, Distinctio 1, Pars 2, Quaestio 4</head>
+        <p xml:id="nddml4d1p2q4-d1e3477">Qvarto quaeritur utrum circumcisio conferebat gratiam ratione operis operati.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3480">Arguitur quod non, auctoritati <name ref="#Lombard">Magistri</name> in littera 
+          qui videtur velle quod non conferebat gratia.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3486">2°, si contulisset graciam, tunc nulla fuisset differentia ipius in baptismo, 
+          quia sicut baptismus confert gratiam et debet culpam originalem, ita etiam fecisset circumcisio , 
+          et sic baptismus eam in nullo excessisset.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3489">3°, si contulisset gratiam, tunc deleuisset non solum originale, 
+          sed etiam omnia mortalia ; tamen talia non possint stare simpliciter cum gratia. 
+          Et ideo dicit <name ref="#Augustine">Augustinus</name> quod impietas est a Deo 
+          dimidiam sperare veniam, sed nullibi invenitur dictum a sanctis quod circumcisio 
+          tollat actuale ; igitur non conferebat gratiam ratione operis operati.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3496">In oppositum arguitur quia circumcisio agebat in Lege quod nunc agit baptismus, 
+          ut patet per auctoritates in littera positas, sed nunc baptismus confert gratiam igitur, 
+          etcetera.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3499">Notandum quod fuit opinio <name ref="#Lombard">Magistri</name> quod circumcisio 
+          deleuit peccatum originale, sed nullam conferebat gratiam ratione operis operati ex ui sacramenti. 
+          Et hanc sententiam innuit
+          <cb ed="#T" n="23ra"/> 
+          <ref><name ref="#Lombard">Magister</name> in littera cum dicit in capitulo penultimo,</ref> ibi scilicet : 
+          <cit>
+            <quote xml:id="nddml4d1p2q4-Qd1e3513">in circumcisione peccata solum dimittebantur, 
+              sed nec gratia ad bene operandum adiutrix nec uirtutum possessio uel augmentum ibi praestabatur, 
+              vt in baptismo.</quote>
+            <bibl>Lombardus, XXX</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="nddml4d1p2q4-d1e3521">Sed illa posicio <name ref="#Lombard">Magistri</name> non tenetur communiter 
+          et ideo pro responsione ad questionem sit illa conclusio : circumcisio suo tempore rite adhibita homini 
+          deleuit in eo originale et contulit ei graciam ratione operis operati.</p>
+        
+        <p xml:id="nddml4d1p2q4-d1e3527">Prima pars patet ex dictis praeuius et per auctoritates in littera positas.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3530">2a pars probatur quia, si paruulo fuisset dimissa culpa et non collata gracia, 
+          tunc talis paruulus  si sic decessisset non fuisset saluatus eo, quod non habuisset vestem nuptialem, 
+          id est gratiam gratum facientem sine qua nemo saluari potest. 
+          Nec fuisset dampnatus, quia nullam culpam, et sic fuisset medius inter filios 
+          regni et filios perdicionis, quod non est possibile de Lege communi : 
+          talis enim paruulus fuisset priuatus visione diuina et sic habuisset eandem penam, 
+          sicut paruuli qui in originali decessissent, quod non fuisset iustum, 
+          scilicet innocentem et peccatorem equaliter puniri in eternum. 
+          Dicetur aliquis : femelle etiam contrahebant  originale, 
+          in quo ergo ille mundabantur cum circumcisio fuerit solum pro masculis instituta. 
+          Respondet <name ref="#Aquinas">sanctus Thomas</name> et <name ref="#Bonaventure">Bonauentura</name> quod 
+          tempore quo currebat circumcisio sufficiebatur pro femellis professio fidei sine illa fieret, 
+          <cb ed="#T" n="23ra"/> 
+          actu exteriori sine verbo, sine solum interiori actu cordis, 
+          dum tamen talis professio fieret a parentibus paruuli uel ab alys  qui gerebant curam paruuli. 
+          Et in tali professione fidei haberetur respectus ad paruulos curandum ab eo quem credebant 
+          et expectabant futurum reparatorem, et si ad talem fidei protestationem adhibeantur aqua, 
+          sacramenta cuiusdem temporis ut oblaciones, sacrifitia. Hoc non fuit necessarium, 
+          sed pro voto addebantur, nec erat efficacia remissionis culpe ex istis 
+          sacramentis sic voluntarie additis, sed solum ex interiori fide. 
+          Et hoc consonat hys  quae superius dicta fuerunt, scilicet quod sacramenta 
+          Veteris Legis conferebant gratiam ratione operis operati, quamuis gratia operis operantis. 
+          Verum aly  aliter opinantur: dicunt enim quod oportet huiusmodi professionem fidei fieri 
+          non solum ore aut corde, sed fuerit de necessitate ut adhibetur etiam exterius signum sensibile ut oblacio, 
+          sacrificium, etcetera. Et ideo dicit <name ref="#GregoryGreat">Gregorius</name>, ut allegat 
+          <ref><name ref="#Lombard">Magister</name> in littera,</ref> quod maioribus necessaria fuit virtus sacrificy , 
+          sed paruulis sufficiebat fides scilicet aliene, ut parentum cum exteriori professione, 
+          ut dictum est, et non requirebatur in eius propria fides. 
+          Et sicut dictum est de femellis quae erant tempore circumcisionis institute secundum duas vias, 
+          ita intelligatur dicendum fore de maribus et femellis qui erat antequam instituta fuit circumcisio.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3549">Ad argumenta ante opposita  ad primum dicitur quod illa fuit opinio <name ref="#Lombard">Magistri</name>, ut fuit praeuius 
+          <cb ed="#T" n="23va"/> 
+          dictum, et licet posset illa opinio sustineri, tamen non tenetur communiter a doctoribus. 
+          Possit enim sic sustineri quod diceretur, quod circumcisio ex sua virtute et ratione operis operati 
+          tollebat originalem culpam et (quod add. ms.) tunc simul conferebatur 
+          ipsi circumciso gratia non virtute circumcisionis sed virtute proprie fidei, si fuit adultus, 
+          aut virtute fidei parentum aut aliorum paruulum offerentium et curam eius gerentium. 
+          Hoc videtur enim intendere quedam 
+          <ref><title>Glossa</title>  <title>ad Romanos</title> 4°</ref> dicens : 
+          in circumcisione peccata remittebantur sed gratia per eam non praestabatur, 
+          supple et opere operato. Sic eis in lege naturae delebatur originale, 
+          et dabatur gracia paruulis virtute fidei parentum tantum et non 
+          virtute alterius sacramenti, ut aliqui dixerunt sicut superius allegatum fuit.</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3566">Ad secundum dicitur secundum communem  opinionem quod ista adhuc fuit differentia, 
+          quia licet circumcisio contulerit gratiam et opere operato, contulit tamen paruam 
+          graciam respectu gracie quam nunc confert baptismus .</p> 
+        
+        <p xml:id="nddml4d1p2q4-d1e3569"><!-- ad tertiam --> 3°  quia, licet circumcisio contulerit gratiam, non gratiam que est  immediata  
+          disposicio ad gloriam, quia non apparuit  ianuam regni celestis vnius quod hoc 
+          non fuit ex defectu eius, sed ex hoc, quod nondum fuit solutum praecium quia 
+          Christus nondum fuit mortuus, et ideo nec baptismus tunc scilicet ante mortem 
+          Christi apparuisset ianuam. Vel 3°, quia licet circumcisio conferebat gratiam, 
+          non tamen vniuersaliter cuilibet eam digne
+          <cb ed="#T" n="23vb"/> 
+          suscipienti: posset enim dici quod fuit determinata ad certum gradum 
+          gratiae vltra quem non poterat agere intendendo uel introducendo.
+          Et igitur, quando talem gradum invenit in aliquo qui circumcidebatur, 
+          tunc nullam scilicet gratiam contulit, et posset dici quod <name ref="#Lombard">Magister</name> 
+          intenderit istum modum. Dicit enim <ref>in littera, capitolo penultimo :</ref> 
+          <cit>
+            <quote xml:id="nddml4d1p2q4-Qd1e3582">quandocumque iustus accidit ad baptismum vberiorem gratiam ibi recepit, 
+              vnde baptismum  generaliter intendit graciam inventam.</quote>
+            <bibl>Lombard, XXX</bibl>
+          </cit> 
+          Sed non sic est de circumcisione, vnde <name ref="#Abraham">Abrahe</name> iam iustificato fuit 
+          enim signaculum, quia iam attigerat uel transcenderat illum certum 
+          gradum ad quem determinata erat circumcisio, et ideo nichil gracie 
+          sibi contulit ex opere operato.</p> 
+        
+        <!-- not sure where this paragraph fits -->
+        <p xml:id="nddml4d1p2q4-d1e3595">Ad secundum dicit <name ref="#Aquinas">Sanctus Thomas</name> 
+          quod, licet circumcisio fuerit directe ordinata contra originale, 
+          tamen ex consequenti etiam actuale tollebat ; 
+          sed quod sancti de hoc non locuntur, est quia non erat circumcisio 
+          ad hoc principaliter instituta.</p> 
+      </div>
+    </body>
+  </text>
+  
+  </TEI>

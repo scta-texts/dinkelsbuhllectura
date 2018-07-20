@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1, Pars 1, Quaestio 3</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 1, Pars 1, Quaestio 3</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d1p1q3">
+        <head>Librum IV, Distinctio 1, Pars 1, Quaestio 3</head>
+        <p xml:id="nddml4d1p1q3-d1e3477">Qveritur tertio utrum sacramenta Noue Legis conferant 
+          gratiam ratione operis operati.</p>
+        
+        <p xml:id="nddml4d1p1q3-d1e3480">Arguitur quod non, quia, si conferrent graciam ratione operis 
+          operati hoc esset isto modo, quia causant graciam effectiue. 
+          Sed hoc non igitur maior satis probatur, quia dicit 
+          <ref><name ref="#Augustine">Augustinus</name> <title ref="#deDiversisQuaestionibus">Octuaginta trium quaestionum</title></ref> 
+          quod quosdam effectus in creatura Deus per seipsum agit ut animas illuminaret  quasdam  per creaturam. 
+          Cum ergo gratia sit lux animarum, non per sacramenta gratiam infundit, sed per seipsum.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3490">In oppositum est <ref><name ref="#Lombard">Magister</name> in littera,</ref> 
+          qui diffiniendo sacramentum Nove Legis dicit ipsum causare gratiam, 
+          igitur et confert eam.</p>
+        
+        <p xml:id="nddml4d1p1q3-d1e3496">Ad intelligendum quid sit sacramentum Noue Legis est primo notandum vna est 
+          <name ref="#Augustine">Augustini</name> dicentis : 
+          <cit>
+            <quote xml:id="nddml4d1p1q3-Qd1e3503">Sacramentum est in quo sub tegumento rerorum 
+              visibilium divina uirtus secretius operatur salutem.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit> 
+          Secunda est 
+          <name ref="#HughOfStVictor">Hugonis de Sancto Victore</name> dicentis: 
+          <cit>
+            <quote xml:id="nddml4d1p1q3-Qd1e3515">Sacramentum est corporale uel materiale elementum extrinsecus oculis sumptum  ex in- 
+              <cb ed="#T" n="8rb"/>
+              -stitutione significans, ex similitudine repraesentans gratiam continens.</quote>
+            <bibl>Hugo de Sancto Vicore, XXX</bibl>
+          </cit> 
+          Tercia est <name ref="#Lombard">Magistri</name> dicentis in littera : 
+          <cit>
+            <quote xml:id="nddml4d1p1q3-Qd1e3530">Sacramentum est invisibilis gratie visibilis forma, ut eius ymaginem  
+              gerat et causa existat, et quia iste diffinitiones bene intellecte et debite 
+              supplete non uidentur in sua differre.</quote>
+          </cit> 
+          Et ideo volo solum diffinitionem <name ref="#Lombard">Magistri</name> declarare, 
+          ex cuius enim declaracione potens patere etiam alia.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3539">Secundo notandum quod in diffinitione <name ref="#Lombard">Magistri</name> 
+          hic  forma tantum ualet sicut signum et ponitur pro genere et primo tertio diffinitionis, 
+          vnde omnem sacramentum est quoddam sig<supplied>n</supplied>um et non econuerso. 
+          Et hic  uisibile est prima differentia, et ponitur pro sensibili. 
+          Omne sacramentum est signum sensibile, id est signum quod aliquo exteriori 
+          sensu aut pluribus percipi potest, et postea dicitur inuisibilis gracie. 
+          Per inuisibilem gratiam debemus intelligere aliquem effectum gratuitum insensibilem, 
+          id est nullo sensu perceptibilem ut est gratia gratificans aut gratia subsistens vt in 
+          Ewcaristie , aut dimissio peccatorum, uel aliud huiusmodi. 
+          Deinde dicitur ut eius similitudinem gerat per quod minuitur quod ipsum sacramentum - 
+          quod est quoddam exterius sensibile - signum habet ex natura sua et naturali 
+          proprietate cum isto interiori et insensibili
+          <cb ed="#T" n="8va"/>
+          gratuitu effectu aliquam similitudinem et rationem istius naturalis similitudinis 
+          et etiam ex diuina institutione significat huiusmodi gratuitum effectum non semper quo ad inesse, 
+          sed quo ad fieri aut quo ad conferri. Vltimo dicitur in diffinitione ut eius causa existat : 
+          per hoc innuitur quod ipsum sacramentum quod est sensibile signum non solum significat 
+          effectum gratuitum aut aliquid sacrum - ut faciunt sacramenta Veteris Legis, ut praedixi 
+          - sed effectum quem significant  ; etiam causant aliquo modo, ut posterius patebit.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3550">Tertio notandum quod in sacramentis Noue Legis quoddam est sacramentum tantum : 
+          aliud est sacramentum et res sacramenti, ut posterius dicetur, non de quolibet sacramento agetur in speciali. 
+          <name ref="#Lombard">Magister</name> ergo hic solum diffinit sacramentum Noue Legis et quod est sacramentum tantum. 
+          Et potest ex dictis diffinicio sic poni explicite : sacramentum Noue Legis - quod est sacramentum tantum - 
+          est res sensibilis insensibilem effectum gratuitum, 
+          ex Dei speciali institucione significans et causans eundem effectum quem figurat, 
+          id est quem significat.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3556">Et pro maiori intellectu potest hoc declarari de omni sacramento 
+          Noue Legis ut in baptismo dicitur : enim primo in diffinitione est res sensibilis, 
+          quia potest percipi. Illud conuenit baptismo, quia
+          <cb ed="#T" n="8vb"/>
+          baptismus sit aqua abluens siue sit ablucio hominis in aquam. 
+          Semper est res sensibilis quia potest percipi visu et tactu.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3561">Dicitur 2° significans effectum gratuitum et insensibilem, et hoc etiam 
+          conuenit baptismo quia significat graciam interius mundantem a peccato. 
+          Vel, significat interiorem mundacionem animae a peccato per gracie infusionem. 
+          Et istam significat ex naturali similitudine : apta enim est similitudo quod sicut aqua 
+          superinfusa corporaliter solet ipsum mundare a sordibus corporalibus , 
+          ita gracia infusa animae eam mundat a peccatis. 
+          Signat etiam eundem effectum ex Dei speciali institucione quia dicit S<supplied>anctus</supplied> T<supplied>homas</supplied> 
+          quod aqua ex similitudine naturalis proprietatis sue habet aptitudinem 
+          ad significandum praedictum effectum, sed determinatio et complementum 
+          significationis est ex institucione diuina.</p>
+        
+        <p xml:id="nddml4d1p1q3-d1e3570">Tertio dicitur in diffinitione causans eundem effectum insensibilem quem figurat, 
+          et hoc etiam convenit baptismo qui aliquo modo causat graciam cuius est similitudo 
+          representativa et mundacionem anime interiorem.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3573">Quarto notandum quod - sicut dictum est in priori questione  - 
+          in sacramentis Veteris Legis sunt duo consideranda, 
+          sic etiam in sacramento Noue Legis duo sunt consideranda. 
+          Primum est opus operatum, quod est ipsum sacramentum ab aliquo susceptum -
+          <cb ed="#T" n="9ra"/>
+          ut baptismus est sacramentum Noue Legis - et ille ab aliquo actualiter susceptus dicitur 
+          <mentioned>opus operatum</mentioned>, et ita de alijs sacramentis Noue Legis. 
+          Secundum est opus operans, id est opus ipsius suscipientis sacramentum, 
+          vtpute volicio suscipienti et deuotio suscipientis.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3582">Conclusio prima : Sacramenta Noue Legis  conferunt gratiam ratione operis operantis ; 
+          patet sic quod aliquis adultus existens in caritate ac deuotus et benedispositus 
+          uelit suscipere aliquod Noue Legis sacramenti rite et ordinate propter Deum, et ita etiam suscipiat. 
+          Tunc illa volicio dicitur ibi <mentioned>opus operans,</mentioned> 
+          ut dixi, innotabili vltimo et ratione illius confertur gratia ipsi suscipienti sacramentum, 
+          quia volicio talis suscipiendi sacramentum et eo rite vtendi est actus liber bene circumstantionatus, 
+          ut suppono, et ex caritate procedens igitur meretur augmentum gratiae gratificantis et cum hoc 
+          gradum gloriae, sicut quilibet aliter actus virtutis ex caritate procedens igitur, etcetera. 
+          Hoc satis patet declaratum ex questione precedenti, 
+          ex quo enim sacramenta Veteris Legis ratione operis operantis conferunt gratiam et merentur gloriam ; 
+          multo a fortiori sacramenta
+          <cb ed="#T" n="9rb"/>
+          Noue Legis.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3590">Secunda conclusio : sacramenta Noue Legis cuilibet rite suscipienti et non ponenti 
+          obicem per mortale peccatum conferunt gratiam ratione operis operati. 
+          Patet quia sacramenta Noue Legis significant, igitur eam causant et conferunt. 
+          3a ex diffinitione praemissa : item patet conclusio ex differentia sacramentorum 
+          Noue Legis et Veteris Legis quam ponit <name ref="#Augustine">Augustinus</name> et allegat <name ref="#Lombard">Magister</name> 
+          in littera : dicunt enim quod ista sacramenta Veteris Legis solum promittebant et significabant. 
+          Hec autem, scilicet sacramenta Noue Legis, 
+          dant salutem que salus non est sine gratia gratum faciente : 
+          si enim sacramenti Veteris Legis aliquid conferebant de gratia 
+          hijs quibus applicabantur, hoc erat solum ex sanctitate operationis 
+          proprie ipsius suscipientis aut ex bonitate dispositionis eius in fide, 
+          deuotione, caritate, etcetera. Vel, ex deprecatione ministri  applicantis, 
+          aut ex deprecacione suscipientis et non ex vi et virtute ipsius sacramenti 
+          nec forte in circumcisione, in sacramentis autem Noue Legis vltra meritum operantis 
+          confertur gratia ex ui operis operati, scilicet ipsius sacramenti.</p>
+        
+        <p xml:id="nddml4d1p1q3-d1e3599">Ex hijs sequitur quod, si adultus existens in caritate cum deuotione et bona dispositione suscipit 
+          <cb ed="#T" n="9va"/> 
+          Ewcaristiam  aut aliud sacramentum Noue Legis duplex, 
+          et hoc sequitur gratiae augmentum, 
+          patet quia vnus gradus sic confertur ratione proprie dispositionis et meriti sicut pro alio bono opere, 
+          alter gradus sibi confertur ex visacramenti quod hoc habet ex Christi merito, ut patebit.</p>
+        
+        <p xml:id="nddml4d1p1q3-d1e3604">Secundo sequitur quod, si a et b sint in equali caritate sunt equeque deuoti, 
+          habent equale desiderium sumendi Ewcaristiam  aut aliud sacramentum et cetera 
+          omnia que tenent se ex parte bone dispositionis eorum sunt paria in vtroque. 
+          Et a suscipit sacramentum, et b forte impeditus, vndecumque a consequitur maiorem gratiam quam b. 
+          Patet quia ratione propriorum meritorum et bonarum dispositionum equalium in vtroque consecuntur 
+          equales gradus gratie et a. Et vltra hoc consequitur gradum gracie ex ui suscepti sacramenti - ut patet ex conclusione 2a - 
+          quem gradum non consequitur b.</p> 
+        
+        <p xml:id="nddml4d1p1q3-d1e3607">Tercio sequitur quod sacramenta Noue Legis perfectiora sunt sacramentis 
+          Legis Antique : patet cum ista conferant graciam ratione operis operati, 
+          et alia non dempta forte circumcisione que tunc tamen minorem conferebat 
+          graciam quam nunc baptismus qui circumcisioni succedebat. Ad argumentum ante oppositum petit quomodo sacramenta Noue Legis sint causa gratiae et 
+          <cb ed="#T" n="9vb"/> 
+          de hoc dicetur in quaestione sequenti:</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

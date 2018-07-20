@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 6, Quaestio 10</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum IV, Distinctio 6, Quaestio 10</title>
+          <date when="2015-11-12">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-12">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-25" who="#MI" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d6q10">
+        <head>Librum IV, Distinctio 6, Quaestio 10</head>
+        <p>Decimo queritur vtrum cathecismus debeat praecedere baptismum.</p> 
+        
+        <p>Arguitur quod non, quia <ref><title ref="#Mt">Mathei</title> 1°</ref> dicitur : <quote>NOLITE SANCTUM DARE CANIBUS,</quote> 
+          sed sanctum dare canibus, scilicet sanctum ibi de doctrina sacra que non est committenda immundis , 
+          ut dicit Dyonisius. Cum ergo non 
+        
+        <cb ed="#T" n="89va"/>
+        non baptizati  sunt adhuc immundi , videtur quod non debeant cathecizari  non baptizati.</p> 
+        
+        <p>Secundo frustra adhibetur ministratio ei qui non est perceptibilis discipline, 
+          sed puer non est perceptibilis disciplinae cum non habeat vsum racionis nec liberum arbitrium ; 
+          igitur videtur quod ad minus in pueris non debeat cathecismus praecedere baptismus .</p> 
+        
+        <p>3° in cathecismo requiritur professio fidei et Christiane religionis, 
+          sed hoc puer facere per se non potest nec aliquis pro puero, 
+          quia nullus potest per alterius votum obligari.</p> 
+        
+        <p>4to si paternus pro puero respondebit, tunc paternus obligatur puerum instruere de hys  
+          que pertinent ad fidem christianam. Et ita videtur quod sit valde periculosus puerum de sacro 
+          fonte leuare cum raro paterni de pueri instructione curam gerant.</p> 
+        
+        <p>In oppositum est communis conswetudo  Ecclesiae que in adultis et paruulis cathecismum permittit ante baptisma. 
+          Et patet etiam <ref><title ref="#mt">Mathei</title> vltimo,</ref> ubi dicitur : 
+          <quote>DOCETE OMNES GENTES BAPTIZANTES  EOS IN NOMINE PATRIS ET FILY ET SPIRITUS SANCTI,</quote> 
+          vbi Christus Dominus primus notauit actum docendi quam baptizandi.</p> 
+        
+        <p>Respondetur quod cathecismus debet in baptizandis semper praecedere baptismum, nec oporteat hominem festinanter baptizari propter articulum mortis ut non potest puer uel adultus ad ecclesiam praesentari, ut possit propter necessitate cathecismus expectari. Si autem puer sit festinanter et sine cathecismo baptizatus , postea super-
+        
+        <cb ed="#T" n="89vb"/>
+        -veniret : debet caute suppleri praesbyterum  quod propter necessitatem fuit obmissum. Quod autem cathecismus sic debeat praecedere baptismum patet per raciones in oppositum questionis adductas. Et confirmatur hec primo de adultis : in baptismo enim fit obligatio ad obseruationem fidei et eorum que ad fidem pertinent, igitur congruum est adultis baptizandis  quod non proponentur saltem in generali ea que sunt fidei ut profiteantur fidem et ut scientes et etiam volentes se obligent ad eius obseruationem. Haec autem fit in cathecismo : est enim cathecismus instructio de communibus articulis fidei et responsio de fidei susceptione per baptizandum  et eius professione, et obligatio ad eius obseruationem. Et dixi nominanter instructio de communibus articulis fidei : sunt enim in doctrina fidei quedam quae necessarium est quelibet adultum scire ad salutem, ut sunt articuli Incarnationis, natiuitatis, passionis, Resurrectionis, Ascensionis, aduentus ad Iudicium et ceterys  similibus. Alia vero sunt subtiliora ad que scienda non tenentur omnes, instructio ergo de communibus que adultus necessarium est scire votatur cathecismus et diffinitur communiter quod est instructio circa fidei redimenda, id est instructio circa illa communia fidei que etiam rudibus sunt necessaria ad sciendum. Quod eis congruum sit, quod in paruulis cathecismus praecedat baptismum, patet propter conformitatem et vniformitatem, ut 
+        
+        <cb ed="#T" n="90ra"/>
+        scilicet omnes in ecclesia similiter baptizentur sicut per simile effectum recipient etiam :  licet paruuli nondum possint instrui, possunt tamen per patrinos obligari ad ea que sunt fidei.</p> 
+        
+        <p>Ad primum ante oppositum respondet <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod Dominus ibi loquitur de illis immundis  qui fidei contrariantur et non de illis qui volunt ad fidem accedere.</p> 
+        
+        <p>Ad 2m dicit quod - quamuis puer non sit tunc actu perceptibilis discipline - habuit in huiusmodi perceptibilitatem in radice quantum ad potentiam racionis quam habuit ex natura, et quantum ad habitum fidei quem recepit in baptismo habet enim rationalem animam, et cum veniet ad vsum rationis innuabitur per habitum in baptismo susceptum ad facilius disciplinam percipiendam et firmius fidem tenendam.</p> 
+        
+        <p>Ad 3m dicit quod - quamuis puer confiteri non posset fidem aut profiteri, tamen alius vicem eius supplet - non quidem propriam fidem suam profitens uel confitens, sed fidem pueri etiam in quantum ad illud quod nunc est, ut sit sensus 'Credo’, id est sacramentum fidei, scilicet baptismum praesto sine recipere in persona pueri sic loquens, ut Augustinus exponit. Et dicit Bonauentura quod illa responsio non est falsa nec est sermo inconswetus , quia sicut dicit Augustinus in Epistula ad Bonifacium, frequenter signum accipitur pro signato sew  pro ipsa re, sicut solemus dicere : - Cras erit resurrectio
+          
+          <cb ed="#T" n="90rb"/>
+          donum, id est erit festum quo agitur et significatur resurrectio Domini, et videns summum dicit se videre ignem. Sic in proposito ‘Credo’ uel fides ponitur pro sacramento baptismi, quod dicitur ‘sacramentum fidei’ quia in eo homini confertur fides infusa. Item respondens pro puero ‘Credo’ profitetur etiam fidem pueri quantum ad illud quod in eo futurum est, ut sit sensus ‘Credo’, id est cum ad perfectam etatem venero fidei consentiam et - ut dixi - ille loquitur in persona pueri, et ita exponit Dyonisius. Item patrinus tenetur postea sollicitudinem circa illum, si necessarium fuerit ut discat fidem. Et ex proposito istius sollicitudinis adhibente potest esse alius sensus, scilicet credo, id est operam dabo ad hoc ut credat et in hoc et ipse puer obligatur ex alterius sponsione pro eo facta, et similiter anodochus, id est patrinus obligatur : de illis enim ad que omnes tenentur non est inconueniens quod vnus alium obliget, seruus autem est de consilys  ad que non omnes tenent pueri. Ergo ex promissione patrinorum tenetur cum et ad vsum rationis pervenerint et fidem Christi seruare, et pompis dyaboli abrenunctiati ac etceteris, sicut patrini promittunt. Sed quaerit Bonauentura vtrum talis promissio et obligatio sit votum. Respondetur quod non causando votum saltem proprie pro spontanea promissione melioris boni deliberatione et obligatione firmata, voto autem meliora bona ea que non sunt absolute de necessitate salutis, sed sunt super erogationis
+          
+          <cb ed="#T" n="90va"/>
+          et consily . Ea autem que ibi spondet patrinus pro paruulo non sunt supererogacionis, sed sunt de necessitate salutis et pertinentia ad omnes vsum racionis habentes, et ideo non est votum proprie. Est tamen bene votum extenso nomine voti, quia est voluntaria obligacio et facit duplex peccatum ipse baptizatus  transgrediendo votum et praeceptum, quia ut dicit Bonauentura : ex illo voto non magis obligatur de necessitate quam primus.</p> 
+        
+        <p>Ad 4m dicit dicit Bonauentura et etiam <name ref="#Lombard">Magister</name> in littera quod - si puer non haberet alium doctorem, patrini obligarentur ad instruendum eum in hys  quae de necessitate fidei sunt et morum uel quod facerent eum instrui, nunc autem quia habent doctores non tenentur. 
+          Et dicit <name ref="#Aquinas">S<supplied>anctus</supplied> T<supplied>homas</supplied></name> quod in tali promissione patrini non est quo ad modernum tempus magnum periculum, quia parentes pueri sunt Christiani et satis probabiliter potest estimari quod eum in fide nutriant et etiam ab alys quibus puer conuiuet addiscet fidem. Secutus autem erat in primitiua Ecclesia, vbi pueri cum infidelibus conuersabantur et ideo diligentior cura tunc adhibenda erat a patrino. Et similiter esset nunc si parentes pueri de infidelitate suspecti essent uel si puer inter infideles conuersatus foret.</p>
+            
+            
+        
+      </div>
+    </body>
+  </text>
+</TEI>

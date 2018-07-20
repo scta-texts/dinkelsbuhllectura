@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 4, Quaestio 2</title>
+        <author>Nicolas de Dinkelsbuhl</author>
+        <editor xml:id="MI">Maria Ingenio</editor>
+        <respStmt>
+          <resp>Encoded into TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum IV, Distinctio 4, Quaestio 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress in collaboration with the THESIS project</publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-10-12">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="bnf">TM 536</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#MI" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nddm-l4d4q2">
+        <head>Librum IV, Distinctio 4, Quaestio 2</head>
+        <p>Circa 2m membrum diuisionis sunt dubia quod conuenit adultis et pro illis declarandis queritur 2° vtrum adultus carens vsu racionis sit baptizandus .</p> 
+        
+        <p>Arguitur quod non, quia in adultis per baptismum non solum originale, sed etiam actualia peccata tolluntur. Sed ad tollendum peccatum actuale quod quis ex se ipso commisit requiritur proprius motus liberi arbitry  quem talis carens vsu racionis non habet, igitur huiumodi non est dandus baptismus.</p>
+        
+        <p>2°, nulli contradicenti debet dari baptismus,
+          <cb ed="#T" n="51vb"/>
+          sed huiusmodi frequenter contradicunt et reluctantur.</p> 
+        
+        <p>In oppositum arguitur : pueri qui nullum habent nec habuerunt vsum racionis baptizentur  et salubriter, ut dictum est in priori questione, igitur pari ratione adulti vsu racionis carentes.</p> 
+        
+        <p>Respondet <name ref="#Aquinas">Sanctus Thomas</name> et <name ref="#Scotus">Scotus</name>, et dicitur primo quod adultus numquam vsus est racione et de quo non speratur, 
+          quod in futurum vsurus sit ut qui a natiuitate fuit amens et qui numquam licet lucida interualla est baptizandus  
+          et recipit sacramentum baptismi et eius effectum, scilicet dimissionem culpe originalis et infusionem gracie, 
+          sew  caritas et similiter fidei et spei. Patet, quia idem  est iudicium de paruulis et huiusmodi adultis, 
+          dictum autem est praeuius quod paruuli sint baptizandi  et ex solo Christi merito et ex efficacia et virtute sacramenti 
+          baptismi consecuntur dictum effectum et sic etiam est de talibus adultis.</p> 
+        
+        <p>2° dicitur quod, si quis aliquando vsus fuit racione et posterius sit factus fatuus, 
+          amens aut furiosus, si talis ante amentiam, furiam aut fatuitatem immediate  
+          consensit in baptismum et voluit baptizari , debet baptizari  
+          si saltem non speretur quod vmquam posterius reddeat ad vsum racionis. 
+          Patet, quia nemini praeclusit Deus viam salutis, ita nec illi praeclusit ; 
+          debet ergo baptizari  statim, alias exponeretur periculo dampnacionis. 
+          Et dicit <name ref="#Aquinas">Sanctus Thomas</name> quod talis
+          <cb ed="#T" n="52ra"/>
+          suscipit vere sacramentum et eius effectum. 
+          Et dixi nominanter immediate , etcetera, ita quod inter actum illum consensus et impedimentum 
+          vsus racionis uel furiam eciam non venerit motus voluntatis oppositus. Si enim aliquando voluisset, 
+          et postea ductus poenitentia noluisset et sic incidisset amenciam, non esset baptizandus , 
+          sed indicandus dissenciens habitualiter. Saltem si vero speratur quod talis aliquando curari 
+          posset ab amencia sua et aliquando vsurus sit racione ut fit de illis qui habent aliquando lucida 
+          interualla, tunc expectandum vsque ad tempus sanitatis sue, ut tunc cum maiori reuerencia et 
+          praeparacione suscipiat sacramentum, scilicet cum habiturus est lucidum interuallum.</p> 
+        
+        <p>3° dicitur quod si talis homo, scilicet extra vsum rationis positus, 
+          immediate  ante amentiam suam cum ratione vtebatur dissensit, nolens baptizari , 
+          non est tempore amencie baptizandus , quia sacramentum non est dandum simpliciter invito, 
+          sed ille est talis quia 2m habitum reputandus. 
+          Enim est nunc talis 2m habitum qualis praeuius fuit secundum actum ; 
+          eciam praesumitur quod - si iam vtetur ratione - adhuc dissentieret sicut praeuius actu dissenciebat. 
+          Et ideo non est sibi sacramentum baptismi in tali disposicione conferendum, et dicit <name ref="#Aquinas">S<supplied>anctus</supplied>> T<supplied>homas</supplied></name> 
+          quod, si baptizatur , nichil fit, quia nec sacramentum suscipit  nec eius effectum. 
+          Et quod dixi immediate  hoc intelligitur 
+          <cb ed="#T" n="52rb"/>
+            sicut praeuius, scilicet inter vltimum eius dissensum 
+            voluntarium et inter eius amenciam nullus medianiter consensus 
+            in baptismum ; si enim medianiter consensus, est 2m vltimum actum iudicandum.</p> 
+        
+        <p>Ad primum  argumentum dicitur  2m <name ref="#Aquinas">S<supplied>anctum</supplied> Thomam</name> 
+          quod - sicut in adulto qui habet vsum racionis disponit ad gratiam baptismalem motus liberi arbitry  
+          quem tunc habet cum baptizandus  est aut dum baptizatur  - ita in amente qui tempore sanitatis consensit disponit ad gratiam motus liberi arbitry , scilicet quem consensum praeuius habet cum sane mentis erat.</p>
+        
+        <p>Ad 2m dicitur quod effectus baptismi recipitur in mentem et ideo impediri non potest nisi ex contradictione mentis. 
+          Illi autem qui racionis vsum non habent non contradicunt mente, sed magis fantasia ducti. 
+          Et ideo talis contradictio effectum baptismi non impedit quando mentis sew  racionis consensus praecessit, 
+          scilicet tempore vsus racionis 2m modum praexpositum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
