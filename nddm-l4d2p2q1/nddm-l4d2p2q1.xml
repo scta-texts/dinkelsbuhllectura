@@ -119,7 +119,7 @@
           vnde <ref><title ref="#act">Actuum</title> primo</ref> 
           dicitur : 
           <cit>
-            <quote xml:id="nddml4d2p2q1-Qd1e3576" ana="#act1_5">IOHANNES QUIDEM BAPTIZAVIT  AQUA, 
+            <quote xml:id="nddml4d2p2q1-Qd1e3576" source="http://scta.info/resource/act1_5">IOHANNES QUIDEM BAPTIZAVIT  AQUA, 
               VOS AUTEM BAPTIZABIMINI  SPIRITU SANCTO IGITUR,</quote>
             <bibl>Actuum 1:5</bibl>
           </cit> 
@@ -164,7 +164,7 @@
           homines ad baptismum Christi. 
           Et ideo dixit <name ref="#John">Iohannes</name> <ref><title ref="#mt">Mathei</title> 20° :</ref> 
           <cit>
-            <quote xml:id="nddml4d2p2q1-Qd1e3635" ana="#mt3_11">EGO BAPTIZO  IN AQUA.</quote>
+            <quote xml:id="nddml4d2p2q1-Qd1e3635" source="http://scta.info/resource/mt3_11">EGO BAPTIZO  IN AQUA.</quote>
             <bibl>Matthaeus 3:11</bibl>
           </cit> 
           Vt dicit <title>Gloza</title>  : 
@@ -233,7 +233,7 @@
           et ceteros : Iohannes suum baptismum instituit ex praecepto diuino. 
           Et ideo <ref><title ref="#io">Iohannis</title> primo</ref> dixit : 
           <cit>
-            <quote xml:id="nddml4d2p2q1-Qd1e3746" ana="#io1_33">QUI ME MISIT BAPTIZARE , ILLE MICHI DIXIT,</quote>
+            <quote xml:id="nddml4d2p2q1-Qd1e3746" source="http://scta.info/resource/io1_33">QUI ME MISIT BAPTIZARE , ILLE MICHI DIXIT,</quote>
             <bibl>Ioannes 1:33</bibl>
           </cit> 
           etcetera, sed tota Trinitas misit eum baptizare  
@@ -285,12 +285,12 @@
           <ref><title ref="#mt">Mathei</title> 3°.</ref> Cum veniret ad baptismum <name ref="#John">Iohannis</name>, 
           et <name ref="#John">Iohannes</name> eum prohiberet et diceret : 
           <cit>
-            <quote xml:id="nddml4d2p2q1-Qd1e3876" ana="#mt3_14">EGO DEBEO A TE BAPTIZARI ,</quote>
+            <quote xml:id="nddml4d2p2q1-Qd1e3876" source="http://scta.info/resource/mt3_14">EGO DEBEO A TE BAPTIZARI ,</quote>
             <bibl>Matthaeus 3:14</bibl>
           </cit> 
           dixit ei Ihesus : 
           <cit>
-            <quote xml:id="nddml4d2p2q1-Qd1e3885" ana="#mt3_15">SINE MODO SIC ENIM DECET NOS IMPLERE OMNEM IUSTITIAM,</quote>
+            <quote xml:id="nddml4d2p2q1-Qd1e3885" source="http://scta.info/resource/mt3_15">SINE MODO SIC ENIM DECET NOS IMPLERE OMNEM IUSTITIAM,</quote>
             <bibl>Matthaeus 3:15</bibl>
           </cit> 
           id est secundum <title>Glozam</title> decet nos implere perfectam humilitatem. 

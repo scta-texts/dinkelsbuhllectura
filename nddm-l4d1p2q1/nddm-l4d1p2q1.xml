@@ -141,7 +141,7 @@
           Scriptura de quo nasciturus esset. Sed tempore <name ref="#Abraham">Abrahe</name> fuit hoc 
           primo explicatum cum fuit sibi dictum - <ref><title ref="#gen">Genesis</title> 22°</ref> et <ref><title ref="#sir">Ecclesiastici</title> 18°</ref> - 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3570" ana="#gen22_18">IN SEMINE TUO BENEDICENTUR OMNES TRIBUS <!-- gentes --> TERRE.</quote>
+            <quote xml:id="nddml4d1p2q1-Qd1e3570" source="http://scta.info/resource/gen22_18">IN SEMINE TUO BENEDICENTUR OMNES TRIBUS <!-- gentes --> TERRE.</quote>
             <bibl>Genesis 22:18</bibl>
           </cit> 
           Secundo patet conclusio ex hoc, 
@@ -211,7 +211,7 @@
           ut patet <ref><title ref="#gen">Genesis</title> 22°</ref> vbi 
           Dominus dixit ad Abraham: 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3647" ana="#gen22_18">BENEDICENTUR IN SEMINE TUO OMNES GENTES,</quote>
+            <quote xml:id="nddml4d1p2q1-Qd1e3647" source="http://scta.info/resource/gen22_18">BENEDICENTUR IN SEMINE TUO OMNES GENTES,</quote>
             <bibl>Genesis 22:18</bibl>
           </cit> 
           id est in Christo ex tua progenie nascituro benedicentur omnes gentes. 
@@ -298,7 +298,7 @@
           <title ref="#lc">Luce</title> 2° 
           super isto texto Ewangely  : 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3742" ana="#lc2_21">POSTQUAM CONSUMATI SUNT DIES OCTO UT CIRCUMCIDERETUR PUER,</quote>
+            <quote xml:id="nddml4d1p2q1-Qd1e3742" source="http://scta.info/resource/lc2_21">POSTQUAM CONSUMATI SUNT DIES OCTO UT CIRCUMCIDERETUR PUER,</quote>
             <bibl>Lucas 2:21</bibl>
           </cit> 
           etcetera.</ref></p> 
@@ -386,7 +386,7 @@
           nos a Legis onere liberaret, secundum illud 
           <ref><title ref="#gal">ad Galathas</title>  4° :</ref> 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3808" ana="#gal4_4"> <!-- and gal4_5 -->MISIT DEUS FILIUS SUUM FACTUM 
+            <quote xml:id="nddml4d1p2q1-Qd1e3808" source="http://scta.info/resource/gal4_4"> <!-- and gal4_5 -->MISIT DEUS FILIUS SUUM FACTUM 
               SUB LEGE UT EOS QUI SUB LEGE ERANT REDIMERI,</quote>
             <bibl>Galatas 4:4-5</bibl>
           </cit> 
@@ -398,7 +398,7 @@
           Diceret aliquis : omnis Christi actio nostra est instructio, 
           propter quod ipse dixit <ref><title ref="#io">Iohannis</title> 13°</ref> : 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3827" ana="#io13_15">EXITUM <!-- exemplum --> ENIM DEDI VOBIS UT 
+            <quote xml:id="nddml4d1p2q1-Qd1e3827" source="http://scta.info/resource/io13_15">EXITUM <!-- exemplum --> ENIM DEDI VOBIS UT 
               QUEMADMODUM EGO FECI VOBIS, ITA ET VOS FACIATIS,</quote>
             <bibl>Ioannes 13:15</bibl>
           </cit> 
@@ -408,7 +408,7 @@
           Et ideo actio sua est nobis in hoc imitanda, 
           ut nobis etiam seruaremus ea que nostro tempore sunt praecepta : 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3846" ana="#qoh8_6">VNICUIQUE AUTEM NEGOTIO 
+            <quote xml:id="nddml4d1p2q1-Qd1e3846" source="http://scta.info/resource/qoh8_6">VNICUIQUE AUTEM NEGOTIO 
             <cb ed="#T" n="20va"/>
             EST TEMPUS ET OPORTUNITAS,</quote>
             <bibl>Ecclesiastes 8:6</bibl>
@@ -426,7 +426,7 @@
           habere -  et sic in ea spem poneret - peccaret mortaliter, 
           quia dicit <ref><name ref="#Paul">Apostolus</name> <title ref="#gal">ad Galathas</title>  5° :</ref> 
           <cit>
-            <quote xml:id="nddml4d1p2q1-Qd1e3870" ana="#gal5_2">SI CIRCUMCIDIMINI CHRISTUS NICHIL VOBIS PRODEST,</quote>
+            <quote xml:id="nddml4d1p2q1-Qd1e3870" source="http://scta.info/resource/gal5_2">SI CIRCUMCIDIMINI CHRISTUS NICHIL VOBIS PRODEST,</quote>
             <bibl>Gal 5:2</bibl>
           </cit>
           NICHIL AUTEM PRAESERVAT HOMINEM FRUCTU MERITORUM CHRISTI, 

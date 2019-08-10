@@ -67,7 +67,7 @@
         
         <p xml:id="nddml4d2p2q2-d1e3496">Igitur secundo super illo <ref><title ref="#io">Iohannis</title> 3° :</ref> 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3505" ana="#act2_17"> <!-- or act2_18 --> EFFUNDAM DE SPIRITU MEO,</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3505" source="http://scta.info/resource/act2_17"> <!-- or act2_18 --> EFFUNDAM DE SPIRITU MEO,</quote>
             <bibl/>
           </cit> 
           etcetera. Dicit <name ref="#Jerome">Hieronimus</name>  quod hec est causa quare quidam baptizati  
@@ -131,25 +131,25 @@
           partibus superioribus veniret Ephesum et inveniret quosdam discipulos. 
           Dixitque ad eos: - 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3661" ana="#act19_2">SI SPIRITUM SANCTUM ACCEPISTIS 
+            <quote xml:id="nddml4d2p2q2-Qd1e3661" source="http://scta.info/resource/act19_2">SI SPIRITUM SANCTUM ACCEPISTIS 
               <cb ed="#T" n="35ra"/> 
               CREDENTES .</quote>
             <bibl>Actuum 19:2</bibl>
           </cit> 
           At illi dixerunt ad eum: 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3672" ana="#act19_2">SED NEQUE SI SPIRITUS SANCTUS SIT AUDIVIMUS.</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3672" source="http://scta.info/resource/act19_2">SED NEQUE SI SPIRITUS SANCTUS SIT AUDIVIMUS.</quote>
             <bibl>Actuum 19:2</bibl>
           </cit> 
           At ille dixit eis : 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3681" ana="#act19_3">IN QUO ERGO BAPTIZATI  ESTIS ?,</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3681" source="http://scta.info/resource/act19_3">IN QUO ERGO BAPTIZATI  ESTIS ?,</quote>
             <bibl>Actuum 19:3</bibl>
           </cit> 
           qui dixerunt in baptismate <name ref="#John">Iohannis</name>. 
           Dixit eis autem <name ref="#Paul">Paulus</name>: 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3697" ana="#act19_4">IOHANNES BAPTIZAVIT  BAPTISMATE PENITENTIE 
+            <quote xml:id="nddml4d2p2q2-Qd1e3697" source="http://scta.info/resource/act19_4">IOHANNES BAPTIZAVIT  BAPTISMATE PENITENTIE 
               DICENS IN EO QUI VENTURUS 
               ESSET POST IPSUM</quote>
             <bibl>Actuum 19:4</bibl>
@@ -262,7 +262,7 @@
         <p xml:id="nddml4d2p2q2-d1e3856">Ad 5um respondet <name ref="#Aquinas">Sanctus Thomas</name> et <name ref="#Scotus">Scotus</name> et dicunt quod hoc non inveniatur in canone Biblie. 
           Credit tamen quod apostoli fuerunt baptizati : hoc enim dicit <title>Gloza</title>  super Ium <!-- illum --> <ref><title ref="#io">Iohannis</title> 13 :</ref>  
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3877" ana="#io13_10">QUI LOTUS EST NON INDIGET NISI UT PEDES LAVET.</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3877" source="http://scta.info/resource/io13_10">QUI LOTUS EST NON INDIGET NISI UT PEDES LAVET.</quote>
           </cit> 
           Et hoc videtur valde probabile quod Christus Dominus 
           fecit eos sacerdotes conferens eis in cena potestatem 
@@ -274,13 +274,13 @@
           etcetera, et conferens eis post resurrectionem potestatem absoluendi 
           <ref><title ref="#io">Iohannis</title> 20° :</ref> 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3897" ana="#io20_23">QUORUM REMISERITIS PECCATA.</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3897" source="http://scta.info/resource/io20_23">QUORUM REMISERITIS PECCATA.</quote>
             <bibl>Ioannes 20:23</bibl>
           </cit> 
           Contulit etiam eis officium baptizandi  
           solemniter <ref><title ref="#mt">Mathei</title> vltimo:</ref> 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3911" ana="#mt28_19">EUNTES, BAPTIZATE ,</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3911" source="http://scta.info/resource/mt28_19">EUNTES, BAPTIZATE ,</quote>
             <bibl>Matthaeus 28:19</bibl>
           </cit> 
           etcetera. Ordo autem sacerdocy  praesupponit baptismum ; 
@@ -305,7 +305,7 @@
           saltem baptismum <name ref="#John">Iohannis</name> antequam Legem baptisandi alys  imponeret, 
           quia <ref><title ref="#act">Actuum</title> primo</ref> dicitur 
           <cit>
-            <quote xml:id="nddml4d2p2q2-Qd1e3934" ana="#act1_1">de Eo quod cepit Ihesus facere et docere;</quote>
+            <quote xml:id="nddml4d2p2q2-Qd1e3934" source="http://scta.info/resource/act1_1">de Eo quod cepit Ihesus facere et docere;</quote>
             <bibl>Actuum 1:1</bibl>
           </cit>  
           et posterius subditur <mentioned>docere</mentioned> 
